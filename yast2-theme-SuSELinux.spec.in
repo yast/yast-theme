@@ -4,6 +4,7 @@
 
 @HEADER@
 Provides:	yast2_theme
+Conflicts:	yast2-theme-UnitedLinux
 BuildArchitectures: noarch
 Summary:	-
 
