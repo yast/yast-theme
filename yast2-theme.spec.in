@@ -32,6 +32,9 @@ PreReq:		/bin/ln
 @BUILD@
 
 @INSTALL@
+cp -R "$RPM_BUILD_ROOT/@docdir@" "$RPM_BUILD_ROOT/@docdir@-SuSELinux"
+cp -R "$RPM_BUILD_ROOT/@docdir@" "$RPM_BUILD_ROOT/@docdir@-UnitedLinux"
+rm -rf "$RPM_BUILD_ROOT/@docdir@"
 
 @CLEAN@
 
@@ -48,9 +51,11 @@ ln -sf UnitedLinux current
 %dir @themedir@
 %dir @themedir@/SuSELinux
 @themedir@/SuSELinux/*
+%doc @docdir@-SuSELinux
 
 %files UnitedLinux
 %defattr(-,root,root)
 %dir @themedir@
 %dir @themedir@/UnitedLinux
 @themedir@/UnitedLinux/*
+%doc @docdir@-UnitedLinux
