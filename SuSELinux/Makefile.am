@@ -38,6 +38,7 @@ theme_DATA =					\
 	inactive_topLeft_corner.png		\
 	inactive_topRight_corner.png		\
 	inactive_topTile.png			\
+        online_update_long.png                  \
 	topRow_bottomTile.png			\
 	topRow_centerTile.png			\
 	topRow_left.png				\

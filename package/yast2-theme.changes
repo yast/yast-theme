@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Wed Oct  2 14:29:48 CEST 2002 - cschum@suse.de
+
+- Added headers for YOU.
+
+-------------------------------------------------------------------
 Thu Sep 05 18:35:39 CEST 2002 - arvin@suse.de
 
 - yast2-theme contains two subpackages yast2-theme-SuSELinux
