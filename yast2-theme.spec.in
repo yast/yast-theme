@@ -49,9 +49,11 @@ ln -sf UnitedLinux current
 %files SuSELinux
 %defattr(-,root,root)
 %dir @themedir@
+%dir @themedir@/SuSELinux
 @themedir@/SuSELinux/*
 
 %files UnitedLinux
 %defattr(-,root,root)
 %dir @themedir@
+%dir @themedir@/UnitedLinux
 @themedir@/UnitedLinux/*
