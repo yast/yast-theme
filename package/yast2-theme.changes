@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Jun 12 12:55:27 CEST 2003 - msvec@suse.cz
+
+- correct neededforbuild
+- 2.8.2
+
+-------------------------------------------------------------------
 Mon Jun  9 11:30:47 CEST 2003 - msvec@suse.de
 
 - correctly package documentation

@@ -1,5 +1,5 @@
 @HEADER-COMMENT@
-# neededforbuild yast2-devtools
+# neededforbuild yast2-devel-packages
 
 @HEADER@
 BuildArchitectures: noarch
