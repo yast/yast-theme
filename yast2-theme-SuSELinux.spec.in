@@ -12,9 +12,9 @@ Summary:	-
 
 @PREP@
 
-@BUILD-YCP@
+@BUILD@
 
-@INSTALL-YCP@
+@INSTALL@
 
 @CLEAN@
 
