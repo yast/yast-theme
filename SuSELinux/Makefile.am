@@ -1,8 +1,10 @@
 #
-# Makefile.am for theme/images
+# Makefile.am for theme/SuSELinux
 #
 
-image_DATA =					\
+themedir = @themedir@/SuSELinux
+
+theme_DATA =					\
 	active_bottomLeft_corner.png		\
 	active_bottomTile.png			\
 	active_insideBottom_corner.png		\
@@ -41,4 +43,4 @@ image_DATA =					\
 	topRow_left.png				\
 	topRow_right.png
 
-EXTRA_DIST = $(image_DATA)
+EXTRA_DIST = $(theme_DATA)

@@ -1,0 +1,55 @@
+@HEADER-COMMENT@
+
+# neededforbuild  yast2-devtools
+
+@HEADER@
+BuildArchitectures: noarch
+Summary:	-
+%description
+-
+
+%package SuSELinux
+
+Summary:	-
+Group:		System/YaST
+Provides:	yast2_theme
+PreReq:		/bin/rm /bin/ln
+
+%description SuSELinux
+-
+
+%package UnitedLinux
+
+Summary:	-
+Group:		System/YaST
+Provides:	yast2_theme
+PreReq:		/bin/rm /bin/ln
+
+%description UnitedLinux
+-
+
+@PREP@
+
+@BUILD@
+
+@INSTALL@
+
+@CLEAN@
+
+%post SuSELinux
+rm -f @themedir@/current
+ln -sf @themedir@/SuSELinux @themedir@/current
+
+%post UnitedLinux
+rm -f @themedir@/current
+ln -sf @themedir@/UnitedLinux @themedir@/current
+
+%files SuSELinux
+%defattr(-,root,root)
+%dir @themedir@/SuSELinux
+@themedir@/SuSELinux/*
+
+%files UnitedLinux
+%defattr(-,root,root)
+%dir @themedir@/UnitedLinux
+@themedir@/UnitedLinux/*

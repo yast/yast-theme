@@ -1,20 +1,26 @@
 -------------------------------------------------------------------
+Thu Sep 05 18:35:39 CEST 2002 - arvin@suse.de
+
+- yast2-theme contains two subpackages yast2-theme-SuSELinux
+  and yast2-theme-UnitedLinux
+
+-------------------------------------------------------------------
 Mon Sep  2 13:25:51 CEST 2002 - sh@suse.de
 
 - V 2.6.6
-- New images from wimer@suse.de: Consistent colors 
+- New images from wimer@suse.de: Consistent colors
 
 -------------------------------------------------------------------
 Thu Aug 29 15:27:16 CEST 2002 - sh@suse.de
 
 - V 2.6.5
-- New images from wimer@suse.de: Grey style 
+- New images from wimer@suse.de: Grey style
 
 -------------------------------------------------------------------
 Fri Jul 19 11:21:56 CEST 2002 - sh@suse.de
 
 - V 2.6.4
-- made image names more consistent for easier OEM logo handling 
+- made image names more consistent for easier OEM logo handling
 
 -------------------------------------------------------------------
 Mon Jul 08 12:24:59 CEST 2002 - arvin@suse.de
