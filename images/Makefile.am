@@ -37,8 +37,8 @@ image_DATA =					\
 	inactive_topRight_corner.png		\
 	inactive_topTile.png			\
 	topRow_bottomTile.png			\
-	topRow_suseLogo.png			\
-	topRow_tile.png				\
-	topRow_yastLogo.png
+	topRow_centerTile.png			\
+	topRow_left.png				\
+	topRow_right.png
 
 EXTRA_DIST = $(image_DATA)
