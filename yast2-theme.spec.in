@@ -46,10 +46,10 @@ ln -sf @themedir@/UnitedLinux @themedir@/current
 
 %files SuSELinux
 %defattr(-,root,root)
-%dir @themedir@/SuSELinux
+%dir @themedir@
 @themedir@/SuSELinux/*
 
 %files UnitedLinux
 %defattr(-,root,root)
-%dir @themedir@/UnitedLinux
+%dir @themedir@
 @themedir@/UnitedLinux/*
