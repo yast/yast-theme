@@ -1,5 +1,5 @@
 #
-# Makefile.am for y2m_inst/images
+# Makefile.am for box-theme/images
 #
 
 image_DATA =					\
@@ -36,8 +36,5 @@ image_DATA =					\
 	inactive_topLeft_corner.png		\
 	inactive_topRight_corner.png		\
 	inactive_topTile.png
-
-
-imagedir = $(datadir)/images
 
 EXTRA_DIST = $(image_DATA)

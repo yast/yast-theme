@@ -1,0 +1,23 @@
+@HEADER-COMMENT@
+
+# neededforbuild  yast2-devtools
+
+@HEADER@
+BuildArchitectures: noarch
+Summary:	-
+
+%description
+-
+
+@PREP@
+
+@BUILD@
+
+@INSTALL@
+
+@CLEAN@
+
+%files
+%defattr(-,root,root)
+%dir @imagedir@
+@imagedir@/*
