@@ -27,6 +27,7 @@ PreReq:		/bin/ln
 cp -R "$RPM_BUILD_ROOT/@docdir@" "$RPM_BUILD_ROOT/@docdir@-SuSELinux"
 rm -rf "$RPM_BUILD_ROOT/@docdir@"
 
+
 @CLEAN@
 
 %post SuSELinux
@@ -37,9 +38,21 @@ ln -sf SuSELinux current
 %defattr(-,root,root)
 %dir @themedir@
 %dir @themedir@/SuSELinux
-@themedir@/SuSELinux/*
+%dir @themedir@/SuSELinux/control-center
 %dir @themedir@/SuSELinux/wizard
+%dir @themedir@/SuSELinux/icons
+%dir @themedir@/SuSELinux/icons/48x48
+%dir @themedir@/SuSELinux/icons/48x48/apps
+%dir @themedir@/SuSELinux/icons/22x22
+%dir @themedir@/SuSELinux/icons/22x22/apps
+@themedir@/SuSELinux/*
+@themedir@/SuSELinux/control-center/*
 @themedir@/SuSELinux/wizard/*
+@themedir@/SuSELinux/icons/*
+@themedir@/SuSELinux/icons/48x48/*
+@themedir@/SuSELinux/icons/48x48/apps/*
+@themedir@/SuSELinux/icons/22x22/*
+@themedir@/SuSELinux/icons/22x22/apps/*
 %dir @themedir@/SuSELinux/testpage
 @themedir@/SuSELinux/testpage/*
 %doc @docdir@-SuSELinux
