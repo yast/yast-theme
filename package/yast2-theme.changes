@@ -1,4 +1,18 @@
 -------------------------------------------------------------------
+Tue Apr  5 15:42:37 CEST 2005 - sh@suse.de
+
+- Merged 9.3 branch 21937:22172 to trunk  
+- V 2.12.1
+
+-------------------------------------------------------------------
+Wed Mar  2 17:33:30 CET 2005 - sh@suse.de
+
+- Starting to introduce consistent naming policy: yast2-<module-name>
+- Renamed source.png -> yast2-inst-source.png
+- Added yast2-media-check.png
+- V 2.11.2 
+
+-------------------------------------------------------------------
 Mon Feb  7 20:46:05 CET 2005 - sh@suse.de
 
 - Added icons for standard popups 
