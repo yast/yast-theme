@@ -2,6 +2,8 @@
 # Makefile.am for theme/SuSELinux
 #
 
+SUBDIRS=testpage
+
 themedir = @themedir@/SuSELinux
 
 theme_DATA =					\

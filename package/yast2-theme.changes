@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Dec  3 08:40:59 CET 2003 - jsrain@suse.de
+
+- added theme-specific parts of printer test page (#21661)
+- 2.9.0
+
+-------------------------------------------------------------------
 Fri Aug 01 11:19:05 CEST 2003 - arvin@suse.de
 
 - fixed spec file so that autobuild can increases release number

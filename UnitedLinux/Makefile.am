@@ -2,6 +2,8 @@
 # Makefile.am for theme/UnitedLinux
 #
 
+SUBDIRS=testpage
+
 themedir = @themedir@/UnitedLinux
 
 theme_DATA =					\
