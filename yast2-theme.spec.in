@@ -32,7 +32,7 @@ rm -rf "$RPM_BUILD_ROOT/@docdir@"
 
 %post SuSELinux
 cd @themedir@
-ln -sf SuSELinux current
+ln -snf SuSELinux current
 
 %files SuSELinux
 %defattr(-,root,root)
