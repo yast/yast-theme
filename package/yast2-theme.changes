@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Apr  5 17:09:11 CEST 2004 - sh@suse.de
+
+- V 2.9.9
+- (nashif) Fixed bug #38380: Added missing icon for SLP browser 
+
+-------------------------------------------------------------------
 Sat Apr  3 03:44:33 CEST 2004 - nashif@suse.de
 
 - added tree button icon
