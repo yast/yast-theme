@@ -3,6 +3,7 @@
 # neededforbuild  yast2-devtools
 
 @HEADER@
+Provides:	yast2_theme
 BuildArchitectures: noarch
 Summary:	-
 
@@ -11,9 +12,9 @@ Summary:	-
 
 @PREP@
 
-@BUILD@
+@BUILD-YCP@
 
-@INSTALL@
+@INSTALL-YCP@
 
 @CLEAN@
 
