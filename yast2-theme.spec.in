@@ -37,12 +37,14 @@ PreReq:		/bin/rm /bin/ln
 @CLEAN@
 
 %post SuSELinux
-rm -f @themedir@/current
-ln -sf @themedir@/SuSELinux @themedir@/current
+cd @themedir@
+rm -f current
+ln -sf SuSELinux current
 
 %post UnitedLinux
-rm -f @themedir@/current
-ln -sf @themedir@/UnitedLinux @themedir@/current
+cd @themedir@
+rm -f current
+ln -sf UnitedLinux current
 
 %files SuSELinux
 %defattr(-,root,root)
