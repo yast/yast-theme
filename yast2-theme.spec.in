@@ -10,6 +10,7 @@ Summary:	-
 %package SuSELinux
 
 Summary:	-
+Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme
 PreReq:		/bin/ln
@@ -20,6 +21,7 @@ PreReq:		/bin/ln
 %package UnitedLinux
 
 Summary:	-
+Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme
 PreReq:		/bin/ln

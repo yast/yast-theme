@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Fri Aug 01 11:19:05 CEST 2003 - arvin@suse.de
+
+- fixed spec file so that autobuild can increases release number
+
+-------------------------------------------------------------------
 Thu Jun 12 12:55:27 CEST 2003 - msvec@suse.cz
 
 - correct neededforbuild
@@ -14,7 +19,7 @@ Mon Jun  9 11:30:47 CEST 2003 - msvec@suse.de
 Tue Mar 11 13:55:03 CET 2003 - sh@suse.de
 
 - V 2.7.1
-- New image for active step with correct background color (Ken) 
+- New image for active step with correct background color (Ken)
 
 -------------------------------------------------------------------
 Wed Oct  2 14:29:48 CEST 2002 - cschum@suse.de
