@@ -1,5 +1,5 @@
 #
-# Makefile.am for box-theme/images
+# Makefile.am for theme/images
 #
 
 image_DATA =					\
@@ -35,6 +35,10 @@ image_DATA =					\
 	inactive_rightTile.png			\
 	inactive_topLeft_corner.png		\
 	inactive_topRight_corner.png		\
-	inactive_topTile.png
+	inactive_topTile.png			\
+	topRow_bottomTile.png			\
+	topRow_suseLogo.png			\
+	topRow_tile.png				\
+	topRow_yastLogo.png
 
 EXTRA_DIST = $(image_DATA)
