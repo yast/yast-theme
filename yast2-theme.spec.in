@@ -1,6 +1,5 @@
 @HEADER-COMMENT@
-
-# neededforbuild  yast2-devtools
+# neededforbuild yast2-devtools
 
 @HEADER@
 BuildArchitectures: noarch
@@ -13,7 +12,7 @@ Summary:	-
 Summary:	-
 Group:		System/YaST
 Provides:	yast2_theme
-PreReq:		/bin/rm /bin/ln
+PreReq:		/bin/ln
 
 %description SuSELinux
 -
@@ -23,7 +22,7 @@ PreReq:		/bin/rm /bin/ln
 Summary:	-
 Group:		System/YaST
 Provides:	yast2_theme
-PreReq:		/bin/rm /bin/ln
+PreReq:		/bin/ln
 
 %description UnitedLinux
 -
@@ -38,12 +37,10 @@ PreReq:		/bin/rm /bin/ln
 
 %post SuSELinux
 cd @themedir@
-rm -f current
 ln -sf SuSELinux current
 
 %post UnitedLinux
 cd @themedir@
-rm -f current
 ln -sf UnitedLinux current
 
 %files SuSELinux
