@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Sep 29 11:50:02 CEST 2004 - sh@suse.de
+
+- V 2.10.4
+- Fixed bug #46320: Wrong 22x22 icon name for dhcp-server
+- Fixed bug #46321: Wrong 22x22 icon name for dns-server
+
+-------------------------------------------------------------------
 Mon Sep 13 17:45:36 CEST 2004 - jsrain@suse.cz
 
 - changed logo for the test page
