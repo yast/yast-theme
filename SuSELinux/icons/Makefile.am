@@ -2,5 +2,5 @@
 # Makefile.am for theme/SuSELinux/icons
 #
 
-SUBDIRS = control-center dialog-headings
+SUBDIRS = 48x48 22x22
 
