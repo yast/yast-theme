@@ -43,6 +43,8 @@ ln -sf SuSELinux current
 %dir @themedir@/SuSELinux/icons
 %dir @themedir@/SuSELinux/icons/48x48
 %dir @themedir@/SuSELinux/icons/48x48/apps
+%dir @themedir@/SuSELinux/icons/32x32
+%dir @themedir@/SuSELinux/icons/32x32/apps
 %dir @themedir@/SuSELinux/icons/22x22
 %dir @themedir@/SuSELinux/icons/22x22/apps
 @themedir@/SuSELinux/*
