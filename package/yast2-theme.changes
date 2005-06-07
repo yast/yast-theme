@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Jun  7 16:17:25 CEST 2005 - sh@suse.de
+
+- Added missing 32x32 icons
+- Added transparent border to 32x32 group icons 
+- V 2.12.2
+
+-------------------------------------------------------------------
 Tue Apr  5 15:42:37 CEST 2005 - sh@suse.de
 
 - Merged 9.3 branch 21937:22172 to trunk  
