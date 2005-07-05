@@ -4,6 +4,6 @@
 
 wallpapersdir = @themedir@/SuSELinux/wallpapers
 
-wallpapers_DATA = $(wildcard *.png )
+wallpapers_DATA = $(wildcard *.png *.jpg )
 
 EXTRA_DIST = $(wallpapers_DATA)
