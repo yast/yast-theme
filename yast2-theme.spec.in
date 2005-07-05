@@ -41,6 +41,7 @@ ln -snf SuSELinux current
 %dir @themedir@/SuSELinux
 %dir @themedir@/SuSELinux/control-center
 %dir @themedir@/SuSELinux/wizard
+%dir @themedir@/SuSELinux/wallpapers
 %dir @themedir@/SuSELinux/icons
 %dir @themedir@/SuSELinux/icons/48x48
 %dir @themedir@/SuSELinux/icons/48x48/apps
@@ -51,6 +52,7 @@ ln -snf SuSELinux current
 @themedir@/SuSELinux/*
 @themedir@/SuSELinux/control-center/*
 @themedir@/SuSELinux/wizard/*
+@themedir@/SuSELinux/wallpapers/*
 @themedir@/SuSELinux/icons/*
 @themedir@/SuSELinux/icons/48x48/*
 @themedir@/SuSELinux/icons/48x48/apps/*
