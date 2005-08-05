@@ -2,7 +2,7 @@
 # Makefile.am for theme/SuSELinux
 #
 
-SUBDIRS = wizard control-center icons testpage wallpapers
+SUBDIRS = wizard control-center icons testpage wallpapers desktops
 
 themedir = @themedir@/SuSELinux
 
