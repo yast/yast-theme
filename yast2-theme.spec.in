@@ -1,7 +1,7 @@
 @HEADER-COMMENT@
 
 @HEADER@
-BuildRequires:	yast2-devel-packages
+BuildRequires:	yast2-devtools pkg-config yast2-core yast2 update-desktop-files
 BuildArchitectures: noarch
 Summary:	-
 %description
