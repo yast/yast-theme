@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Mar 27 16:08:36 CEST 2006 - sh@suse.de
+
+- Expanded old yast2-devel-packages macro in BuildRequires
+- V 2.13.5
+
+-------------------------------------------------------------------
 Fri Mar 24 17:09:06 CET 2006 - jdsn@suse.de
 
 - new icon for product registration (blocker: #160293)
