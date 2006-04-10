@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Mon Apr 10 16:26:44 CEST 2006 - cihlarov@suse.cz
+
+- Added yast-addon icons (bug #154930) 
+
+-------------------------------------------------------------------
 Mon Mar 27 16:08:36 CEST 2006 - sh@suse.de
 
 - Expanded old yast2-devel-packages macro in BuildRequires
