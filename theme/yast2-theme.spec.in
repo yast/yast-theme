@@ -1,0 +1,63 @@
+@HEADER-COMMENT@
+
+@HEADER@
+BuildRequires:	yast2-devtools pkg-config yast2-core yast2 update-desktop-files
+BuildArchitectures: noarch
+Summary:	-
+%description
+-
+
+%package SuSELinux
+
+Summary:	-
+Version:	@VERSION@
+Group:		System/YaST
+Provides:	yast2_theme yast2-theme-UnitedLinux
+PreReq:		/bin/ln
+Obsoletes:	yast2-theme-UnitedLinux
+
+%description SuSELinux
+-
+
+
+@PREP@
+
+@BUILD@
+
+@INSTALL@
+cp -R "$RPM_BUILD_ROOT/@docdir@" "$RPM_BUILD_ROOT/@docdir@-SuSELinux"
+rm -rf "$RPM_BUILD_ROOT/@docdir@"
+
+
+@CLEAN@
+
+%post SuSELinux
+cd @themedir@
+ln -snf SuSELinux current
+
+%files SuSELinux
+%defattr(-,root,root)
+%dir @themedir@
+%dir @themedir@/SuSELinux
+%dir @themedir@/SuSELinux/control-center
+%dir @themedir@/SuSELinux/wizard
+%dir @themedir@/SuSELinux/wallpapers
+%dir @themedir@/SuSELinux/icons
+%dir @themedir@/SuSELinux/icons/48x48
+%dir @themedir@/SuSELinux/icons/48x48/apps
+%dir @themedir@/SuSELinux/icons/32x32
+%dir @themedir@/SuSELinux/icons/32x32/apps
+%dir @themedir@/SuSELinux/icons/22x22
+%dir @themedir@/SuSELinux/icons/22x22/apps
+@themedir@/SuSELinux/*
+@themedir@/SuSELinux/control-center/*
+@themedir@/SuSELinux/wizard/*
+@themedir@/SuSELinux/wallpapers/*
+@themedir@/SuSELinux/icons/*
+@themedir@/SuSELinux/icons/48x48/*
+@themedir@/SuSELinux/icons/48x48/apps/*
+@themedir@/SuSELinux/icons/22x22/*
+@themedir@/SuSELinux/icons/22x22/apps/*
+%dir @themedir@/SuSELinux/testpage
+@themedir@/SuSELinux/testpage/*
+%doc @docdir@-SuSELinux

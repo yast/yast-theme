@@ -1,0 +1,303 @@
+-------------------------------------------------------------------
+Mon Apr 10 16:26:44 CEST 2006 - cihlarov@suse.cz
+
+- Added yast-addon icons (bug #154930) 
+
+-------------------------------------------------------------------
+Mon Mar 27 16:08:36 CEST 2006 - sh@suse.de
+
+- Expanded old yast2-devel-packages macro in BuildRequires
+- V 2.13.5
+
+-------------------------------------------------------------------
+Fri Mar 24 17:09:06 CET 2006 - jdsn@suse.de
+
+- new icon for product registration (blocker: #160293)
+- 2.13.4
+
+-------------------------------------------------------------------
+Tue Feb 21 09:08:50 CET 2006 - mzugec@suse.cz
+
+- #15228 slp -> slp-server 
+
+-------------------------------------------------------------------
+Tue Feb  7 14:09:34 CET 2006 - mzugec@suse.cz
+
+- added icons for iscsi-server and iscsi-client 
+
+-------------------------------------------------------------------
+Tue Jan 24 13:36:47 CET 2006 - mzugec@suse.cz
+
+- added icons for yast2-release-notes
+
+-------------------------------------------------------------------
+Tue Sep  6 14:54:49 CEST 2005 - sh@suse.de
+
+- Exchanged KDE icon (bug #115312)
+- Added icons for new installation dialogs (license, mode, desktop)
+- V 2.12.7 
+
+-------------------------------------------------------------------
+Mon Aug 29 17:50:14 CEST 2005 - jsuchome@suse.cz
+
+- fixed control-center icon for users (#113770)
+- 2.12.6
+
+-------------------------------------------------------------------
+Fri Aug  5 12:40:56 CEST 2005 - jsrain@suse.cz
+
+- added screenshots of KDE and GNOME desktops
+- 2.12.5
+
+-------------------------------------------------------------------
+Wed Jul 20 15:12:00 CEST 2005 - sh@suse.de
+
+- Added large icons for desktop selection (gnome.png, kde.png)
+- V 2.12.4 
+
+-------------------------------------------------------------------
+Tue Jul  5 17:17:34 CEST 2005 - sh@suse.de
+
+- Added wallpapers/ dir and wallpapers/welcome.jpg
+- V 2.12.3 
+
+-------------------------------------------------------------------
+Tue Jun  7 16:17:25 CEST 2005 - sh@suse.de
+
+- Added missing 32x32 icons
+- Added transparent border to 32x32 group icons 
+- V 2.12.2
+
+-------------------------------------------------------------------
+Tue Apr  5 15:42:37 CEST 2005 - sh@suse.de
+
+- Merged 9.3 branch 21937:22172 to trunk  
+- V 2.12.1
+
+-------------------------------------------------------------------
+Wed Mar  2 17:33:30 CET 2005 - sh@suse.de
+
+- Starting to introduce consistent naming policy: yast2-<module-name>
+- Renamed source.png -> yast2-inst-source.png
+- Added yast2-media-check.png
+- V 2.11.2 
+
+-------------------------------------------------------------------
+Mon Feb  7 20:46:05 CET 2005 - sh@suse.de
+
+- Added icons for standard popups 
+- V 2.11.1
+
+-------------------------------------------------------------------
+Wed Sep 29 16:22:43 CEST 2004 - sh@suse.de
+
+- V 2.10.5
+- Fixed 22x22 icon names: #46326, #46327, #46322
+
+-------------------------------------------------------------------
+Wed Sep 29 11:50:02 CEST 2004 - sh@suse.de
+
+- V 2.10.4
+- Fixed bug #46320: Wrong 22x22 icon name for dhcp-server
+- Fixed bug #46321: Wrong 22x22 icon name for dns-server
+
+-------------------------------------------------------------------
+Mon Sep 13 17:45:36 CEST 2004 - jsrain@suse.cz
+
+- changed logo for the test page
+- 2.10.3
+
+-------------------------------------------------------------------
+Wed Sep  1 11:51:47 CEST 2004 - sh@suse.de
+
+- Added irda icons by Ken
+- V 2.10.2 
+
+-------------------------------------------------------------------
+Tue Aug 31 15:20:34 CEST 2004 - sh@suse.de
+
+- Added bluetooth icons by Ken
+- V 2.10.1 
+
+-------------------------------------------------------------------
+Sat Aug 14 15:06:46 CEST 2004 - nashif@suse.de
+
+- Merged changes from 9.1 
+- 2.10.0
+
+-------------------------------------------------------------------
+Sun May  9 15:48:57 CEST 2004 - schwab@suse.de
+
+- Fix %post.
+
+-------------------------------------------------------------------
+Wed May  5 15:36:49 CEST 2004 - sh@suse.de
+
+- V 2.9.13
+- Not only obsolete, also provide yast2-theme-UnitedLinux (bug #38502) 
+
+-------------------------------------------------------------------
+Wed Apr 28 16:48:21 CEST 2004 - sh@suse.de
+
+- V 2.9.12
+- Added some new icons by ken
+- Moved zfcp / dasd icons to correct subdir
+- Obsolete yast2-theme-UnitedLinux (bug #38502) 
+
+-------------------------------------------------------------------
+Tue Apr 27 17:36:38 CEST 2004 - sh@suse.de
+
+- V 2.9.11
+- Added icons for S/390 zfcp and dasd (bug #39514) 
+
+-------------------------------------------------------------------
+Sun Apr 18 17:34:00 CEST 2004 - nashif@suse.de
+
+- Added missing icons: wol,instserver,autoyast
+- V 2.9.10
+
+-------------------------------------------------------------------
+Mon Apr  5 17:09:11 CEST 2004 - sh@suse.de
+
+- V 2.9.9
+- (nashif) Fixed bug #38380: Added missing icon for SLP browser 
+
+-------------------------------------------------------------------
+Sat Apr  3 03:44:33 CEST 2004 - nashif@suse.de
+
+- added tree button icon
+- added missing rc_config icon
+
+-------------------------------------------------------------------
+Fri Apr  2 16:19:05 CEST 2004 - sh@suse.de
+
+- License change to GPL
+
+-------------------------------------------------------------------
+Fri Apr  2 13:31:13 CEST 2004 - sh@suse.de
+
+- V 2.9.7
+- Light grey / white logos (no more blue in the logos)
+
+-------------------------------------------------------------------
+Thu Apr  1 17:59:48 CEST 2004 - sh@suse.de
+
+- V 2.9.6
+- New steel grey background and grey blue logos 
+  (will get some more tweaking, but way better than screaming green)
+
+-------------------------------------------------------------------
+Tue Mar 30 16:13:38 CEST 2004 - adrian@suse.de
+
+- add 32x32 icons
+
+-------------------------------------------------------------------
+Fri Mar 26 14:32:01 CET 2004 - sh@suse.de
+
+- V 2.9.5
+- Exchanged title bar logos (Ken) 
+
+-------------------------------------------------------------------
+Thu Mar 25 17:12:35 CET 2004 - sh@suse.de
+
+- V 2.9.4
+- Provide same title images like for wizard also for control-center  
+
+-------------------------------------------------------------------
+Tue Mar 23 18:41:52 CET 2004 - sh@suse.de
+
+- V 2.9.3
+- Moved icons from yast2-control-center to this package
+- Imported 22x22 icons for wizard headings (by Ken)
+- Moved old module icons to separate 48x48 subdir 
+
+-------------------------------------------------------------------
+Mon Mar 22 18:05:28 CET 2004 - sh@suse.de
+
+- V 2.9.2
+- New green theme by Ken
+
+-------------------------------------------------------------------
+Wed Mar 10 01:40:12 CET 2004 - sh@suse.de
+
+- V 2.9.1
+- Completely new pics for completely new wizard 
+
+-------------------------------------------------------------------
+Wed Dec  3 08:40:59 CET 2003 - jsrain@suse.de
+
+- added theme-specific parts of printer test page (#21661)
+- 2.9.0
+
+-------------------------------------------------------------------
+Fri Aug 01 11:19:05 CEST 2003 - arvin@suse.de
+
+- fixed spec file so that autobuild can increases release number
+
+-------------------------------------------------------------------
+Thu Jun 12 12:55:27 CEST 2003 - msvec@suse.cz
+
+- correct neededforbuild
+- 2.8.2
+
+-------------------------------------------------------------------
+Mon Jun  9 11:30:47 CEST 2003 - msvec@suse.de
+
+- correctly package documentation
+- 2.8.1
+
+-------------------------------------------------------------------
+Tue Mar 11 13:55:03 CET 2003 - sh@suse.de
+
+- V 2.7.1
+- New image for active step with correct background color (Ken)
+
+-------------------------------------------------------------------
+Wed Oct  2 14:29:48 CEST 2002 - cschum@suse.de
+
+- Added headers for YOU.
+
+-------------------------------------------------------------------
+Thu Sep 05 18:35:39 CEST 2002 - arvin@suse.de
+
+- yast2-theme contains two subpackages yast2-theme-SuSELinux
+  and yast2-theme-UnitedLinux
+
+-------------------------------------------------------------------
+Mon Sep  2 13:25:51 CEST 2002 - sh@suse.de
+
+- V 2.6.6
+- New images from wimer@suse.de: Consistent colors
+
+-------------------------------------------------------------------
+Thu Aug 29 15:27:16 CEST 2002 - sh@suse.de
+
+- V 2.6.5
+- New images from wimer@suse.de: Grey style
+
+-------------------------------------------------------------------
+Fri Jul 19 11:21:56 CEST 2002 - sh@suse.de
+
+- V 2.6.4
+- made image names more consistent for easier OEM logo handling
+
+-------------------------------------------------------------------
+Mon Jul 08 12:24:59 CEST 2002 - arvin@suse.de
+
+- now really added images from wizard
+
+-------------------------------------------------------------------
+Sun Jul 07 19:47:35 CEST 2002 - arvin@suse.de
+
+- added images from wizard
+
+-------------------------------------------------------------------
+Thu Jul 04 13:28:18 CEST 2002 - arvin@suse.de
+
+- move non binary file from /usr/lib/YaST2 to /usr/share/YaST2
+
+-------------------------------------------------------------------
+Mon Jul 01 11:24:19 CEST 2002 - arvin@suse.de
+
+- new package with theme able images for YaST2
+
