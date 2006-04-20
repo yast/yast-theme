@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Apr 19 12:00:54 CEST 2006 - sh@suse.de
+
+- Made icons available for GNOME hicolor theme (bug #166008) 
+- V 2.13.7
+
+-------------------------------------------------------------------
 Mon Apr 10 16:26:44 CEST 2006 - cihlarov@suse.cz
 
 - Added yast-addon icons (bug #154930) 
