@@ -30,10 +30,6 @@ rm -rf "$RPM_BUILD_ROOT/@docdir@"
 #
 # make icons available to GNOME control center (hicolor theme)
 # (bug #166008)
-##mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor
-##	cp -av --symbolic-link						\
-##		$RPM_BUILD_ROOT/@themedir@/SuSELinux/icons/*		\
-##		$RPM_BUILD_ROOT/usr/share/icons/hicolor/
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/22x22/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/32x32/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/48x48/apps
