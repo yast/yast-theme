@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Jul 12 09:45:25 CEST 2006 - jsuchome@suse.cz
+
+- new icon for ldap browser (#188165)
+- 2.13.8 
+
+-------------------------------------------------------------------
 Wed Apr 19 12:00:54 CEST 2006 - sh@suse.de
 
 - Made icons available for GNOME hicolor theme (bug #166008) 
