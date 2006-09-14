@@ -7,7 +7,7 @@ Summary:	-
 %description
 -
 
-%package SuSELinux
+%package openSUSE
 
 Summary:	-
 Version:	@VERSION@
@@ -16,7 +16,7 @@ Provides:	yast2_theme yast2-theme-UnitedLinux
 PreReq:		/bin/ln
 Obsoletes:	yast2-theme-UnitedLinux
 
-%description SuSELinux
+%description openSUSE
 -
 
 
@@ -25,7 +25,7 @@ Obsoletes:	yast2-theme-UnitedLinux
 @BUILD@
 
 @INSTALL@
-cp -R "$RPM_BUILD_ROOT/@docdir@" "$RPM_BUILD_ROOT/@docdir@-SuSELinux"
+cp -R "$RPM_BUILD_ROOT/@docdir@" "$RPM_BUILD_ROOT/@docdir@-openSUSE"
 rm -rf "$RPM_BUILD_ROOT/@docdir@"
 #
 # make icons available to GNOME control center (hicolor theme)
@@ -33,27 +33,27 @@ rm -rf "$RPM_BUILD_ROOT/@docdir@"
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/22x22/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/32x32/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/48x48/apps
-cd $RPM_BUILD_ROOT/@themedir@/SuSELinux/icons
+cd $RPM_BUILD_ROOT/@themedir@/openSUSE/icons
 for dir in 22x22 32x32 48x48; do
-    cd $RPM_BUILD_ROOT/@themedir@/SuSELinux/icons/$dir/apps
+    cd $RPM_BUILD_ROOT/@themedir@/openSUSE/icons/$dir/apps
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
-        ln -s ../../../../YaST2/theme/SuSELinux/icons/$dir/apps/$icon .
+        ln -s ../../../../YaST2/theme/openSUSE/icons/$dir/apps/$icon .
     done
 done
 
 
 @CLEAN@
 
-%post SuSELinux
+%post openSUSE
 cd @themedir@
-ln -snf SuSELinux current
+ln -snf openSUSE current
 
-%files SuSELinux
+%files openSUSE
 %defattr(-,root,root)
 %dir @themedir@
-%dir @themedir@/SuSELinux
+%dir @themedir@/openSUSE
 %dir /usr/share/icons/hicolor
 %dir /usr/share/icons/hicolor/22x22
 %dir /usr/share/icons/hicolor/22x22/apps
@@ -61,9 +61,10 @@ ln -snf SuSELinux current
 %dir /usr/share/icons/hicolor/32x32/apps
 %dir /usr/share/icons/hicolor/48x48
 %dir /usr/share/icons/hicolor/48x48/apps
-@themedir@/SuSELinux/*
+@themedir@/openSUSE/*
 /usr/share/icons/hicolor/22x22/apps/*
 /usr/share/icons/hicolor/32x32/apps/*
 /usr/share/icons/hicolor/48x48/apps/*
-@themedir@/SuSELinux/testpage/*
-%doc @docdir@-SuSELinux
+@themedir@/openSUSE/testpage/*
+%doc @docdir@-openSUSE
+
