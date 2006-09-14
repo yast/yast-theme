@@ -1,8 +1,8 @@
 #
-# Makefile.am for theme/SuSELinux/wallpapers
+# Makefile.am for theme/openSUSE/wallpapers
 #
 
-wallpapersdir = @themedir@/SuSELinux/wallpapers
+wallpapersdir = @themedir@/openSUSE/wallpapers
 
 wallpapers_DATA = $(wildcard *.png *.jpg )
 

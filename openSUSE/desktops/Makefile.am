@@ -1,8 +1,8 @@
 #
-# Makefile.am for theme/SuSELinux
+# Makefile.am for theme/openSUSE
 #
 
-testpagedir = @themedir@/SuSELinux/desktops
+testpagedir = @themedir@/openSUSE/desktops
 
 testpage_DATA =					\
 	kde.png					\

@@ -1,8 +1,8 @@
 #
-# Makefile.am for theme/SuSELinux
+# Makefile.am for theme/openSUSE
 #
 
-testpagedir = @themedir@/SuSELinux/testpage
+testpagedir = @themedir@/openSUSE/testpage
 
 testpage_DATA =					\
 	logo.eps				\
