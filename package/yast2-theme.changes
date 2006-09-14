@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Sep 14 16:34:13 CEST 2006 - sh@suse.de
+
+- Renamed subpackage yast2-theme-SuSELinux to yast2-theme-openSUSE 
+- V 2.13.9
+
+-------------------------------------------------------------------
 Wed Jul 12 09:45:25 CEST 2006 - jsuchome@suse.cz
 
 - new icon for ldap browser (#188165)
