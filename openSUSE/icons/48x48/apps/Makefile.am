@@ -1,8 +1,8 @@
 #
-# Makefile.am for theme/SuSELinux/icons/48x48/apps
+# Makefile.am for theme/openSUSE/icons/48x48/apps
 #
 
-icondir = @themedir@/SuSELinux/icons/48x48/apps
+icondir = @themedir@/openSUSE/icons/48x48/apps
 
 icon_DATA = $(wildcard *.png )
 

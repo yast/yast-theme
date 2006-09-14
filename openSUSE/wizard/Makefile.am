@@ -1,8 +1,8 @@
 #
-# Makefile.am for theme/SuSELinux/wizard
+# Makefile.am for theme/openSUSE/wizard
 #
 
-wizarddir = @themedir@/SuSELinux/wizard
+wizarddir = @themedir@/openSUSE/wizard
 
 wizard_DATA = $(wildcard *.png )
 

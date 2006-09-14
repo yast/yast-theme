@@ -1,8 +1,8 @@
 #
-# Makefile.am for theme/SuSELinux/control-center
+# Makefile.am for theme/openSUSE/control-center
 #
 
-imgdir = @themedir@/SuSELinux/control-center
+imgdir = @themedir@/openSUSE/control-center
 
 img_DATA = $(wildcard *.png )
 
