@@ -1,10 +1,10 @@
 #
-# Makefile.am for theme/SuSELinux
+# Makefile.am for theme/openSUSE
 #
 
 SUBDIRS = wizard control-center icons testpage wallpapers desktops
 
-themedir = @themedir@/SuSELinux
+themedir = @themedir@/openSUSE
 
 theme_DATA = $(wildcard *.png )
 
