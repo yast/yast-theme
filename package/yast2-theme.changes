@@ -2,7 +2,30 @@
 Thu Sep 14 16:34:13 CEST 2006 - sh@suse.de
 
 - Renamed subpackage yast2-theme-SuSELinux to yast2-theme-openSUSE 
-- V 2.13.9
+- V 2.13.13
+
+-------------------------------------------------------------------
+
+- Added missing 22x22 yast-dns icon (partly #203816)
+- 2.13.12
+
+-------------------------------------------------------------------
+Wed Sep  6 17:22:33 CEST 2006 - locilka@suse.cz
+
+- Added icons for License Agreement dialog.
+- 2.13.11
+
+-------------------------------------------------------------------
+Tue Sep  5 13:23:27 CEST 2006 - locilka@suse.cz
+
+- Added icons for Installation Mode, yast-inst-mode (#200811)
+- 2.13.10
+
+-------------------------------------------------------------------
+Fri Aug 18 16:22:32 CEST 2006 - kmachalkova@suse.cz
+
+- new icon for sudo (#197532)
+- 2.13.9
 
 -------------------------------------------------------------------
 Wed Jul 12 09:45:25 CEST 2006 - jsuchome@suse.cz
