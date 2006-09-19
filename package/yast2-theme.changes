@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Sep 19 17:01:07 CEST 2006 - locilka@suse.cz
+
+- Added yast-desktop-select icon (taken from yast-x11)
+- 2.13.14
+
+-------------------------------------------------------------------
 Thu Sep 14 16:34:13 CEST 2006 - sh@suse.de
 
 - Renamed subpackage yast2-theme-SuSELinux to yast2-theme-openSUSE 
