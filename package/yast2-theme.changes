@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Oct  2 12:47:28 CEST 2006 - locilka@suse.cz
+
+- Modified openSUSE theme to use Tango iconset (FATE #301304).
+- 2.13.15
+
+-------------------------------------------------------------------
 Tue Sep 19 17:01:07 CEST 2006 - locilka@suse.cz
 
 - Added yast-desktop-select icon (taken from yast-x11)
