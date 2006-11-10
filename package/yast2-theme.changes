@@ -1,4 +1,34 @@
 -------------------------------------------------------------------
+Fri Nov 10 14:04:08 CET 2006 - sh@suse.de
+
+- Merged SLE-10-SP1-Branch to trunk (-r31627:34248)
+- V 2.14.1 
+
+-------------------------------------------------------------------
+Wed Oct 18 11:32:09 CEST 2006 - locilka@suse.cz
+
+- Reverting the previous change on AJ's request.
+- 2.13.16
+
+-------------------------------------------------------------------
+Mon Oct  2 12:47:28 CEST 2006 - locilka@suse.cz
+
+- Modified openSUSE theme to use Tango iconset (FATE #301304).
+- 2.13.15
+
+-------------------------------------------------------------------
+Tue Sep 19 17:01:07 CEST 2006 - locilka@suse.cz
+
+- Added yast-desktop-select icon (taken from yast-x11)
+- 2.13.14
+
+-------------------------------------------------------------------
+Thu Sep 14 16:34:13 CEST 2006 - sh@suse.de
+
+- Renamed subpackage yast2-theme-SuSELinux to yast2-theme-openSUSE 
+- V 2.13.13
+
+-------------------------------------------------------------------
 Fri Sep  8 14:49:15 CEST 2006 - kmachalkova@suse.cz
 
 - Added missing 22x22 yast-dns icon (partly #203816)
