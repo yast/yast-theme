@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Dec  7 09:24:53 CET 2006 - locilka@suse.cz
+
+- Moving License and Installation Mode icons from 22x22/ to
+  22x22/apps/ directory.
+
+-------------------------------------------------------------------
 Fri Nov 10 14:04:08 CET 2006 - sh@suse.de
 
 - Merged SLE-10-SP1-Branch to trunk (-r31627:34248)
