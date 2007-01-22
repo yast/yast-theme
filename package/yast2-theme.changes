@@ -2,7 +2,8 @@
 Thu Dec  7 09:24:53 CET 2006 - locilka@suse.cz
 
 - Moving License and Installation Mode icons from 22x22/ to
-  22x22/apps/ directory.
+  22x22/apps/ directory (#237359).
+- V 2.15.0
 
 -------------------------------------------------------------------
 Fri Nov 10 14:04:08 CET 2006 - sh@suse.de
