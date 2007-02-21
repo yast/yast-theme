@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Wed Feb 21 17:36:53 CET 2007 - sh@suse.de
+
+- Fixed bug #247294: Icons cause RPM file conflicts
+  * Enforced consistent yast- prefix for icons 
+  * Removed obsolete icons without yast- prefix
+    (no longer in use in any .desktop file or YCP code)
+- V 2.15.1
+
+-------------------------------------------------------------------
 Thu Dec  7 09:24:53 CET 2006 - locilka@suse.cz
 
 - Moving License and Installation Mode icons from 22x22/ to
