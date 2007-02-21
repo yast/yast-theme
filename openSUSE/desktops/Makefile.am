@@ -5,7 +5,7 @@
 testpagedir = @themedir@/openSUSE/desktops
 
 testpage_DATA =					\
-	kde.png					\
-	gnome.png
+	yast-kde.png				\
+	yast-gnome.png
 
 EXTRA_DIST = $(testpage_DATA)
