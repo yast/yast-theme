@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Feb 22 14:39:17 CET 2007 - sh@suse.de
+
+- Added default icon for y2cc groups: yast-default-group.png
+- V 2.15.2
+
+-------------------------------------------------------------------
 Wed Feb 21 17:36:53 CET 2007 - sh@suse.de
 
 - Fixed bug #247294: Icons cause RPM file conflicts
