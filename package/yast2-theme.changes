@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Mar  5 13:11:13 CET 2007 - jsrain@suse.cz
+
+- added yast2-isns icons
+- 2.13.17
+
+-------------------------------------------------------------------
 Wed Oct 18 11:32:09 CEST 2006 - locilka@suse.cz
 
 - Reverting the previous change on AJ's request.
