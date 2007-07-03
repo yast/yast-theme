@@ -1,25 +1,39 @@
 @HEADER-COMMENT@
 
 @HEADER@
-BuildRequires:	yast2-devtools pkg-config yast2-core yast2 update-desktop-files
+BuildRequires:	yast2-devtools pkg-config yast2-core yast2 update-desktop-files hicolor-icon-theme
 BuildArchitectures: noarch
 Summary:	-
 %description
 -
 
 %package openSUSE
-
 Summary:	-
 Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme yast2-theme-UnitedLinux
 PreReq:		/bin/ln
+Requires:	hicolor-icon-theme
 Obsoletes:	yast2-theme-SuSELinux
 Obsoletes:	yast2-theme-UnitedLinux
+Conflicts:	yast2-theme-openSUSE-Crystal
+
+%package openSUSE-Crystal
+Summary:	-
+Version:	@VERSION@
+Group:		System/YaST
+Provides:	yast2_theme yast2-theme-UnitedLinux
+PreReq:		/bin/ln
+Requires:	hicolor-icon-theme
+Obsoletes:	yast2-theme-SuSELinux
+Obsoletes:	yast2-theme-UnitedLinux
+Conflicts:	yast2-theme-openSUSE
 
 %description openSUSE
 -
 
+%description openSUSE-Crystal
+-
 
 @PREP@
 
@@ -27,45 +41,59 @@ Obsoletes:	yast2-theme-UnitedLinux
 
 @INSTALL@
 cp -R "$RPM_BUILD_ROOT/@docdir@" "$RPM_BUILD_ROOT/@docdir@-openSUSE"
+cp -R "$RPM_BUILD_ROOT/@docdir@" "$RPM_BUILD_ROOT/@docdir@-openSUSE-Crystal"
 rm -rf "$RPM_BUILD_ROOT/@docdir@"
+# ghost file (not packed in RPM but listed)
+cd $RPM_BUILD_ROOT/@themedir@/
+rm -rf current
+ln -sn openSUSE current
 #
 # make icons available to GNOME control center (hicolor theme)
 # (bug #166008)
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/22x22/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/32x32/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/48x48/apps
-cd $RPM_BUILD_ROOT/@themedir@/openSUSE/icons
+cd $RPM_BUILD_ROOT/@themedir@/current/icons
 for dir in 22x22 32x32 48x48; do
-    cd $RPM_BUILD_ROOT/@themedir@/openSUSE/icons/$dir/apps
+    cd $RPM_BUILD_ROOT/@themedir@/current/icons/$dir/apps
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
-        ln -s ../../../../YaST2/theme/openSUSE/icons/$dir/apps/$icon .
+        ln -s ../../../../YaST2/theme/current/icons/$dir/apps/$icon .
     done
 done
 
-
 @CLEAN@
+rm -rf $RPM_BUILD_ROOT/@themedir@
 
 %post openSUSE
 cd @themedir@
 ln -snf openSUSE current
 
+%post openSUSE-Crystal
+cd @themedir@
+ln -snf openSUSE-Crystal current
+
 %files openSUSE
 %defattr(-,root,root)
 %dir @themedir@
-%dir @themedir@/openSUSE
-%dir /usr/share/icons/hicolor
-%dir /usr/share/icons/hicolor/22x22
-%dir /usr/share/icons/hicolor/22x22/apps
-%dir /usr/share/icons/hicolor/32x32
-%dir /usr/share/icons/hicolor/32x32/apps
-%dir /usr/share/icons/hicolor/48x48
-%dir /usr/share/icons/hicolor/48x48/apps
-@themedir@/openSUSE/*
+@themedir@/openSUSE
 /usr/share/icons/hicolor/22x22/apps/*
 /usr/share/icons/hicolor/32x32/apps/*
 /usr/share/icons/hicolor/48x48/apps/*
-@themedir@/openSUSE/testpage/*
 %doc @docdir@-openSUSE
+# ghost file (not packed in RPM but listed)
+# remove the file when removing the RPM
+%ghost @themedir@/current
 
+%files openSUSE-Crystal
+%defattr(-,root,root)
+%dir @themedir@
+@themedir@/openSUSE-Crystal
+/usr/share/icons/hicolor/22x22/apps/*
+/usr/share/icons/hicolor/32x32/apps/*
+/usr/share/icons/hicolor/48x48/apps/*
+%doc @docdir@-openSUSE-Crystal
+# ghost file (not packed in RPM but listed)
+# remove the file when removing the RPM
+%ghost @themedir@/current

@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Jul  3 15:57:47 CEST 2007 - locilka@suse.cz
+
+- Created identical copy of yast2-theme-openSUSE under the name
+  yast2-theme-openSUSE-Crystal (FATE #301304). The old theme will
+  use Tango and the new one Crystal iconsets.
+
+-------------------------------------------------------------------
 Wed Apr 18 16:46:47 CEST 2007 - juhliarik@suse.cz
 
 - Added ftp-server icons
