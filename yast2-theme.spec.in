@@ -11,7 +11,8 @@ Summary:	-
 Summary:	-
 Version:	@VERSION@
 Group:		System/YaST
-Provides:	yast2_theme yast2-theme-UnitedLinux
+Provides:	yast2_theme = %{version}
+Provides:	yast2-theme-UnitedLinux
 PreReq:		/bin/ln
 Requires:	hicolor-icon-theme
 Obsoletes:	yast2-theme-SuSELinux
@@ -22,7 +23,8 @@ Conflicts:	yast2-theme-openSUSE-Crystal
 Summary:	-
 Version:	@VERSION@
 Group:		System/YaST
-Provides:	yast2_theme yast2-theme-UnitedLinux
+Provides:	yast2_theme = %{version}
+Provides:	yast2-theme-UnitedLinux
 PreReq:		/bin/ln
 Requires:	hicolor-icon-theme
 Obsoletes:	yast2-theme-SuSELinux
