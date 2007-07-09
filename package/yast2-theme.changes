@@ -8,6 +8,17 @@ Tue Jul  3 15:57:47 CEST 2007 - locilka@suse.cz
 - V 2.15.4
 
 -------------------------------------------------------------------
+Sat Jun 16 00:22:11 CEST 2007 - dmueller@suse.de
+
+- hardlink theme files that are duplicate
+
+-------------------------------------------------------------------
+Mon Apr 30 18:03:00 CEST 2007 - ro@suse.de
+
+- specify provides for yast2_theme more closely
+  (needed for hack in yast2-sudo working around 253001)
+
+-------------------------------------------------------------------
 Wed Apr 18 16:46:47 CEST 2007 - juhliarik@suse.cz
 
 - Added ftp-server icons
