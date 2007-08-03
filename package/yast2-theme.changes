@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Aug  3 13:21:47 CEST 2007 - sh@suse.de
+
+- V 2.15.5
+- Fixed bug #294170: Missing icons for vm_install
+
+-------------------------------------------------------------------
 Tue Jul  3 15:57:47 CEST 2007 - locilka@suse.cz
 
 - Created identical copy of yast2-theme-openSUSE under the name
