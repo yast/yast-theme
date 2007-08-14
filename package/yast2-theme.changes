@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Aug 14 08:59:19 CEST 2007 - jsuchome@suse.cz
+
+- added icons for fingerprint-reader, live installation (#299751)
+- changed icon for language
+- 2.15.7 
+
+-------------------------------------------------------------------
 Fri Aug  3 16:44:11 CEST 2007 - jsrain@suse.cz
 
 - added icons for Kiwi and SSH server
