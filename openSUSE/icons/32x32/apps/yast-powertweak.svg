@@ -2,7 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@
    height="32"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.45"
+   inkscape:version="0.45+devel"
    sodipodi:docbase="/home/jimmac/src/cvs/gnome/nld-ui/trunk/tango-yast2-theme/icons/32x32/apps"
    sodipodi:docname="yast-powertweak.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
@@ -78,11 +78,11 @@
     <linearGradient
        id="linearGradient14981">
       <stop
-         style="stop-color:#788600;stop-opacity:1;"
+         style="stop-color:#8c962e;stop-opacity:1;"
          offset="0"
          id="stop14983" />
       <stop
-         style="stop-color:#505900;stop-opacity:1;"
+         style="stop-color:#5e6520;stop-opacity:1;"
          offset="1"
          id="stop14985" />
     </linearGradient>
@@ -530,10 +530,10 @@
        id="linearGradient15537"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.6315362,0,0,0.6299039,42.762258,-3.1051168)"
-       x1="20.046677"
-       y1="22.747095"
-       x2="39.002876"
-       y2="49.79393" />
+       x1="-33.592369"
+       y1="14.214047"
+       x2="-27.105764"
+       y2="52.54377" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient14861"
@@ -1766,9 +1766,9 @@
      borderopacity="0.25490196"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="27.191111"
-     inkscape:cy="4.6123976"
+     inkscape:zoom="8"
+     inkscape:cx="41.092323"
+     inkscape:cy="10.207015"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -1836,7 +1836,7 @@
        d="M 46.625 43.875 A 22.3125 3.5 0 1 1  2,43.875 A 22.3125 3.5 0 1 1  46.625 43.875 z"
        transform="matrix(0.619111,0,0,0.6189175,0.9522226,1.7239939)" />
     <rect
-       style="opacity:1;color:#000000;fill:url(#linearGradient15537);fill-opacity:1;fill-rule:nonzero;stroke:#3a3e00;stroke-width:1.00000036;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:block;overflow:visible"
+       style="opacity:1;color:#000000;fill:url(#linearGradient15537);fill-opacity:1;fill-rule:nonzero;stroke:#3a3e00;stroke-width:1.00000036000000003;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:block;overflow:visible"
        id="rect15535"
        width="26.998171"
        height="25.983536"

@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="90.000000"
    inkscape:export-xdpi="90.000000"
@@ -16,11 +16,23 @@
    height="48px"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.42+devel"
+   inkscape:version="0.45+devel"
    sodipodi:docbase="/home/jimmac/gfx/ximian/art/icons/application-icons/yast-tango"
-   sodipodi:docname="hardware-controller.svg">
+   sodipodi:docname="yast-controller.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs3">
+    <linearGradient
+       id="linearGradient5397">
+      <stop
+         id="stop5399"
+         offset="0"
+         style="stop-color:#848e2f;stop-opacity:1;" />
+      <stop
+         id="stop5401"
+         offset="1"
+         style="stop-color:#676f1f;stop-opacity:1;" />
+    </linearGradient>
     <linearGradient
        id="linearGradient15015">
       <stop
@@ -633,14 +645,14 @@
        y2="23.5" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient14981"
+       xlink:href="#linearGradient5397"
        id="linearGradient14987"
        x1="20.046677"
        y1="22.747095"
-       x2="39.002876"
-       y2="49.79393"
+       x2="28.002876"
+       y2="45.995754"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(2.000000,-6.000000)" />
+       gradientTransform="translate(2,-6)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient14993"
@@ -680,7 +692,7 @@
      borderopacity="0.25490196"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
+     inkscape:zoom="1"
      inkscape:cx="15.152035"
      inkscape:cy="4.1594641"
      inkscape:current-layer="layer1"
@@ -690,8 +702,8 @@
      inkscape:showpageshadow="false"
      inkscape:window-width="788"
      inkscape:window-height="783"
-     inkscape:window-x="360"
-     inkscape:window-y="1071" />
+     inkscape:window-x="730"
+     inkscape:window-y="312" />
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -745,7 +757,7 @@
        x="40.656807"
        y="8.4817801" />
     <path
-       style="opacity:1;color:#000000;fill:url(#linearGradient14987);fill-opacity:1;fill-rule:nonzero;stroke:#3a3e00;stroke-width:1.00000012;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:block;overflow:visible"
+       style="opacity:1;color:#000000;fill:url(#linearGradient14987);fill-opacity:1;fill-rule:nonzero;stroke:#3a3e00;stroke-width:1.00000011999999994;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:block;overflow:visible"
        d="M 3.50103,7.630239 L 3.5049363,34.34988 C 3.5049363,34.428758 3.5937382,34.500087 3.6917178,34.500087 L 6.5033173,34.515712 L 6.499411,39.368984 C 6.499411,39.440252 6.5218077,39.495319 6.6236925,39.495754 L 33.379371,39.487941 C 33.471786,39.484243 33.503652,39.424197 33.503652,39.361171 L 33.507559,34.492274 L 40.389917,34.500087 C 40.483667,34.500087 40.505959,34.369818 40.502479,34.28738 L 40.502479,7.630239 C 40.506385,7.548207 40.456968,7.508247 40.374292,7.50347 L 3.6253115,7.50347 C 3.5468642,7.507811 3.4932175,7.55602 3.50103,7.630239 z "
        id="rect14772"
        sodipodi:nodetypes="ccccccccccccccc" />

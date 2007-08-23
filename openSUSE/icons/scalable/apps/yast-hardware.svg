@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="90.000000"
    inkscape:export-xdpi="90.000000"
@@ -16,9 +16,10 @@
    height="48px"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.42+devel"
+   inkscape:version="0.45+devel"
    sodipodi:docbase="/home/jimmac/gfx/ximian/art/icons/application-icons/yast-tango"
-   sodipodi:docname="category-hardware.svg">
+   sodipodi:docname="yast-hardware.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs3">
     <linearGradient
@@ -55,11 +56,11 @@
     <linearGradient
        id="linearGradient14981">
       <stop
-         style="stop-color:#788600;stop-opacity:1;"
+         style="stop-color:#929d32;stop-opacity:1;"
          offset="0"
          id="stop14983" />
       <stop
-         style="stop-color:#505900;stop-opacity:1;"
+         style="stop-color:#5f661f;stop-opacity:1;"
          offset="1"
          id="stop14985" />
     </linearGradient>
@@ -647,10 +648,10 @@
        id="linearGradient15537"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.005844,0.000000,0.000000,1.017751,66.62550,-7.177511)"
-       x1="20.046677"
-       y1="22.747095"
-       x2="39.002876"
-       y2="49.79393" />
+       x1="-42.374992"
+       y1="13.715035"
+       x2="-20.502897"
+       y2="69.690742" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient14861"
@@ -882,18 +883,18 @@
      borderopacity="0.25490196"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="43.099962"
-     inkscape:cy="28.235329"
+     inkscape:zoom="1"
+     inkscape:cx="39.571346"
+     inkscape:cy="33.413911"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="872"
-     inkscape:window-height="783"
-     inkscape:window-x="600"
-     inkscape:window-y="262" />
+     inkscape:window-height="752"
+     inkscape:window-x="811"
+     inkscape:window-y="194" />
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -950,7 +951,7 @@
        d="M 46.625 43.875 A 22.3125 3.5 0 1 1  2,43.875 A 22.3125 3.5 0 1 1  46.625 43.875 z"
        transform="translate(0.000000,0.625000)" />
     <rect
-       style="opacity:1;color:#000000;fill:url(#linearGradient15537);fill-opacity:1;fill-rule:nonzero;stroke:#3a3e00;stroke-width:1.00000036;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:block;overflow:visible"
+       style="opacity:1;color:#000000;fill:url(#linearGradient15537);fill-opacity:1;fill-rule:nonzero;stroke:#3a3e00;stroke-width:1.00000036000000003;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:block;overflow:visible"
        id="rect15535"
        width="42.999828"
        height="41.982227"
