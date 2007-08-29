@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Aug 29 14:34:05 CEST 2007 - tgoettlicher@suse.de
+
+- removed title-bar-gradient.png
+- r40565
+
+
+-------------------------------------------------------------------
 Wed Aug 22 13:54:17 CEST 2007 - jsrain@suse.cz
 
 - added missing icons for VM management (#301016)
