@@ -4,6 +4,6 @@
 
 animationdir = @themedir@/openSUSE/animations
 
-animation_DATA = $(wildcard *.png )
+animation_DATA = $(wildcard *.mng *.gif)
 
 EXTRA_DIST = $(animation_DATA)
