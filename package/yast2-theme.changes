@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Mon Sep  3 11:48:00 CEST 2007 - sh@suse.de
+
+- V 2.15.11
+- (sreeves@novell.com) exchanged icon for YaST2 control center 
+  (bug #8097)
+
+-------------------------------------------------------------------
 Wed Aug 29 14:34:05 CEST 2007 - tgoettlicher@suse.de
 
 - removed title-bar-gradient.png
