@@ -1,4 +1,15 @@
 -------------------------------------------------------------------
+Tue Dec 18 16:55:27 CET 2007 - coolo@suse.de
+
+- moving wizard theming from qt to theme
+
+-------------------------------------------------------------------
+Tue Dec 18 16:53:34 CET 2007 - coolo@suse.de
+
+- Adding worldmap
+- V 2.16.1
+
+-------------------------------------------------------------------
 Mon Sep 24 18:14:24 CEST 2007 - tgoettlicher@suse.de
 
 - Added pattern icons (#216557)
