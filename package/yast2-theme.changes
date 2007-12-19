@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Dec 19 19:18:30 CET 2007 - coolo@suse.de
+
+- adding some padding also to the non-steps layout
+- V 2.16.2
+
+-------------------------------------------------------------------
 Tue Dec 18 16:55:27 CET 2007 - coolo@suse.de
 
 - moving wizard theming from qt to theme
