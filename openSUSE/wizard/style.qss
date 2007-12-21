@@ -25,6 +25,11 @@
    margin-bottom: 100px;
 }
 
+YQLogView QTextEdit {
+   qproperty-frameShape: NoShape;
+   background-color: rgba(255, 255, 255, 100);
+}
+
 QPushButton {
     color: black;
 }
