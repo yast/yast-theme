@@ -24,12 +24,8 @@ Summary:	-
 Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
-Provides:	yast2-theme-UnitedLinux
-PreReq:		/bin/ln
-Requires:	hicolor-icon-theme
-Obsoletes:	yast2-theme-SuSELinux
-Obsoletes:	yast2-theme-UnitedLinux
-Conflicts:	yast2-theme-openSUSE
+PreReq:		/bin/ln yast2-theme-openSUSE
+Requires:	yast2-theme-openSUSE
 
 %description openSUSE
 -
@@ -61,8 +57,18 @@ for dir in 22x22 32x32 48x48; do
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
-        ln -s ../../../../YaST2/theme/current/icons/$dir/apps/$icon .
+        ln -s @themedir@/theme/current/icons/$dir/apps/$icon .
     done
+done
+filelist=$(mktemp /tmp/fileListXXXXXX)
+cd $RPM_BUILD_ROOT/@themedir@/openSUSE
+files=$(find . -type f)
+cd $RPM_BUILD_ROOT/@themedir@/openSUSE-Crystal
+for file in $files; do
+  mkdir $(dirname "$file")
+  if ! test -f "$file"; then
+     ln -s $RPM_BUILD_ROOT/@themedir@/openSUSE/$file $file
+  fi
 done
 
 @CLEAN@
@@ -70,7 +76,9 @@ rm -rf $RPM_BUILD_ROOT/@themedir@
 
 %post openSUSE
 cd @themedir@
-ln -snf openSUSE current
+if ! test -d openSUSE-Crystal; then
+  ln -snf openSUSE current
+fi
 
 %post openSUSE-Crystal
 cd @themedir@

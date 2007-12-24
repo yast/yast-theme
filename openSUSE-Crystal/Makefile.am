@@ -2,7 +2,7 @@
 # Makefile.am for theme/openSUSE-Crystal
 #
 
-SUBDIRS = wizard control-center icons testpage wallpapers desktops
+SUBDIRS = icons
 
 themedir = @themedir@/openSUSE-Crystal
 
