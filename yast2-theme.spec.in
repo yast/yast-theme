@@ -17,7 +17,6 @@ PreReq:		/bin/ln
 Requires:	hicolor-icon-theme
 Obsoletes:	yast2-theme-SuSELinux
 Obsoletes:	yast2-theme-UnitedLinux
-Conflicts:	yast2-theme-openSUSE-Crystal
 
 %package openSUSE-Crystal
 Summary:	-
@@ -57,7 +56,7 @@ for dir in 22x22 32x32 48x48; do
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
-        ln -s @themedir@/theme/current/icons/$dir/apps/$icon .
+        ln -s @themedir@/current/icons/$dir/apps/$icon .
     done
 done
 filelist=$(mktemp /tmp/fileListXXXXXX)
@@ -65,9 +64,9 @@ cd $RPM_BUILD_ROOT/@themedir@/openSUSE
 files=$(find . -type f)
 cd $RPM_BUILD_ROOT/@themedir@/openSUSE-Crystal
 for file in $files; do
-  mkdir $(dirname "$file")
+  mkdir $(dirname "$file") || true
   if ! test -f "$file"; then
-     ln -s $RPM_BUILD_ROOT/@themedir@/openSUSE/$file $file
+     ln -s @themedir@/openSUSE/$file $file
   fi
 done
 
@@ -100,9 +99,6 @@ ln -snf openSUSE-Crystal current
 %defattr(-,root,root)
 %dir @themedir@
 @themedir@/openSUSE-Crystal
-/usr/share/icons/hicolor/22x22/apps/*
-/usr/share/icons/hicolor/32x32/apps/*
-/usr/share/icons/hicolor/48x48/apps/*
 %doc @docdir@-openSUSE-Crystal
 # ghost file (not packed in RPM but listed)
 # remove the file when removing the RPM

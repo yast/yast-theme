@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Dec 24 17:24:16 CET 2007 - coolo@suse.de
+
+- rework openSUSE-Crystal to rely on openSUSE theme for common files
+- V 2.16.3
+
+-------------------------------------------------------------------
 Wed Dec 19 19:18:30 CET 2007 - coolo@suse.de
 
 - adding some padding also to the non-steps layout
