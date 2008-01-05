@@ -34,6 +34,10 @@ QPushButton {
     color: black;
 }
 
+QPushButton:disabled {
+    color: gray;
+}
+
 QTextBrowser {
     color: black;
 }
@@ -86,6 +90,7 @@ QTextBrowser {
 }
 
 .Contents QWidget { color: black; } 
+.Contents QWidget:disabled { color: gray; }
 
 YQMultiProgressMeter {
      background-color: transparent;
