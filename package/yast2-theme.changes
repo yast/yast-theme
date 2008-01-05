@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Sat Jan  5 13:43:34 CET 2008 - coolo@suse.de
+
+- also set a color for a disabled push button (#350794)
+- V 2.16.4
+
+-------------------------------------------------------------------
 Mon Dec 24 17:24:16 CET 2007 - coolo@suse.de
 
 - rework openSUSE-Crystal to rely on openSUSE theme for common files
