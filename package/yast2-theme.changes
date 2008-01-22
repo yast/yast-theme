@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Jan 22 14:36:33 CET 2008 - kmachalkova@suse.cz
+
+- Icons from yast2-apparmor moved here
+- 2.16.5 
+
+-------------------------------------------------------------------
 Sat Jan  5 13:43:34 CET 2008 - coolo@suse.de
 
 - also set a color for a disabled push button (#350794)
