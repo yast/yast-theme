@@ -4,6 +4,6 @@
 
 testpagedir = @themedir@/openSUSE/worldmap
 
-testpage_DATA = GLOBALeb10colshade.jpg LICENSE
+testpage_DATA = worldmap.jpg LICENSE
 
 EXTRA_DIST = $(testpage_DATA)
