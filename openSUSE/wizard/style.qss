@@ -167,6 +167,10 @@ QPushButton:pressed {
   stop: 0 #315910, stop: 1 #9aad72);
 }
 
+QPushButton:disabled {
+  color: gray;
+}
+
 QPushButton:hover {
   background-color: #315910;
   color: white;
@@ -178,4 +182,11 @@ QPushButton:flat {
 
 QPushButton:default {
   border-color: darkgreen; /* make the default button prominent */
+}
+
+BusyBar {
+   qproperty-frameShape: NoShape;
+   border-width: 3px;
+   border: 2px solid gray;
+   border-radius: 4px;
 }
