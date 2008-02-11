@@ -104,12 +104,11 @@ YQMultiProgressMeter::chunk {
 
 */
 
+/*
 QTabWidget::tab-bar {
-  left: 5px; /* move to the right by 5px */
+  left: 5px; 
 }
 
-/* Style the tab using the tab sub-control. Note that
-   it reads QTabBar _not_ QTabWidget */
 QTabBar::tab {
   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
   stop: 0 #315910, stop: 1.0 #6a8d52);
@@ -132,27 +131,26 @@ QTabBar::tab:hover {
 }
 
 QTabBar::tab:!selected {
-  margin-top: 2px; /* make non-selected tabs look smaller */
+  margin-top: 2px; 
 }
 
-/* make use of negative margins for overlapping tabs */
 QTabBar::tab:selected {
-  /* expand/overlap to the left and right by 4px */
   margin-left: -4px;
   margin-right: -4px;
 }
 
 QTabBar::tab:first:selected {
-  margin-left: 0; /* the first selected tab has nothing to overlap with on the left */
+  margin-left: 0; 
 }
 
 QTabBar::tab:last:selected {
-  margin-right: 0; /* the last selected tab has nothing to overlap with on the right */
+  margin-right: 0; 
 }
 
 QTabBar::tab:only-one {
-  margin: 0; /* if there is only one tab, we don't want overlapping margins */
+  margin: 0; 
 }
+*/
 
 QPushButton:disabled {
   color: gray;
