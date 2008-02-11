@@ -15,7 +15,9 @@ Group:		System/YaST
 Provides:	yast2_theme yast2-theme-UnitedLinux
 PreReq:		/bin/ln
 Obsoletes:	yast2-theme-SuSELinux
+Provides:       yast2-theme-SuSELinux
 Obsoletes:	yast2-theme-UnitedLinux
+Provides:       yast2-theme-UnitedLinux
 
 %description openSUSE
 -
