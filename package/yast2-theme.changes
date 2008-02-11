@@ -5,6 +5,11 @@ Thu Feb  7 16:21:52 CET 2008 - juhliarik@suse.cz
 - 2.13.18 
 
 -------------------------------------------------------------------
+Tue Aug 14 12:17:36 CEST 2007 - ro@suse.de
+
+- add provides for the obsoleted packages
+
+-------------------------------------------------------------------
 Mon Mar  5 13:11:13 CET 2007 - jsrain@suse.cz
 
 - added yast2-isns icons
