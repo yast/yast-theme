@@ -85,6 +85,10 @@ QTextBrowser {
 }
 
 .Contents QWidget { color: white; } 
+  /* these have light background though: */
+  .Contents QComboBox, 
+  .Contents QHeaderView,
+  .Contents QTreeView { color: black; } 
 .Contents QWidget:disabled { color: gray; }
 
 YQMultiProgressMeter {
@@ -149,13 +153,13 @@ QTabBar::tab:!selected {
 QTabBar::tab:only-one {
 }
 
-QPushButton:disabled {
+#work_area QPushButton:disabled {
   color: rgba(255,255,255,80);
   border: 1px solid rgba(0,0,0,80);
   background: none;
 }
 
-QPushButton {
+#work_area QPushButton {
   border: 1px solid #313131;
   border-radius: 4px;
   background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
@@ -165,26 +169,26 @@ QPushButton {
   font-weight: bold;
 }
 
-QPushButton:default:pressed, QPushButton:pressed {
+#work_area QPushButton:default:pressed, #work_area QPushButton:pressed {
   background-color: red; /* FIXME: doesn't seem to match */
 }
 
-QPushButton:hover {
+#work_area QPushButton:hover {
   background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
     stop: 0 #a5a5a5, stop: 0.7 #4d4d4d, stop: 1 #747474);
   color: white;
 }
 
-QPushButton:flat {
+#work_area QPushButton:flat {
   border: none; /* no border for a flat push button */
 }
 
-QPushButton:default {
+#work_area QPushButton:default {
   border: 1px solid #0e5a00;
   background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
     stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
 }
-QPushButton:default:hover {
+#work_area QPushButton:default:hover {
   background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
     stop: 0 #75ce1f, stop: 0.7 #4d8e0d, stop: 1 #7ac52f);
 }
