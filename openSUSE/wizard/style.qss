@@ -1,37 +1,35 @@
-/* Background: wizard#full background-1024x768.png */
-/* Background: work_area g22503.png */
-/* Background: steps rect2174.png */
+/* Background: wizard#full background.png */
+/* Background: work_area#full work_area.png */
+/* Background: steps sidebar.png */
 
 #wizard {
-   padding-left: 30px;
+  /* background: transparent url(gilose.png) no-repeat top left; */
 }
 
 #work_area {
-   border-style: none;
-   margin-top: 30px;
-   margin-right: 30px;
-   margin-bottom: 30px;
-   margin-left: 0px;
-   border: 10px;
+  padding: 1em;
+  border: none;
+  border-left: 2px solid #888;
+  /* background: url(work_area.png) no-repeat to left; */
 }
 
 #steps 
 {
-   border-style: none;
-   padding-left: 0px;
-   padding-top: 10px;
-   margin-top: 60px;
-   margin-left: 0px;
-   margin-bottom: 100px;
+  padding: 3.5em 0 1em 1em;
+  background: url(logo.png) no-repeat top left;
+  border: none;
+  font-size: 90%;
 }
 
 YQLogView QTextEdit {
    qproperty-frameShape: NoShape;
-   background-color: rgba(255, 255, 255, 100);
+  background-color: transparent;
 }
 
 YQRichText > YQTextBrowser {
-   background-color: rgba(255, 255, 255, 100);
+  border: 1px solid rgba(0,0,0,10);
+  border-radius: 6px;
+  background-color: transparent;
 }
 
 QTextBrowser {
@@ -39,16 +37,16 @@ QTextBrowser {
 }
 
 .current-step-name {
-   font: bold 10pt;
+   font-weight: bold;
    color: white;
 }
 
 .done-step-name {
-   color: white;
+   color: #dddddd;
 }
 
 .todo-step-name {
-   color: white;
+   color: #bbbbbb;
 }
 
 .todo-step-status {
@@ -80,19 +78,23 @@ QTextBrowser {
 #DialogHeading { 
   font-size: 20px; 
   padding: 12pt;
-  color: white;
+  color: rgba(255,255,255,180);
+  letter-spacing: .2em;
   font-style: bold;
   margin: 0px;
 }
 
-.Contents QWidget { color: black; } 
+.Contents QWidget { color: white; } 
 .Contents QWidget:disabled { color: gray; }
 
 YQMultiProgressMeter {
      background-color: transparent;
      border: 1px solid gray;
-     border-radius: 5px;
+     border-radius: 3px;
 }
+
+YQProgressBar > YQWidgetCaption { margin-top: 20px; }
+
 
 /*
 YQMultiProgressMeter::chunk {
@@ -112,19 +114,26 @@ QTabWidget::tab-bar {
    it reads QTabBar _not_ QTabWidget */
 QTabBar::tab {
   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-  stop: 0 #315910, stop: 1.0 #6a8d52);
+  stop: 0 rgba(60,60,60,80), stop: 1.0 rgba(0,0,0,0));
   border: 0px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   min-width: 8ex;
   padding: 2px;
-  color: white;
+  color: #bbbbbb;
+  margin-bottom: 2px;
 }
 
 QTabBar::tab:selected {
   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-  stop: 0 #719950, stop: 1.0 #9aad72);
-  color: black;
+  stop: 0 #aaaaaa, stop: 0.4 #6f7d81, stop: 1.0 rgba(0,0,0,0));
+  color: white;
+  font-weight: bold;
+  border-top: 1px solid #444444;
+  border-left: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    stop: 0 #444444, stop: 1.0 rgba(0,0,0,0));
+  border-right: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    stop: 0 #444444, stop: 1.0 rgba(0,0,0,0));
 }
 
 QTabBar::tab:hover {
@@ -136,52 +145,33 @@ QTabBar::tab:!selected {
 }
 
 /* make use of negative margins for overlapping tabs */
-QTabBar::tab:selected {
-  /* expand/overlap to the left and right by 4px */
-  margin-left: -4px;
-  margin-right: -4px;
-}
-
-QTabBar::tab:first:selected {
-  margin-left: 0; /* the first selected tab has nothing to overlap with on the left */
-}
-
-QTabBar::tab:last:selected {
-  margin-right: 0; /* the last selected tab has nothing to overlap with on the right */
-}
 
 QTabBar::tab:only-one {
-  margin: 0; /* if there is only one tab, we don't want overlapping margins */
 }
 
 QPushButton:disabled {
-  color: gray;
+  color: rgba(255,255,255,80);
+  border: 1px solid rgba(0,0,0,80);
+  background: none;
 }
 
 QPushButton {
-  color: black;
+  border: 1px solid #313131;
+  border-radius: 4px;
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    stop: 0 #a5a5a5, stop: 0.8 #4d4d4d, stop: 1 #545454);
+  padding: 4px 12px;
+  color: #eeeeee;
+  font-weight: bold;
 }
 
-/*
-QPushButton {
-  border: 2px solid #4f8f41;
-  border-radius: 6px;
-  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-  stop: 0 #318930, stop: 1 #315910);
-  padding-left: 14px;
-  padding-right: 14px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: white;
-}
-
-QPushButton:pressed {
-  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-  stop: 0 #315910, stop: 1 #9aad72);
+QPushButton:default:pressed, QPushButton:pressed {
+  background-color: red; /* FIXME: doesn't seem to match */
 }
 
 QPushButton:hover {
-  background-color: #315910;
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    stop: 0 #a5a5a5, stop: 0.7 #4d4d4d, stop: 1 #747474);
   color: white;
 }
 
@@ -190,10 +180,15 @@ QPushButton:flat {
 }
 
 QPushButton:default {
-  border-color: darkgreen; /* make the default button prominent */
+  border: 1px solid #0e5a00;
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
+}
+QPushButton:default:hover {
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    stop: 0 #75ce1f, stop: 0.7 #4d8e0d, stop: 1 #7ac52f);
 }
 
-*/
 
 BusyBar {
    qproperty-frameShape: NoShape;
