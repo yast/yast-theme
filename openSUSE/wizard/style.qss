@@ -27,8 +27,12 @@ YQLogView QTextEdit {
 }
 
 YQRichText > YQTextBrowser {
-  border: 1px solid rgba(0,0,0,10);
+  /* in the end, this is just visual noise
+  border: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    stop: 0 rgba(255,255,255,40), stop: 1.0 rgba(255,255,255,0));
+  border-bottom: none;
   border-radius: 6px;
+  */
   background-color: transparent;
 }
 
