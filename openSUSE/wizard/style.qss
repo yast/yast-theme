@@ -92,7 +92,8 @@ QTextBrowser {
   /* these have light background though: */
   .Contents QComboBox, 
   .Contents QHeaderView,
-  .Contents QCheckBox,
+  .Contents QCheckBox::indicator,
+  .Contents QRadioButton::indicator,
   .Contents QTreeView { color: black; } 
   .Contents QWidget:disabled { color: gray; }
 
