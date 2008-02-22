@@ -22,8 +22,12 @@
 }
 
 YQLogView QTextEdit {
-   qproperty-frameShape: NoShape;
-  background-color: transparent;
+  qproperty-frameShape: NoShape;
+  background-color: rgba(255, 255, 255, 100);
+
+/*  background-color: transparent; (Coolo) I know it's tempting to let it 
+    shine through, but some dialogs just look silly if you don't see where
+    the boundaries are. So we need _something_ */
 }
 
 YQRichText > YQTextBrowser {
@@ -95,8 +99,12 @@ QTextBrowser {
   .Contents QLineEdit,
   .Contents QCheckBox::indicator,
   .Contents QComboBox::drop-down,
+  .Contents QComboBox::down-button,
   .Contents QComboBox::down-arrow,
   .Contents QComboBox::up-arrow,
+  .Contents QScrollBar::down-button,
+  .Contents QScrollBar::down-arrow,
+  .Contents QScrollBar::up-arrow,
   .Contents QRadioButton::indicator,
   .Contents QTreeView { color: black; } 
   .Contents QWidget:disabled { color: gray; }
