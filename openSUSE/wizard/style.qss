@@ -94,6 +94,9 @@ QTextBrowser {
   .Contents QHeaderView,
   .Contents QLineEdit,
   .Contents QCheckBox::indicator,
+  .Contents QComboBox::drop-down,
+  .Contents QComboBox::down-arrow,
+  .Contents QComboBox::up-arrow,
   .Contents QRadioButton::indicator,
   .Contents QTreeView { color: black; } 
   .Contents QWidget:disabled { color: gray; }
