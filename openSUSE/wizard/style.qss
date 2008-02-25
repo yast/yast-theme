@@ -45,7 +45,8 @@ QTextBrowser {
 }
 
 .current-step-name {
-   font-weight: bold;
+   background: rgba(60, 68, 70, 100);
+   font-weight: medium;
    color: white;
 }
 
@@ -79,7 +80,6 @@ QTextBrowser {
    font: bold;  
    color: black;
    margin-bottom: 7px;
-   font-size: 11pt;
 }
 
 #DialogIcon { max-width: 0px; margin: 0px; }
@@ -87,7 +87,7 @@ QTextBrowser {
   font-size: 20px; 
   padding: 12pt;
   color: rgba(255,255,255,180);
-  letter-spacing: .2em;
+  /* letter-spacing: .2em; */
   font-style: bold;
   margin: 0px;
 }
@@ -97,6 +97,7 @@ QTextBrowser {
   .Contents QComboBox, 
   .Contents QHeaderView,
   .Contents QLineEdit,
+  .Contents QListWidget,
   .Contents QCheckBox::indicator,
   .Contents QComboBox::drop-down,
   .Contents QComboBox::down-button,
