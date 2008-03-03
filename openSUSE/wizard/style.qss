@@ -94,11 +94,15 @@ QTextBrowser {
 
 .Contents QWidget { color: white; } 
   /* these have light background though: */
-  .Contents QComboBox, 
+  .Contents QComboBox,
+  .Contents QComboBox *,
   .Contents QHeaderView,
   .Contents QLineEdit,
-  .Contents QListWidget,
-  .Contents QCheckBox::indicator,
+  .Contents QListWidget { color: black; }
+  .Contents QCheckBox::indicator::checked { 
+     image: url(plastique-checkbox.png); 
+     padding-right: 2px;
+   }
   .Contents QComboBox::drop-down,
   .Contents QComboBox::down-button,
   .Contents QComboBox::down-arrow,
@@ -107,7 +111,7 @@ QTextBrowser {
   .Contents QScrollBar::down-arrow,
   .Contents QScrollBar::up-arrow,
   .Contents QRadioButton::indicator,
-  .Contents QTreeView { color: black; } 
+  .Contents QTreeView { color: black; }
   .Contents QWidget:disabled { color: gray; }
 
 YQMultiProgressMeter {
