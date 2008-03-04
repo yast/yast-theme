@@ -99,9 +99,13 @@ QTextBrowser {
   .Contents QHeaderView,
   .Contents QLineEdit,
   .Contents QListWidget { color: black; }
-  .Contents QCheckBox::indicator::checked { 
+  .Contents QCheckBox::indicator:checked { 
      image: url(plastique-checkbox.png); 
      padding-right: 2px;
+   }
+  .Contents QRadioButton::indicator:checked {
+     image: url(plastique-radiobutton.png);
+     padding-right: -1px;
    }
   .Contents QComboBox::drop-down,
   .Contents QComboBox::down-button,
