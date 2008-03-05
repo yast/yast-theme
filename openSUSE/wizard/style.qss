@@ -1,25 +1,24 @@
 
 #steps 
 {
-  padding: 3.5em 0 1em 1em;
   border: none;
   font-size: 90%;
 }
 
 .todo-step-status {
-   qproperty-pixmap: url(white-step-todo.png);
+   qproperty-pixmap: url(step-todo.png);
    max-width: 14px;
    min-width: 14px;
 }
 
 .done-step-status {
-   qproperty-pixmap: url(white-step-done.png);
+   qproperty-pixmap: url(step-done.png);
    max-width: 14px;
    min-width: 14px;
 }
 
 .current-step-status {
-   qproperty-pixmap: url(white-step-current.png);
+   qproperty-pixmap: url(step-current.png);
    max-width: 14px;
    min-width: 14px;
 }
