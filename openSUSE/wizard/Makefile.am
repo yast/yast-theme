@@ -4,6 +4,6 @@
 
 wizarddir = @themedir@/openSUSE/wizard
 
-wizard_DATA = $(wildcard *.png ) style.qss
+wizard_DATA = $(wildcard *.png ) style.qss installation.qss
 
 EXTRA_DIST = $(wizard_DATA)
