@@ -18,7 +18,7 @@
   padding: 3.5em 0 1em 1em;
   background: url(logo.png) no-repeat top left;
   border: none;
-  font-size: 90%;
+  font-size:  7pt;
 }
 
 YQLogView QTextEdit {
@@ -84,11 +84,11 @@ QTextBrowser {
 
 #DialogIcon { max-width: 0px; margin: 0px; }
 #DialogHeading { 
-  font-size: 120%; 
+  font-style: bold;
+  font-size: 12pt; 
   padding: 12pt;
   color: rgba(255,255,255,180);
   /* letter-spacing: .2em; */
-  font-style: bold;
   margin: 0px;
 }
 
@@ -179,6 +179,12 @@ QTabBar::tab:!selected {
 
 QTabBar::tab:only-one {
 }
+
+QGroupBox {
+  /* Eventually I'd like to have this global. Possibly belongs to style.qss */
+  border: none;
+}
+  QGroupBox::title { font-weight: bold; color: #444; }
 
 #work_area QPushButton:disabled {
   color: rgba(255,255,255,80);
