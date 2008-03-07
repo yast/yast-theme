@@ -84,7 +84,7 @@ QTextBrowser {
 
 #DialogIcon { max-width: 0px; margin: 0px; }
 #DialogHeading { 
-  font-size: 20px; 
+  font-size: 120%; 
   padding: 12pt;
   color: rgba(255,255,255,180);
   /* letter-spacing: .2em; */
