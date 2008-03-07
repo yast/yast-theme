@@ -4,6 +4,7 @@
 
 #wizard {
   /* background: transparent url(gilose.png) no-repeat top left; */
+  font-size: 12pt;
 }
 
 #work_area {
@@ -13,12 +14,11 @@
   /* background: url(work_area.png) no-repeat to left; */
 }
 
-#steps 
-{
+#steps {
   padding: 3.5em 0 1em 1em;
   background: url(logo.png) no-repeat top left;
   border: none;
-  font-size:  7pt;
+  font-size: 10pt;
 }
 
 YQLogView QTextEdit {
