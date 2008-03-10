@@ -1,7 +1,7 @@
 @HEADER-COMMENT@
 
 @HEADER@
-BuildRequires:	yast2-devtools pkg-config yast2-core yast2 update-desktop-files hicolor-icon-theme
+BuildRequires:	yast2-devtools yast2 pkg-config update-desktop-files hicolor-icon-theme fdupes
 BuildArchitectures: noarch
 Summary:	-
 %description
@@ -16,7 +16,9 @@ Provides:	yast2-theme-UnitedLinux
 PreReq:		/bin/ln
 Requires:	hicolor-icon-theme
 Obsoletes:	yast2-theme-SuSELinux
+Provides:       yast2-theme-SuSELinux
 Obsoletes:	yast2-theme-UnitedLinux
+Provides:       yast2-theme-UnitedLinux
 
 %package openSUSE-Crystal
 Summary:	-
@@ -24,12 +26,22 @@ Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
 PreReq:		/bin/ln yast2-theme-openSUSE
-Requires:	yast2-theme-openSUSE
+
+%package openSUSE-Oxygen
+Summary:	-
+Version:	@VERSION@
+Group:		System/YaST
+Provides:	yast2_theme = %{version}
+PreReq:		/bin/ln yast2-theme-openSUSE
+Conflicts:      yast2-theme-openSUSE-Crystal
 
 %description openSUSE
 -
 
 %description openSUSE-Crystal
+-
+
+%description openSUSE-Oxygen
 -
 
 @PREP@
@@ -38,7 +50,6 @@ Requires:	yast2-theme-openSUSE
 
 @INSTALL@
 cp -R "$RPM_BUILD_ROOT/@docdir@" "$RPM_BUILD_ROOT/@docdir@-openSUSE"
-cp -R "$RPM_BUILD_ROOT/@docdir@" "$RPM_BUILD_ROOT/@docdir@-openSUSE-Crystal"
 rm -rf "$RPM_BUILD_ROOT/@docdir@"
 # ghost file (not packed in RPM but listed)
 cd $RPM_BUILD_ROOT/@themedir@/
@@ -62,26 +73,33 @@ done
 filelist=$(mktemp /tmp/fileListXXXXXX)
 cd $RPM_BUILD_ROOT/@themedir@/openSUSE
 files=$(find . -type f)
-cd $RPM_BUILD_ROOT/@themedir@/openSUSE-Crystal
-for file in $files; do
-  mkdir $(dirname "$file") || true
-  if ! test -f "$file"; then
+for subtheme in Crystal Oxygen; do
+  cd $RPM_BUILD_ROOT/@themedir@/openSUSE-$subtheme
+  for file in $files; do
+    mkdir $(dirname "$file") || true
+    if ! test -f "$file"; then
      ln -s @themedir@/openSUSE/$file $file
-  fi
+    fi
+  done
 done
+%fdupes $RPM_BUILD_ROOT/@themedir@
 
 @CLEAN@
 rm -rf $RPM_BUILD_ROOT/@themedir@
 
 %post openSUSE
 cd @themedir@
-if ! test -d openSUSE-Crystal; then
+if ! test -d openSUSE-Crystal && ! test -d openSUSE-Oxygen; then
   ln -snf openSUSE current
 fi
 
 %post openSUSE-Crystal
 cd @themedir@
 ln -snf openSUSE-Crystal current
+
+%post openSUSE-Oxygen
+cd @themedir@
+ln -snf openSUSE-Oxygen current
 
 %files openSUSE
 %defattr(-,root,root)
@@ -99,7 +117,10 @@ ln -snf openSUSE-Crystal current
 %defattr(-,root,root)
 %dir @themedir@
 @themedir@/openSUSE-Crystal
-%doc @docdir@-openSUSE-Crystal
-# ghost file (not packed in RPM but listed)
-# remove the file when removing the RPM
-%ghost @themedir@/current
+
+%files openSUSE-Oxygen
+%defattr(-,root,root)
+%dir @themedir@
+@themedir@/openSUSE-Oxygen
+
+
