@@ -1,8 +1,8 @@
 #
-# Makefile.am for theme/openSUSE/icons/22x22/apps
+# Makefile.am for theme/openSUSE-Oxygen/icons/22x22/apps
 #
 
-icondir = @themedir@/openSUSE-oxygen/icons/22x22/apps
+icondir = @themedir@/openSUSE-Oxygen/icons/22x22/apps
 
 icon_DATA = $(wildcard *.png )
 
