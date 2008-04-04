@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Fri Apr  4 11:07:13 CET 2008 - tgoettlicher@suse.de
+
+- fixed frame style of rich text widget (bnc #369685)
+
+-------------------------------------------------------------------
 Mon Mar 10 11:10:27 CET 2008 - coolo@suse.de
 
 - adding 0.2 of yast2-oxygen
