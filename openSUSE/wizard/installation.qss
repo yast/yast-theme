@@ -38,6 +38,7 @@ YQRichText > YQTextBrowser {
   border-radius: 6px;
   */
   background-color: transparent;
+  qproperty-frameShape: NoShape;
 }
 
 QTextBrowser {
