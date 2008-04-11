@@ -133,6 +133,11 @@ YQMultiProgressMeter {
 
 YQProgressBar > YQWidgetCaption { margin-top: 20px; }
 
+QPushButton::menu-indicator {
+     subcontrol-origin: margin;
+     left: -3px;
+     subcontrol-position: right;
+}
 
 /*
 YQMultiProgressMeter::chunk {
