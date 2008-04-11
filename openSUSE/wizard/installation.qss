@@ -194,9 +194,16 @@ QTabBar::tab:only-one {
 
 QGroupBox {
   /* Eventually I'd like to have this global. Possibly belongs to style.qss */
-  border: none;
+  border: 0px;
+  margin-top: 2.5ex;
+  margin-left: 10px;
 }
-  QGroupBox::title { font-weight: bold; color: #444; }
+
+QGroupBox::title {
+   subcontrol-origin: margin;
+   subcontrol-position: left top;
+   font-weight: bold; color: #444;
+}
 
 #work_area QPushButton:disabled {
   color: rgba(255,255,255,80);
