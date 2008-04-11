@@ -126,6 +126,10 @@ YQMultiProgressMeter {
      border-radius: 3px;
 }
 
+.ymenubutton { background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #a5a5a5, stop: 0.8 #4d4d4d, stop: 1 #545454);
+}
+
 YQProgressBar > YQWidgetCaption { margin-top: 20px; }
 
 
