@@ -99,6 +99,7 @@ QTextBrowser {
   .Contents QComboBox *,
   .Contents QHeaderView,
   .Contents QLineEdit,
+  .Contents QSpinBox,
   .Contents QListWidget { color: black; }
   .Contents QCheckBox::indicator:checked { 
      image: url(plastique-checkbox.png); 
