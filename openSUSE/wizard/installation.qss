@@ -1,6 +1,7 @@
 /* Background: wizard#full background.png */
 /* Background: work_area#full work_area.png */
 /* Background: steps sidebar.png */
+/* Richtext: installation_richtext.css */
 
 #wizard {
   /* background: transparent url(gilose.png) no-repeat top left; */
