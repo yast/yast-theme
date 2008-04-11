@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Fri Apr 11 22:46:56 CEST 2008 - coolo@suse.de
+
+- several fixes
+
+-------------------------------------------------------------------
 Fri Apr  4 11:07:13 CET 2008 - tgoettlicher@suse.de
 
 - fixed frame style of rich text widget (bnc #369685)
