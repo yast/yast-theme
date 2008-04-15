@@ -12,7 +12,6 @@
   padding: 1em;
   border: none;
   border-left: 2px solid #888;
-  /* background: url(work_area.png) no-repeat to left; */
 }
 
 #steps {
@@ -24,21 +23,16 @@
 
 YQLogView QTextEdit {
   qproperty-frameShape: NoShape;
+  /* FIXME: some dialogs look odd due to overuse of whitespace. The background color looks less odd,
+  but I bet alpha compositing is expensive on some hardware. */
   background-color: rgba(0, 0, 0, 60);
+  border-radius: 4px;
 
-/*  background-color: transparent; (Coolo) I know it's tempting to let it 
-    shine through, but some dialogs just look silly if you don't see where
-    the boundaries are. So we need _something_ */
 }
 
 YQRichText > YQTextBrowser {
-  /* in the end, this is just visual noise
-  border: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 rgba(255,255,255,40), stop: 1.0 rgba(255,255,255,0));
-  border-bottom: none;
-  border-radius: 6px;
-  */
   background-color: rgba(0, 0, 0, 60);
+  border-radius: 4px;
   qproperty-frameShape: NoShape;
 }
 
@@ -47,9 +41,10 @@ QTextBrowser {
 }
 
 .current-step-name {
-   background: rgba(60, 68, 70, 100);
-   font-weight: medium;
-   color: white;
+  background: rgba(60, 68, 70, 100);
+  border-radius: 4px;
+  padding: 0 .3em;
+  color: white;
 }
 
 .done-step-name {
@@ -90,7 +85,6 @@ QTextBrowser {
   font-size: 12pt; 
   padding: 12pt;
   color: #babdb6;
-  /* letter-spacing: .2em; */
   margin: 0px;
 }
 
