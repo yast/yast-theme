@@ -89,7 +89,7 @@ QTextBrowser {
   font-style: bold;
   font-size: 12pt; 
   padding: 12pt;
-  color: rgba(255,255,255,180);
+  color: #babdb6;
   /* letter-spacing: .2em; */
   margin: 0px;
 }
@@ -137,7 +137,7 @@ YQProgressBar > YQWidgetCaption { margin-top: 20px; }
 
 QPushButton::menu-indicator {
      subcontrol-origin: margin;
-     left: -3px;
+     left: -7px;
      subcontrol-position: right;
 }
 
