@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Thu Apr 17 15:33:52 CEST 2008 - coolo@suse.de
+
+- overwrite the red color - does not fit well on gray
+
+-------------------------------------------------------------------
 Wed Apr 16 13:35:40 CEST 2008 - locilka@suse.cz
 
 - Added pattern-xfce (bnc #377584).
