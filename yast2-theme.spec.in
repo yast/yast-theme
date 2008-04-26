@@ -61,8 +61,9 @@ ln -sn openSUSE current
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/22x22/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/32x32/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/48x48/apps
+mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/64x64/apps
 cd $RPM_BUILD_ROOT/@themedir@/current/icons
-for dir in 22x22 32x32 48x48; do
+for dir in 22x22 32x32 48x48 64x64; do
     cd $RPM_BUILD_ROOT/@themedir@/current/icons/$dir/apps
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
