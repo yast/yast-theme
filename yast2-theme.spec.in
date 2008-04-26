@@ -77,7 +77,7 @@ files=$(find . -type f)
 for subtheme in Crystal Oxygen; do
   cd $RPM_BUILD_ROOT/@themedir@/openSUSE-$subtheme
   for file in $files; do
-    mkdir $(dirname "$file") || true
+    mkdir -p $(dirname "$file") || true
     if ! test -f "$file"; then
      ln -s @themedir@/openSUSE/$file $file
     fi
@@ -106,9 +106,7 @@ ln -snf openSUSE-Oxygen current
 %defattr(-,root,root)
 %dir @themedir@
 @themedir@/openSUSE
-/usr/share/icons/hicolor/22x22/apps/*
-/usr/share/icons/hicolor/32x32/apps/*
-/usr/share/icons/hicolor/48x48/apps/*
+/usr/share/icons/hicolor/*/apps/*
 %doc @docdir@-openSUSE
 # ghost file (not packed in RPM but listed)
 # remove the file when removing the RPM
