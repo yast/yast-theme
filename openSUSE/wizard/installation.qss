@@ -254,29 +254,29 @@ QTabWidget::tab-bar {
 /* HELP! :) This ain't working! 
 #work_area QScrollBar:vertical {
   width: 10px;
-  background: #444444;
   border: 1px solid grey;
   margin: 10px 0 10px 0;
+  background-color: transparent;
 }
   
   #work_area QScrollBar::handle:vertical {
     min-height: 10px;
-    background-color: #4d8e0d;
-    border: 1px solid #2d6e00;
+    background-color: rgba(40,255,40,50%);
+    border: 1px solid grey;
   }
 
   #work_area QScrollBar::add-line:vertical {
     border: 2px solid grey;
-    background: #32CC99;
-    width: 10px;
+    background: transparent;
+    height: 10px;
     subcontrol-position: top;
     subcontrol-origin: margin;
   }
 
   #work_area QScrollBar::sub-line:vertical {
     border: 2px solid grey;
-    background: #32CC99;
-    width: 10px;
+    background: green;
+    height: 10px;
     subcontrol-position: bottom;
     subcontrol-origin: margin;
   }
@@ -288,43 +288,8 @@ QTabWidget::tab-bar {
     background: white;
   }
 
-  #work_area QScrollBar:horizontal {
-    border: 2px solid grey;
-    background: #32CC99;
-    height: 15px;
-    margin: 0px 20px 0 20px;
-  }
-
-  #work_area QScrollBar::handle:horizontal {
-    background: white;
-    min-width: 20px;
-  }
-
-  #work_area QScrollBar::add-line:horizontal {
-    border: 2px solid grey;
-    background: #32CC99;
-    width: 20px;
-    subcontrol-position: right;
-    subcontrol-origin: margin;
-  }
-
-  #work_area QScrollBar::sub-line:horizontal {
-    border: 2px solid grey;
-    background: #32CC99;
-    width: 20px;
-    subcontrol-position: left;
-    subcontrol-origin: margin;
-  }
-
-  #work_area QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
-    border: 2px solid grey;
-    width: 3px;
-    height: 3px;
-    background: white;
-  }
-
-  #work_area QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
-    background: none;
+  #work_area QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background-color: transparent;
   }
 */
 
