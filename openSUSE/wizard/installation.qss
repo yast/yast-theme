@@ -241,12 +241,53 @@ QTabWidget::tab-bar {
   border: 1px solid #444;
   border-radius: 2px;
   text-align: center;
+  color: #000000;
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    stop: 0 #aaaaaa, stop: 0.4 #ffffff, stop: 1 #ffffff);
 }
   #work_area QProgressBar:chunk {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
       stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
-    /* background-color: #4d8e0d; */
+    border: 1px solid #4d8e0d;
   }
+
+/* HELP! :) This ain't working! 
+#work_area QScrollBar:vertical {
+  width: 10px;
+  background: #444444;
+  border: 1px solid grey;
+  margin: 10px 0 10px 0;
+}
+  
+  #work_area QScrollBar::handle:vertical {
+    min-height: 10px;
+    background-color: #4d8e0d;
+    border: 1px solid #2d6e00;
+  }
+
+  #work_area QScrollBar::add-line:vertical {
+    border: 2px solid grey;
+    background: #32CC99;
+    width: 10px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+  }
+
+  #work_area QScrollBar::sub-line:vertical {
+    border: 2px solid grey;
+    background: #32CC99;
+    width: 10px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+  }
+
+  #work_area QScrollBar::up-arrow:vertical, #work_area QScrollBar::down-arrow:vertical {
+    border: 2px solid grey;
+    width: 3px;
+    height: 3px;
+    background: white;
+  }
+*/
 
 
 BusyBar {
