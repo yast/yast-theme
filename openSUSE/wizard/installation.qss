@@ -74,8 +74,8 @@ QTextBrowser {
 }
 
 .steps_heading {
-   font: bold;  
-   color: black;
+   font-weight: bold;  
+   color: white;
    margin-bottom: 7px;
 }
 
@@ -148,63 +148,58 @@ QTabWidget::tab-bar {
   left: 5px; /* move to the right by 5px */
 }
 
-/* Style the tab using the tab sub-control. Note that
-   it reads QTabBar _not_ QTabWidget */
-QTabBar::tab {
-  background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-  stop: 0 rgba(60,60,60,80), stop: 1.0 rgba(0,0,0,0));
-  border: 0px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  min-width: 8ex;
-  padding: 2px;
-  color: #bbbbbb;
-  margin-bottom: 2px;
-}
+  /* Style the tab using the tab sub-control. Note that
+     it reads QTabBar _not_ QTabWidget */
+  QTabBar::tab {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    stop: 0 rgba(60,60,60,80), stop: 1.0 rgba(0,0,0,0));
+    border: 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width: 8ex;
+    padding: 2px;
+    color: #bbbbbb;
+    margin-bottom: 2px;
+  }
 
-QTabBar::tab:selected {
-  background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-  stop: 0 #aaaaaa, stop: 0.4 #6f7d81, stop: 1.0 rgba(0,0,0,0));
-  color: white;
-  font-weight: bold;
-  border-top: 1px solid #444444;
-  border-left: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 #444444, stop: 1.0 rgba(0,0,0,0));
-  border-right: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 #444444, stop: 1.0 rgba(0,0,0,0));
-}
+  QTabBar::tab:selected {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    stop: 0 #aaaaaa, stop: 0.4 #6f7d81, stop: 1.0 rgba(0,0,0,0));
+    color: white;
+    font-weight: bold;
+    border-top: 1px solid #444444;
+    border-left: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+      stop: 0 #444444, stop: 1.0 rgba(0,0,0,0));
+    border-right: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+      stop: 0 #444444, stop: 1.0 rgba(0,0,0,0));
+  }
 
-QTabBar::tab:hover {
-  color: black;
-}
+  QTabBar::tab:hover {
+    color: black;
+  }
 
-QTabBar::tab:!selected {
-  margin-top: 2px; /* make non-selected tabs look smaller */
-}
+  QTabBar::tab:!selected {
+    margin-top: 2px; /* make non-selected tabs look smaller */
+  }
 
-/* make use of negative margins for overlapping tabs */
+  /* make use of negative margins for overlapping tabs */
 
-QTabBar::tab:only-one {
-}
+  QTabBar::tab:only-one {
+  }
 
-QGroupBox {
+#work_area QGroupBox {
   /* Eventually I'd like to have this global. Possibly belongs to style.qss */
   border: 0px;
   margin-top: 2.5ex;
   margin-left: 10px;
 }
 
-QGroupBox::title {
-   subcontrol-origin: margin;
-   subcontrol-position: left top;
-   font-weight: bold; color: #bbb;
-}
+  #work_area QGroupBox::title {
+     subcontrol-origin: margin;
+     subcontrol-position: left top;
+     font-weight: bold; color: #bbb;
+  }
 
-#work_area QPushButton:flat { /* disabled state */
-  color: rgba(255,255,255,80);
-  border: 1px solid rgba(0,0,0,80);
-  background: none;
-}
 
 #work_area QPushButton {
   border: 1px solid #313131;
@@ -215,6 +210,12 @@ QGroupBox::title {
   color: #eeeeee;
   font-weight: bold;
 }
+
+  #work_area QPushButton:flat { /* disabled state */
+    color: rgba(255,255,255,80);
+    border: 1px solid rgba(0,0,0,80);
+    background: none;
+  }
 
   #work_area QPushButton:default:pressed, #work_area QPushButton:pressed {
     background-color: red; /* FIXME: doesn't seem to match */
