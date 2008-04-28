@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
 Mon Apr 28 17:58:32 CEST 2008 - sh@suse.de
 
-- Added yast2.png icon for yast2-controlcenter (bnc #144694) 
+- Added yast.png icon for yast2-controlcenter in all themes
+  (bnc #144694) 
 
 -------------------------------------------------------------------
 Tue Apr 22 18:20:39 CEST 2008 - coolo@suse.de
