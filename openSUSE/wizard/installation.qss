@@ -200,7 +200,7 @@ QGroupBox::title {
    font-weight: bold; color: #bbb;
 }
 
-#work_area QPushButton:disabled {
+#work_area QPushButton:flat { /* disabled state */
   color: rgba(255,255,255,80);
   border: 1px solid rgba(0,0,0,80);
   background: none;
@@ -216,29 +216,36 @@ QGroupBox::title {
   font-weight: bold;
 }
 
-#work_area QPushButton:default:pressed, #work_area QPushButton:pressed {
-  background-color: red; /* FIXME: doesn't seem to match */
-}
+  #work_area QPushButton:default:pressed, #work_area QPushButton:pressed {
+    background-color: red; /* FIXME: doesn't seem to match */
+  }
 
-#work_area QPushButton:hover {
-  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 #a5a5a5, stop: 0.7 #4d4d4d, stop: 1 #747474);
-  color: white;
-}
+  #work_area QPushButton:hover {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+      stop: 0 #a5a5a5, stop: 0.7 #4d4d4d, stop: 1 #747474);
+    color: white;
+  }
 
-#work_area QPushButton:flat {
-  border: none; /* no border for a flat push button */
-}
+  #work_area QPushButton:default {
+    border: 1px solid #0e5a00;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+      stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
+  }
+  #work_area QPushButton:default:hover {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+      stop: 0 #75ce1f, stop: 0.7 #4d8e0d, stop: 1 #7ac52f);
+  }
 
-#work_area QPushButton:default {
-  border: 1px solid #0e5a00;
-  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
+#work_area QProgressBar {
+  border: 1px solid #444;
+  border-radius: 2px;
+  text-align: center;
 }
-#work_area QPushButton:default:hover {
-  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 #75ce1f, stop: 0.7 #4d8e0d, stop: 1 #7ac52f);
-}
+  #work_area QProgressBar:chunk {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+      stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
+    /* background-color: #4d8e0d; */
+  }
 
 
 BusyBar {
