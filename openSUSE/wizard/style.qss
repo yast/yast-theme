@@ -1,7 +1,11 @@
 #steps 
 {
-  border: none;
   font-size: 90%;
+  border: 1px solid;
+  margin-right: 0px;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
 }
 
 .todo-step-status {
