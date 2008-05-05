@@ -21,19 +21,13 @@
   font-size: 10pt;
 }
 
-YQLogView QTextEdit {
+YQLogView QTextEdit, YQRichText > YQTextBrowser {
   qproperty-frameShape: NoShape;
   /* FIXME: some dialogs look odd due to overuse of whitespace. The background color looks less odd,
   but I bet alpha compositing is expensive on some hardware. */
   background-color: rgba(0, 0, 0, 60);
   border-radius: 4px;
-
-}
-
-YQRichText > YQTextBrowser {
-  background-color: rgba(0, 0, 0, 60);
-  border-radius: 4px;
-  qproperty-frameShape: NoShape;
+  padding: 1em;
 }
 
 QTextBrowser {
