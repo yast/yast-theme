@@ -205,7 +205,8 @@ QTabWidget::tab-bar {
   font-weight: bold;
 }
 
-  #work_area QPushButton:flat, #work_area QPushButton:disabled { /* disabled state */
+  #work_area QPushButton:flat, #work_area QPushButton:disabled,
+  #work_area QPushButton:default:disabled { /* disabled state */
     color: rgba(255,255,255,80);
     border: 1px solid rgba(0,0,0,80);
     background: none;
