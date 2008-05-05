@@ -245,18 +245,15 @@ QTabWidget::tab-bar {
     border: 1px solid #4d8e0d;
   }
 
+/* vertical sliders */
 #work_area QScrollBar:vertical {
   width: 16px;
   margin: 16px 0 16px 0;
   background-color: transparent;
 }
-  
+   
   #work_area QScrollBar::handle:vertical {
     min-height: 16px;
-    /*
-    background-color: rgba(40,255,40,50%);
-    border: 1px solid green;
-    */
     border: 1px solid #0e5a00;
     background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0,
       stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
@@ -286,6 +283,47 @@ QTabWidget::tab-bar {
     #work_area QScrollBar::down-arrow:vertical { background-image: url(arr_down.png); }
 
   #work_area QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background-color: transparent;
+  }
+
+/* horizontal */
+#work_area QScrollBar:horizontal {
+  height: 16px;
+  margin: 0 16px 0 16px;
+  background-color: transparent;
+}
+
+  #work_area QScrollBar::handle:horizontal {
+    min-width: 16px;
+    border: 1px solid #0e5a00;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+      stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
+    border-radius: 3px;
+  }
+  
+  #work_area QScrollBar::add-line:horizontal {
+    border: none;
+    background: transparent;
+    width: 16px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+  }
+
+  #work_area QScrollBar::sub-line:horizontal {
+    border: none;
+    width: 16px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+  }
+
+  #work_area QScrollBar::left-arrow:horizontal, #work_area QScrollBar::right-arrow:horizontal {
+    width: 8px;
+    height: 8px;
+  }
+    #work_area QScrollBar::right-arrow:horizontal { background-image: url(arr_right.png); }
+    #work_area QScrollBar::left-arrow:horizontal { background-image: url(arr_left.png); }
+
+  #work_area QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
     background-color: transparent;
   }
 
