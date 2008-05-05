@@ -251,7 +251,6 @@ QTabWidget::tab-bar {
     border: 1px solid #4d8e0d;
   }
 
-/* HELP! :) This ain't working! 
 #work_area QScrollBar:vertical {
   width: 10px;
   border: 1px solid grey;
@@ -260,7 +259,7 @@ QTabWidget::tab-bar {
 }
   
   #work_area QScrollBar::handle:vertical {
-    min-height: 10px;
+    min-height: 20px;
     background-color: rgba(40,255,40,50%);
     border: 1px solid grey;
   }
@@ -268,7 +267,7 @@ QTabWidget::tab-bar {
   #work_area QScrollBar::add-line:vertical {
     border: 2px solid grey;
     background: transparent;
-    height: 10px;
+    height: 20px;
     subcontrol-position: top;
     subcontrol-origin: margin;
   }
@@ -276,7 +275,7 @@ QTabWidget::tab-bar {
   #work_area QScrollBar::sub-line:vertical {
     border: 2px solid grey;
     background: green;
-    height: 10px;
+    height: 20px;
     subcontrol-position: bottom;
     subcontrol-origin: margin;
   }
@@ -291,7 +290,6 @@ QTabWidget::tab-bar {
   #work_area QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
     background-color: transparent;
   }
-*/
 
 BusyBar {
    qproperty-frameShape: NoShape;
