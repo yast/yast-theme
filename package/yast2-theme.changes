@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue May  6 11:44:58 CEST 2008 - sh@suse.de
+
+- Fixed bnc #384761: Typos in filenames (patten -> pattern) 
+- V 2.16.27
+
+-------------------------------------------------------------------
 Mon May  5 15:48:37 CEST 2008 - coolo@suse.de
 
 - style horizontal sliders too
