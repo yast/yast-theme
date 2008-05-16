@@ -31,7 +31,8 @@
    margin-bottom: 7px;
 }
 
-#DialogIcon { max-width: 0px; margin: 0px; }
+/* #DialogIcon { max-width: 0px; margin: 0px; } */
+
 #DialogHeading { 
   font-size: 20px; 
   padding: 12pt;
