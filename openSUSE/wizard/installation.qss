@@ -73,7 +73,8 @@ QTextBrowser {
    margin-bottom: 7px;
 }
 
-#DialogIcon { max-width: 0px; margin: 0px; }
+/* #DialogIcon { max-width: 0px; margin: 0px; } */
+
 #DialogHeading { 
   font: 16pt bold;
   padding: 12pt;

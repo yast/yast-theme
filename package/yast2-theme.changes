@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri May 16 16:29:48 CEST 2008 - sh@suse.de
+
+- Fixed bnc #374704: Missing icons in wizard
+  No longer actively suppressing the DialogIcon widget
+- V 2.16.28 
+
+-------------------------------------------------------------------
 Tue May  6 11:44:58 CEST 2008 - sh@suse.de
 
 - Fixed bnc #384761: Typos in filenames (patten -> pattern) 
