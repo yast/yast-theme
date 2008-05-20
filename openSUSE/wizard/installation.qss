@@ -108,13 +108,20 @@ QTextBrowser {
   .Contents QScrollBar::down-arrow,
   .Contents QScrollBar::up-arrow,
   .Contents QRadioButton::indicator,
+  .Contents QMenu,
   .Contents QTreeView { color: black; }
   .Contents QWidget:disabled { color: gray; }
+
+.Contents QMessageBox { background-color: #555; }
 
 YQMultiProgressMeter {
      background-color: transparent;
      border: 1px solid gray;
      border-radius: 3px;
+}
+
+YQPkgSelDescriptionView {
+     background-color: transparent;
 }
 
 .ymenubutton { background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
@@ -335,3 +342,7 @@ BusyBar {
    border: 2px solid yellow;
    border-radius: 4px;
 }
+
+QToolTip {
+  background-color: #555;
+} 
