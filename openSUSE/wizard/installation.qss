@@ -109,15 +109,22 @@ QTextBrowser {
   .Contents QScrollBar::up-arrow,
   .Contents QRadioButton::indicator,
   .Contents QMenu,
+  .Contents YQMultiLineEdit,
   .Contents QTreeView { color: black; }
   .Contents QWidget:disabled { color: gray; }
 
+.Contents YQMultiLineEdit QTextEdit { color: black; }
 .Contents QMessageBox { background-color: #555; }
 
 YQMultiProgressMeter {
      background-color: transparent;
      border: 1px solid gray;
      border-radius: 3px;
+}
+
+QMenu::item:selected { 
+             background-color: white;
+             color: black;
 }
 
 YQPkgSelDescriptionView {
