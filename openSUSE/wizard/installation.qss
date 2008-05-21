@@ -116,6 +116,8 @@ QTextBrowser {
 .Contents YQMultiLineEdit QTextEdit { color: black; }
 .Contents QMessageBox { background-color: #555; }
 
+.conflict QWidget { color: black; }
+
 YQMultiProgressMeter {
      background-color: transparent;
      border: 1px solid gray;
