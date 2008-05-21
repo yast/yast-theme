@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed May 21 07:29:48 CEST 2008 - coolo@suse.de
+
+- Several color fixes in the stylesheet (bnc#375177)
+- V 2.16.29
+
+-------------------------------------------------------------------
 Fri May 16 16:29:48 CEST 2008 - sh@suse.de
 
 - Fixed bnc #374704: Missing icons in wizard
