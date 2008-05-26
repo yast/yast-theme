@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon May 26 11:43:48 CEST 2008 - coolo@suse.de
+
+- fixing contrast of green and blue (bnc#373162)
+- V 2.16.30
+
+-------------------------------------------------------------------
 Wed May 21 07:29:48 CEST 2008 - coolo@suse.de
 
 - Several color fixes in the stylesheet (bnc#375177)
