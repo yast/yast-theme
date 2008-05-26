@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Mon May 26 21:50:30 CEST 2008 - coolo@suse.de
+
+- revert half of the last change
+
+-------------------------------------------------------------------
 Mon May 26 17:17:15 CEST 2008 - dmacvicar@suse.de
 
 - fix QTextBrowser have white text due to 
