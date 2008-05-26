@@ -82,7 +82,7 @@ QTextBrowser {
   margin: 0px;
 }
 
-.Contents QWidget { color: white; } 
+/*.Contents QWidget { color: white; } */
   /* these have light background though: */
   .Contents QComboBox,
   .Contents QComboBox *,
@@ -127,10 +127,6 @@ YQMultiProgressMeter {
 QMenu::item:selected { 
              background-color: white;
              color: black;
-}
-
-YQPkgSelDescriptionView {
-     background-color: transparent;
 }
 
 .ymenubutton { background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
@@ -355,3 +351,8 @@ BusyBar {
 QToolTip {
   background-color: #555;
 } 
+
+.Content QTextBrowser {
+  color: black;
+}
+
