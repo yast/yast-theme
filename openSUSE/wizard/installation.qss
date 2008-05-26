@@ -82,7 +82,7 @@ QTextBrowser {
   margin: 0px;
 }
 
-/*.Contents QWidget { color: white; } */
+.Contents QWidget { color: white; } 
   /* these have light background though: */
   .Contents QComboBox,
   .Contents QComboBox *,
@@ -352,7 +352,7 @@ QToolTip {
   background-color: #555;
 } 
 
-.Content QTextBrowser {
+.Contents QTextBrowser {
   color: black;
 }
 
