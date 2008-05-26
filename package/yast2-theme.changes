@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Mon May 26 17:17:15 CEST 2008 - dmacvicar@suse.de
+
+- fix QTextBrowser have white text due to 
+  QWidget setting color to white. (bnc#389739)
+- V 2.16.31
+
+-------------------------------------------------------------------
 Mon May 26 11:43:48 CEST 2008 - coolo@suse.de
 
 - fixing contrast of green and blue (bnc#373162)
