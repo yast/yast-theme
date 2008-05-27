@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue May 27 17:42:37 CEST 2008 - dmacvicar@suse.de
+
+- fix text color broken in previous changes.
+- V 2.16.32
+
+-------------------------------------------------------------------
 Mon May 26 21:50:30 CEST 2008 - coolo@suse.de
 
 - revert half of the last change

@@ -30,10 +30,6 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
   padding: 1em;
 }
 
-QTextBrowser {
-    color: black;
-}
-
 .current-step-name {
   background: rgba(60, 68, 70, 100);
   border-radius: 4px;
@@ -352,7 +348,7 @@ QToolTip {
   background-color: #555;
 } 
 
-.Contents QTextBrowser {
+.Contents YQPkgDescriptionView {
   color: black;
 }
 
