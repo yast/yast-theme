@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu May 29 15:10:24 CEST 2008 - sh@suse.de
+
+- Moved 48x48/yast2-casa-ats to correct directory (bnc #384744)
+- V 2.16.34
+
+-------------------------------------------------------------------
 Wed May 28 11:44:38 CEST 2008 - sh@suse.de
 
 - Added yast-casa-ats icons (bnc #384744)
