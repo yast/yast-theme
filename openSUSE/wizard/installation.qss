@@ -19,6 +19,7 @@
   background: url(logo.png) no-repeat top left;
   border: none;
   font-size: 10pt;
+  min-width: 190px;
 }
 
 YQLogView QTextEdit, YQRichText > YQTextBrowser {
