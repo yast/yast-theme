@@ -1,4 +1,22 @@
 -------------------------------------------------------------------
+Tue Jun  3 16:06:21 CEST 2008 - jsrain@suse.cz
+
+- added icons for yast-squid (bnc #392940)
+- 2.16.37
+
+-------------------------------------------------------------------
+Mon Jun  2 12:12:25 CEST 2008 - sh@suse.de
+
+- (coolo) Fixed bnc #395699: Wizard side bar too narrow in Korean
+- V 2.16.36 
+
+-------------------------------------------------------------------
+Fri May 30 11:55:50 CEST 2008 - sh@suse.de
+
+- Added icons for yast-casa (bnc #384744) 
+- V 2.16.35
+
+-------------------------------------------------------------------
 Thu May 29 15:10:24 CEST 2008 - sh@suse.de
 
 - Moved 48x48/yast2-casa-ats to correct directory (bnc #384744)
