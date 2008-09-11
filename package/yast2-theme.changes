@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Sep 11 15:36:58 CEST 2008 - jsrain@suse.cz
+
+- adapted to existence of yast2-branding packages (fate #301794)
+- 2.17.3
+
+-------------------------------------------------------------------
 Fri Aug 22 10:52:00 CEST 2008 - sschober@suse.de
 
 - added missing 22x22 yast2 group icons

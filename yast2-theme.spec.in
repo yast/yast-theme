@@ -1,7 +1,7 @@
 @HEADER-COMMENT@
 
 @HEADER@
-BuildRequires:	yast2-devtools yast2 pkg-config update-desktop-files hicolor-icon-theme fdupes
+BuildRequires:	yast2-devtools pkg-config update-desktop-files hicolor-icon-theme fdupes 
 BuildArchitectures: noarch
 Summary:	-
 %description
@@ -13,6 +13,7 @@ Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
 Provides:	yast2-theme-UnitedLinux
+Provides:	yast2-theme-openSUSE-any
 PreReq:		/bin/ln
 Requires:	hicolor-icon-theme
 Obsoletes:	yast2-theme-SuSELinux
@@ -25,6 +26,7 @@ Summary:	-
 Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
+Provides:	yast2-theme-openSUSE-any
 PreReq:		/bin/ln yast2-theme-openSUSE
 
 %package openSUSE-Oxygen
@@ -32,6 +34,7 @@ Summary:	-
 Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
+Provides:	yast2-theme-openSUSE-any
 PreReq:		/bin/ln yast2-theme-openSUSE
 Conflicts:      yast2-theme-openSUSE-Crystal
 
@@ -53,8 +56,8 @@ cp -R "$RPM_BUILD_ROOT/@docdir@" "$RPM_BUILD_ROOT/@docdir@-openSUSE"
 rm -rf "$RPM_BUILD_ROOT/@docdir@"
 # ghost file (not packed in RPM but listed)
 cd $RPM_BUILD_ROOT/@themedir@/
-rm -rf current
-ln -sn openSUSE current
+rm -rf openSUSE-current
+ln -sn openSUSE openSUSE-current
 #
 # make icons available to GNOME control center (hicolor theme)
 # (bug #166008)
@@ -62,13 +65,13 @@ mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/22x22/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/32x32/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/48x48/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/64x64/apps
-cd $RPM_BUILD_ROOT/@themedir@/current/icons
+cd $RPM_BUILD_ROOT/@themedir@/openSUSE-current/icons
 for dir in 22x22 32x32 48x48 64x64; do
-    cd $RPM_BUILD_ROOT/@themedir@/current/icons/$dir/apps
+    cd $RPM_BUILD_ROOT/@themedir@/openSUSE-current/icons/$dir/apps
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
-        ln -s @themedir@/current/icons/$dir/apps/$icon .
+        ln -s @themedir@/openSUSE-current/icons/$dir/apps/$icon .
     done
 done
 filelist=$(mktemp /tmp/fileListXXXXXX)
@@ -91,16 +94,16 @@ rm -rf $RPM_BUILD_ROOT/@themedir@
 %post openSUSE
 cd @themedir@
 if ! test -d openSUSE-Crystal && ! test -d openSUSE-Oxygen; then
-  ln -snf openSUSE current
+  ln -snf openSUSE openSUSE-current
 fi
 
 %post openSUSE-Crystal
 cd @themedir@
-ln -snf openSUSE-Crystal current
+ln -snf openSUSE-Crystal openSUSE-current
 
 %post openSUSE-Oxygen
 cd @themedir@
-ln -snf openSUSE-Oxygen current
+ln -snf openSUSE-Oxygen openSUSE-current
 
 %files openSUSE
 %defattr(-,root,root)
@@ -110,7 +113,7 @@ ln -snf openSUSE-Oxygen current
 %doc @docdir@-openSUSE
 # ghost file (not packed in RPM but listed)
 # remove the file when removing the RPM
-%ghost @themedir@/current
+%ghost @themedir@/openSUSE-current
 
 %files openSUSE-Crystal
 %defattr(-,root,root)
