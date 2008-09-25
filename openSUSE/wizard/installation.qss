@@ -1,6 +1,5 @@
 /* Background: wizard#full background.png */
 /* Background: work_area#full work_area.png */
-/* Background: steps sidebar.png */
 /* Richtext: installation_richtext.css */
 
 #wizard {
@@ -15,7 +14,7 @@
 }
 
 #steps {
-  padding: 3.5em 0 1em 1em;
+  padding: 3.5em 2em 1em 1em;
   background: url(logo.png) no-repeat top left;
   border: none;
   font-size: 10pt;
@@ -32,9 +31,9 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
 }
 
 .current-step-name {
-  background: rgba(60, 68, 70, 100);
+  /* background: rgba(60, 68, 70, 100);*/
   border-radius: 4px;
-  padding: 0 .3em;
+  /* padding: 0 .3em; */
   color: white;
 }
 
