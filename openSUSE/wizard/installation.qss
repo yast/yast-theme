@@ -31,18 +31,19 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
 }
 
 .current-step-name {
-  /* background: rgba(60, 68, 70, 100);*/
-  border-radius: 4px;
-  /* padding: 0 .3em; */
-  color: white;
+   border-radius: 4px;
+   color: white;
+   font-weight: bold;
 }
 
 .done-step-name {
    color: #dddddd;
+   font-weight: normal;
 }
 
 .todo-step-name {
    color: #bbbbbb;
+   font-weight: bold;
 }
 
 .todo-step-status {
