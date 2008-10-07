@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Oct  7 13:43:08 CEST 2008 - sh@suse.de
+
+- (jimmac) Fixed bnc #427923: Distro uses openSUSE 11.0 branding
+- V 2.17.5 
+
+-------------------------------------------------------------------
 Wed Sep 24 16:07:19 CEST 2008 - gs@suse.de
 
 - icons for new module yast2-audit-laf added
