@@ -43,6 +43,8 @@ Summary:	-
 Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
+Provides:       yast2-theme-NLD = 0.4.5
+Obsoletes:      yast2-theme-NLD <= 0.4.5
 PreReq:		/bin/ln
 
 %description openSUSE
