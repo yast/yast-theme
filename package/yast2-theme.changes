@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Nov  4 08:45:52 CET 2008 - jsrain@suse.cz
+
+- merged yast2-theme-SLE into one source package
+- fixed openSUSE-current symlink handling (bnc #436052)
+- 2.17.7
+
+-------------------------------------------------------------------
 Thu Oct 23 11:51:40 CEST 2008 - coolo@suse.de
 
 - update for Oxygen theme
