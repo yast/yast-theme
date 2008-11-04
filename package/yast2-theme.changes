@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Nov  4 12:18:17 CET 2008 - jsrain@suse.cz
+
+- fixed dependencies
+- 2.17.8
+
+-------------------------------------------------------------------
 Tue Nov  4 08:45:52 CET 2008 - jsrain@suse.cz
 
 - merged yast2-theme-SLE into one source package
