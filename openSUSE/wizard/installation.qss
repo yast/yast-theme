@@ -205,7 +205,9 @@ QComboBox {
     QComboBox QAbstractItemView {
       background: #444444;
       border: 1px solid #222222;
+      /* these don't render well and create ugly corners 
       border-radius: 4px;
+      */
       /* selection-background-color: #4d8e0d; */
     }
 
