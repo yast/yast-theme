@@ -83,8 +83,8 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
   /* these have light background though: */
   /*
   .Contents QComboBox,
-  */
   .Contents QComboBox *,
+  */
   .Contents QHeaderView,
   .Contents QLineEdit,
   .Contents QSpinBox,
@@ -164,6 +164,7 @@ QComboBox {
 
     QComboBox:editable {
        background: white;
+       color: black;
     }
 
     QComboBox:!editable, QComboBox::drop-down:editable {
