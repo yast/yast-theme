@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Fri Nov  7 03:15:17 CET 2008 - jimmac@novell.com
+
+- SLE: dithered backgrounds to 16bit to avoid color banding
+
+-------------------------------------------------------------------
 Thu Nov  6 10:20:22 CET 2008 - locilka@suse.cz
 
 - (jimmac) Fixed appearance of editable combo-boxes (bnc #440896).
