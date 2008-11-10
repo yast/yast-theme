@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Nov 10 16:06:04 CET 2008 - jimmac@novell.com
+
+- Qt doesn't like greyscale PNGs
+- 2.17.10
+
+-------------------------------------------------------------------
 Fri Nov  7 03:15:17 CET 2008 - jimmac@novell.com
 
 - SLE: dithered backgrounds to 16bit to avoid color banding
