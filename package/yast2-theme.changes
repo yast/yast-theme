@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Thu Nov 13 12:48:54 CET 2008 - jimmac@novell.com
+
+- SLE: fix tooltip background color. bug #442450
+
+-------------------------------------------------------------------
 Mon Nov 10 16:11:35 CET 2008 - coolo@suse.de
 
 - update from Martin for oxygen
