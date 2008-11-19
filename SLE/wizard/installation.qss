@@ -283,6 +283,7 @@ QTabWidget::tab-bar {
      subcontrol-origin: margin;
      subcontrol-position: left top;
      font-weight: bold; color: #bbb;
+     color: #333;
   }
 
 
