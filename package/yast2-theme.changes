@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Nov 19 10:07:10 CET 2008 - jsrain@suse.cz
+
+- fixed prefered openSUSE theme handling (bnc #444806)
+- 2.17.11
+
+-------------------------------------------------------------------
 Thu Nov 13 12:48:54 CET 2008 - jimmac@novell.com
 
 - SLE: fix tooltip background color. bug #442450
