@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
 Wed Nov 19 22:43:27 CET 2008 - jimmac@gmail.com
 
-- SLE: fix a label color for groups. bug #446712
+- SLE: fix a label color for groups. bnc #446712
+- 2.17.12
 
 -------------------------------------------------------------------
 Wed Nov 19 10:07:10 CET 2008 - jsrain@suse.cz
