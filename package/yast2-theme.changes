@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Nov 27 15:22:56 CET 2008 - jimmac@jimmac.net
+
+- openSUSE: make sure both image backgrounds are RGB to avoid compositing
+  issues (Discussed in bug #449150, some rendering artifacts still remain with
+  indexed/greyscale PNGs).
+
+-------------------------------------------------------------------
 Wed Nov 19 22:43:27 CET 2008 - jimmac@gmail.com
 
 - SLE: fix a label color for groups. bnc #446712
