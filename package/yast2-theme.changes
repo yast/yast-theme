@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Fri Nov 28 16:46:57 CET 2008 - jimmac@jimmac.net
+
+- SLE: make richtext headers readable. bug #446588
+
+-------------------------------------------------------------------
 Thu Nov 27 15:22:56 CET 2008 - jimmac@jimmac.net
 
 - openSUSE: make sure both image backgrounds are RGB to avoid compositing
