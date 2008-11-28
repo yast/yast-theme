@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Nov 28 17:05:41 CET 2008 - jimmac@jimmac.net
+
+- SLE: make the scrollbars, progressbar and buttons less saturated to match the 
+  color of the background. bug #449746
+
+-------------------------------------------------------------------
 Fri Nov 28 16:46:57 CET 2008 - jimmac@jimmac.net
 
 - SLE: make richtext headers readable. bug #446588
