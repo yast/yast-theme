@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Dec  9 13:21:08 CET 2008 - ug@suse.de
+
+- icon for deploy image in autoyast UI added (bnc#457580)
+- icon for firstboot in autoyast UI added (bnc#457579)
+- 2.17.14
+
+-------------------------------------------------------------------
 Fri Nov 28 17:05:41 CET 2008 - jimmac@jimmac.net
 
 - SLE: make the scrollbars, progressbar and buttons less saturated to match the 
