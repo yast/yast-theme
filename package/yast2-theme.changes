@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Dec 11 23:26:46 CET 2008 - jimmac@novell.com
+- crop images to force scaling at all resolutions. Suggested workaround for 
+  bug #438110
+- address some contrast issues with QCombox and QPushButon widgets with menus
+
+-------------------------------------------------------------------
 Tue Dec  9 13:21:08 CET 2008 - ug@suse.de
 
 - icon for deploy image in autoyast UI added (bnc#457580)
