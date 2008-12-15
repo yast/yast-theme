@@ -3,6 +3,7 @@ Mon Dec 15 15:40:42 CET 2008 - jimmac@novell.com
 
 - add a subtle stroke to the inactive tabs to avoid them merging 
   together visually
+- workaround for text clipping in dropboxes (see #448139)
 
 -------------------------------------------------------------------
 Thu Dec 11 23:26:46 CET 2008 - jimmac@novell.com

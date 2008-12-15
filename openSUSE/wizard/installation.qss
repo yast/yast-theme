@@ -154,7 +154,7 @@ QComboBox {
     stop: 0 #a5a5a5, stop: 0.8 #4d4d4d, stop: 1 #545454);
   padding: 4px 12px;
   padding: 2px 24px 2px 4px;
-  min-width: 6em;
+  /* min-width: 6em; */
 }
 
     QComboBox:editable {

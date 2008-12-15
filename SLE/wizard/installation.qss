@@ -159,7 +159,7 @@ QComboBox {
   padding: 4px 12px;
   color: #111111;
   padding: 2px 24px 2px 4px;
-  min-width: 6em;
+  /* min-width: 6em; */
 }
 
     QComboBox:editable {
