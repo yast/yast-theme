@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Dec 15 15:40:42 CET 2008 - jimmac@novell.com
+
+- add a subtle stroke to the inactive tabs to avoid them merging 
+  together visually
+
+-------------------------------------------------------------------
 Thu Dec 11 23:26:46 CET 2008 - jimmac@novell.com
 - crop images to force scaling at all resolutions. Suggested workaround for 
   bug #438110
