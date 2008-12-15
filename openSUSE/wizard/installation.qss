@@ -246,6 +246,10 @@ QTabWidget::tab-bar {
 
   QTabBar::tab:!selected {
     margin-top: 2px; /* make non-selected tabs look smaller */
+    margin-right: 1px; /* create some gaps between tabs so they don't merge */
+    border-top: 1px solid #494949;
+    border-left: 1px solid #494949;
+    border-right: 1px solid #494949;
   }
 
   /* make use of negative margins for overlapping tabs */
