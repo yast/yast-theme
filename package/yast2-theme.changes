@@ -1,4 +1,8 @@
 -------------------------------------------------------------------
+Tue Jan 13 14:35:38 CET 2009 - jimmac@novell.com
+- disable styling for QComboBox as it clips the label. bug #448139
+
+-------------------------------------------------------------------
 Thu Dec 11 23:26:46 CET 2008 - jimmac@novell.com
 - crop images to force scaling at all resolutions. Suggested workaround for 
   bug #438110
