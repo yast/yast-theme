@@ -1,6 +1,7 @@
 -------------------------------------------------------------------
 Tue Jan 13 14:35:38 CET 2009 - jimmac@novell.com
 - disable styling for QComboBox as it clips the label. bug #448139
+- 2.17.16
 
 -------------------------------------------------------------------
 Thu Dec 11 23:26:46 CET 2008 - jimmac@novell.com
