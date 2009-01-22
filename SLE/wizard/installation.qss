@@ -157,6 +157,7 @@ FIXME: If QComboBox is styled, label gets clipped
        the only workaround is to keep it unstyled :/
        see bug #448139
  
+
 QComboBox {
   border: 1px solid #999999;
   border-radius: 4px;
