@@ -14,7 +14,7 @@
 }
 
 #steps {
-  padding: 3.5em 2em 1em 1em;
+  padding: 5em 2em 1em 0.5em;
   background: url(logo.png) no-repeat top left;
   border: none;
   font-size: 10pt;
@@ -25,25 +25,24 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
   qproperty-frameShape: NoShape;
   /* FIXME: some dialogs look odd due to overuse of whitespace. The background color looks less odd,
   but I bet alpha compositing is expensive on some hardware. */
-  background-color: rgba(0, 0, 0, 60);
+  background-color: rgba(0, 0, 0, 10);
   border-radius: 4px;
   padding: 1em;
 }
 
 .current-step-name {
-   border-radius: 4px;
-   color: white;
-   font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 
 .done-step-name {
-   color: #dddddd;
-   font-weight: normal;
+  font-weight: normal;
+  color: #dddddd;
 }
 
 .todo-step-name {
    color: #bbbbbb;
-   font-weight: bold;
+  font-weight: bold;
 }
 
 .todo-step-status {
@@ -73,24 +72,24 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
 /* #DialogIcon { max-width: 0px; margin: 0px; } */
 
 #DialogHeading { 
+  font-family: FifthLeg, Sans-serif;
   font: 16pt bold;
   padding: 12pt;
-  color: #babdb6;
+  color: #333;
   margin: 0px;
 }
 
-.Contents QWidget { color: white; } 
-  /* these have light background though: */
-  /*
+.Contents QWidget { color: black; } 
+  /* these were special cased for openSUSE, but not needed anymore
   .Contents QComboBox,
   .Contents QComboBox *,
-  */
   .Contents QHeaderView,
   .Contents QLineEdit,
   .Contents QSpinBox,
   .Contents QDateEdit,
   .Contents QTimeEdit,
   .Contents QListWidget { color: black; }
+  */
   .Contents QCheckBox::indicator:checked { 
      image: url(plastique-checkbox.png); 
      padding-right: 2px;
@@ -99,12 +98,11 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
      image: url(plastique-radiobutton.png);
      padding-right: -1px;
    }
-  /*
+   /*
   .Contents QComboBox::drop-down,
   .Contents QComboBox::down-button,
   .Contents QComboBox::down-arrow,
   .Contents QComboBox::up-arrow,
-  */
   .Contents QScrollBar::down-button,
   .Contents QScrollBar::down-arrow,
   .Contents QScrollBar::up-arrow,
@@ -112,6 +110,7 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
   .Contents QMenu,
   .Contents YQMultiLineEdit,
   .Contents QTreeView { color: black; }
+  */
   .Contents QWidget:disabled { color: gray; }
 
 .Contents YQMultiLineEdit QTextEdit { color: black; }
@@ -136,6 +135,12 @@ QMenu::item:selected {
 
 YQProgressBar > YQWidgetCaption { margin-top: 20px; }
 
+QPushButton::menu-indicator {
+     subcontrol-origin: margin;
+     left: -7px;
+     subcontrol-position: right;
+}
+
 /*
 YQMultiProgressMeter::chunk {
      background-color: green;
@@ -146,46 +151,47 @@ YQMultiProgressMeter::chunk {
 
 */
 
+
 QComboBox {
-  color: white;
-  border: 1px solid #313131;
+  border: 1px solid #999999;
   border-radius: 4px;
   background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 #a5a5a5, stop: 0.8 #4d4d4d, stop: 1 #545454);
+    stop: 0 #cccccc, stop: 0.8 #999999, stop: 1 #bbbbbb);
   padding: 4px 12px;
+  color: #111111;
   padding: 2px 24px 2px 4px;
   /* min-width: 6em; */
 }
 
     QComboBox:editable {
        background: white;
-       color: black;
     }
 
     QComboBox:!editable, QComboBox::drop-down:editable {
-      color: white;
-      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-          stop: 0 #a5a5a5, stop: 0.8 #4d4d4d, stop: 1 #545454);
+        background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                    stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                    stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
     }
 
     /* QComboBox gets the "on" state when the popup is open */
     QComboBox:!editable:on, QComboBox::drop-down:editable:on {
-      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-          stop: 0 #4d4d4d, stop: 1 #545454);
+       background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                   stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,
+                                   stop: 0.5 #DDDDDD, stop: 1.0 #E1E1E1);
     }
 
     QComboBox:on { /* shift the text when the popup opens */
-      padding-top: 3px;
-      padding-left: 4px;
+       padding-top: 3px;
+       padding-left: 4px;
     }
 
     QComboBox::drop-down { /* arrow part of the widget */
-      subcontrol-origin: padding;
-      subcontrol-position: top right;
-      width: 24px;
+       subcontrol-origin: padding;
+       subcontrol-position: top right;
+       width: 24px;
 
-      border-top-right-radius: 4px; /* same radius as the QComboBox */
-      border-bottom-right-radius: 4px;
+       border-top-right-radius: 4px; /* same radius as the QComboBox */
+       border-bottom-right-radius: 4px;
     }
 
     QComboBox::down-arrow {
@@ -198,64 +204,78 @@ QComboBox {
     }
 
     QComboBox QAbstractItemView {
-      background: #444444;
-      border: 1px solid #222222;
-      color: white;
-      /* these don't render well and create ugly corners 
+      color: black;
+      background: #eeeeee;
+      border: 1px solid #dddddd;
+      /*
       border-radius: 4px;
+      selection-background-color: #4d8e0d;
+      selection-color: red;
       */
-      /* selection-background-color: #4d8e0d; */
     }
-
-
-
 
 QTabWidget::tab-bar {
   left: 5px; /* move to the right by 5px */
 }
+    /* FIXME - I wish to style the horizontal line below the tabs.
+       sadly it's not QTabWidget::pane as the Qt documentation implies.
+       I got some hints that it might be YQDumbTab, but cannot figure out a selector.
+       The one below, even if empty, will break the layout.
 
-  /* Style the tab using the tab sub-control. Note that
-     it reads QTabBar _not_ QTabWidget */
-  QTabBar::tab {
-    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 rgba(60,60,60,80), stop: 1.0 rgba(0,0,0,0));
-    border: 0px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    min-width: 8ex;
-    padding: 2px;
-    color: #bbbbbb;
-    margin-bottom: 2px;
-  }
+     YQDumbTab::pane { }
+     */
 
-  QTabBar::tab:selected {
-    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 #aaaaaa, stop: 0.4 #6f7d81, stop: 1.0 rgba(0,0,0,0));
-    color: white;
-    font-weight: bold;
-    border-top: 1px solid #444444;
-    border-left: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-      stop: 0 #444444, stop: 1.0 rgba(0,0,0,0));
-    border-right: 1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-      stop: 0 #444444, stop: 1.0 rgba(0,0,0,0));
-  }
+     /* Style the tab using the tab sub-control. Note that
+         it reads QTabBar _not_ QTabWidget */
+     QTabBar::tab {
+         background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                     stop: 0.5 #D8D8D8, stop: 1.0 rgba(255,255,255,0));
+         border: 1px solid #C4C4C3;
+         border-bottom: none;
+         border-top-left-radius: 4px;
+         border-top-right-radius: 4px;
+         min-width: 8ex;
+         padding: 2px;
+         margin-bottom: 2px;
+     }
 
-  QTabBar::tab:hover {
-    color: black;
-  }
+     QTabBar::tab:selected, QTabBar::tab:hover {
+         background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #fafafa, stop: 0.4 #f4f4f4,
+                                     stop: 0.5 #e7e7e7, stop: 1.0 rgba(255,255,255,0));
+     }
 
-  QTabBar::tab:!selected {
-    margin-top: 2px; /* make non-selected tabs look smaller */
-    margin-right: 1px; /* create some gaps between tabs so they don't merge */
-    border-top: 1px solid #494949;
-    border-left: 1px solid #494949;
-    border-right: 1px solid #494949;
-  }
+     QTabBar::tab:selected {
+       border-width: 2px;
+       border-color: #888888;
+       border-bottom: none;
+     }
 
-  /* make use of negative margins for overlapping tabs */
+     QTabBar::tab:!selected {
+         margin-top: 2px; /* make non-selected tabs look smaller */
+     }
 
-  QTabBar::tab:only-one {
-  }
+     /* make use of negative margins for overlapping tabs */
+     QTabBar::tab:selected {
+         /* expand/overlap to the left and right by 4px */
+         margin-left: -2px;
+         margin-right: -2px;
+     }
+
+     QTabBar::tab:first:selected {
+         margin-left: 0; /* the first selected tab has nothing to overlap with on the left */
+         border-left: 2px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                  stop: 0 #888888, stop: 1.0 rgba(128,128,128,0));
+     }
+
+     QTabBar::tab:last:selected {
+         margin-right: 0; /* the last selected tab has nothing to overlap with on the right */
+     }
+
+     QTabBar::tab:only-one {
+         margin: 0; /* if there is only one tab, we don't want overlapping margins */
+     }
 
 #work_area QGroupBox {
   /* Eventually I'd like to have this global. Possibly belongs to style.qss */
@@ -268,16 +288,17 @@ QTabWidget::tab-bar {
      subcontrol-origin: margin;
      subcontrol-position: left top;
      font-weight: bold; color: #bbb;
+     color: #333;
   }
 
 
 #work_area QPushButton {
-  border: 1px solid #313131;
+  border: 1px solid #999999;
   border-radius: 4px;
   background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-    stop: 0 #a5a5a5, stop: 0.8 #4d4d4d, stop: 1 #545454);
+    stop: 0 #cccccc, stop: 0.8 #999999, stop: 1 #bbbbbb);
   padding: 4px 12px;
-  color: #eeeeee;
+  color: #111111;
   font-weight: bold;
 }
 
@@ -291,7 +312,7 @@ QTabWidget::tab-bar {
   #work_area QPushButton:default:pressed, #work_area QPushButton:pressed {
     border: 1px solid #0e5a00;
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-      stop: 0 #4d8e0d, stop: 1 #5aa50f);
+      stop: stop: 0 #4d8e0d, stop: 1 #5aa50f);
   }
 
   #work_area QPushButton:hover {
@@ -301,9 +322,10 @@ QTabWidget::tab-bar {
   }
 
   #work_area QPushButton:default {
-    border: 1px solid #0e5a00;
+    border: 2px solid #173c10;
+    color: white;
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-      stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
+      stop: 0 #7da58f, stop: 0.8 #0a5327, stop: 1 #0d6c1f);
   }
   #work_area QPushButton:default:hover {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
@@ -318,9 +340,9 @@ QTabWidget::tab-bar {
   }
 
     #work_area QPushButton:open { /* when the button has its menu open */
-       background: #444444;
-       border: 1px solid #222222;
-       color: white;
+       color: black;
+       background: #eeeeee;
+       border: 1px solid #dddddd;
      }
 
      #work_area QPushButton::menu-indicator {
@@ -348,8 +370,8 @@ QTabWidget::tab-bar {
 }
   #work_area QProgressBar:chunk {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-      stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
-    border: 1px solid #4d8e0d;
+      stop: 0 #7da58f, stop: 0.8 #0a5327, stop: 1 #0d6c1f);
+    border: 1px solid #236f15;
   }
 
 /* vertical sliders */
@@ -361,9 +383,9 @@ QTabWidget::tab-bar {
    
   #work_area QScrollBar::handle:vertical {
     min-height: 16px;
-    border: 1px solid #0e5a00;
+    border: 1px solid #173c10;
     background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0,
-      stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
+      stop: 0 #7da58f, stop: 0.8 #0a5327, stop: 1 #0d6c1f);
     border-radius: 3px;
   }
 
@@ -402,9 +424,9 @@ QTabWidget::tab-bar {
 
   #work_area QScrollBar::handle:horizontal {
     min-width: 16px;
-    border: 1px solid #0e5a00;
+    border: 1px solid #173c10;
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-      stop: 0 #75ce1f, stop: 0.8 #4d8e0d, stop: 1 #5aa50f);
+      stop: 0 #7da58f, stop: 0.8 #0a5327, stop: 1 #0d6c1f);
     border-radius: 3px;
   }
   
@@ -442,7 +464,7 @@ BusyBar {
 }
 
 QToolTip {
-  background-color: #555;
+  background-color: #fffbdd;
 } 
 
 .Contents YQPkgDescriptionView {
