@@ -12,7 +12,7 @@
    height="8"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.46+devel"
    version="1.0"
    sodipodi:docname="arr_up.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
@@ -46,8 +46,8 @@
      inkscape:showpageshadow="false"
      inkscape:window-width="882"
      inkscape:window-height="788"
-     inkscape:window-x="441"
-     inkscape:window-y="333">
+     inkscape:window-x="1031"
+     inkscape:window-y="181">
     <inkscape:grid
        type="xygrid"
        id="grid5157"
@@ -70,7 +70,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:1;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="M 2.220446e-16,6 L 8,6 L 4,2 L 2.220446e-16,6 z"
        id="path5159" />
   </g>
