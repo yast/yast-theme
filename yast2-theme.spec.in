@@ -3,12 +3,12 @@
 @HEADER@
 BuildRequires:	yast2-devtools pkg-config update-desktop-files hicolor-icon-theme fdupes 
 BuildArchitectures: noarch
-Summary:	-
+Summary:	YaST2 - Theme
 %description
 -
 
 %package openSUSE
-Summary:	-
+Summary:	YaST2 - Theme (openSUSE)
 Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
