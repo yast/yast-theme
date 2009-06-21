@@ -22,7 +22,7 @@ Obsoletes:	yast2-theme-UnitedLinux
 Provides:       yast2-theme-UnitedLinux
 
 %package openSUSE-Crystal
-Summary:	-
+Summary:	YaST2 - Theme (openSUSE)
 Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
@@ -30,7 +30,7 @@ Provides:	yast2-theme-openSUSE-any
 PreReq:		/bin/ln yast2-theme-openSUSE
 
 %package openSUSE-Oxygen
-Summary:	-
+Summary:	YaST2 - Theme (openSUSE)
 Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
@@ -39,7 +39,7 @@ PreReq:		/bin/ln yast2-theme-openSUSE
 Conflicts:      yast2-theme-openSUSE-Crystal
 
 %package SLE
-Summary:	-
+Summary:	YaST2 - SLE Theme
 Version:	@VERSION@
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
