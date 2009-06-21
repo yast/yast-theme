@@ -5,7 +5,7 @@ BuildRequires:	yast2-devtools pkg-config update-desktop-files hicolor-icon-theme
 BuildArchitectures: noarch
 Summary:	YaST2 - Theme
 %description
--
+Contains the SuSE Linux theme for YaST2.
 
 %package openSUSE
 Summary:	YaST2 - Theme (openSUSE)
@@ -48,16 +48,17 @@ Obsoletes:      yast2-theme-NLD <= 0.4.5
 PreReq:		/bin/ln
 
 %description openSUSE
--
+This package contains the openSUSE theme for YaST2.
 
 %description openSUSE-Crystal
--
+This package contains the openSUSE theme for YaST2.
 
 %description openSUSE-Oxygen
--
+This package contains the openSUSE theme for YaST2.
 
 %description SLE
--
+This package contains the YaST2 theme for the SUSE Linux Enterprise
+Family.
 
 @PREP@
 
