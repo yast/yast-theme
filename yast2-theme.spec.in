@@ -1,6 +1,7 @@
 @HEADER-COMMENT@
 
 @HEADER@
+License: GPL v2 or later
 BuildRequires:	yast2-devtools pkg-config update-desktop-files hicolor-icon-theme fdupes 
 BuildArchitectures: noarch
 Summary:	YaST2 - Theme
