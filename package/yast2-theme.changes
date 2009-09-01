@@ -2,6 +2,7 @@
 Tue Sep  1 09:44:54 CEST 2009 - jimmac@novell.com
 - yast-webpin for openSUSE and SLE themes.
 - yast-dump. bug #529982
+- yast-xpram. bug #529984
 
 -------------------------------------------------------------------
 Mon Aug 24 10:55:06 CEST 2009 - kmachalkova@suse.cz
