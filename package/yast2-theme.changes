@@ -1,6 +1,10 @@
 -------------------------------------------------------------------
-Tue Sep  1 09:44:54 CEST 2009 - jimmac@novell.com
+Fri Sep  4 12:25:22 CEST 2009 - jimmac@novell.com
 
+- yast.png. Same app icon everywhere -- bug #535398
+
+-------------------------------------------------------------------
+Tue Sep  1 09:44:54 CEST 2009 - jimmac@novell.com
 - yast-webpin for openSUSE and SLE themes.
 - yast-dump. bnc#529982
 - yast-xpram. bnc#529984
