@@ -167,6 +167,10 @@ QComboBox {
   /* min-width: 6em; */
 }
 
+  QComboBox:focus {
+    border: 2px solid #173c10;
+  }
+
     QComboBox:editable {
        background: white;
     }

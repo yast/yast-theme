@@ -4,6 +4,7 @@ Wed Sep 16 11:41:06 CEST 2009 - jimmac@novell.com
 - dark gnome logo for the light installer
 - REIPL icon. bnc#529990
 - all states for the checkbox widget. bnc#445418
+- focused state for qcombobox. bnc#499909
 
 -------------------------------------------------------------------
 Tue Sep  8 10:26:23 CEST 2009 - tgoettlicher@suse.de
