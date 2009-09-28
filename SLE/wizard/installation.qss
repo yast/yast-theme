@@ -92,11 +92,11 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
   .Contents QCheckBox::indicator:checked { 
      image: url(checkbox-on.png); 
    }
-  .Contents QCheckBox::indicator:disabled { 
-     image: url(checkbox-disabled.png); 
-   }
   .Contents QCheckBox::indicator:unchecked { 
      image: url(checkbox-off.png); 
+   }
+  .Contents QCheckBox::indicator:disabled { 
+     opacity: 0.5;
    }
   .Contents QRadioButton::indicator:checked {
      image: url(plastique-radiobutton.png);
