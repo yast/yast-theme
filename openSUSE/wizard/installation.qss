@@ -310,6 +310,11 @@ QTabWidget::tab-bar {
   color: #111111;
   font-weight: bold;
 }
+ 
+  #work_area QPushButton:focus, #work_area QPushButton:focus:default {
+    outline: none;
+    border: 2px solid #173c10;
+  }
 
   #work_area QPushButton:disabled,
   #work_area QPushButton:default:disabled {
@@ -331,7 +336,7 @@ QTabWidget::tab-bar {
   }
 
   #work_area QPushButton:default {
-    border: 2px solid #173c10;
+    border: 1px solid #173c10;
     color: white;
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
       stop: 0 #7da58f, stop: 0.8 #0a5327, stop: 1 #0d6c1f);
