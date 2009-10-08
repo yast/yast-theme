@@ -485,3 +485,8 @@ QToolTip {
   color: black;
 }
 
+QSplitter::handle {
+    image: url(separator.png);
+    height: 10px;
+}
+
