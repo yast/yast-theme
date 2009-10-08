@@ -23,11 +23,8 @@
 
 YQLogView QTextEdit, YQRichText > YQTextBrowser {
   qproperty-frameShape: NoShape;
-  /* FIXME: some dialogs look odd due to overuse of whitespace. The background color looks less odd,
-  but I bet alpha compositing is expensive on some hardware. */
-  background-color: rgba(0, 0, 0, 10);
+  background-color: transparent;
   border-radius: 4px;
-  padding: 1em;
 }
 
 .current-step-name {
