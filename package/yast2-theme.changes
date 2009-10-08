@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Thu Oct  8 17:27:33 CEST 2009 - jimmac@novell.com
+
+- remove padding around richtext to work around Qt regression. bnc#533581
+
+-------------------------------------------------------------------
 Wed Sep 16 11:41:06 CEST 2009 - jimmac@novell.com
 
 - dark gnome logo for the light installer
