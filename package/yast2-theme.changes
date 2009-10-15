@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Oct 15 10:03:22 UTC 2009 - coolo@novell.com
+
+- fix gnome-pattern icon (bnc#545753)
+- 2.18.10
+
+-------------------------------------------------------------------
 Thu Oct  8 17:27:33 CEST 2009 - jimmac@novell.com
 
 - remove padding around richtext to work around Qt regression. bnc#533581
