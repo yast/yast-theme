@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Wed Nov  4 14:49:33 CET 2009 - jimmac@novell.com
+
+- fix margin for the sidebar headers. bnc#547641
+
+-------------------------------------------------------------------
 Thu Oct 15 10:03:22 UTC 2009 - coolo@novell.com
 
 - fix gnome-pattern icon (bnc#545753)
