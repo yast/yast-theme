@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Wed Nov  4 13:45:23 CET 2009 - jimmac@novell.com
+
+- fixes to the focus state of the widgets and checkboxes take from trunk. bnc#445418, bnc#471861
+
+-------------------------------------------------------------------
 Thu Jan 22 12:24:56 CET 2009 - jimmac@novell.com
 
 - set the SLE green for links (a) as well. bug #446588
