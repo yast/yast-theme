@@ -63,7 +63,7 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
 .steps_heading {
    font-weight: bold;  
    color: white;
-   margin-bottom: 7px;
+   margin: 1em 0 0 0;
 }
 
 /* #DialogIcon { max-width: 0px; margin: 0px; } */
