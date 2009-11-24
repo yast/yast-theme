@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Tue Nov 24 14:52:37 CET 2009 - jimmac@novell.com
+
+- use wrench for the launcher icon again. In all sizes. The arrdvark mascot added as yast-mascot. bnc#501452, bnc#544921
+
+-------------------------------------------------------------------
 Wed Nov  4 14:49:33 CET 2009 - jimmac@novell.com
 
 - fix margin for the sidebar headers. bnc#547641
