@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Wed Dec  2 19:29:14 CET 2009 - jimmac@novell.com
+
+- address the button submenu styling. bnc#444400 and bnc#458001.
+
+-------------------------------------------------------------------
 Tue Nov 24 14:52:37 CET 2009 - jimmac@novell.com
 
 - use wrench for the launcher icon again. In all sizes. The arrdvark mascot added as yast-mascot. bnc#501452, bnc#544921

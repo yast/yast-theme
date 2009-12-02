@@ -126,14 +126,7 @@ YQMultiProgressMeter {
      border-radius: 3px;
 }
 
-QMenu::item:selected { 
-             background-color: white;
-             color: black;
-}
 
-.ymenubutton { background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                 stop: 0 #a5a5a5, stop: 0.8 #4d4d4d, stop: 1 #545454);
-}
 
 YQProgressBar > YQWidgetCaption { margin-top: 20px; }
 
@@ -353,6 +346,20 @@ QTabWidget::tab-bar {
        border: 1px solid #dddddd;
      }
 
+  /* button menus */
+  QPushButton QMenu {
+    border: 1px solid #888;
+    
+  }
+  QPushButton QMenu::item { 
+                 background-color: #bebebe;
+                 color: black;
+    }
+
+  QPushButton QMenu::item:selected { 
+                 background-color: #4d8e0d;
+                 color: white;
+    }
 
 #work_area QProgressBar {
   border: 1px solid #444;
