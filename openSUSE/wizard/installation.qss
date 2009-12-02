@@ -196,15 +196,13 @@ QComboBox {
        left: 1px;
     }
 
-    QComboBox QAbstractItemView {
+    QComboBox QAbstractItemView,
+    QComboBox QMenu {
       color: black;
-      background: #eeeeee;
-      border: 1px solid #dddddd;
-      /*
-      border-radius: 4px;
+      background: #bebbe;
+      border: 1px solid #888;
       selection-background-color: #4d8e0d;
-      selection-color: red;
-      */
+      selection-color: white;
     }
 
 QTabWidget::tab-bar {
