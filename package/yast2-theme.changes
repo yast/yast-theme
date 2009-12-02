@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Wed Dec  2 19:31:45 CET 2009 - jimmac@novell.com
+
+- fix for bnc#444400 from trunk
+
+-------------------------------------------------------------------
 Wed Nov  4 13:45:23 CET 2009 - jimmac@novell.com
 
 - fixes to the focus state of the widgets and checkboxes take from trunk. bnc#445418, bnc#471861
