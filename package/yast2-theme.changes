@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Jan 22 13:11:08 CET 2010 - jsrain@suse.cz
+
+- added icons for openvas module (fate#307440)
+- 2.17.18
+
+-------------------------------------------------------------------
 Thu Jan 22 12:24:56 CET 2009 - jimmac@novell.com
 
 - set the SLE green for links (a) as well. bug #446588
