@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Mar 12 10:08:16 CET 2010 - jsrain@suse.cz
+
+- added openvas module icons also for SLE (bnc#587800)
+- 2.17.19
+
+-------------------------------------------------------------------
 Fri Jan 22 13:11:08 CET 2010 - jsrain@suse.cz
 
 - added icons for openvas module (fate#307440)
