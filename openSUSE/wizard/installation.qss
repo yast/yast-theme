@@ -14,7 +14,7 @@
 }
 
 #steps {
-  padding: 5em 2em 1em 0.5em;
+  padding: 90px 2em 1em 0.5em;
   background: url(logo.png) no-repeat top left;
   border: none;
   font-size: 10pt;
