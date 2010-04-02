@@ -475,3 +475,13 @@ QSplitter::handle {
     height: 10px;
 }
 
+/* Eeeky workaround for a light rectangle betwee H and Vscrollbars. see bug #589443 */
+QAbstractScrollArea {
+    border: 1px solid #888;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 1px;
+}
+  QAbstractScrollArea>* {
+    border: 0;
+  }
