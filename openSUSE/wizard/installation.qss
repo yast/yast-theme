@@ -28,41 +28,41 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
 }
 
 .current-step-name {
-  color: white;
+  color: #000;
   font-weight: bold;
 }
 
 .done-step-name {
   font-weight: normal;
-  color: #dddddd;
+  color: #444;
 }
 
 .todo-step-name {
-   color: #bbbbbb;
-  font-weight: bold;
+   color: #000;
+  font-weight: normal;
 }
 
 .todo-step-status {
-   qproperty-pixmap: url(white-step-todo.png);
+   qproperty-pixmap: url(step-todo.png);
    max-width: 14px;
    min-width: 14px;
 }
 
 .done-step-status {
-   qproperty-pixmap: url(white-step-done.png);
+   qproperty-pixmap: url(step-done.png);
    max-width: 14px;
    min-width: 14px;
 }
 
 .current-step-status {
-   qproperty-pixmap: url(white-step-current.png);
+   qproperty-pixmap: url(step-current.png);
    max-width: 14px;
    min-width: 14px;
 }
 
 .steps_heading {
    font-weight: bold;  
-   color: white;
+   color: #444;
    margin: 1em 0 0 0;
 }
 
