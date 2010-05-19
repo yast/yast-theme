@@ -2,5 +2,5 @@
 # Makefile.am for theme/openSUSE-Oxygen/icons
 #
 
-SUBDIRS = 48x48 32x32 22x22
+SUBDIRS = 64x64 48x48 32x32 22x22
 
