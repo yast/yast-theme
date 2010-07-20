@@ -47,6 +47,17 @@ Provides:       yast2-theme-NLD = 0.4.5
 Obsoletes:      yast2-theme-NLD <= 0.4.5
 PreReq:		/bin/ln
 
+%package SLES-for-VMware
+License:        Other uncritical OpenSource License
+Summary:        YaST2 - SLES-for-VMware Theme
+Version:        2.17.20
+Release:        0.<RELEASE2>
+Group:          System/YaST
+Provides:       yast2_theme = %{version}
+Provides:       yast2-theme-NLD = 0.4.5
+Obsoletes:      yast2-theme-NLD <= 0.4.5
+PreReq:         /bin/ln
+
 %description openSUSE
 -
 
@@ -57,6 +68,9 @@ PreReq:		/bin/ln
 -
 
 %description SLE
+-
+
+%description SLES-for-VMware
 -
 
 @PREP@
@@ -142,4 +156,8 @@ ln -snf openSUSE-Oxygen openSUSE-current
 %dir @themedir@
 @themedir@/SLE
 
+%files SLES-for-VMware
+%defattr(-,root,root)
+%dir @themedir@
+@themedir@/SLES-for-VMware
 
