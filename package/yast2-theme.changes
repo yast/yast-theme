@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Thu Nov 18 10:39:14 CET 2010 - jsrain@novell.com
+
+- address the button submenu styling. bnc#444400 and bnc#458001.
+
+-------------------------------------------------------------------
 Fri Mar 12 10:08:16 CET 2010 - jsrain@suse.cz
 
 - added openvas module icons also for SLE (bnc#587800)
