@@ -14,7 +14,7 @@
 }
 
 #steps {
-  padding: 90px 2em 1em 0.5em;
+  padding: 5em 2em 1em 0.5em;
   background: url(logo.png) no-repeat top left;
   border: none;
   font-size: 10pt;
@@ -28,41 +28,41 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
 }
 
 .current-step-name {
-  color: #000;
+  color: white;
   font-weight: bold;
 }
 
 .done-step-name {
   font-weight: normal;
-  color: #444;
+  color: #dddddd;
 }
 
 .todo-step-name {
-   color: #000;
-  font-weight: normal;
+   color: #bbbbbb;
+  font-weight: bold;
 }
 
 .todo-step-status {
-   qproperty-pixmap: url(step-todo.png);
+   qproperty-pixmap: url(white-step-todo.png);
    max-width: 14px;
    min-width: 14px;
 }
 
 .done-step-status {
-   qproperty-pixmap: url(step-done.png);
+   qproperty-pixmap: url(white-step-done.png);
    max-width: 14px;
    min-width: 14px;
 }
 
 .current-step-status {
-   qproperty-pixmap: url(step-current.png);
+   qproperty-pixmap: url(white-step-current.png);
    max-width: 14px;
    min-width: 14px;
 }
 
 .steps_heading {
    font-weight: bold;  
-   color: #444;
+   color: white;
    margin: 1em 0 0 0;
 }
 
@@ -199,7 +199,7 @@ QComboBox {
     QComboBox QAbstractItemView,
     QComboBox QMenu {
       color: black;
-      background-color: #bebebe;
+      background: #bebbe;
       border: 1px solid #888;
       selection-background-color: #4d8e0d;
       selection-color: white;
@@ -482,6 +482,7 @@ QAbstractScrollArea {
     border-radius: 5px;
     padding: 1px;
 }
-  QAbstractScrollArea>* {
-    border: 0;
-  }
+QAbstractScrollArea>* {
+   border: 0;
+}
+
