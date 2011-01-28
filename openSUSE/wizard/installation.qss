@@ -38,8 +38,8 @@ YQLogView QTextEdit, YQRichText > YQTextBrowser {
 }
 
 .todo-step-name {
-   color: #bbbbbb;
-  font-weight: bold;
+  color: #ccc;
+  font-weight: normal;
 }
 
 .todo-step-status {
