@@ -1,0 +1,74 @@
+#work_area {
+  background: url(metal.png); 
+}
+
+#_clientArea {
+  background: url(metal.png); 
+}
+
+* {
+ selection-color: white;
+ selection-background-color: darkgreen;
+}
+
+QTextEdit, QListView, QLineEdit, QTreeWidget {
+    background-attachment: scroll;
+  qproperty-frameShape: StyledPanel;
+
+/*   background: url(metal.png);  */
+} 
+
+
+
+
+
+/* Background: wizard#full metal.png */
+
+
+#steps 
+{
+  font-size: 90%;
+  border: 1px solid;
+  margin-right: 0px;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+.todo-step-status {
+   qproperty-pixmap: url(step-todo.png);
+   max-width: 14px;
+   min-width: 14px;
+}
+
+.done-step-status {
+   qproperty-pixmap: url(step-done.png);
+   max-width: 14px;
+   min-width: 14px;
+}
+
+.current-step-status {
+   qproperty-pixmap: url(step-current.png);
+   max-width: 14px;
+   min-width: 14px;
+}
+
+.steps_heading {
+   font: bold;  
+   margin-bottom: 7px;
+
+}
+
+
+#DialogHeading { 
+  font-family: Sans-serif;
+  font-size: 20px; 
+  padding: 12pt;
+  font-style: bold;
+  color: #222222;
+
+}
+
+
+
+
