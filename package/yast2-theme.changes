@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Apr 28 17:22:33 CEST 2011 - tgoettlicher@suse.de
+
+- Added openSUSE-Metal theme 
+- 2.21.1
+
+-------------------------------------------------------------------
 Wed Feb  2 16:49:48 CET 2011 - tgoettlicher@suse.de
 
 - fixed font shown in qt interface (bnc #545581)
