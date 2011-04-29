@@ -40,17 +40,6 @@ Provides:	yast2-theme-openSUSE-any
 PreReq:		/bin/ln yast2-theme-openSUSE
 Conflicts:      yast2-theme-openSUSE-Crystal
 
-%package openSUSE-Metal
-Summary:	YaST2 - Theme (openSUSE)
-Version:	@VERSION@
-Group:		System/YaST
-Provides:	yast2_theme = %{version}
-Provides:	yast2-theme-openSUSE-any
-PreReq:		/bin/ln yast2-theme-openSUSE
-Conflicts:      yast2-theme-openSUSE-Crystal yast2-theme-openSUSE-Oxygen
-
-
-
 
 %package SLE
 Summary:	YaST2 - SLE Theme
@@ -69,9 +58,6 @@ This package contains the openSUSE theme for YaST2.
 
 %description openSUSE-Oxygen
 This package contains the openSUSE theme for YaST2.
-
-%description openSUSE-Metal
-This package provides metal background for YaST2 window.
 
 %description SLE
 This package contains the YaST2 theme for the SUSE Linux Enterprise
@@ -107,7 +93,7 @@ done
 filelist=$(mktemp /tmp/fileListXXXXXX)
 cd $RPM_BUILD_ROOT/@themedir@/openSUSE
 files=$(find . -type f)
-for subtheme in Crystal Oxygen Metal; do
+for subtheme in Crystal Oxygen ; do
   cd $RPM_BUILD_ROOT/@themedir@/openSUSE-$subtheme
   for file in $files; do
     mkdir -p $(dirname "$file") || true
@@ -123,7 +109,7 @@ rm -rf $RPM_BUILD_ROOT/@themedir@
 
 %post openSUSE
 cd @themedir@
-if ! test -d openSUSE-Crystal && ! test -d openSUSE-Oxygen && ! test -f openSUSE-Metal ; then
+if ! test -d openSUSE-Crystal && ! test -d openSUSE-Oxygen ; then
   ln -snf openSUSE openSUSE-current
 fi
 
@@ -134,10 +120,6 @@ ln -snf openSUSE-Crystal openSUSE-current
 %post openSUSE-Oxygen
 cd @themedir@
 ln -snf openSUSE-Oxygen openSUSE-current
-
-%post openSUSE-Metal
-cd @themedir@
-ln -snf openSUSE-Metal openSUSE-current
 
 %files openSUSE
 %defattr(-,root,root)
@@ -158,11 +140,6 @@ ln -snf openSUSE-Metal openSUSE-current
 %defattr(-,root,root)
 %dir @themedir@
 @themedir@/openSUSE-Oxygen
-
-%files openSUSE-Metal
-%defattr(-,root,root)
-%dir @themedir@
-@themedir@/openSUSE-Metal
 
 %files SLE
 %defattr(-,root,root)
