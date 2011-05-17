@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue May 17 15:14:02 CEST 2011 - tgoettlicher@suse.de
+
+- Added icons for FCoE (Fibre Channel over Ethernet)
+- 2.21.3
+
+-------------------------------------------------------------------
 Fri Apr 29 14:31:58 CEST 2011 - tgoettlicher@suse.de
 
 - Removed openSUSE-Metal theme (bnc #690851)
