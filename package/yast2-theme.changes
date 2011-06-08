@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Jun  7 19:26:01 UTC 2011 - badshah400@gmail.com
+
+- Include high resolution png images (256x256) and scalable svg
+  images to make icons look better in gnome-shell
+- 2.21.4
+
+-------------------------------------------------------------------
 Tue May 17 15:14:02 CEST 2011 - tgoettlicher@suse.de
 
 - Added icons for FCoE (Fibre Channel over Ethernet)
