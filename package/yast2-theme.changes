@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Aug  4 14:57:50 CEST 2011 - tgoettlicher@suse.de
+
+- Added icons with red, green, yellow and gray dots, needed
+  for snapper (bnc #710084)
+- 2.17.21
+
+-------------------------------------------------------------------
 Thu Jun 16 15:53:41 CEST 2011 - aschnell@suse.de
 
 - added yast-spanner.png used by yast2-storage
