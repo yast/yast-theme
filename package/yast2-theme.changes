@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Aug  4 14:52:52 CEST 2011 - tgoettlicher@suse.de
+
+- Added icons with red, green, yellow and gray dots, needed
+  for snapper (bnc #710084)
+- 2.21.6
+
+-------------------------------------------------------------------
 Thu Jun  9 15:31:18 CEST 2011 - tgoettlicher@suse.de
 
 - Fixed spec file to include 256x256 icons.
