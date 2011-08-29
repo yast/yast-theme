@@ -1,5 +1,5 @@
 #
-# Makefile.am for theme/SLE/icons/22x22
+# Makefile.am for theme/openSUSE/icons/22x22
 #
 
 SUBDIRS = apps
