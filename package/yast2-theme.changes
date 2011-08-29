@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Aug 29 12:47:08 CEST 2011 - tgoettlicher@suse.de
+
+- Added icons for snapper (bnc#711193) and s390 modules
+- 2.21.7
+
+-------------------------------------------------------------------
 Thu Aug  4 14:52:52 CEST 2011 - tgoettlicher@suse.de
 
 - Added icons with red, green, yellow and gray dots, needed
