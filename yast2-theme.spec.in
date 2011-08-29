@@ -48,7 +48,7 @@ Obsoletes:      yast2-theme-NLD <= 0.4.5
 PreReq:		/bin/ln
 
 %package SLES-for-VMware
-License:        Other uncritical OpenSource License
+License:        GPL-2.0+
 Summary:        YaST2 - SLES-for-VMware Theme
 Version:        2.17.20
 Release:        0.<RELEASE2>
