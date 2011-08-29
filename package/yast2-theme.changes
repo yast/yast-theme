@@ -1,4 +1,16 @@
 -------------------------------------------------------------------
+Mon Aug 29 16:14:21 CEST 2011 - tgoettlicher@suse.de
+
+- Fixed license in spec file
+- 2.17.23
+
+-------------------------------------------------------------------
+Mon Aug 29 12:56:18 CEST 2011 - tgoettlicher@suse.de
+
+- Added icons for snapper (bnc#711193) and s390 modules
+- 2.17.22
+
+-------------------------------------------------------------------
 Thu Aug  4 14:57:50 CEST 2011 - tgoettlicher@suse.de
 
 - Added icons with red, green, yellow and gray dots, needed
