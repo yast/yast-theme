@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Aug 29 16:52:47 CEST 2011 - tgoettlicher@suse.de
+
+- Added icons for snapper (bnc#711193) and s390 modules to SLE theme
+- 2.21.8
+
+-------------------------------------------------------------------
 Mon Aug 29 12:47:08 CEST 2011 - tgoettlicher@suse.de
 
 - Added icons for snapper (bnc#711193) and s390 modules
