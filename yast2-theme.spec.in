@@ -40,6 +40,15 @@ Provides:	yast2-theme-openSUSE-any
 PreReq:		/bin/ln yast2-theme-openSUSE
 Conflicts:      yast2-theme-openSUSE-Crystal
 
+%package openSUSE-PrimeMeridian
+Summary:	YaST2 - Theme (openSUSE)
+Version:	@VERSION@
+Group:		System/YaST
+Provides:	yast2_theme = %{version}
+Provides:	yast2-theme-openSUSE-any
+PreReq:		/bin/ln yast2-theme-openSUSE
+Conflicts:      yast2-theme-openSUSE-Crystal
+
 
 %package SLE
 Summary:	YaST2 - SLE Theme
@@ -58,6 +67,11 @@ This package contains the openSUSE theme for YaST2.
 
 %description openSUSE-Oxygen
 This package contains the openSUSE theme for YaST2.
+
+%description openSUSE-PrimeMeridian
+This package contains the openSUSE theme for YaST2.
+
+
 
 %description SLE
 This package contains the YaST2 theme for the SUSE Linux Enterprise
@@ -95,7 +109,7 @@ done
 filelist=$(mktemp /tmp/fileListXXXXXX)
 cd $RPM_BUILD_ROOT/@themedir@/openSUSE
 files=$(find . -type f)
-for subtheme in Crystal Oxygen ; do
+for subtheme in Crystal Oxygen PrimeMeridian ; do
   cd $RPM_BUILD_ROOT/@themedir@/openSUSE-$subtheme
   for file in $files; do
     mkdir -p $(dirname "$file") || true
@@ -104,6 +118,7 @@ for subtheme in Crystal Oxygen ; do
     fi
   done
 done
+
 %fdupes $RPM_BUILD_ROOT/@themedir@
 
 @CLEAN@
@@ -111,7 +126,7 @@ rm -rf $RPM_BUILD_ROOT/@themedir@
 
 %post openSUSE
 cd @themedir@
-if ! test -d openSUSE-Crystal && ! test -d openSUSE-Oxygen ; then
+if ! test -d openSUSE-Crystal && ! test -d openSUSE-Oxygen && ! test -d openSUSE-PrimeMeridian; then
   ln -snf openSUSE openSUSE-current
 fi
 
@@ -122,6 +137,10 @@ ln -snf openSUSE-Crystal openSUSE-current
 %post openSUSE-Oxygen
 cd @themedir@
 ln -snf openSUSE-Oxygen openSUSE-current
+
+%post openSUSE-PrimeMeridian
+cd @themedir@
+ln -snf openSUSE-PrimeMeridian openSUSE-current
 
 %files openSUSE
 %defattr(-,root,root)
@@ -142,6 +161,11 @@ ln -snf openSUSE-Oxygen openSUSE-current
 %defattr(-,root,root)
 %dir @themedir@
 @themedir@/openSUSE-Oxygen
+
+%files openSUSE-PrimeMeridian
+%defattr(-,root,root)
+%dir @themedir@
+@themedir@/openSUSE-PrimeMeridian
 
 %files SLE
 %defattr(-,root,root)
