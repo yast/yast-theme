@@ -335,3 +335,9 @@ QTextBrowser:focus {
 	border-radius: 2px;
 	margin: 0px;
 }
+
+QTextBrowser:hover {
+	border: 2px solid rgb(208,228,166); 	/* suse light green */
+	border-radius: 2px;
+	margin: 0px;
+}
