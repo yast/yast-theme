@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Sep 22 14:24:52 UTC 2011 - coolo@suse.com
+
+- move wizards into art repo - yast2-qt-branding now required by
+  yast2-qt
+
+-------------------------------------------------------------------
 Mon Aug 29 16:52:47 CEST 2011 - tgoettlicher@suse.de
 
 - Added icons for snapper (bnc#711193) and s390 modules to SLE theme
