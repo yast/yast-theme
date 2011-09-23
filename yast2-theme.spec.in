@@ -18,10 +18,6 @@ Provides:	yast2-theme-UnitedLinux
 Provides:	yast2-theme-openSUSE-any
 PreReq:		/bin/ln
 Requires:	hicolor-icon-theme
-Obsoletes:	yast2-theme-SuSELinux
-Provides:       yast2-theme-SuSELinux
-Obsoletes:	yast2-theme-UnitedLinux
-Provides:       yast2-theme-UnitedLinux
 
 %package openSUSE-Crystal
 Summary:	YaST2 - Theme (openSUSE)
