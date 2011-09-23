@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Sep 23 11:22:20 CEST 2011 - tgoettlicher@suse.de
+
+- removed unversioned Provides/Obsoletes from spec file
+- 2.21.12
+
+-------------------------------------------------------------------
 Thu Sep 22 14:24:52 UTC 2011 - coolo@suse.com
 
 - move wizards into art repo - yast2-qt-branding now required by
