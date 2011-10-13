@@ -3,7 +3,7 @@
 @HEADER@
 Group:	System/YaST
 License: GPL-2.0+
-BuildRequires:	yast2-devtools pkg-config update-desktop-files hicolor-icon-theme fdupes 
+BuildRequires:	yast2-devtools pkg-config update-desktop-files hicolor-icon-theme fdupes yast2-qt-branding-openSUSE
 BuildArchitectures: noarch
 Summary:	YaST2 - Theme
 %description
@@ -94,6 +94,8 @@ cd $RPM_BUILD_ROOT/@themedir@/openSUSE
 files=$(find . -type f)
 for subtheme in Crystal Oxygen ; do
   cd $RPM_BUILD_ROOT/@themedir@/openSUSE-$subtheme
+  # this needs to be hardcoded
+  ln -s @themedir@/openSUSE/wizard wizard
   for file in $files; do
     mkdir -p $(dirname "$file") || true
     if ! test -f "$file"; then
