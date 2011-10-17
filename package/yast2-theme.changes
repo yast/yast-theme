@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Oct 17 12:13:20 CEST 2011 - tgoettlicher@suse.de
+
+- added iucv icons
+- 2.21.17
+
+-------------------------------------------------------------------
 Thu Oct 13 15:12:40 UTC 2011 - coolo@suse.com
 
 - add a symlink for the wizard (split into qt-branding)
