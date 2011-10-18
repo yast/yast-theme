@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Oct 18 08:59:44 UTC 2011 - coolo@suse.com
+
+- make wizard a directory again and link single files as we did 
+  in the past (long standing rpm bug)
+- 2.21.18
+
+-------------------------------------------------------------------
 Mon Oct 17 12:13:20 CEST 2011 - tgoettlicher@suse.de
 
 - added iucv icons
