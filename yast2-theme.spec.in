@@ -90,12 +90,12 @@ for dir in 22x22 32x32 48x48 64x64 256x256; do
     done
 done
 filelist=$(mktemp /tmp/fileListXXXXXX)
-cd $RPM_BUILD_ROOT/@themedir@/openSUSE
+cd $RPM_BUILD_ROOT@themedir@/openSUSE
 files=$(find . -type f)
+tfiles=$(cd @themedir@/openSUSE && find wizard -type f)
+files="$files $tfiles"
 for subtheme in Crystal Oxygen ; do
-  cd $RPM_BUILD_ROOT/@themedir@/openSUSE-$subtheme
-  # this needs to be hardcoded
-  ln -s @themedir@/openSUSE/wizard wizard
+  cd $RPM_BUILD_ROOT@themedir@/openSUSE-$subtheme
   for file in $files; do
     mkdir -p $(dirname "$file") || true
     if ! test -f "$file"; then
@@ -104,10 +104,10 @@ for subtheme in Crystal Oxygen ; do
   done
 done
 
-%fdupes $RPM_BUILD_ROOT/@themedir@
+%fdupes $RPM_BUILD_ROOT@themedir@
 
 @CLEAN@
-rm -rf $RPM_BUILD_ROOT/@themedir@
+rm -rf $RPM_BUILD_ROOT@themedir@
 
 %post openSUSE
 cd @themedir@
