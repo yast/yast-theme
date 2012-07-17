@@ -114,14 +114,46 @@ cd @themedir@
 if ! test -d openSUSE-Crystal && ! test -d openSUSE-Oxygen; then
   ln -snf openSUSE openSUSE-current
 fi
+## enable themes for new libyui
+if [ ! -d /usr/share/libyui ]; then
+   mkdir /usr/share/libyui
+fi
+if [ ! -e /usr/share/libyui/theme ]; then
+   ln -snf /usr/share/YaST2/theme/ /usr/share/libyui/theme
+fi
+
+
+%post SLE
+## enable themes for new libyui
+if [ ! -d /usr/share/libyui ]; then
+   mkdir /usr/share/libyui
+fi
+if [ ! -e /usr/share/libyui/theme ]; then
+   ln -snf /usr/share/YaST2/theme/ /usr/share/libyui/theme
+fi
 
 %post openSUSE-Crystal
 cd @themedir@
 ln -snf openSUSE-Crystal openSUSE-current
+## enable themes for new libyui
+if [ ! -d /usr/share/libyui ]; then
+   mkdir /usr/share/libyui
+fi
+if [ ! -e /usr/share/libyui/theme ]; then
+   ln -snf /usr/share/YaST2/theme/ /usr/share/libyui/theme
+fi
 
 %post openSUSE-Oxygen
 cd @themedir@
 ln -snf openSUSE-Oxygen openSUSE-current
+## enable themes for new libyui
+if [ ! -d /usr/share/libyui ]; then
+   mkdir /usr/share/libyui
+fi
+if [ ! -e /usr/share/libyui/theme ]; then
+   ln -snf /usr/share/YaST2/theme/ /usr/share/libyui/theme
+fi
+fi
 
 %files openSUSE
 %defattr(-,root,root)
