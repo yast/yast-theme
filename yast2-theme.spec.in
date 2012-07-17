@@ -153,7 +153,6 @@ fi
 if [ ! -e /usr/share/libyui/theme ]; then
    ln -snf /usr/share/YaST2/theme/ /usr/share/libyui/theme
 fi
-fi
 
 %files openSUSE
 %defattr(-,root,root)
