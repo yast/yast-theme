@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Nov 13 11:15:13 CET 2012 - tgoettlicher@suse.de
+
+- confirmed license GPL v2
+- 2.21.19
+
+-------------------------------------------------------------------
 Tue Oct 18 08:59:44 UTC 2011 - coolo@suse.com
 
 - make wizard a directory again and link single files as we did 
