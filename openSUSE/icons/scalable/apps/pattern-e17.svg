@@ -11,11 +11,11 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="550.03668"
-   height="719.98151"
+   width="708.66138"
+   height="708.66138"
    id="svg559"
-   inkscape:version="0.48.1 r9760"
-   sodipodi:docname="E17_enlightenment_geeko_shiny_black_curved.svg">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="pattern-e17.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -25,21 +25,34 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="930"
+     inkscape:window-width="1080"
+     inkscape:window-height="1893"
      id="namedview3199"
-     showgrid="false"
-     inkscape:zoom="0.32151529"
-     inkscape:cx="188.27654"
+     showgrid="true"
+     inkscape:zoom="1"
+     inkscape:cx="347.21805"
      inkscape:cy="405.31972"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg559"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     units="mm"
+     inkscape:document-units="mm">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3373"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       units="mm"
+       spacingx="50mm"
+       spacingy="50mm" />
+  </sodipodi:namedview>
   <metadata
      id="metadata2189">
     <rdf:RDF>
@@ -48,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -612,7 +625,7 @@
      inkscape:connector-curvature="0" />
   <g
      id="g4278"
-     transform="translate(21.310663,6.9434737)">
+     transform="translate(81.310663,-7.3765785)">
     <g
        style="opacity:0.33000004;filter:url(#filter4227)"
        transform="translate(-20.21677,-12.441088)"
