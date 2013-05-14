@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Tue May 14 07:28:54 UTC 2013 - coolo@suse.com
+
+- remove kuser icon, it's unclear where it's used and it conflicts
+  with the kuser application icon. If the icon is needed, it should
+  have some name on its own (but then we need to fix the users of the 
+  icon too and I have no idea what that users would be, the git log
+  doesn't say)
+
+-------------------------------------------------------------------
 Tue Nov 13 11:15:13 CET 2012 - tgoettlicher@suse.de
 
 - confirmed license GPL v2
