@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Tue Jul 30 08:29:41 UTC 2013 - yast-devel@opensuse.org
+
+- version 3.0.0
+
+-------------------------------------------------------------------
 Tue May 14 07:28:54 UTC 2013 - coolo@suse.com
 
 - remove kuser icon, it's unclear where it's used and it conflicts
