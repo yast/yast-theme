@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Sep 19 17:39:00 UTC 2013 - lslezak@suse.cz
+
+- do not use *.spec.in template, use *.spec file with RPM macros
+  instead
+- 3.1.0
+
+-------------------------------------------------------------------
 Tue Jul 30 08:29:41 UTC 2013 - yast-devel@opensuse.org
 
 - version 3.0.0
