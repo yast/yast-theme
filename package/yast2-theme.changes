@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Sep 26 17:39:00 UTC 2013 - lslezak@suse.cz
+
+- do not use *.spec.in template, use *.spec file with RPM macros
+  instead
+- 3.1.0
+
+-------------------------------------------------------------------
 Tue Sep 24 08:08:57 UTC 2013 - lslezak@suse.cz
 
 - world map - make dotted a questionable Indian border (bnc#779489)
