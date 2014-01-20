@@ -34,7 +34,6 @@ Contains the SuSE Linux theme for YaST2.
 
 %package openSUSE
 Summary:	YaST2 - Theme (openSUSE)
-Version:	3.1.0
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
 Provides:	yast2-theme-UnitedLinux
@@ -44,7 +43,6 @@ Requires:	hicolor-icon-theme
 
 %package openSUSE-Crystal
 Summary:	YaST2 - Theme (openSUSE)
-Version:	3.1.0
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
 Provides:	yast2-theme-openSUSE-any
@@ -52,7 +50,6 @@ PreReq:		/bin/ln yast2-theme-openSUSE
 
 %package openSUSE-Oxygen
 Summary:	YaST2 - Theme (openSUSE)
-Version:	3.1.0
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
 Provides:	yast2-theme-openSUSE-any
@@ -62,7 +59,6 @@ Conflicts:      yast2-theme-openSUSE-Crystal
 
 %package SLE
 Summary:	YaST2 - SLE Theme
-Version:	3.1.0
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
 Provides:       yast2-theme-NLD = 0.4.5
