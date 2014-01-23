@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Jan 23 10:18:10 UTC 2014 - lslezak@suse.cz
+
+- Switch to the new installer look (CSS provided by Ken Wimer)
+- 3.1.2
+
+-------------------------------------------------------------------
 Mon Jan 20 08:58:51 UTC 2014 - jreidinger@suse.com
 
 - Remove VERSION file and use only version in spec file
