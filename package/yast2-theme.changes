@@ -1,4 +1,20 @@
 -------------------------------------------------------------------
+Fri Feb  7 14:38:53 UTC 2014 - vmoravec@suse.com
+
+- Removed unused icons: yast-cdrom yast-create-new-vm yast-dirinstallr
+  yast-dumpdevice yast-fax yast-fingerprint yast-groups yast-idedma
+  yast-irda yast-modem yast-pci_id yast-power-management
+  yast-profile-manager yast-ramdisk yast-repair yast-vm-management
+  yast-casa yast-mascot yast-hdd yast-xen-dirinstall yast-floppy
+  yast-search-linux-partition yast-LDAP-user apparmor_update_wizard
+  yast-NIS-user yast-update-possibility yast-webpin yast-support-query
+  yast-ipsec yast-hdd-controller yast-firewire yast-usb apparmor_creation_wizard
+  yast-system-files yast-system-profile apparmor_control_panel yast-package-manager
+  linux-user-mgmt answering-machine yast-autofs yast-bootfloppy
+  yast-bootmsg yast-casa-ats
+
+
+-------------------------------------------------------------------
 Thu Jan 23 10:18:10 UTC 2014 - lslezak@suse.cz
 
 - Switch to the new installer look (CSS provided by Ken Wimer)
