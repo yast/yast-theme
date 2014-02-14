@@ -101,7 +101,9 @@ YQPkgDescriptionView {
 }
 YQPkgPatternCategoryItem { background: #2d2d2d; background-color: #2d2d2d; selection-background-color: #262626;   color: #eee; }
 
-
+YQPkgPatternList, YQPkgDiskUsageList {
+  background-color: #262626;
+}
 
 QListWidget {
   color: #eee;
