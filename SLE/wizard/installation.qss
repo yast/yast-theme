@@ -34,8 +34,15 @@ YQDialog {
   selection-color: white;
 }
 
-QHeaderView::section { background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                         stop: 0 #2d2d2d, stop: 0.8 #2d2d2d, stop: 1 #262626); color: #ccc; border: 1px outset #1b1b1b; border-radius: 4px; padding-left: 8px;}
+QHeaderView::section {
+  color: #eee;
+  background-color: #2d2d2d;
+  border: 1px outset #1b1b1b;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+}
 QHeaderView::down-arrow { image: url(inst_arr_down.png); padding-top: 2px;}
 QHeaderView::up-arrow { image: url(inst_arr_up.png); padding-top: 2px;}
 
@@ -122,7 +129,6 @@ QListWidget {
   margin: 0px;
 }
 
-QHeaderView,
 QSpinBox,
 QDateEdit,
 QTimeEdit,
