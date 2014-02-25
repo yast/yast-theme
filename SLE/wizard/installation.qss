@@ -46,8 +46,7 @@ QTreeView, QTreeView  QAbstractScrollArea {
   color: #eee; 
   background-color: #262626; 
   border: 1px inset #1b1b1b; 
-  selection-background-color: #888;
-  alternate-background-color: #666; 
+  alternate-background-color: #2d2d2d; 
   border-radius: 4px 
 }
 
@@ -55,8 +54,8 @@ QTreeWidget, QTreeWidget QAbstractScrollArea{
   color: #eee; 
   background-color: #262626; 
   border: 1px inset #1b1b1b; 
-  selection-background-color: #888; 
-  border-radius: 4px 
+  selection-background-color: 28ae73; 
+  border-radius: 4px;
 }
 
 QTableWidget, QTableView { 
@@ -134,7 +133,7 @@ QListWidget {
 
 QSpinBox,
 QDateEdit,
-QTimeEdit { color: #eee; background-color: #2d2d2d; min-height:27px; }
+QTimeEdit { color: #eee; background-color: #2d2d2d; min-height:24px; }
 
 QDateEdit::disabled,
 QTimeEdit::disabled{ color: gray; background-color: #2d2d2d; }
@@ -159,7 +158,7 @@ QLineEdit {
   color: #eee; 
   background-color: #444; 
   border-radius: 2px; 
-  min-height: 27px; 
+  min-height: 24px; 
   selection-background-color: #888; 
   border: 1px inset #1b1b1b;
 }
@@ -180,20 +179,6 @@ QRadioButton::indicator {
 QRadioButton::indicator:checked {
    image: url(inst_radio-button-checked.png);
  }
-
- /*
-QComboBox::drop-down,
-QComboBox::down-button,
-QComboBox::down-arrow,
-QComboBox::up-arrow,
-QScrollBar::down-button,
-QScrollBar::down-arrow,
-QScrollBar::up-arrow,
-QRadioButton::indicator,
-QMenu,
-YQMultiLineEdit,
-QTreeView { color: #ccc; }
-*/
 
 /* QWidget:disabled { color: gray; } */
 YQMultiLineEdit QTextEdit { color: #fff; }
@@ -216,19 +201,17 @@ YQMultiProgressMeter::chunk {
 */
 
 /* Tab bars*/
-
+QTabWidget { left: 5px}
 QTabBar::tab {
   color: #bbb;
   background: #262626;
   border: 1px solid #1b1b1b;
-  border-bottom: 1px solid #1b1b1b; 
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   font-weight: bold;
-  padding: 2px;
-  padding-top: 4px;
-  padding-bottom:2px;
-  min-width: 120px;
+  padding: 4px 8px;
+  min-width: 180px;
+  min-height: 24px;
 }
 QTabBar::tab:selected {
   color: white;
@@ -277,7 +260,28 @@ QComboBox::down-arrow:on { /* shift the arrow when popup is open */
   left: 0px;
 }
 QComboBox QAbstractItemView,
-QComboBox QMenu {
+QMenuBar {
+  background-color: #2d2d2d;
+ }
+
+QMenuBar::item {
+  color: #eee;
+  spacing: 3px; /* spacing between menu bar items */
+  padding: 6px 4px;
+  background: transparent;
+  border-radius: 2px;
+ }
+
+QMenuBar::item:selected { /* when selected using mouse or keyboard */
+  color: #fff;
+  background: #28ae73;
+ }
+
+QMenuBar::item:pressed {
+  color: #28ae73;
+  background: #2d2d2d;
+ }
+QMenu {
   color: #eeeeee;
   background: #262626;
   border: 1px outset #111;
