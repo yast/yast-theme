@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Mar  5 14:40:35 UTC 2014 - mvidner@suse.com
+
+- updated SLE installation theme (by Ken Wimer)
+  mainly sofware selection
+- 3.1.7
+
+-------------------------------------------------------------------
 Fri Feb 21 14:44:13 CET 2014 - locilka@suse.com
 
 - Fixed table header not to overlap the first line in a table
