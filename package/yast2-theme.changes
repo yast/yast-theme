@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Mar  6 09:36:02 UTC 2014 - vmoravec@suse.com
+
+- Revert deleted virtual management icons (bnc#866696)
+- 3.1.8
+
+-------------------------------------------------------------------
 Wed Mar  5 14:40:35 UTC 2014 - mvidner@suse.com
 
 - updated SLE installation theme (by Ken Wimer)
