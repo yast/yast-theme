@@ -122,22 +122,22 @@ QCheckBox::disabled { color: gray; background-color: #2d2d2d; }
 YQCheckBoxFrame::indicator:checked,
 QCheckBox::indicator:checked {
   image: url(inst_checkbox-on.png);
- }
+}
 YQCheckBoxFrame::indicator:unchecked,
 QCheckBox::indicator:unchecked {
   image: url(inst_checkbox-off.png);
- }
+}
 YQCheckBoxFrame::indicator:disabled,
 QCheckBox::indicator:disabled {
   opacity: 0.5;
- }
+}
 
 QRadioButton::indicator {
    image: url(inst_radio-button-unchecked.png);
- }
+}
 QRadioButton::indicator:checked {
    image: url(inst_radio-button-checked.png);
- }
+}
 
 YQMultiLineEdit QTextEdit { color: #fff; }
 
@@ -152,15 +152,6 @@ YQMultiProgressMeter {
 }
 
 YQProgressBar > YQWidgetCaption { margin-top: 20px; }
-
-/*
-YQMultiProgressMeter::chunk {
-  background-color: #28ae73;
-  margin: 0.5px;
-  width: 8px;
-  height: 8px;
-}
-*/
 
 /* Tab bars*/
 QTabWidget::pane { border: none; }
@@ -228,7 +219,7 @@ QComboBox QAbstractItemView,
 QMenuBar {
   background-color: #2d2d2d;
   selection-background-color: #28ae73;
- }
+}
 
 QMenuBar::item {
   color: #eee;
@@ -236,7 +227,7 @@ QMenuBar::item {
   padding: 6px 4px 12px;
   background: transparent;
   border-radius: 2px;
- }
+}
 
 QMenuBar::item:selected { /* when selected using mouse or keyboard */
   color: #fff;
@@ -246,7 +237,7 @@ QMenuBar::item:selected { /* when selected using mouse or keyboard */
 QMenuBar::item:pressed {
   color: #28ae73;
   background: #2d2d2d;
- }
+}
 QMenu {
   color: #eeeeee;
   background: #262626;
@@ -415,7 +406,6 @@ QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
 QScrollBar::right-arrow:horizontal { background-image: none; }
 QScrollBar::left-arrow:horizontal { background-image: none; }
 
-
 BusyBar {
  qproperty-frameShape: NoShape;
  border-width: 3px;
@@ -429,17 +419,6 @@ QSplitter::handle {
   image: url(separator.png);
   height: 10px;
 }
-/* Eeeky workaround for a light rectangle betwee H and Vscrollbars. see bug #589443 
-QAbstractScrollArea {
-  border: 1px solid #444;
-  background-color: #eee;
-  border-radius: 4px;
-  padding: 1px;
-}
-QAbstractScrollArea>* {
-  border: 0;
-}
-*/
 
 QGroupBox {
   border: 1px flat #656565;
@@ -450,5 +429,5 @@ QGroupBox {
 #RepoUpgradeLabel {
   color: #fff;
   background: #28ae73;
-	} 
+} 
 
