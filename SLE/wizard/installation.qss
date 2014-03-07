@@ -163,7 +163,7 @@ QTabBar::tab {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   font-weight: bold;
-  padding: 3px 8px;
+  padding: 4px 8px;
   min-width: 180px;
   min-height: 24px;
 }
@@ -430,4 +430,12 @@ QGroupBox {
   color: #fff;
   background: #28ae73;
 } 
+
+YQPkgVersionsView QWidget { background: #2d2d2d; }
+
+QY2HelpDialog
+{
+   qproperty-searchResultBackground: #666;
+   qproperty-searchResultForeground: #fff;
+}
 
