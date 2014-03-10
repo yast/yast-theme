@@ -26,6 +26,7 @@ Source0:        %{name}-%{version}.tar.bz2
 Group:	        System/YaST
 License:        GPL-2.0
 BuildRequires:	pkg-config update-desktop-files hicolor-icon-theme fdupes yast2-qt-branding-openSUSE
+BuildRequires:  yast2-branding
 BuildRequires:  yast2-devtools >= 3.1.10
 BuildArchitectures: noarch
 Summary:	YaST2 - Theme
@@ -38,6 +39,7 @@ Group:		System/YaST
 Provides:	yast2_theme = %{version}
 Provides:	yast2-theme-UnitedLinux
 Provides:	yast2-theme-openSUSE-any
+Conflicts:      yast2-theme-SLE
 PreReq:		/bin/ln
 Requires:	hicolor-icon-theme
 
@@ -46,6 +48,7 @@ Summary:	YaST2 - Theme (openSUSE)
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
 Provides:	yast2-theme-openSUSE-any
+Conflicts:      yast2-theme-SLE
 PreReq:		/bin/ln yast2-theme-openSUSE
 
 %package openSUSE-Oxygen
@@ -53,6 +56,7 @@ Summary:	YaST2 - Theme (openSUSE)
 Group:		System/YaST
 Provides:	yast2_theme = %{version}
 Provides:	yast2-theme-openSUSE-any
+Conflicts:      yast2-theme-SLE
 PreReq:		/bin/ln yast2-theme-openSUSE
 Conflicts:      yast2-theme-openSUSE-Crystal
 
@@ -63,6 +67,8 @@ Group:		System/YaST
 Provides:	yast2_theme = %{version}
 Provides:       yast2-theme-NLD = 0.4.5
 Obsoletes:      yast2-theme-NLD <= 0.4.5
+Conflicts:      yast2-theme-openSUSE
+Conflicts:      yast2-theme-openSUSE-any
 PreReq:		/bin/ln
 
 %description openSUSE
@@ -103,13 +109,20 @@ mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/48x48/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/64x64/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/256x256/apps
 
-cd $RPM_BUILD_ROOT/%{yast_themedir}/openSUSE-current/icons
 for dir in 22x22 32x32 48x48 64x64 256x256; do
     cd $RPM_BUILD_ROOT/%{yast_themedir}/openSUSE-current/icons/$dir/apps
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
-        ln -s %{yast_themedir}/openSUSE-current/icons/$dir/apps/$icon .
+        ln -s %{yast_themedir}/current/icons/$dir/apps/$icon .
+    done
+done
+for dir in 22x22 32x32 48x48 64x64 256x256; do
+    cd $RPM_BUILD_ROOT/%{yast_themedir}/SLE/icons/$dir/apps
+    icons=$(ls *.png)
+    cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
+    for icon in $icons; do
+        [ -e $icon ] || ln -s %{yast_themedir}/current/icons/$dir/apps/$icon .
     done
 done
 filelist=$(mktemp /tmp/fileListXXXXXX)
