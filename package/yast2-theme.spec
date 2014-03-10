@@ -17,7 +17,7 @@
 
 
 Name:           yast2-theme
-Version:        3.1.8
+Version:        3.1.9
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -26,7 +26,7 @@ Source0:        %{name}-%{version}.tar.bz2
 Group:	        System/YaST
 License:        GPL-2.0
 BuildRequires:	pkg-config update-desktop-files hicolor-icon-theme fdupes yast2-qt-branding-openSUSE
-BuildRequires:  yast2-branding
+BuildRequires:  yast2-branding-openSUSE
 BuildRequires:  yast2-devtools >= 3.1.10
 BuildArchitectures: noarch
 Summary:	YaST2 - Theme
@@ -60,17 +60,6 @@ Conflicts:      yast2-theme-SLE
 PreReq:		/bin/ln yast2-theme-openSUSE
 Conflicts:      yast2-theme-openSUSE-Crystal
 
-
-%package SLE
-Summary:	YaST2 - SLE Theme
-Group:		System/YaST
-Provides:	yast2_theme = %{version}
-Provides:       yast2-theme-NLD = 0.4.5
-Obsoletes:      yast2-theme-NLD <= 0.4.5
-Conflicts:      yast2-theme-openSUSE
-Conflicts:      yast2-theme-openSUSE-any
-PreReq:		/bin/ln
-
 %description openSUSE
 This package contains the openSUSE theme for YaST2.
 
@@ -81,10 +70,6 @@ This package contains the openSUSE theme for YaST2.
 This package contains the openSUSE theme for YaST2.
 
 
-%description SLE
-This package contains the YaST2 theme for the SUSE Linux Enterprise
-Family.
-
 %prep
 %setup -n %{name}-%{version}
 
@@ -93,6 +78,8 @@ Family.
 
 %install
 %yast_install
+
+rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/SLE
 
 cp -R "$RPM_BUILD_ROOT/%{yast_docdir}" "$RPM_BUILD_ROOT/%{yast_docdir}-openSUSE"
 rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
@@ -115,14 +102,6 @@ for dir in 22x22 32x32 48x48 64x64 256x256; do
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
         ln -s %{yast_themedir}/current/icons/$dir/apps/$icon .
-    done
-done
-for dir in 22x22 32x32 48x48 64x64 256x256; do
-    cd $RPM_BUILD_ROOT/%{yast_themedir}/SLE/icons/$dir/apps
-    icons=$(ls *.png)
-    cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
-    for icon in $icons; do
-        [ -e $icon ] || ln -s %{yast_themedir}/current/icons/$dir/apps/$icon .
     done
 done
 filelist=$(mktemp /tmp/fileListXXXXXX)
@@ -176,9 +155,3 @@ ln -snf openSUSE-Oxygen openSUSE-current
 %defattr(-,root,root)
 %dir %{yast_themedir}
 %{yast_themedir}/openSUSE-Oxygen
-
-%files SLE
-%defattr(-,root,root)
-%dir %{yast_themedir}
-%{yast_themedir}/SLE
-
