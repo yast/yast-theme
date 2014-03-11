@@ -52,7 +52,7 @@ Family.
 %install
 %yast_install
 
-rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/SLE
+rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/openSUSE*
 rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
 # ghost file (not packed in RPM but listed)
 #
