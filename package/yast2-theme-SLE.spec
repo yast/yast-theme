@@ -77,5 +77,6 @@ done
 
 %files
 %defattr(-,root,root)
+%dir %{yast_themedir}
 %{yast_themedir}/SLE
 /usr/share/icons/hicolor/*/apps/*
