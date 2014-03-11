@@ -26,7 +26,6 @@ Source0:        %{name}-%{version}.tar.bz2
 Group:	        System/YaST
 License:        GPL-2.0
 BuildRequires:	pkg-config update-desktop-files hicolor-icon-theme fdupes yast2-qt-branding-openSUSE
-BuildRequires:  yast2-branding-openSUSE
 BuildRequires:  yast2-devtools >= 3.1.10
 BuildArchitectures: noarch
 Summary:	YaST2 - Theme
@@ -101,7 +100,7 @@ for dir in 22x22 32x32 48x48 64x64 256x256; do
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
-        ln -s %{yast_themedir}/current/icons/$dir/apps/$icon .
+        ln -s %{yast_themedir}/openSUSE-current/icons/$dir/apps/$icon .
     done
 done
 filelist=$(mktemp /tmp/fileListXXXXXX)

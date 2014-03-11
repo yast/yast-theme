@@ -26,7 +26,6 @@ Source0:        yast2-theme-%{version}.tar.bz2
 Group:	        System/YaST
 License:        GPL-2.0
 BuildRequires:	pkg-config update-desktop-files hicolor-icon-theme fdupes
-BuildRequires:  yast2-branding-SLES
 BuildRequires:  yast2-devtools >= 3.1.10
 BuildArchitectures: noarch
 Requires:	hicolor-icon-theme
@@ -68,7 +67,7 @@ for dir in 22x22 32x32 48x48 64x64; do
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
-        [ -e $icon ] || ln -s %{yast_themedir}/current/icons/$dir/apps/$icon .
+        [ -e $icon ] || ln -s %{yast_themedir}/SLE/icons/$dir/apps/$icon .
     done
 done
 
