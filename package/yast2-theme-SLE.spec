@@ -51,6 +51,10 @@ Family.
 %install
 %yast_install
 
+# install SLE icewm style
+mkdir -p $RPM_BUILD_ROOT/etc/icewm/
+cp SLE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
+
 rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/openSUSE*
 rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
 rm -rf "$RPM_BUILD_ROOT/%{_docdir}/yast2-theme"
@@ -80,3 +84,4 @@ done
 %dir %{yast_themedir}
 %{yast_themedir}/SLE
 /usr/share/icons/hicolor/*/apps/*
+%config %{_sysconfdir}/icewm

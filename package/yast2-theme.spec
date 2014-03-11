@@ -78,6 +78,10 @@ This package contains the openSUSE theme for YaST2.
 %install
 %yast_install
 
+# install opensuse icewm style
+mkdir -p $RPM_BUILD_ROOT/etc/icewm/
+cp openSUSE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
+
 rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/SLE
 
 cp -R "$RPM_BUILD_ROOT/%{yast_docdir}" "$RPM_BUILD_ROOT/%{yast_docdir}-openSUSE"
@@ -86,6 +90,8 @@ rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
 cd $RPM_BUILD_ROOT/%{yast_themedir}/
 rm -rf openSUSE-current
 ln -sn openSUSE openSUSE-current
+
+
 #
 # make icons available to GNOME control center (hicolor theme)
 # (bug #166008)
@@ -139,6 +145,7 @@ ln -snf openSUSE-Oxygen openSUSE-current
 %defattr(-,root,root)
 %dir %{yast_themedir}
 %{yast_themedir}/openSUSE
+%config %{_sysconfdir}/icewm
 /usr/share/icons/hicolor/*/apps/*
 %doc %{yast_docdir}-openSUSE
 # ghost file (not packed in RPM but listed)
