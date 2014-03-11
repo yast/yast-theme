@@ -44,7 +44,7 @@ This package contains the YaST2 theme for the SUSE Linux Enterprise
 Family.
 
 %prep
-%setup -n yast-theme-%{version}
+%setup -n yast2-theme-%{version}
 
 %build
 %yast_build
