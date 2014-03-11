@@ -1,7 +1,7 @@
 #
-# spec file for package yast2-theme
+# spec file for package yast2-theme-SLE
 #
-# Copyright (c) 2013 SUSE LINUX Products GmbH, Nuernberg, Germany.
+# Copyright (c) 2014 SUSE LINUX Products GmbH, Nuernberg, Germany.
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -23,20 +23,22 @@ Release:        0
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source0:        yast2-theme-%{version}.tar.bz2
 
-Group:	        System/YaST
-License:        GPL-2.0
-BuildRequires:	pkg-config update-desktop-files hicolor-icon-theme fdupes
+BuildRequires:  fdupes
+BuildRequires:  hicolor-icon-theme
+BuildRequires:  pkg-config
+BuildRequires:  update-desktop-files
 BuildRequires:  yast2-devtools >= 3.1.10
-BuildArchitectures: noarch
-Requires:	hicolor-icon-theme
-Summary:	YaST2 - SLE Theme
-Group:		System/YaST
-Provides:	yast2_theme = %{version}
+BuildArch:      noarch
+Requires:       hicolor-icon-theme
+Summary:        YaST2 - SLE Theme
+License:        GPL-2.0
+Group:          System/YaST
 Provides:       yast2-theme-NLD = 0.4.5
+Provides:       yast2_theme = %{version}
 Obsoletes:      yast2-theme-NLD <= 0.4.5
 Conflicts:      yast2-theme-openSUSE
 Conflicts:      yast2-theme-openSUSE-any
-PreReq:		/bin/ln
+PreReq:         /bin/ln
 
 %description
 This package contains the YaST2 theme for the SUSE Linux Enterprise
@@ -78,10 +80,11 @@ done
 
 %fdupes $RPM_BUILD_ROOT%{yast_themedir}
 
-
 %files
 %defattr(-,root,root)
 %dir %{yast_themedir}
 %{yast_themedir}/SLE
 /usr/share/icons/hicolor/*/apps/*
 %config %{_sysconfdir}/icewm
+
+%changelog

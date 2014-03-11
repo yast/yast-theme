@@ -1,7 +1,7 @@
 #
 # spec file for package yast2-theme
 #
-# Copyright (c) 2013 SUSE LINUX Products GmbH, Nuernberg, Germany.
+# Copyright (c) 2014 SUSE LINUX Products GmbH, Nuernberg, Germany.
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -23,40 +23,45 @@ Release:        0
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source0:        %{name}-%{version}.tar.bz2
 
-Group:	        System/YaST
-License:        GPL-2.0
-BuildRequires:	pkg-config update-desktop-files hicolor-icon-theme fdupes yast2-qt-branding-openSUSE
+BuildRequires:  fdupes
+BuildRequires:  hicolor-icon-theme
+BuildRequires:  pkg-config
+BuildRequires:  update-desktop-files
 BuildRequires:  yast2-devtools >= 3.1.10
-BuildArchitectures: noarch
-Summary:	YaST2 - Theme
+BuildRequires:  yast2-qt-branding-openSUSE
+BuildArch:      noarch
+Summary:        YaST2 - Theme
+License:        GPL-2.0
+Group:          System/YaST
+
 %description
 Contains the SuSE Linux theme for YaST2.
 
 %package openSUSE
-Summary:	YaST2 - Theme (openSUSE)
-Group:		System/YaST
-Provides:	yast2_theme = %{version}
-Provides:	yast2-theme-UnitedLinux
-Provides:	yast2-theme-openSUSE-any
+Summary:        YaST2 - Theme (openSUSE)
+Group:          System/YaST
+Provides:       yast2-theme-UnitedLinux
+Provides:       yast2-theme-openSUSE-any
+Provides:       yast2_theme = %{version}
 Conflicts:      yast2-theme-SLE
-PreReq:		/bin/ln
-Requires:	hicolor-icon-theme
+PreReq:         /bin/ln
+Requires:       hicolor-icon-theme
 
 %package openSUSE-Crystal
-Summary:	YaST2 - Theme (openSUSE)
-Group:		System/YaST
-Provides:	yast2_theme = %{version}
-Provides:	yast2-theme-openSUSE-any
+Summary:        YaST2 - Theme (openSUSE)
+Group:          System/YaST
+Provides:       yast2-theme-openSUSE-any
+Provides:       yast2_theme = %{version}
 Conflicts:      yast2-theme-SLE
-PreReq:		/bin/ln yast2-theme-openSUSE
+PreReq:         /bin/ln yast2-theme-openSUSE
 
 %package openSUSE-Oxygen
-Summary:	YaST2 - Theme (openSUSE)
-Group:		System/YaST
-Provides:	yast2_theme = %{version}
-Provides:	yast2-theme-openSUSE-any
+Summary:        YaST2 - Theme (openSUSE)
+Group:          System/YaST
+Provides:       yast2-theme-openSUSE-any
+Provides:       yast2_theme = %{version}
 Conflicts:      yast2-theme-SLE
-PreReq:		/bin/ln yast2-theme-openSUSE
+PreReq:         /bin/ln yast2-theme-openSUSE
 Conflicts:      yast2-theme-openSUSE-Crystal
 
 %description openSUSE
@@ -90,7 +95,6 @@ rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
 cd $RPM_BUILD_ROOT/%{yast_themedir}/
 rm -rf openSUSE-current
 ln -sn openSUSE openSUSE-current
-
 
 #
 # make icons available to GNOME control center (hicolor theme)
@@ -126,7 +130,6 @@ done
 
 %fdupes $RPM_BUILD_ROOT%{yast_themedir}
 
-
 %post openSUSE
 cd %{yast_themedir}
 if ! test -d openSUSE-Crystal && ! test -d openSUSE-Oxygen; then
@@ -161,3 +164,5 @@ ln -snf openSUSE-Oxygen openSUSE-current
 %defattr(-,root,root)
 %dir %{yast_themedir}
 %{yast_themedir}/openSUSE-Oxygen
+
+%changelog
