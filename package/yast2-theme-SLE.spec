@@ -53,6 +53,7 @@ Family.
 
 rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/openSUSE*
 rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
+rm -rf "$RPM_BUILD_ROOT/%{_docdir}/yast2-theme"
 # ghost file (not packed in RPM but listed)
 #
 # make icons available to GNOME control center (hicolor theme)
