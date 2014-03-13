@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Mar 13 13:28:03 UTC 2014 - jreidinger@suse.com
+
+- add icon for high availability YaST module 
+  (bnc#708666,bnc#866738)
+- 3.1.11
+
+-------------------------------------------------------------------
 Tue Mar 11 15:29:20 UTC 2014 - jreidinger@suse.com
 
 - move icewm installation config here from yast2-x11 as it have
