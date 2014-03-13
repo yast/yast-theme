@@ -17,7 +17,7 @@
 
 
 Name:           yast2-theme
-Version:        3.1.11
+Version:        3.1.12
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -40,39 +40,17 @@ Contains the SuSE Linux theme for YaST2.
 %package openSUSE
 Summary:        YaST2 - Theme (openSUSE)
 Group:          System/YaST
-Provides:       yast2-theme-UnitedLinux
-Provides:       yast2-theme-openSUSE-any
 Provides:       yast2_theme = %{version}
 Conflicts:      yast2-theme-SLE
 PreReq:         /bin/ln
 Requires:       hicolor-icon-theme
-
-%package openSUSE-Crystal
-Summary:        YaST2 - Theme (openSUSE)
-Group:          System/YaST
-Provides:       yast2-theme-openSUSE-any
-Provides:       yast2_theme = %{version}
-Conflicts:      yast2-theme-SLE
-PreReq:         /bin/ln yast2-theme-openSUSE
-
-%package openSUSE-Oxygen
-Summary:        YaST2 - Theme (openSUSE)
-Group:          System/YaST
-Provides:       yast2-theme-openSUSE-any
-Provides:       yast2_theme = %{version}
-Conflicts:      yast2-theme-SLE
-PreReq:         /bin/ln yast2-theme-openSUSE
-Conflicts:      yast2-theme-openSUSE-Crystal
+Obsoletes:      yast2-theme-openSUSE-Crystal < %{version}
+Provides:       yast2-theme-openSUSE-Crystal = %{version}
+Obsoletes:      yast2-theme-openSUSE-Oxygen < %{version}
+Provides:       yast2-theme-openSUSE-Oxygen = %{version}
 
 %description openSUSE
 This package contains the openSUSE theme for YaST2.
-
-%description openSUSE-Crystal
-This package contains the openSUSE theme for YaST2.
-
-%description openSUSE-Oxygen
-This package contains the openSUSE theme for YaST2.
-
 
 %prep
 %setup -n %{name}-%{version}
@@ -92,9 +70,6 @@ rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/SLE
 cp -R "$RPM_BUILD_ROOT/%{yast_docdir}" "$RPM_BUILD_ROOT/%{yast_docdir}-openSUSE"
 rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
 # ghost file (not packed in RPM but listed)
-cd $RPM_BUILD_ROOT/%{yast_themedir}/
-rm -rf openSUSE-current
-ln -sn openSUSE openSUSE-current
 
 #
 # make icons available to GNOME control center (hicolor theme)
@@ -106,43 +81,14 @@ mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/64x64/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/256x256/apps
 
 for dir in 22x22 32x32 48x48 64x64 256x256; do
-    cd $RPM_BUILD_ROOT/%{yast_themedir}/openSUSE-current/icons/$dir/apps
+    cd $RPM_BUILD_ROOT/%{yast_themedir}/openSUSE/icons/$dir/apps
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
-        ln -s %{yast_themedir}/openSUSE-current/icons/$dir/apps/$icon .
+        ln -s %{yast_themedir}/openSUSE/icons/$dir/apps/$icon .
     done
 done
-filelist=$(mktemp /tmp/fileListXXXXXX)
-cd $RPM_BUILD_ROOT%{yast_themedir}/openSUSE
-files=$(find . -type f)
-tfiles=$(cd %{yast_themedir}/openSUSE && find wizard -type f)
-files="$files $tfiles"
-for subtheme in Crystal Oxygen ; do
-  cd $RPM_BUILD_ROOT%{yast_themedir}/openSUSE-$subtheme
-  for file in $files; do
-    mkdir -p $(dirname "$file") || true
-    if ! test -f "$file"; then
-     ln -s %{yast_themedir}/openSUSE/$file $file
-    fi
-  done
-done
-
 %fdupes $RPM_BUILD_ROOT%{yast_themedir}
-
-%post openSUSE
-cd %{yast_themedir}
-if ! test -d openSUSE-Crystal && ! test -d openSUSE-Oxygen; then
-  ln -snf openSUSE openSUSE-current
-fi
-
-%post openSUSE-Crystal
-cd %{yast_themedir}
-ln -snf openSUSE-Crystal openSUSE-current
-
-%post openSUSE-Oxygen
-cd %{yast_themedir}
-ln -snf openSUSE-Oxygen openSUSE-current
 
 %files openSUSE
 %defattr(-,root,root)
@@ -151,18 +97,5 @@ ln -snf openSUSE-Oxygen openSUSE-current
 %config %{_sysconfdir}/icewm
 /usr/share/icons/hicolor/*/apps/*
 %doc %{yast_docdir}-openSUSE
-# ghost file (not packed in RPM but listed)
-# remove the file when removing the RPM
-%ghost %{yast_themedir}/openSUSE-current
-
-%files openSUSE-Crystal
-%defattr(-,root,root)
-%dir %{yast_themedir}
-%{yast_themedir}/openSUSE-Crystal
-
-%files openSUSE-Oxygen
-%defattr(-,root,root)
-%dir %{yast_themedir}
-%{yast_themedir}/openSUSE-Oxygen
 
 %changelog
