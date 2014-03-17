@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Mar 17 12:26:04 UTC 2014 - jreidinger@suse.com
+
+- reduce size of tarball by removing addional opensuse icon sets
+- 3.1.12
+
+-------------------------------------------------------------------
 Thu Mar 13 13:28:03 UTC 2014 - jreidinger@suse.com
 
 - add icon for high availability YaST module 
