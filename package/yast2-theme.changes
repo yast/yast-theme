@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Thu Mar 13 15:20:35 UTC 2014 - coolo@suse.com
+
+- simplify the openSUSE theme by only providing one icon set
+
+-------------------------------------------------------------------
 Thu Mar 13 13:28:03 UTC 2014 - jreidinger@suse.com
 
 - add icon for high availability YaST module 
