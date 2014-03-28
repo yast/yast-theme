@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Mar 28 14:19:55 UTC 2014 - lslezak@suse.cz
+
+- fix for wrong padding at bottom of menu bar (by Ken Wimer)
+- 3.1.13
+
+-------------------------------------------------------------------
 Mon Mar 17 12:26:04 UTC 2014 - jreidinger@suse.com
 
 - reduce size of tarball by removing addional opensuse icon sets
