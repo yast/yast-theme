@@ -224,9 +224,10 @@ QMenuBar {
 QMenuBar::item {
   color: #eee;
   spacing: 3px; /* spacing between menu bar items */
-  padding: 6px 4px 12px;
+  padding: 6px 4px ;
   background: transparent;
   border-radius: 2px;
+  margin: 6px 0px;
 }
 
 QMenuBar::item:selected { /* when selected using mouse or keyboard */
