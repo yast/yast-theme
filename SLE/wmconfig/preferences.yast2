@@ -19,6 +19,8 @@ Win95Keys=0
 # Colors
 ColorActiveTitleBar="rgb:28/ae/73"
 ColorNormalTitleBar="rgb:65/65/65"
+ColorActiveBorder="rgb:2d/2d/2d"
+ColorNormalBorder="rgb:2d/2d/2d"
 
 # Borders
 BorderSizeX=3
