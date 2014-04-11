@@ -19,8 +19,8 @@ YQRichText > YQTextBrowser {
   border-radius: 4px;
   border: 1px inset #161616;
   background-color: #262626;
-  selection-background-color: #444;
-  selection-color: white;
+  selection-background-color: #28ae73;
+  selection-color: #2d2d2d;
 }
 
 QFrame { background-color: #2d2d2d; color: #eee; }
@@ -28,8 +28,8 @@ QFrame { background-color: #2d2d2d; color: #eee; }
 QLabel, YQDialog {
   color: #eee;
   background-color: #2d2d2d;
-  selection-background-color: #444;
-  selection-color: white;
+  selection-background-color: #28ae73;
+  selection-color: #2d2d2d;
 }
 
 QHeaderView::section {
@@ -49,7 +49,8 @@ QTreeView, QTreeWidget {
   background-color: #262626;
   border: 1px inset #161616;
   alternate-background-color: #2a2a2a;
-  selection-background-color: #444;
+  selection-background-color: #28ae73;
+  selection-color: #2d2d2d;
   border-radius: 4px;
 }
 
@@ -58,20 +59,23 @@ QTableView {
   color: #eee;
   background-color: #262626;
   border: 1px inset #161616;
-  selection-background-color: #444;
+  selection-background-color: #28ae73;
+  selection-color: #2d2d2d;
   border-radius: 4px;
 }
 YQTree, YQTable {
   color: #eee;
   background-color: #2d2d2d;
-  selection-background-color: #444;
+  selection-background-color: #28ae73;
+  selection-color: #2d2d2d;
 }
 
 YQPakageSelector {
   color: #eee;
   background-color: #262626;
   border: 1px inset #161616;
-  selection-background-color: #444;
+  selection-background-color: #28ae73;
+  selection-color: #2d2d2d;
   border-radius: 4px; 
 }
 
@@ -84,8 +88,8 @@ YQPkgPatternCategoryItem { background-color: #2d2d2d; color: #eee; }
 QListWidget {
   color: #eee;
   background-color: #2d2d2d;
-  selection-background-color: #444;
-  selection-color: white;
+  selection-background-color: #28ae73;
+  selection-color: #2d2d2d;
 }
 
 #DialogHeading {
@@ -96,7 +100,7 @@ QListWidget {
 
 QSpinBox,
 QDateEdit,
-QTimeEdit { color: #eee; background-color: #2d2d2d; padding: 3px 8px; min-height:24px; selection-background-color: #28ae73; }
+QTimeEdit { color: #eee; background-color: #262626; padding: 3px 8px; min-height:24px; selection-background-color: #28ae73; selection-color: #2d2d2d; }
 
 QDateEdit::disabled, QTimeEdit::disabled{ color: gray; background-color: #2d2d2d; }
 
@@ -111,7 +115,8 @@ QLineEdit {
   border-radius: 2px;
   padding: 3px 8px;
   min-height: 24px;
-  selection-background-color: #444;
+  selection-background-color: #28ae73;
+  selection-color: #2d2d2d;
   border: 1px inset #161616;
 }
 
@@ -187,7 +192,8 @@ QComboBox {
   padding: 3px 12px;
   background: #262626;
   font-weight: bold;
-  selection-background-color: #444;
+  selection-background-color: #28ae73;
+  selection-color: #2d2d2d;
 }
 QComboBox::disabled {
   color: gray;
@@ -219,6 +225,7 @@ QComboBox QAbstractItemView,
 QMenuBar {
   background-color: #2d2d2d;
   selection-background-color: #28ae73;
+  selection-color: #2d2d2d;
 }
 
 QMenuBar::item {
@@ -244,7 +251,7 @@ QMenu {
   background: #262626;
   border: 1px outset #161616;
   selection-background-color: #28ae73;
-  selection-color: #fff;
+  selection-color: #2d2d2d;
 }
 QGroupBox {
   /* Eventually I'd like to have this global. Possibly belongs to style.qss */
@@ -308,6 +315,19 @@ QPushButton:open { /* when the button has its menu open */
   border: 1px solid #161616;
 }
 
+/* Tab Buttons               */
+
+QToolButton {
+  border: 1px solid #161616;
+  background-color: #262626;
+}
+QToolButton::left-arrow {
+  image: url(inst_arr_left.png);
+}
+QToolButton::right-arrow {
+  image: url(inst_arr_right.png);
+}
+
 /* Button Menus               */
 
 QPushButton QMenu {
@@ -348,7 +368,7 @@ QScrollBar::handle:vertical {
   min-height: 16px;
   border: 1px solid #161616;
   background-color: #aaa;
-  border-radius: 6px;
+  border-radius: 2px;
 }
 QScrollBar::add-line:vertical {
   subcontrol-position: bottom;
@@ -383,7 +403,7 @@ QScrollBar::handle:horizontal {
   min-width: 16px;
   border: 1px solid #161616;
   background-color: #aaa;
-  border-radius: 6px;
+  border-radius: 2px;
 }
 QScrollBar::add-line:horizontal {
   border: none;
@@ -439,4 +459,7 @@ QY2HelpDialog
    qproperty-searchResultBackground: #666;
    qproperty-searchResultForeground: #fff;
 }
-
+YQBarGraph {
+   qproperty-BackgroundColors: #36638c, #73b8e7, #3b73ff;
+   qproperty-ForegroundColors: #fff; #fff, #fff;
+}
