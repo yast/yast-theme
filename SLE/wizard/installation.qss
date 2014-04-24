@@ -8,17 +8,16 @@ YQWizard { background: #2d2d2d; }
   border-image: url(header-background.png);
   padding: none;
   border: none;
-  background-color: #252525;
+  background-color: #000
 }
-
 #DialogLogo {
   background-image: url(header-logo.png);
   min-width: 71px;
   min-height: 34px;
-  margin-left: 20px;
+  margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #252525;
+  background-color: #000
 }
 
 #work_area {
