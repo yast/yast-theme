@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Sun Apr 27 05:33:34 UTC 2014 - coolo@suse.com
+
+- adapt icewm to the new yast theme
+- 3.1.18
+
+-------------------------------------------------------------------
 Thu Apr 24 06:44:46 UTC 2014 - jsrain@suse.cz
 
 - graphics and style adjustments by Ken Wimer (bnc#868722)
