@@ -5,10 +5,19 @@ QDialog { background: #2d2d2d; }
 YQWizard { background: #2d2d2d; }
 
 #LogoHBox {
-  border-image: none;
+  border-image: url(header-background.png);
   padding: none;
   border: none;
-  background-color: #999;
+  background-color: #000;
+}
+#DialogLogo {
+  background-image: url(header-logo.png);
+  min-width: 71px;
+  min-height: 34px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #000;
 }
 
 #work_area {

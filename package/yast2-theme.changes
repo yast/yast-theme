@@ -1,4 +1,16 @@
 -------------------------------------------------------------------
+Thu Apr 24 06:44:46 UTC 2014 - jsrain@suse.cz
+
+- graphics and style adjustments by Ken Wimer (bnc#868722)
+- 3.1.17
+
+-------------------------------------------------------------------
+Wed Apr 23 08:55:46 UTC 2014 - jsrain@suse.cz
+
+- added style for header bar with logo (bnc#868722)
+- 3.1.16
+
+-------------------------------------------------------------------
 Wed Apr 16 09:40:01 CEST 2014 - locilka@suse.com
 
 - New dialog labels, text hightlighting, BarGraph, Tab shifting
