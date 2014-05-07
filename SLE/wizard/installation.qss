@@ -184,14 +184,12 @@ YQProgressBar > YQWidgetCaption { margin-top: 20px; }
 
 /* Tab bars*/
 QTabWidget::pane {
-    border: none;
+  border: none;
 }
-YQDumbTab::pane {
-}
+
 QTabBar
 {
-    qproperty-drawBase: 0;
-    padding-right: 15px;
+  qproperty-drawBase: 0;
 }
 QTabBar::tab {
   color: #bbb;
