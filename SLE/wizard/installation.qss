@@ -183,8 +183,14 @@ YQMultiProgressMeter {
 YQProgressBar > YQWidgetCaption { margin-top: 20px; }
 
 /* Tab bars*/
-QTabWidget::pane { border: none; }
+QTabWidget::pane {
+  border: none;
+}
 
+QTabBar
+{
+  qproperty-drawBase: 0;
+}
 QTabBar::tab {
   color: #bbb;
   background: #262626;
@@ -207,6 +213,13 @@ QTabBar::tab:selected {
 QTabBar::tab:!selected:hover {
   color: #28ae73;
 }
+
+QTabBar::tear {
+  background: #262626;
+  border: 1px solid #161616;
+  border-radius: 1px;
+}
+
 
 QComboBox {
   border: 1px solid #656565;
@@ -351,20 +364,14 @@ QToolButton::left-arrow {
 QToolButton::right-arrow {
   image: url(inst_arr_right.png);
 }
+QToolButton::up-arrow {
+  image: url(inst_arr_lup.png);
+}
+QToolButton::down-arrow {
+  image: url(inst_arr_down.png);
+}
 
-/* Button Menus               */
 
-QPushButton QMenu {
-  border: 1px solid #161616;
-}
-QPushButton QMenu::item {
-  background-color: #262626;
-  color: #fff;
-}
-QPushButton QMenu::item:selected {
-  background-color: #28ae73;
-  color: white;
-}
 
 QProgressBar {
   border: 1px inset #161616;
@@ -484,6 +491,22 @@ QY2HelpDialog
    qproperty-searchResultForeground: #fff;
 }
 YQBarGraph {
-   qproperty-BackgroundColors: #36638c, #73b8e7, #3b73ff;
-   qproperty-ForegroundColors: #fff; #fff, #fff;
+   qproperty-BackgroundColors: "#1F84AD,#6F368C,#E77929";
+   qproperty-ForegroundColors: "#fff,#fff,#fff";
 }
+
+#qt_calendar_navigationbar {
+  background-color: #262626;
+  color: #fff;
+}
+
+#qt_calendar_calendarview {
+  background-color: #2d2d2d;
+  color: #eee;
+}
+
+QComboBoxPrivateScroller
+{
+  background-color: #2d2d2d;
+  color: white;
+} 
