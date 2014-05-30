@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri May 30 10:58:49 UTC 2014 - jreidinger@suse.com
+
+- styles for disabled checkboxes and radio buttons by Ken Wimer 
+  (bnc#878534)
+- 3.1.20
+
+-------------------------------------------------------------------
 Thu May 15 08:51:25 UTC 2014 - jreidinger@suse.com
 
 - graphics and style adjustments by Ken Wimer
