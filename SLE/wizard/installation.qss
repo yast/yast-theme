@@ -128,8 +128,6 @@ QTimeEdit { color: #eee; background-color: #262626; padding: 3px 8px; min-height
 
 QDateEdit::disabled, QTimeEdit::disabled{ color: gray; background-color: #2d2d2d; }
 
-QRadioButton {color: #eee }
-
 YQWidgetCaption  { color: #eee; background-color:#2d2d2d; }
 YQWidgetCaption::disabled  {  color: gray; background-color:#2d2d2d; }
 
@@ -156,16 +154,30 @@ YQCheckBoxFrame::indicator:unchecked,
 QCheckBox::indicator:unchecked {
   image: url(inst_checkbox-off.png);
 }
-YQCheckBoxFrame::indicator:disabled,
-QCheckBox::indicator:disabled {
-  opacity: 0.5;
+
+QCheckBox::indicator:checked:disabled {
+  image: url(inst_checkbox-on-disabled.png);
+}
+YQCheckBoxFrame::indicator:unchecked:disabled,
+QCheckBox::indicator:unchecked {
+  image: url(inst_checkbox-off-disabled.png);
 }
 
-QRadioButton::indicator {
+QRadioButton {color: #eee }
+
+QRadioButton::disabled { color: gray; background-color: #2d2d2d; }
+
+QRadioButton::indicator:unchecked {
    image: url(inst_radio-button-unchecked.png);
 }
 QRadioButton::indicator:checked {
    image: url(inst_radio-button-checked.png);
+}
+QRadioButton::indicator:unchecked:disabled {
+   image: url(inst_radio-button-unchecked-disabled.png);
+}
+QRadioButton::indicator:checked:disabled {
+   image: url(inst_radio-button-checked-disabled.png);
 }
 
 YQMultiLineEdit QTextEdit { color: #fff; }
