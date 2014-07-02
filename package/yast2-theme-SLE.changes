@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Jul  2 15:33:07 UTC 2014 - mvidner@suse.com
+
+- Fixed an unchecked checkbox looking like a disabled one
+  (bnc#881708, wimer).
+- 3.1.21
+
+-------------------------------------------------------------------
 Fri May 30 10:58:49 UTC 2014 - jreidinger@suse.com
 
 - styles for disabled checkboxes and radio buttons by Ken Wimer 
