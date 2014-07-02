@@ -144,14 +144,14 @@ QLineEdit {
 
 QCheckBox { min-height: 20px; color: #eee; }
 
-QCheckBox::disabled { color: gray; background-color: #2d2d2d; }
+QCheckBox::disabled { color: gray; }
 
 YQCheckBoxFrame::indicator:checked,
-QCheckBox::indicator:checked {
+QCheckBox::indicator:checked:enabled {
   image: url(inst_checkbox-on.png);
 }
 YQCheckBoxFrame::indicator:unchecked,
-QCheckBox::indicator:unchecked {
+QCheckBox::indicator:unchecked:enabled {
   image: url(inst_checkbox-off.png);
 }
 
@@ -303,7 +303,6 @@ QMenu {
   selection-color: #2d2d2d;
 }
 QGroupBox {
-  /* Eventually I'd like to have this global. Possibly belongs to style.qss */
   border: 0px;
   margin-top: 2.5ex;
   margin-left: 10px;
@@ -482,12 +481,6 @@ QToolTip {
 QSplitter::handle {
   image: url(separator.png);
   height: 10px;
-}
-
-QGroupBox {
-  border: 1px flat #656565;
-  border-radius: 4px;
-  padding: 2px;
 }
 
 #RepoUpgradeLabel {
