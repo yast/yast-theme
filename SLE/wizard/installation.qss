@@ -6,8 +6,6 @@ YQWizard { background: #2d2d2d; }
 
 #LogoHBox {
   border-image: url(header-background.png);
-  padding: none;
-  border: none;
   background-color: #000;
 }
 #DialogLogo {
@@ -15,15 +13,14 @@ YQWizard { background: #2d2d2d; }
   min-width: 71px;
   min-height: 34px;
   margin-left: 5px;
+  margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #000;
 }
 
 #work_area {
-  border-image: none;
   padding: 1em;
-  border: none;
   background-color: #2d2d2d;
 }
 
@@ -142,7 +139,7 @@ QLineEdit {
   border: 1px inset #161616;
 }
 
-QCheckBox { min-height: 20px; color: #eee; }
+QCheckBox, YQCheckBoxFrame::indicator { min-height: 24px; color: #eee; margin-top: 1px; }
 
 QCheckBox::disabled { color: gray; }
 
@@ -318,9 +315,10 @@ QPushButton {
   border-radius: 2px;
   background-color: #2d2d2d;
   min-height: 24px;
-  padding: 3px 12px;
+  padding: 3px 8px;
   color: #28ae73;
   font-weight: bold;
+  min-width: 60px;
 }
 QPushButton:focus, QPushButton:focus:default {
   border: 1px solid #28ae73;
