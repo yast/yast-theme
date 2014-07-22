@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Tue Jul 22 07:01:01 UTC 2014 - mvidner@suse.com
+
+- Fix clipped button labels in Arabic (bnc#884125, wimer).
+- Work around clipped checkboxes in a bootloader dialog
+  (bnc#886671, wimer).
+- 3.1.22
+
+-------------------------------------------------------------------
 Wed Jul  2 15:33:07 UTC 2014 - mvidner@suse.com
 
 - Fixed an unchecked checkbox looking like a disabled one
