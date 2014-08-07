@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Aug  7 13:54:40 CEST 2014 - aosthof@suse.de
+
+- Added icons for Public Cloud pattern (bnc#890589)
+- 3.1.25
+
+-------------------------------------------------------------------
 Wed Jul 30 11:26:50 UTC 2014 - mvidner@suse.com
 
 - Work around space calculation bug for tab titles
