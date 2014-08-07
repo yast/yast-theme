@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Thu Aug  7 12:42:03 UTC 2014 - coolo@suse.com
+
+- no longer package yast2-theme-openSUSE, but fix the whole branding
+  for openSUSE and let it build yast2-branding-openSUSE replacing the old
+  one - fixing BNC#876555
+- 3.1.26
+
+-------------------------------------------------------------------
 Mon Jul 28 02:17:18 UTC 2014 - nwang@suse.com
 
 - BNC#888070. Add icons of yast2 iplb and yast2 geo-cluster.
