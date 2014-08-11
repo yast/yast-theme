@@ -17,7 +17,7 @@
 
 
 Name:           yast2-theme-SLE
-Version:        3.1.25
+Version:        3.1.26
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -68,10 +68,11 @@ mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/22x22/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/32x32/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/48x48/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/64x64/apps
+mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/scalable/apps
 
-for dir in 22x22 32x32 48x48 64x64; do
+for dir in 22x22 32x32 48x48 64x64 scalable; do
     cd $RPM_BUILD_ROOT/%{yast_themedir}/SLE/icons/$dir/apps
-    icons=$(ls *.png)
+    icons=$(find -name '*.png' -o -name '*.svg' 2>/dev/null)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
         [ -e $icon ] || ln -s %{yast_themedir}/SLE/icons/$dir/apps/$icon .
