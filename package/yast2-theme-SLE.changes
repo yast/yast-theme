@@ -1,4 +1,15 @@
 -------------------------------------------------------------------
+Mon Aug 11 16:10:06 UTC 2014 - dimstar@opensuse.org
+
+- Install scalable icons in SVG format: gnome-shell prefers those
+  or will try to scale any of the found png files to 256x26,
+  usually giving bad results.
+- Rename yast-yast-language.* to yast-language.*: it's in line with
+  how the other icons are called and also with what yast-language
+  references in its .desktop file.
+- 3.1.26
+
+-------------------------------------------------------------------
 Thu Aug  7 13:54:40 CEST 2014 - aosthof@suse.de
 
 - Added icons for Public Cloud pattern (bnc#890589)

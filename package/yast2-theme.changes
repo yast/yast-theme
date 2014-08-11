@@ -1,4 +1,15 @@
 -------------------------------------------------------------------
+Mon Aug 11 16:10:06 UTC 2014 - dimstar@opensuse.org
+
+- Install scalable icons in SVG format: gnome-shell prefers those
+  or will try to scale any of the found png files to 256x26,
+  usually giving bad results.
+- Rename yast-yast-language.* to yast-language.*: it's in line with
+  how the other icons are called and also with what yast-language
+  references in its .desktop file.
+- 3.1.26
+
+-------------------------------------------------------------------
 Mon Jul 28 02:17:18 UTC 2014 - nwang@suse.com
 
 - BNC#888070. Add icons of yast2 iplb and yast2 geo-cluster.
