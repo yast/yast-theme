@@ -17,7 +17,7 @@
 
 
 Name:           yast2-theme
-Version:        3.1.25
+Version:        3.1.26
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -37,19 +37,23 @@ Group:          System/YaST
 %description
 Contains the SuSE Linux theme for YaST2.
 
-%package openSUSE
+%package -n yast2-branding-openSUSE
 Summary:        YaST2 - Theme (openSUSE)
 Group:          System/YaST
 Provides:       yast2_theme = %{version}
+Provides:       yast2-branding = %{version}
+Conflicts:      otherproviders(yast2-branding)
+Supplements:    packageand(yast2:branding-openSUSE)
 Conflicts:      yast2-theme-SLE
 PreReq:         /bin/ln
 Requires:       hicolor-icon-theme
 Obsoletes:      yast2-theme-openSUSE-Crystal < %{version}
-Provides:       yast2-theme-openSUSE-Crystal = %{version}
+Provides:        yast2-theme-openSUSE-Oxygen = %{version}
 Obsoletes:      yast2-theme-openSUSE-Oxygen < %{version}
-Provides:       yast2-theme-openSUSE-Oxygen = %{version}
+Obsoletes:      yast2-theme-openSUSE < %{version}
+Provides:       yast2-theme-openSUSE = %{version}
 
-%description openSUSE
+%description -n yast2-branding-openSUSE
 This package contains the openSUSE theme for YaST2.
 
 %prep
@@ -61,11 +65,12 @@ This package contains the openSUSE theme for YaST2.
 %install
 %yast_install
 
+rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/SLE
+mv $RPM_BUILD_ROOT%{yast_themedir}/openSUSE $RPM_BUILD_ROOT%{yast_themedir}/current
+
 # install opensuse icewm style
 mkdir -p $RPM_BUILD_ROOT/etc/icewm/
 cp openSUSE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
-
-rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/SLE
 
 cp -R "$RPM_BUILD_ROOT/%{yast_docdir}" "$RPM_BUILD_ROOT/%{yast_docdir}-openSUSE"
 rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
@@ -81,19 +86,19 @@ mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/64x64/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/256x256/apps
 
 for dir in 22x22 32x32 48x48 64x64 256x256; do
-    cd $RPM_BUILD_ROOT/%{yast_themedir}/openSUSE/icons/$dir/apps
+    cd $RPM_BUILD_ROOT/%{yast_themedir}/current/icons/$dir/apps
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
-        ln -s %{yast_themedir}/openSUSE/icons/$dir/apps/$icon .
+        ln -s %{yast_themedir}/current/icons/$dir/apps/$icon .
     done
 done
 %fdupes $RPM_BUILD_ROOT%{yast_themedir}
 
-%files openSUSE
+%files -n yast2-branding-openSUSE
 %defattr(-,root,root)
 %dir %{yast_themedir}
-%{yast_themedir}/openSUSE
+%{yast_themedir}/current
 %config %{_sysconfdir}/icewm
 /usr/share/icons/hicolor/*/apps/*
 %doc %{yast_docdir}-openSUSE
