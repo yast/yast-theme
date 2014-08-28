@@ -17,7 +17,7 @@
 
 
 Name:           yast2-theme-SLE
-Version:        3.1.28
+Version:        3.1.29
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -60,25 +60,12 @@ cp SLE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
 rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/openSUSE*
 rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
 rm -rf "$RPM_BUILD_ROOT/%{_docdir}/yast2-theme"
-# ghost file (not packed in RPM but listed)
-#
-# make icons available to GNOME control center (hicolor theme)
-# (bug #166008)
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/22x22/apps
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/32x32/apps
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/48x48/apps
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/64x64/apps
 
-for dir in 22x22 32x32 48x48 64x64; do
-    cd $RPM_BUILD_ROOT/%{yast_themedir}/SLE/icons/$dir/apps
-    icons=$(ls *.png)
-    cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
-    for icon in $icons; do
-        [ -e $icon ] || ln -s %{yast_themedir}/SLE/icons/$dir/apps/$icon .
-    done
-done
+# remove KDE icons - they are incomplete and only interesting for openSUSE
+rm -rf $RPM_BUILD_ROOT/usr/share/icons/{crystal,oxygen}
 
 %fdupes $RPM_BUILD_ROOT%{yast_themedir}
+%fdupes $RPM_BUILD_ROOT/usr/share/icons
 
 %files
 %defattr(-,root,root)

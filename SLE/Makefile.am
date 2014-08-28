@@ -2,7 +2,7 @@
 # Makefile.am for theme/SLE
 #
 
-SUBDIRS = wizard control-center icons animations testpage wallpapers desktops worldmap
+SUBDIRS = wizard control-center animations testpage wallpapers desktops worldmap
 
 themedir = @themedir@/SLE
 

@@ -4,5 +4,8 @@
 ## some common checks
 @YAST2-CHECKS-COMMON@
 
+icondir=/usr/share/icons
+AC_SUBST(icondir)
+
 ## and generate the output
 @YAST2-OUTPUT@
