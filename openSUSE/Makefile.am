@@ -2,7 +2,7 @@
 # Makefile.am for theme/openSUSE
 #
 
-SUBDIRS = control-center icons animations testpage worldmap
+SUBDIRS = control-center animations testpage worldmap
 
 themedir = @themedir@/openSUSE
 
