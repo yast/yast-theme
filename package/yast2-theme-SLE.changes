@@ -1,4 +1,42 @@
 -------------------------------------------------------------------
+Fri Aug 29 13:30:36 UTC 2014 - coolo@suse.com
+
+- move the icons in git to simplify openSUSE setup, but move them
+  back while %install for SLE
+- 3.1.29
+
+-------------------------------------------------------------------
+Mon Aug 18 17:20:12 CEST 2014 - aosthof@suse.de
+
+- Added icons for Advanced Systems Management pattern (bnc#888702)
+- 3.1.28
+
+-------------------------------------------------------------------
+Mon Aug 18 17:07:10 CEST 2014 - aosthof@suse.de
+
+- Modified icons for Public Cloud pattern (bnc#890589)
+- 3.1.27
+
+-------------------------------------------------------------------
+Thu Aug  7 13:54:40 CEST 2014 - aosthof@suse.de
+
+- Added icons for Public Cloud pattern (bnc#890589)
+- 3.1.25
+
+-------------------------------------------------------------------
+Wed Jul 30 11:26:50 UTC 2014 - mvidner@suse.com
+
+- Work around space calculation bug for tab titles
+  (bnc#888589, mlin).
+- 3.1.24
+
+-------------------------------------------------------------------
+Mon Jul 28 02:19:01 UTC 2014 - nwang@suse.com
+
+- BNC#888070. Add icons of yast2 iplb and yast2 geo-cluster.
+- 3.1.23
+
+-------------------------------------------------------------------
 Tue Jul 22 07:01:01 UTC 2014 - mvidner@suse.com
 
 - Fix clipped button labels in Arabic (bnc#884125, wimer).
