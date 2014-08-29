@@ -17,7 +17,7 @@
 
 
 Name:           yast2-theme
-Version:        3.1.28
+Version:        3.1.29
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -76,31 +76,15 @@ cp -R "$RPM_BUILD_ROOT/%{yast_docdir}" "$RPM_BUILD_ROOT/%{yast_docdir}-openSUSE"
 rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
 # ghost file (not packed in RPM but listed)
 
-#
-# make icons available to GNOME control center (hicolor theme)
-# (bug #166008)
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/22x22/apps
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/32x32/apps
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/48x48/apps
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/64x64/apps
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/256x256/apps
-
-for dir in 22x22 32x32 48x48 64x64 256x256; do
-    cd $RPM_BUILD_ROOT/%{yast_themedir}/current/icons/$dir/apps
-    icons=$(ls *.png)
-    cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
-    for icon in $icons; do
-        ln -s %{yast_themedir}/current/icons/$dir/apps/$icon .
-    done
-done
 %fdupes $RPM_BUILD_ROOT%{yast_themedir}
+%fdupes $RPM_BUILD_ROOT/usr/share/icons
 
 %files -n yast2-branding-openSUSE
 %defattr(-,root,root)
 %dir %{yast_themedir}
 %{yast_themedir}/current
 %config %{_sysconfdir}/icewm
-/usr/share/icons/hicolor/*/apps/*
+/usr/share/icons/*
 %doc %{yast_docdir}-openSUSE
 
 %changelog
