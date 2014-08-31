@@ -17,7 +17,7 @@
 
 
 Name:           yast2-theme
-Version:        3.1.29
+Version:        3.1.30
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -67,6 +67,9 @@ This package contains the openSUSE theme for YaST2.
 
 rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/SLE
 mv $RPM_BUILD_ROOT%{yast_themedir}/openSUSE $RPM_BUILD_ROOT%{yast_themedir}/current
+
+# let's take hicolor icons for yast
+ln -s /usr/share/icons/hicolor $RPM_BUILD_ROOT%{yast_themedir}/current/icons
 
 # install opensuse icewm style
 mkdir -p $RPM_BUILD_ROOT/etc/icewm/
