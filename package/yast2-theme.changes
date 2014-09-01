@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Sun Aug 31 08:19:50 UTC 2014 - coolo@suse.com
+
+- libyui looks for icons only in theme/current/icons, so we need
+  to provide a symlink
+- 3.1.30
+
+-------------------------------------------------------------------
 Thu Aug 28 10:45:49 UTC 2014 - coolo@suse.com
 
 - restore the hicolor icons and install the KDE icons in their correct place
