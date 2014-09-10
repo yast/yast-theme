@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Sep 10 11:52:33 UTC 2014 - coolo@suse.com
+
+- workaround for rpm's inability to update from symlink to directory
+- 3.1.31
+
+-------------------------------------------------------------------
 Sun Aug 31 08:19:50 UTC 2014 - coolo@suse.com
 
 - libyui looks for icons only in theme/current/icons, so we need
