@@ -17,7 +17,7 @@
 
 
 Name:           yast2-theme
-Version:        3.1.30
+Version:        3.1.31
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -81,6 +81,12 @@ rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
 
 %fdupes $RPM_BUILD_ROOT%{yast_themedir}
 %fdupes $RPM_BUILD_ROOT/usr/share/icons
+
+%pre -n yast2-branding-openSUSE
+# used to be a symlink, we need to remove it so rpm can update to the directory
+if test -L %{yast_themedir}/current ; then
+  rm %{yast_themedir}/current
+fi
 
 %files -n yast2-branding-openSUSE
 %defattr(-,root,root)
