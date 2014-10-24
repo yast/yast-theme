@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Oct 24 08:12:51 UTC 2014 - coolo@suse.com
+
+- change twm to look back on light gray again
+- 3.1.32
+
+-------------------------------------------------------------------
 Wed Sep 10 11:52:33 UTC 2014 - coolo@suse.com
 
 - workaround for rpm's inability to update from symlink to directory
