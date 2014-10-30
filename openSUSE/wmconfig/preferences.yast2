@@ -17,10 +17,8 @@ KeySysSwitchLast="Alt+Shift+Tab"
 Win95Keys=0
 
 # Colors
-ColorActiveTitleBar="rgb:28/ae/73"
-ColorNormalTitleBar="rgb:65/65/65"
-ColorActiveBorder="rgb:2d/2d/2d"
-ColorNormalBorder="rgb:2d/2d/2d"
+ColorActiveTitleBar="rgb:4e/6f/9f"
+ColorNormalTitleBar="rgb:c3/c3/c3"
 
 # Borders
 BorderSizeX=3
