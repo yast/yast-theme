@@ -3,6 +3,7 @@ QMainWindow { background: #2d2d2d; }
 QFileDialog { background: #2d2d2d; }
 QDialog { background: #2d2d2d; }
 YQWizard { background: #2d2d2d; }
+YQMainWinDock { background: #2d2d2d; }
 
 #LogoHBox {
   border-image: url(header-background.png);
@@ -516,4 +517,4 @@ QComboBoxPrivateScroller
 {
   background-color: #2d2d2d;
   color: white;
-} 
+}

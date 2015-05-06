@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed May  6 08:24:46 UTC 2015 - lslezak@suse.cz
+
+- installation.qss: added background styling also for non-Wizard
+  main window (used in low-res screens) (bnc#925882)
+- 3.1.33
+
+-------------------------------------------------------------------
 Fri Aug 29 13:30:36 UTC 2014 - coolo@suse.com
 
 - move the icons in git to simplify openSUSE setup, but move them
