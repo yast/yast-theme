@@ -33,15 +33,19 @@
 
 /* #DialogIcon { max-width: 0px; margin: 0px; } */
 
-#DialogHeading { 
-  font-size: 20px; 
+#DialogHeadingTop {
+  font-size: 16pt;
   padding: 12pt;
-  /* letter-spacing: .2em; */
   font-style: bold;
   margin: 0px;
 }
 
-#DialogHeadingTop {
-  font: 18pt;
+#DialogHeadingLeft {
+  font: 16pt;
+  margin-top: 100%;
+  margin-right: 20px;
+  qproperty-alignment:AlignRight;
+}
+
 }
 
