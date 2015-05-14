@@ -41,4 +41,7 @@
   margin: 0px;
 }
 
+#DialogHeadingTop {
+  font: 18pt;
+}
 
