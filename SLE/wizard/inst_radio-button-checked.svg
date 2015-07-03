@@ -11,11 +11,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3039"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.91 r13725"
    width="13"
    height="13"
-   sodipodi:docname="radio-button-checked.svg"
-   inkscape:export-filename="/Users/kwwii/Desktop/yast-SLE12/radio-button-checked.png"
+   sodipodi:docname="inst_radio-button-checked.svg"
+   inkscape:export-filename="/Users/kwwii/Repos/yast-theme/SLE/wizard/inst_radio-button-checked.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <metadata
@@ -64,7 +64,7 @@
   </sodipodi:namedview>
   <path
      sodipodi:type="arc"
-     style="color:#000000;fill:#28ae73;stroke:#28ae73;stroke-width:1.73684203999999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:1"
+     style="color:#000000;fill:#ffffff;stroke:#ffffff;stroke-width:1.73684204;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:1"
      id="path3051"
      sodipodi:cx="6.5"
      sodipodi:cy="6.5"

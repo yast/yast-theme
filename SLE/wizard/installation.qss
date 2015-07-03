@@ -139,8 +139,9 @@ QLineEdit {
   border: 1px inset #161616;
 }
 
-QCheckBox, YQCheckBoxFrame::indicator { min-height: 24px; color: #eee; margin-top: 1px; }
+QCheckBox, YQCheckBoxFrame::indicator { min-height: 24px; color: #eee; margin-top: 1px; border-radius: 2px }
 
+QCheckBox:focus { background: #28ae73; }
 QCheckBox::disabled { color: gray; }
 
 YQCheckBoxFrame::indicator:checked,
@@ -160,8 +161,8 @@ QCheckBox::indicator:unchecked {
   image: url(inst_checkbox-off-disabled.png);
 }
 
-QRadioButton {color: #eee }
-
+QRadioButton {color: #eee; border-radius: 2px }
+QRadioButton:focus { background: #28ae73; }
 QRadioButton::disabled { color: gray; background-color: #2d2d2d; }
 
 QRadioButton::indicator:unchecked {
@@ -324,12 +325,12 @@ QPushButton {
   font-weight: bold;
   min-width: 60px;
 }
-QPushButton:focus, QPushButton:focus:default {
+QPushButton:focus {
   border: 1px solid #28ae73;
-}
-QPushButton:focus:default {
   background-color: #28ae73;
+  color: #2d2d2d;
 }
+
 QPushButton:disabled,
 QPushButton:default:disabled {
   color: rgba(255,255,255,70);
