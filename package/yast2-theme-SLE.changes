@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Sep 11 08:17:54 UTC 2015 - simon@simotek.net
+
+- apps/pattern-e17.png -> apps/pattern-enlightenment.png due to 
+  pattern rename
+
+-------------------------------------------------------------------
 Thu May 14 08:17:54 UTC 2015 - lslezak@suse.cz
 
 - use a bigger font for the main dialog title (bsc#930864)

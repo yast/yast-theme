@@ -66,21 +66,21 @@ mv $RPM_BUILD_ROOT/usr/share/icons/hicolor $RPM_BUILD_ROOT/usr/share/YaST2/theme
 # remove all icons that were not part of RC2 to avoid information leak
 pushd $RPM_BUILD_ROOT/usr/share/YaST2/theme/SLE/icons/
 rm -rf 256x256
-rm 16x16/apps/pattern-e17.png
+rm 16x16/apps/pattern-enlightenment.png
 rm 16x16/apps/pattern-lxde.png
 rm 16x16/apps/yast-gray-dot.png
 rm 16x16/apps/yast-green-dot.png
 rm 16x16/apps/yast-red-dot.png
 rm 16x16/apps/yast-yellow-dot.png
-rm 22x22/apps/pattern-e17.png
+rm 22x22/apps/pattern-enlightenment.png
 rm 22x22/apps/pattern-lxde.png
 rm 22x22/apps/yast-gray-dot.png
 rm 22x22/apps/yast-green-dot.png
 rm 22x22/apps/yast-red-dot.png
 rm 22x22/apps/yast-yellow-dot.png
-rm 32x32/apps/pattern-e17.png
+rm 32x32/apps/pattern-enlightenment.png
 rm 32x32/apps/pattern-lxde.png
-rm 48x48/apps/pattern-e17.png
+rm 48x48/apps/pattern-enlightenment.png
 rm 48x48/apps/pattern-lxde.png
 rm 48x48/apps/yast-gray-dot.png
 rm 48x48/apps/yast-green-dot.png
@@ -96,7 +96,7 @@ rm 64x64/apps/ktip.png
 rm 64x64/apps/msg_error.png
 rm 64x64/apps/msg_info.png
 rm 64x64/apps/msg_warning.png
-rm 64x64/apps/pattern-e17.png
+rm 64x64/apps/pattern-enlightenment.png
 rm 64x64/apps/pattern-lxde.png
 rm 64x64/apps/pixie.png
 rm 64x64/apps/printer2.png
