@@ -1,7 +1,7 @@
 /* Richtext: installation_richtext.css */
 QMainWindow { background: #2d2d2d; }
 QFileDialog { background: #2d2d2d; }
-QDialog { background: #2d2d2d; }
+QWidget { background: #2d2d2d; color #eee; }
 YQWizard { background: #2d2d2d; }
 YQMainWinDock { background: #2d2d2d; }
 
