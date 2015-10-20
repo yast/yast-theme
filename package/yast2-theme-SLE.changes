@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Oct 20 10:56:16 UTC 2015 - lslezak@suse.cz
+
+- Fixed styling for the package manager filter view widgets
+  (unreadable white-on-white labels) (bsc#950283)
+- 3.1.35
+
+-------------------------------------------------------------------
 Fri Sep 11 08:17:54 UTC 2015 - simon@simotek.net
 
 - apps/pattern-e17.png -> apps/pattern-enlightenment.png due to 
