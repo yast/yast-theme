@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Oct 20 10:56:16 UTC 2015 - lslezak@suse.cz
+
+- Fixed styling for the package manager filter view widgets
+  (unreadable white-on-white labels) (bsc#950283)
+- 3.1.31.1
+
+-------------------------------------------------------------------
 Fri Aug 29 13:30:36 UTC 2014 - coolo@suse.com
 
 - move the icons in git to simplify openSUSE setup, but move them
