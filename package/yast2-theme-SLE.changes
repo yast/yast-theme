@@ -1,5 +1,5 @@
 -------------------------------------------------------------------
-Thu Jan 28 17:06:29 UTC 2015 - alarrosa@suse.com
+Thu Jan 28 17:06:29 UTC 2016 - alarrosa@suse.com
 
 - add yast-modem icon which is needed by the Communication package group
   in the Yast2's software manager (bnc#953027)
