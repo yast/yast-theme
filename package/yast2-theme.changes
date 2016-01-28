@@ -1,9 +1,28 @@
 -------------------------------------------------------------------
-Thu Jan 28 17:06:29 UTC 2015 - alarrosa@suse.com
+Thu Jan 28 17:06:29 UTC 2016 - alarrosa@suse.com
 
 - add yast-modem icon which is needed by the Communication package group
   in the Yast2's software manager (bnc#953027)
 - 3.1.36
+
+-------------------------------------------------------------------
+Tue Oct 20 10:56:16 UTC 2015 - lslezak@suse.cz
+
+- Fixed styling for the package manager filter view widgets
+  (unreadable white-on-white labels) (bsc#950283)
+- 3.1.35
+
+-------------------------------------------------------------------
+Fri Sep 11 08:17:54 UTC 2015 - simon@simotek.net
+
+- apps/pattern-e17.png -> apps/pattern-enlightenment.png due to 
+  pattern rename
+
+-------------------------------------------------------------------
+Thu May 14 08:17:54 UTC 2015 - lslezak@suse.cz
+
+- use a bigger font for the main dialog title (bsc#930864)
+- 3.1.34
 
 -------------------------------------------------------------------
 Fri Sep 18 09:26:29 UTC 2015 - p.drouand@gmail.com
