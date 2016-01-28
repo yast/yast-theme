@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Jan 28 17:06:29 UTC 2015 - alarrosa@suse.com
+
+- add yast-modem icon which is needed by the Communication package group
+  in the Yast2's software manager (bnc#953027)
+- 3.1.36
+
+-------------------------------------------------------------------
 Tue Oct 20 10:56:16 UTC 2015 - lslezak@suse.cz
 
 - Fixed styling for the package manager filter view widgets
