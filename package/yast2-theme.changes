@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Jan 28 17:06:29 UTC 2015 - alarrosa@suse.com
+
+- add yast-modem icon which is needed by the Communication package group
+  in the Yast2's software manager (bnc#953027)
+- 3.1.36
+
+-------------------------------------------------------------------
 Fri Sep 18 09:26:29 UTC 2015 - p.drouand@gmail.com
 
 - add icons for the MATE pattern
