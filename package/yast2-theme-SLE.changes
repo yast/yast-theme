@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Feb 10 13:12:22 UTC 2016 - cwh@suse.com
+
+- Fix spelling of SUSE Linux. (bsc#964241)
+- 3.1.37 
+
+-------------------------------------------------------------------
 Thu Jan 28 17:06:29 UTC 2016 - alarrosa@suse.com
 
 - add yast-modem icon which is needed by the Communication package group

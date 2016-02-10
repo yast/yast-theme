@@ -17,7 +17,7 @@
 
 
 Name:           yast2-theme
-Version:        3.1.36
+Version:        3.1.37
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -35,7 +35,7 @@ License:        GPL-2.0
 Group:          System/YaST
 
 %description
-Contains the SuSE Linux theme for YaST2.
+Contains the SUSE Linux theme for YaST2.
 
 %package -n yast2-branding-openSUSE
 Summary:        YaST2 - Theme (openSUSE)
