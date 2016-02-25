@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Feb 25 13:55:27 UTC 2016 - lslezak@suse.cz
+
+- Hide the window title during installation (workaround: set the
+  same foreground and background colors) (bsc#965086)
+- 3.1.38
+
+-------------------------------------------------------------------
 Wed Feb 10 13:12:22 UTC 2016 - cwh@suse.com
 
 - Fix spelling of SUSE Linux. (bsc#964241)

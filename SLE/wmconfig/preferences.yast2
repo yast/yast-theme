@@ -17,8 +17,14 @@ KeySysSwitchLast="Alt+Shift+Tab"
 Win95Keys=0
 
 # Colors
+# HACK: "hide" the title during installation by setting the same foreground
+# and background colors (see https://bugzilla.suse.com/show_bug.cgi?id=965086)
 ColorActiveTitleBar="rgb:28/ae/73"
+ColorActiveTitleBarText="rgb:28/ae/73"
+# HACK: "hide" the title during installation by setting the same foreground
+# and background colors (see https://bugzilla.suse.com/show_bug.cgi?id=965086)
 ColorNormalTitleBar="rgb:65/65/65"
+ColorNormalTitleBarText="rgb:65/65/65"
 ColorActiveBorder="rgb:2d/2d/2d"
 ColorNormalBorder="rgb:2d/2d/2d"
 
