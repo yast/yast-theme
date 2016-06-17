@@ -1,4 +1,11 @@
+/* See the Qt style sheet reference documentation at */
+/* http://doc.qt.io/qt-5/stylesheet-reference.html for the list of supported */
+/* properties and allowed values. */
+
 /* Richtext: installation_richtext.css */
+/* Do not touch this comment! It is parsed by libyui-qt when loading the style! */
+/* See https://github.com/libyui/libyui-qt/blob/master/src/QY2Styler.cc#L125 */
+
 QMainWindow { background: #2d2d2d; }
 QFileDialog { background: #2d2d2d; }
 QWidget { background: #2d2d2d; color #eee; }
