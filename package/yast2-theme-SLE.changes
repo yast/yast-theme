@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri Jun 17 09:08:44 UTC 2016 - lslezak@suse.cz
+
+- Add a style for disabled menu items, gray them out
+  (bsc#983919) [by mvidner]
+- 3.1.39
+
+-------------------------------------------------------------------
 Thu Feb 25 13:55:27 UTC 2016 - lslezak@suse.cz
 
 - Hide the window title during installation (workaround: set the
