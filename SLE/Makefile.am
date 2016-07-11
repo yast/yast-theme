@@ -2,10 +2,5 @@
 # Makefile.am for theme/SLE
 #
 
-SUBDIRS = wizard control-center animations testpage wallpapers desktops worldmap
+SUBDIRS = wizard animations testpage worldmap
 
-themedir = @themedir@/SLE
-
-theme_DATA = $(wildcard *.png )
-
-EXTRA_DIST = $(theme_DATA)
