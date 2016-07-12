@@ -389,7 +389,7 @@ QToolButton::right-arrow {
   image: url(inst_arr_right.png);
 }
 QToolButton::up-arrow {
-  image: url(inst_arr_lup.png);
+  image: url(inst_arr_up.png);
 }
 QToolButton::down-arrow {
   image: url(inst_arr_down.png);

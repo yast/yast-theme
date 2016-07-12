@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Jul 12 08:31:23 UTC 2016 - lslezak@suse.cz
+
+- Removed the obsolete and unused images to make the inst-sys
+  smaller (bsc#974601)
+- 3.1.40
+
+-------------------------------------------------------------------
 Fri Sep 18 09:26:29 UTC 2015 - p.drouand@gmail.com
 
 - add icons for the MATE pattern
