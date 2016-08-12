@@ -528,3 +528,37 @@ QComboBoxPrivateScroller
   background-color: #2d2d2d;
   color: white;
 }
+
+#steps 
+{
+  font-size: 90%;
+  border: 1px solid;
+  margin-right: 0px;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+.todo-step-status {
+   qproperty-pixmap: url(white-step-todo.png);
+   max-width: 14px;
+   min-width: 14px;
+}
+
+.done-step-status {
+   qproperty-pixmap: url(white-step-done.png);
+   max-width: 14px;
+   min-width: 14px;
+}
+
+.current-step-status {
+   qproperty-pixmap: url(white-step-current.png);
+   max-width: 14px;
+   min-width: 14px;
+}
+
+.steps_heading {
+   font-weight: bold;  
+   color: white;
+   margin-bottom: 7px;
+}
