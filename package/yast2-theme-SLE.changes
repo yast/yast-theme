@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Wed Aug 17 07:03:35 UTC 2016 - lslezak@suse.cz
+
+- Added back the style and assets for the left pane global
+  progress, it is still used by the firstboot module (bsc#963034)
+  [by Fabian Vogt]
+- 3.1.41
+
+-------------------------------------------------------------------
 Tue Jul 12 08:31:23 UTC 2016 - lslezak@suse.cz
 
 - Fixed a typo in an image name in installation.qss
