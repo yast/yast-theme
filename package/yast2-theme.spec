@@ -28,7 +28,9 @@ BuildRequires:  hicolor-icon-theme
 BuildRequires:  pkg-config
 BuildRequires:  update-desktop-files
 BuildRequires:  yast2-devtools >= 3.1.10
+%if 0%{?is_opensuse}
 BuildRequires:  yast2-qt-branding-openSUSE
+%endif
 BuildArch:      noarch
 Summary:        YaST2 - Theme
 License:        GPL-2.0
