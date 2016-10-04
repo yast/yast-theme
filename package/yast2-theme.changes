@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Tue Oct  4 13:38:27 UTC 2016 - jreidinger@suse.com
+
+- unify back -SLE subpackage to main yast2-theme. This is done by
+  separated build results on opensuse and SLE ( as there is
+  colliding files, like icewm configuration ). (bsc#996498)
+- 3.1.42
+
+-------------------------------------------------------------------
 Wed Aug 17 07:03:35 UTC 2016 - lslezak@suse.cz
 
 - Added back the style and assets for the left pane global
