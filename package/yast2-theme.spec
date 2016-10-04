@@ -33,6 +33,7 @@ BuildArch:      noarch
 Summary:        YaST2 - Theme
 License:        GPL-2.0
 Group:          System/YaST
+Url:            http://github.com/yast/yast-theme
 
 %description
 Contains the SUSE Linux theme for YaST2.
@@ -61,7 +62,7 @@ This package contains the openSUSE theme for YaST2.
 %package SLE
 Summary:        YaST2 - SLE Theme
 Group:          System/YaST
-Provides:       yast2-theme-NLD = 0.4.5
+Provides:       yast2-theme-NLD = 0.4.6
 Provides:       yast2_theme = %{version}
 Obsoletes:      yast2-theme-NLD <= 0.4.5
 Conflicts:      yast2-theme-openSUSE
