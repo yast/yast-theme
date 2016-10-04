@@ -58,13 +58,13 @@ Tue Oct 20 10:56:16 UTC 2015 - lslezak@suse.cz
 - 3.1.35
 
 -------------------------------------------------------------------
-Fri Sep 11 08:17:54 UTC 2015 - simon@simotek.net
+Fri Sep 18 10:17:54 UTC 2015 - simon@simotek.net
 
 - apps/pattern-e17.png -> apps/pattern-enlightenment.png due to 
   pattern rename
 
 -------------------------------------------------------------------
-Thu May 14 08:17:54 UTC 2015 - lslezak@suse.cz
+Fri Sep 18 10:10:54 UTC 2015 - lslezak@suse.cz
 
 - use a bigger font for the main dialog title (bsc#930864)
 - 3.1.34
