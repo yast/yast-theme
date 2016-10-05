@@ -1,9 +1,73 @@
 -------------------------------------------------------------------
+Tue Oct  4 13:38:27 UTC 2016 - jreidinger@suse.com
+
+- unify back -SLE subpackage to main yast2-theme. This is done by
+  separated build results on opensuse and SLE ( as there is
+  colliding files, like icewm configuration ). (bsc#996498)
+- 3.1.42
+
+-------------------------------------------------------------------
+Wed Aug 17 07:03:35 UTC 2016 - lslezak@suse.cz
+
+- Added back the style and assets for the left pane global
+  progress, it is still used by the firstboot module (bsc#963034)
+  [by Fabian Vogt]
+- 3.1.41
+
+-------------------------------------------------------------------
 Tue Jul 12 08:31:23 UTC 2016 - lslezak@suse.cz
 
+- Fixed a typo in an image name in installation.qss
+- Added missing separator.png
 - Removed the obsolete and unused images to make the inst-sys
   smaller (bsc#974601)
 - 3.1.40
+
+-------------------------------------------------------------------
+Fri Jun 17 09:08:44 UTC 2016 - lslezak@suse.cz
+
+- Add a style for disabled menu items, gray them out
+  (bsc#983919) [by mvidner]
+- 3.1.39
+
+-------------------------------------------------------------------
+Thu Feb 25 13:55:27 UTC 2016 - lslezak@suse.cz
+
+- Hide the window title during installation (workaround: set the
+  same foreground and background colors) (bsc#965086)
+- 3.1.38
+
+-------------------------------------------------------------------
+Wed Feb 10 13:12:22 UTC 2016 - cwh@suse.com
+
+- Fix spelling of SUSE Linux. (bsc#964241)
+- 3.1.37
+
+-------------------------------------------------------------------
+Thu Jan 28 17:06:29 UTC 2016 - alarrosa@suse.com
+
+- add yast-modem icon which is needed by the Communication package group
+  in the Yast2's software manager (bnc#953027)
+- 3.1.36
+
+-------------------------------------------------------------------
+Tue Oct 20 10:56:16 UTC 2015 - lslezak@suse.cz
+
+- Fixed styling for the package manager filter view widgets
+  (unreadable white-on-white labels) (bsc#950283)
+- 3.1.35
+
+-------------------------------------------------------------------
+Fri Sep 18 10:17:54 UTC 2015 - simon@simotek.net
+
+- apps/pattern-e17.png -> apps/pattern-enlightenment.png due to 
+  pattern rename
+
+-------------------------------------------------------------------
+Fri Sep 18 10:10:54 UTC 2015 - lslezak@suse.cz
+
+- use a bigger font for the main dialog title (bsc#930864)
+- 3.1.34
 
 -------------------------------------------------------------------
 Fri Sep 18 09:26:29 UTC 2015 - p.drouand@gmail.com
