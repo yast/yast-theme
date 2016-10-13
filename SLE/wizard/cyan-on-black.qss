@@ -137,7 +137,7 @@ YQWidgetCaption  { color: cyan; background-color: black; }
 YQWidgetCaption::disabled  { color: #aaa; background-color: black; }
 
 QLineEdit {
-  color: #00ff00;
+  color: cyan;
   background-color: #262626;
   border-radius: 2px;
   padding: 3px 8px;
@@ -151,7 +151,7 @@ QLineEdit::focus {
   border: 1px inset cyan;
 }
 
-QCheckBox, YQCheckBoxFrame::indicator { min-height: 24px; color: #00ff00; margin-top: 1px; }
+QCheckBox, YQCheckBoxFrame::indicator { min-height: 24px; color: cyan; margin-top: 1px; }
 
 QCheckBox::disabled { color: gray; }
 
@@ -249,7 +249,7 @@ QTabBar::tear {
 QComboBox {
   border: 1px solid #656565;
   border-radius: 2px;
-  color: #00ff00;
+  color: cyan;
   min-height: 24px;
   padding: 3px 12px;
   background: #262626;
@@ -263,7 +263,7 @@ QComboBox::disabled {
 }
 QComboBox:focus {
   border: 1px solid cyan;
-  color: #00ff00;
+  color: cyan;
 }
 /* QComboBox gets the "on" state when the popup is open */
 QComboBox:!editable:on, QComboBox::drop-down:editable:on {
@@ -335,7 +335,7 @@ QPushButton {
   background-color: black;
   min-height: 24px;
   padding: 3px 8px;
-  color: #00ff00;
+  color: cyan;
   font-weight: bold;
   min-width: 60px;
 }
@@ -347,7 +347,7 @@ QPushButton:focus:default {
 }
 QPushButton:disabled,
 QPushButton:default:disabled {
-  color: green;
+  color: darkcyan;
   background-color: black;
   border: 1px solid rgba(255,255,255,30);
 }
