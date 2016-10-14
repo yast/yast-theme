@@ -47,3 +47,15 @@
   qproperty-alignment:AlignRight;
 }
 
+QGroupBox {
+  border: 0px;
+  margin-top: 2.5ex;
+  margin-left: 10px;
+  margin-right: 2px;
+}
+
+QGroupBox::title {
+  subcontrol-origin: margin;
+  subcontrol-position: left top;
+  font-weight: bold;
+}
