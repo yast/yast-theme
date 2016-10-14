@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Oct 14 08:57:21 UTC 2016 - jreidinger@suse.com
+
+- fix button group title padding on SLE (bsc#877477)
+- 3.2.0
+
+-------------------------------------------------------------------
 Tue Oct  4 13:38:27 UTC 2016 - jreidinger@suse.com
 
 - unify back -SLE subpackage to main yast2-theme. This is done by
