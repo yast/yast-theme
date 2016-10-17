@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Mon Oct 17 15:11:21 UTC 2016 - igonzalezsosa@suse.com
+
+- Add basic high-contrast styles for the installer
+  (bsc#780621 and bsc#768112)
+- 3.2.1
+
+-------------------------------------------------------------------
 Fri Oct 14 08:57:21 UTC 2016 - jreidinger@suse.com
 
 - fix button group title padding on SLE (bsc#877477)
