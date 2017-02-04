@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Sat Feb  4 08:46:10 UTC 2017 - opensuse.lietuviu.kalba@gmail.com
+- 3.2.2: add yast2-branding-openSUSE-Oxygen empty package to
+  trigger swich into Oxygen theme for YaST2 in openSUSE 
+  (bsc#942136).
+
+-------------------------------------------------------------------
 Mon Oct 17 15:11:21 UTC 2016 - igonzalezsosa@suse.com
 
 - Add basic high-contrast styles for the installer
