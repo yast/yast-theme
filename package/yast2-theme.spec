@@ -15,6 +15,8 @@
 # Please submit bugfixes or comments via http://bugs.opensuse.org/
 #
 
+# YaST Oxygen icons maintained by Martin Schlander <martin.schlander () gmail ! com>
+
 
 Name:           yast2-theme
 Version:        3.2.2
