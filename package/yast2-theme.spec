@@ -1,7 +1,7 @@
 #
 # spec file for package yast2-theme
 #
-# Copyright (c) 2014 SUSE LINUX Products GmbH, Nuernberg, Germany.
+# Copyright (c) 2017 SUSE LINUX GmbH, Nuernberg, Germany.
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -15,9 +15,11 @@
 # Please submit bugfixes or comments via http://bugs.opensuse.org/
 #
 
+# YaST Oxygen icons maintained by Martin Schlander <martin.schlander () gmail ! com>
+
 
 Name:           yast2-theme
-Version:        3.2.1
+Version:        3.2.2
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -44,21 +46,36 @@ Contains the SUSE Linux theme for YaST2.
 %package -n yast2-branding-openSUSE
 Summary:        YaST2 - Theme (openSUSE)
 Group:          System/YaST
-Provides:       yast2_theme = %{version}
 Provides:       yast2-branding = %{version}
+Provides:       yast2_theme = %{version}
 Conflicts:      otherproviders(yast2-branding)
 Supplements:    packageand(yast2:branding-openSUSE)
 Conflicts:      yast2-theme-SLE
 PreReq:         /bin/ln
 Requires:       hicolor-icon-theme
 Obsoletes:      yast2-theme-openSUSE-Crystal < %{version}
-Provides:        yast2-theme-openSUSE-Oxygen = %{version}
-Obsoletes:      yast2-theme-openSUSE-Oxygen < %{version}
 Obsoletes:      yast2-theme-openSUSE < %{version}
 Provides:       yast2-theme-openSUSE = %{version}
 
 %description -n yast2-branding-openSUSE
 This package contains the openSUSE theme for YaST2.
+
+
+%package -n yast2-branding-openSUSE-Oxygen
+Summary:        YaST2 - switcher into Oxygen icon theme
+Group:          System/YaST
+Supplements:    packageand(yast2:plasma5-session)
+PreReq:         /bin/ln
+Requires:       yast2-branding-openSUSE = %{version}
+Provides:       yast2-theme-openSUSE-Oxygen = %{version}
+Obsoletes:      yast2-theme-openSUSE-Oxygen < %{version}
+
+%description -n yast2-branding-openSUSE-Oxygen
+After installing this package, symbolic link for "current" theme 
+will be changed "Oxygen". This package does not contains icons 
+of the openSUSE theme for YaST2. Icons itself exist in 
+yast2-branding-openSUSE package.
+
 
 %else
 %package SLE
@@ -98,7 +115,8 @@ cp openSUSE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
 
 cp -R "$RPM_BUILD_ROOT/%{yast_docdir}" "$RPM_BUILD_ROOT/%{yast_docdir}-openSUSE"
 rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
-
+mkdir -p $RPM_BUILD_ROOT/usr/share/doc/packages/yast2-theme/
+echo 'This file marks the package yast2-branding-openSUSE-Oxygen to be installed.'   > $RPM_BUILD_ROOT/usr/share/doc/packages/yast2-theme/yast2-branding-openSUSE-Oxygen.txt
 
 %else
 # install SLE icewm style
@@ -287,6 +305,19 @@ if test -L %{yast_themedir}/current ; then
   rm %{yast_themedir}/current
 fi
 
+%post -n yast2-branding-openSUSE-Oxygen
+if test -L %{yast_themedir}/current/icons ; then
+  rm %{yast_themedir}/current/icons
+fi
+ln -s /usr/share/icons/oxygen %{yast_themedir}/current/icons
+
+%postun -n yast2-branding-openSUSE-Oxygen
+if test -L %{yast_themedir}/current/icons ; then
+  rm %{yast_themedir}/current/icons
+fi
+ln -s /usr/share/icons/hicolor %{yast_themedir}/current/icons
+
+
 %files -n yast2-branding-openSUSE
 %defattr(-,root,root)
 %dir %{yast_themedir}
@@ -294,6 +325,11 @@ fi
 %config %{_sysconfdir}/icewm
 /usr/share/icons/*
 %doc %{yast_docdir}-openSUSE
+
+%files -n yast2-branding-openSUSE-Oxygen
+%dir /usr/share/doc/packages/yast2-theme/
+/usr/share/doc/packages/yast2-theme/yast2-branding-openSUSE-Oxygen.txt
+
 %else
 %files SLE
 %defattr(-,root,root)
