@@ -1,7 +1,7 @@
 #
 # spec file for package yast2-theme
 #
-# Copyright (c) 2016 SUSE LINUX GmbH, Nuernberg, Germany.
+# Copyright (c) 2017 SUSE LINUX GmbH, Nuernberg, Germany.
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -62,7 +62,7 @@ This package contains the openSUSE theme for YaST2.
 
 
 %package -n yast2-branding-openSUSE-Oxygen
-Summary:        YaST2 - swicher into Oxygen icon theme
+Summary:        YaST2 - switcher into Oxygen icon theme
 Group:          System/YaST
 Supplements:    packageand(yast2:plasma5-session)
 PreReq:         /bin/ln
