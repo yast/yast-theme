@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Jun 13 12:27:49 UTC 2017 - lnussel@suse.de
+
+- Remove red "N" from logos (boo#953761)
+- 3.2.3
+
+-------------------------------------------------------------------
 Sat Feb  4 08:46:10 UTC 2017 - opensuse.lietuviu.kalba@gmail.com
 - 3.2.2: add yast2-branding-openSUSE-Oxygen empty package to
   trigger swich into Oxygen theme for YaST2 in openSUSE 
