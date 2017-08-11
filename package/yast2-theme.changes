@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri Aug 11 11:48:06 UTC 2017 - lslezak@suse.cz
+
+- Fixed black-on-black color for the editable combo box in the
+  cyan and b&w color themes (bsc#1052723)
+- 3.3.0
+
+-------------------------------------------------------------------
 Tue Jun 13 12:27:49 UTC 2017 - lnussel@suse.de
 
 - Remove red "N" from logos (boo#953761)

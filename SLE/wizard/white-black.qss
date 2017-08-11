@@ -264,7 +264,7 @@ QComboBox::disabled {
 QComboBox:focus {
   background-color: white;
   border: 1px solid white;
-  color: black;
+  color: white;
 }
 /* QComboBox gets the "on" state when the popup is open */
 QComboBox:!editable:on, QComboBox::drop-down:editable:on {
