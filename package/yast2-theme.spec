@@ -19,7 +19,7 @@
 
 
 Name:           yast2-theme
-Version:        3.3.0
+Version:        4.0.0
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -66,6 +66,7 @@ Summary:        YaST2 - switcher into Oxygen icon theme
 Group:          System/YaST
 Supplements:    packageand(yast2:plasma5-session)
 PreReq:         /bin/ln
+Conflicts:      yast2-theme-SLE
 Requires:       yast2-branding-openSUSE = %{version}
 Provides:       yast2-theme-openSUSE-Oxygen = %{version}
 Obsoletes:      yast2-theme-openSUSE-Oxygen < %{version}
@@ -85,7 +86,7 @@ Provides:       yast2-theme-NLD = 0.4.6
 Provides:       yast2_theme = %{version}
 Obsoletes:      yast2-theme-NLD <= 0.4.5
 Conflicts:      yast2-theme-openSUSE
-Conflicts:      yast2-theme-openSUSE-any
+Conflicts:      yast2-theme-openSUSE-Oxygen
 PreReq:         /bin/ln
 
 %description SLE
@@ -127,10 +128,12 @@ rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/openSUSE*
 rm -rf "$RPM_BUILD_ROOT/%{yast_docdir}"
 rm -rf "$RPM_BUILD_ROOT/%{_docdir}/yast2-theme"
 
-mv $RPM_BUILD_ROOT/usr/share/icons/hicolor $RPM_BUILD_ROOT/usr/share/YaST2/theme/SLE/icons/
+mv $RPM_BUILD_ROOT%{yast_themedir}/SLE $RPM_BUILD_ROOT%{yast_themedir}/current
+
+mv $RPM_BUILD_ROOT/usr/share/icons/hicolor $RPM_BUILD_ROOT/usr/share/YaST2/theme/current/icons/
 
 # remove all icons that were not part of RC2 to avoid information leak
-pushd $RPM_BUILD_ROOT/usr/share/YaST2/theme/SLE/icons/
+pushd $RPM_BUILD_ROOT/usr/share/YaST2/theme/current/icons/
 rm -rf 256x256
 rm 16x16/apps/pattern-enlightenment.png
 rm 16x16/apps/pattern-lxde.png
@@ -283,11 +286,11 @@ mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/48x48/apps
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/64x64/apps
 
 for dir in 22x22 32x32 48x48 64x64; do
-    cd $RPM_BUILD_ROOT/%{yast_themedir}/SLE/icons/$dir/apps
+    cd $RPM_BUILD_ROOT/%{yast_themedir}/current/icons/$dir/apps
     icons=$(ls *.png)
     cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
     for icon in $icons; do
-        [ -e $icon ] || ln -s %{yast_themedir}/SLE/icons/$dir/apps/$icon .
+        [ -e $icon ] || ln -s %{yast_themedir}/current/icons/$dir/apps/$icon .
     done
 done
 
@@ -317,7 +320,6 @@ if test -L %{yast_themedir}/current/icons ; then
 fi
 ln -s /usr/share/icons/hicolor %{yast_themedir}/current/icons
 
-
 %files -n yast2-branding-openSUSE
 %defattr(-,root,root)
 %dir %{yast_themedir}
@@ -331,10 +333,17 @@ ln -s /usr/share/icons/hicolor %{yast_themedir}/current/icons
 /usr/share/doc/packages/yast2-theme/yast2-branding-openSUSE-Oxygen.txt
 
 %else
+
+%pre SLE
+# used to be a symlink, we need to remove it so rpm can update to the directory
+if test -L %{yast_themedir}/current ; then
+  rm %{yast_themedir}/current
+fi
+
 %files SLE
 %defattr(-,root,root)
 %dir %{yast_themedir}
-%{yast_themedir}/SLE
+%{yast_themedir}/current
 /usr/share/icons/hicolor/*/apps/*
 %config %{_sysconfdir}/icewm
 %endif

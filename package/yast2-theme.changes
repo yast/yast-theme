@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Sep 22 14:17:01 UTC 2017 - jreidinger@suse.com
+
+- fix packaging for SLE (bsc#1057838)
+- 4.0.0
+
+-------------------------------------------------------------------
 Fri Aug 11 11:48:06 UTC 2017 - lslezak@suse.cz
 
 - Fixed black-on-black color for the editable combo box in the
