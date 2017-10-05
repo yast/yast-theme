@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Oct  5 13:37:55 UTC 2017 - jreidinger@suse.com
+
+- add to SLE theme registration specific autoinstall.png
+  (bsc#1054965)
+- 4.0.1
+
+-------------------------------------------------------------------
 Fri Sep 22 14:17:01 UTC 2017 - jreidinger@suse.com
 
 - fix packaging for SLE (bsc#1057838)
