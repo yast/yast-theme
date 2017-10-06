@@ -1,7 +1,14 @@
 -------------------------------------------------------------------
+Fri Oct  6 15:08:20 UTC 2017 - jreidinger@suse.com
+
+- improve auto-selected.png and add also svg source for it
+  (bsc#1054965)
+- 4.0.2
+
+-------------------------------------------------------------------
 Thu Oct  5 13:37:55 UTC 2017 - jreidinger@suse.com
 
-- add to SLE theme registration specific autoinstall.png
+- add to SLE theme registration specific auto-selected.png
   (bsc#1054965)
 - 4.0.1
 
