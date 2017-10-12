@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Thu Oct 12 15:33:48 UTC 2017 - lslezak@suse.cz
+
+- Fixed the check box style in the MultiSelectionBox widget
+  to use the same icons as the usual CheckBox widgets, the check
+  boxes were almost invisible (bsc#1062356)
+- 4.0.3
+
+-------------------------------------------------------------------
 Fri Oct  6 15:08:20 UTC 2017 - jreidinger@suse.com
 
 - improve auto-selected.png and add also svg source for it
