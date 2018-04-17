@@ -1,4 +1,5 @@
 a { color: #28ae73; }
+a.dontlooklikealink { color: white; text-decoration: none; }
 .red { color: #FF3C3C; }
 .blue { color: cyan; }
 .green { color: #28ae73; }
