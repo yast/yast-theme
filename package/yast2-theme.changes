@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Apr 18 11:07:39 UTC 2018 - lnussel@suse.de
+
+- remove icons symlink (bsc#1087224)
+- obsolete Oxygen subpackage
+- 4.0.5
+
+-------------------------------------------------------------------
 Mon Apr 16 12:58:49 UTC 2018 - mvidner@suse.com
 
 - Don't hard-code the role text color (bsc#1087399).
