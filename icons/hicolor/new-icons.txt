@@ -7,7 +7,6 @@ apparmor_edit_profile
 apparmor_view_profile
 bootdisk_create
 keyboardlayout
-kiwi
 msg_error
 msg_info
 pattern-basis
