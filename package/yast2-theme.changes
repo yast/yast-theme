@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Mon Aug  6 16:50:11 UTC 2018 - hellcp@opensuse.org
+
+- Add new version of icons and more specific pattern icons
+  (boo#1039994)
+- 4.1.1
+
+-------------------------------------------------------------------
 Wed Jun 20 10:11:23 UTC 2018 - mvetter@suse.com
 
 - Add icons for LXQt pattern (bsc#1097842)

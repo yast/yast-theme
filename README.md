@@ -34,7 +34,7 @@ Overview
 Icons
 -----
 
-Add new icons to `icons/hicolor`. Adding scalable sources is recommended.
+Add new icons to `icons/hicolor`. Adding scalable sources is required, because icons are generated with convert.sh script.
 
 Wizard
 ------
