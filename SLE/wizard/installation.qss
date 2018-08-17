@@ -152,18 +152,22 @@ QCheckBox, YQCheckBoxFrame::indicator { min-height: 24px; color: #eee; margin-to
 QCheckBox::disabled { color: gray; }
 
 YQCheckBoxFrame::indicator:checked,
+QTreeView::indicator:checked,
 QCheckBox::indicator:checked:enabled {
   image: url(inst_checkbox-on.png);
 }
 YQCheckBoxFrame::indicator:unchecked,
+QTreeView::indicator:unchecked,
 QCheckBox::indicator:unchecked:enabled {
   image: url(inst_checkbox-off.png);
 }
-
-QCheckBox::indicator:checked:disabled {
+YQCheckBoxFrame::indicator:checked:disabled,
+QCheckBox::indicator:checked:disabled,
+QTreeView::indicator:checked:disabled {
   image: url(inst_checkbox-on-disabled.png);
 }
 YQCheckBoxFrame::indicator:unchecked:disabled,
+QTreeView::indicator:unchecked:disabled,
 QCheckBox::indicator:unchecked {
   image: url(inst_checkbox-off-disabled.png);
 }
@@ -183,6 +187,10 @@ QRadioButton::indicator:unchecked:disabled {
 }
 QRadioButton::indicator:checked:disabled {
    image: url(inst_radio-button-checked-disabled.png);
+}
+
+YQMultiSelectionBox QTreeView::item {
+  margin: 5px 0;
 }
 
 YQMultiLineEdit QTextEdit { color: #fff; }

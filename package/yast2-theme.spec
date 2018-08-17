@@ -19,7 +19,7 @@
 
 
 Name:           yast2-theme
-Version:        3.2.3
+Version:        3.2.4
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
