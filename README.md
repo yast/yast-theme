@@ -2,6 +2,16 @@ Overview
 --------
 
     ├── icons
+    │   ├── breeze
+    │   │   └── apps
+    │   │       ├── 32
+    │   │       ├── 48
+    │   │       └── 64
+    │   ├── breeze-dark
+    │   │   └── apps
+    │   │       ├── 32
+    │   │       ├── 48
+    │   │       └── 64
     │   ├── crystal
     │   │   ├── 22x22/apps
     │   │   ├── 32x32/apps
