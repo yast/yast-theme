@@ -35,7 +35,7 @@ BuildRequires:  yast2-qt-branding-openSUSE
 %endif
 BuildArch:      noarch
 Summary:        YaST2 - Theme
-License:        GPL-2.0
+License:        GPL-2.0-only
 Group:          System/YaST
 Url:            http://github.com/yast/yast-theme
 
