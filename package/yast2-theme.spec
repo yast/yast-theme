@@ -19,7 +19,7 @@
 
 
 Name:           yast2-theme
-Version:        4.1.1
+Version:        4.1.2
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -35,7 +35,7 @@ BuildRequires:  yast2-qt-branding-openSUSE
 %endif
 BuildArch:      noarch
 Summary:        YaST2 - Theme
-License:        GPL-2.0-only
+License:        GPL-2.0
 Group:          System/YaST
 Url:            http://github.com/yast/yast-theme
 
@@ -130,10 +130,11 @@ rm -rf "$RPM_BUILD_ROOT/%{_docdir}/yast2-theme"
 
 mv $RPM_BUILD_ROOT%{yast_themedir}/SLE $RPM_BUILD_ROOT%{yast_themedir}/current
 
-mv $RPM_BUILD_ROOT/usr/share/icons/hicolor $RPM_BUILD_ROOT/usr/share/YaST2/theme/current/icons/
+# let's take hicolor icons for yast
+ln -s /usr/share/icons/hicolor $RPM_BUILD_ROOT%{yast_themedir}/current/icons
 
 # remove all icons that were not part of RC2 to avoid information leak
-pushd $RPM_BUILD_ROOT/usr/share/YaST2/theme/current/icons/
+pushd $RPM_BUILD_ROOT/usr/share/icons/hicolor
 rm -rf 256x256
 rm 16x16/apps/pattern-enlightenment.png
 rm 16x16/apps/pattern-lxde.png
@@ -277,23 +278,6 @@ rm 64x64/apps/yast-zfcp.png
 
 popd
 
-#
-# make icons available to GNOME control center (hicolor theme)
-# (bug #166008)
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/22x22/apps
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/32x32/apps
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/48x48/apps
-mkdir -p $RPM_BUILD_ROOT/usr/share/icons/hicolor/64x64/apps
-
-for dir in 22x22 32x32 48x48 64x64; do
-    cd $RPM_BUILD_ROOT/%{yast_themedir}/current/icons/$dir/apps
-    icons=$(ls *.png)
-    cd $RPM_BUILD_ROOT/usr/share/icons/hicolor/$dir/apps
-    for icon in $icons; do
-        [ -e $icon ] || ln -s %{yast_themedir}/current/icons/$dir/apps/$icon .
-    done
-done
-
 # remove KDE icons - they are incomplete and only interesting for openSUSE
 rm -rf $RPM_BUILD_ROOT/usr/share/icons/{crystal,oxygen}
 %endif
@@ -302,11 +286,6 @@ rm -rf $RPM_BUILD_ROOT/usr/share/icons/{crystal,oxygen}
 %fdupes $RPM_BUILD_ROOT/usr/share/icons
 
 %if 0%{?is_opensuse}
-%pre -n yast2-branding-openSUSE
-# used to be a symlink, we need to remove it so rpm can update to the directory
-if test -L %{yast_themedir}/current ; then
-  rm %{yast_themedir}/current
-fi
 
 %post -n yast2-branding-openSUSE-Oxygen
 if test -L %{yast_themedir}/current/icons ; then
@@ -315,6 +294,7 @@ fi
 ln -s /usr/share/icons/oxygen %{yast_themedir}/current/icons
 
 %postun -n yast2-branding-openSUSE-Oxygen
+# yast2-branding-openSUSE is still there, so we have to reset the link to higcolor
 if test -L %{yast_themedir}/current/icons ; then
   rm %{yast_themedir}/current/icons
 fi
@@ -333,12 +313,6 @@ ln -s /usr/share/icons/hicolor %{yast_themedir}/current/icons
 /usr/share/doc/packages/yast2-theme/yast2-branding-openSUSE-Oxygen.txt
 
 %else
-
-%pre SLE
-# used to be a symlink, we need to remove it so rpm can update to the directory
-if test -L %{yast_themedir}/current ; then
-  rm %{yast_themedir}/current
-fi
 
 %files SLE
 %defattr(-,root,root)
