@@ -19,7 +19,7 @@
 
 
 Name:           yast2-theme
-Version:        4.1.2
+Version:        4.0.4
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -82,11 +82,13 @@ yast2-branding-openSUSE package.
 %package SLE
 Summary:        YaST2 - SLE Theme
 Group:          System/YaST
-Provides:       yast2-theme-NLD = 0.4.6
 Provides:       yast2_theme = %{version}
-Obsoletes:      yast2-theme-NLD <= 0.4.5
 Conflicts:      yast2-theme-openSUSE
 Conflicts:      yast2-theme-openSUSE-Oxygen
+Conflicts:      yast2-branding-openSUSE
+Conflicts:      yast2-branding-openSUSE-Oxygen
+Obsoletes:      yast2-branding-openSUSE
+Obsoletes:      yast2-branding-openSUSE-Oxygen
 PreReq:         /bin/ln
 
 %description SLE
@@ -133,7 +135,7 @@ mv $RPM_BUILD_ROOT%{yast_themedir}/SLE $RPM_BUILD_ROOT%{yast_themedir}/current
 # let's take hicolor icons for yast
 ln -s /usr/share/icons/hicolor $RPM_BUILD_ROOT%{yast_themedir}/current/icons
 
-# remove all icons that were not part of RC2 to avoid information leak
+# remove unneeded icons
 pushd $RPM_BUILD_ROOT/usr/share/icons/hicolor
 rm -rf 256x256
 rm 16x16/apps/pattern-enlightenment.png
