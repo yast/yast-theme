@@ -19,7 +19,7 @@
 
 
 Name:           yast2-theme
-Version:        4.0.4
+Version:        4.1.2
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -35,7 +35,7 @@ BuildRequires:  yast2-qt-branding-openSUSE
 %endif
 BuildArch:      noarch
 Summary:        YaST2 - Theme
-License:        GPL-2.0
+License:        GPL-2.0-only
 Group:          System/YaST
 Url:            http://github.com/yast/yast-theme
 

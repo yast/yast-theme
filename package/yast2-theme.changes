@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Sep 14 11:01:56 CEST 2018 - schubi@suse.de
+
+- Unify icon location for SLES and OpenSUSE (bsc#1104067).
+- 4.1.2
+
+-------------------------------------------------------------------
 Mon Aug 20 11:11:52 CEST 2018 - schubi@suse.de
 
 - Switched license in spec file from SPDX2 to SPDX3 format.
