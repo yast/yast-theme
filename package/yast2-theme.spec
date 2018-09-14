@@ -66,8 +66,8 @@ Summary:        YaST2 - switcher into Oxygen icon theme
 Group:          System/YaST
 Supplements:    packageand(yast2:plasma5-session)
 PreReq:         /bin/ln
+PreReq:         yast2-branding-openSUSE = %{version}
 Conflicts:      yast2-theme-SLE
-Requires:       yast2-branding-openSUSE = %{version}
 Provides:       yast2-theme-openSUSE-Oxygen = %{version}
 Obsoletes:      yast2-theme-openSUSE-Oxygen < %{version}
 
