@@ -85,8 +85,10 @@ Group:          System/YaST
 Provides:       yast2_theme = %{version}
 Conflicts:      yast2-theme-openSUSE
 Conflicts:      yast2-theme-openSUSE-Oxygen
-Obsoletes:      yast2-theme-openSUSE
-Obsoletes:      yast2-theme-openSUSE-Oxygen
+Conflicts:      yast2-branding-openSUSE
+Conflicts:      yast2-branding-openSUSE-Oxygen
+Obsoletes:      yast2-branding-openSUSE
+Obsoletes:      yast2-branding-openSUSE-Oxygen
 PreReq:         /bin/ln
 
 %description SLE
