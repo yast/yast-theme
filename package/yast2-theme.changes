@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Sep 18 09:59:20 CEST 2018 - hellcp@opensuse.org
+
+- Add KDE PIM icon (boo#1107103)
+- 4.1.3
+
+-------------------------------------------------------------------
 Fri Sep 14 11:01:56 CEST 2018 - schubi@suse.de
 
 - Unify icon location for SLES and OpenSUSE (bsc#1104067).
