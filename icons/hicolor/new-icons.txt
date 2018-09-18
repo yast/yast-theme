@@ -24,6 +24,7 @@ pattern-java-devel
 pattern-kde
 pattern-kde-addon
 pattern-kde-devel
+pattern-kde-pim
 pattern-kubic
 pattern-lxde
 pattern-lxqt
