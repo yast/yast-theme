@@ -1,14 +1,11 @@
 #Only render new batch of icons
 #Old icons will either need a revamp or be removed in the future
-apparmor_add_profile
-apparmor_app_armor
-apparmor_delete_profile
-apparmor_edit_profile
 apparmor_view_profile
 bootdisk_create
 keyboardlayout
 msg_error
 msg_info
+pattern-apparmor
 pattern-basis
 pattern-basis-devel
 pattern-c-devel
@@ -45,7 +42,6 @@ system
 user_add
 user_system
 yast
-yast-aardvark
 yast-addon
 yast-autoyast
 yast-bluetooth

@@ -1,322 +1,58 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   width="64"
-   height="64"
-   id="svg11300"
-   version="1.1">
-  <defs
-     id="defs3">
-    <linearGradient
-       id="linearGradient3264">
-      <stop
-         style="stop-color:#c9c9c9;stop-opacity:1;"
-         offset="0"
-         id="stop3266" />
-      <stop
-         id="stop3276"
-         offset="0.25"
-         style="stop-color:#f8f8f8;stop-opacity:1;" />
-      <stop
-         id="stop3272"
-         offset="0.5"
-         style="stop-color:#e2e2e2;stop-opacity:1;" />
-      <stop
-         style="stop-color:#b0b0b0;stop-opacity:1;"
-         offset="0.75"
-         id="stop3274" />
-      <stop
-         style="stop-color:#c9c9c9;stop-opacity:1;"
-         offset="1"
-         id="stop3268" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3256">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop3258" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop3260" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2752">
-      <stop
-         style="stop-color:#9d9d9d;stop-opacity:1;"
-         offset="0"
-         id="stop2754" />
-      <stop
-         style="stop-color:#b9b9b9;stop-opacity:1.0000000;"
-         offset="1.0000000"
-         id="stop2756" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2711">
-      <stop
-         style="stop-color:#909090;stop-opacity:1.0000000;"
-         offset="0.0000000"
-         id="stop2713" />
-      <stop
-         style="stop-color:#bebebe;stop-opacity:0.0000000;"
-         offset="1.0000000"
-         id="stop2715" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2701">
-      <stop
-         style="stop-color:#585956;stop-opacity:1.0000000;"
-         offset="0.0000000"
-         id="stop2703" />
-      <stop
-         style="stop-color:#bbbeb8;stop-opacity:1.0000000;"
-         offset="1.0000000"
-         id="stop2705" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2691">
-      <stop
-         style="stop-color:#868686;stop-opacity:1.0000000;"
-         offset="0.0000000"
-         id="stop2693" />
-      <stop
-         style="stop-color:#e9e9e9;stop-opacity:1.0000000;"
-         offset="1.0000000"
-         id="stop2695" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2675">
-      <stop
-         style="stop-color:#5b5b97;stop-opacity:1.0000000;"
-         offset="0.0000000"
-         id="stop2677" />
-      <stop
-         style="stop-color:#1b1b43;stop-opacity:1.0000000;"
-         offset="1.0000000"
-         id="stop2679" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2667">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1.0000000;"
-         offset="0.0000000"
-         id="stop2669" />
-      <stop
-         style="stop-color:#fcfcff;stop-opacity:0.0000000;"
-         offset="1.0000000"
-         id="stop2671" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2635">
-      <stop
-         style="stop-color:#f9fff5;stop-opacity:1;"
-         offset="0"
-         id="stop2637" />
-      <stop
-         style="stop-color:#f9fff5;stop-opacity:0;"
-         offset="1"
-         id="stop2639" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2623">
-      <stop
-         style="stop-color:#dfdfde;stop-opacity:1.0000000;"
-         offset="0.0000000"
-         id="stop2625" />
-      <stop
-         style="stop-color:#9d9f9a;stop-opacity:1.0000000;"
-         offset="1.0000000"
-         id="stop2627" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2379">
-      <stop
-         id="stop2381"
-         offset="0.0000000"
-         style="stop-color:#1a4876;stop-opacity:1.0000000;" />
-      <stop
-         id="stop2383"
-         offset="1.0000000"
-         style="stop-color:#3f54a3;stop-opacity:0.0000000;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2328">
-      <stop
-         id="stop2330"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:1;" />
-      <stop
-         id="stop2332"
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2307">
-      <stop
-         id="stop2309"
-         offset="0"
-         style="stop-color:#5a7aa4;stop-opacity:1;" />
-      <stop
-         id="stop2311"
-         offset="1"
-         style="stop-color:#5a7aa4;stop-opacity:0;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2253">
-      <stop
-         id="stop2255"
-         offset="0.0000000"
-         style="stop-color:#8f8f8f;stop-opacity:1.0000000;" />
-      <stop
-         id="stop2257"
-         offset="1.0000000"
-         style="stop-color:#494949;stop-opacity:1.0000000;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2245">
-      <stop
-         id="stop2247"
-         offset="0.0000000"
-         style="stop-color:#dde1d9;stop-opacity:1.0000000;" />
-      <stop
-         id="stop2249"
-         offset="1.0000000"
-         style="stop-color:#cacdc6;stop-opacity:1.0000000;" />
-    </linearGradient>
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       y2="53.734985"
-       x2="24.418941"
-       y1="9.323514"
-       x1="16.851954"
-       gradientTransform="matrix(1.208393,0,0,0.98441,-0.789284,-0.50338)"
-       id="linearGradient2313"
-       xlink:href="#linearGradient2307" />
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       y2="39.03191"
-       x2="27.289009"
-       y1="10.842293"
-       x1="16.119127"
-       gradientTransform="matrix(1.289166,0,0,0.922731,-0.789284,-0.50338)"
-       id="linearGradient2334"
-       xlink:href="#linearGradient2328" />
-    <linearGradient
-       y2="-1.3221773"
-       x2="19.994572"
-       y1="30.078255"
-       x1="21.356108"
-       gradientTransform="matrix(1.02787,0,0,0.822296,1.523986,1.001198)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient2445"
-       xlink:href="#linearGradient2379" />
-    <linearGradient
-       xlink:href="#linearGradient2623"
-       id="linearGradient2653"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(1.983556,0.504145)"
-       x1="10.728384"
-       y1="84.029198"
-       x2="10.728384"
-       y2="92.57093" />
-    <linearGradient
-       xlink:href="#linearGradient2635"
-       id="linearGradient2655"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(2.143634,0.466498)"
-       x1="13.62871"
-       y1="101.2846"
-       x2="8.6485014"
-       y2="74.098007" />
-    <radialGradient
-       r="19.622213"
-       fy="39.161163"
-       fx="25.455845"
-       cy="39.161163"
-       cx="25.455845"
-       gradientTransform="matrix(1,0,0,0.315315,0,26.81305)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient13503"
-       xlink:href="#linearGradient3256" />
-    <linearGradient
-       y2="39.684914"
-       x2="34.534348"
-       y1="12.284524"
-       x1="14.462892"
-       gradientTransform="matrix(1.241935,0,0,1.241935,-5.027508,-7.208988)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient13505"
-       xlink:href="#linearGradient3264" />
-  </defs>
-  <metadata
-     id="metadata4">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Jakub Steiner</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:source>http://jimmac.musichall.cz</dc:source>
-        <cc:license
-           rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/" />
-        <dc:title></dc:title>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>apparmor</rdf:li>
-            <rdf:li>novell</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-      </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
-        <cc:permits
-           rdf:resource="http://web.resource.org/cc/Reproduction" />
-        <cc:permits
-           rdf:resource="http://web.resource.org/cc/Distribution" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/Notice" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/Attribution" />
-        <cc:permits
-           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/ShareAlike" />
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
-  <path
-     id="rect905-7"
-     d="M 32,5 C 20.92,5 12,13.920001 12,25 V 37 C 12,48.08 20.92,57 32,57 25.352,57 20,51.648 20,45 V 25 c 0,-6.648 5.352,-12 12,-12 6.648,0 12,5.352 12,12 v 20 c 0,6.648 -5.352,12 -12,12 11.08,0 20,-8.92 20,-20 V 25 C 52,13.920001 43.08,5 32,5 Z"
-     style="opacity:1;fill:#808080;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     id="rect905"
-     d="M 32 4 C 20.92 4 12 12.92 12 24 L 12 36 C 12 47.08 20.92 56 32 56 C 25.352 56 20 50.648 20 44 L 20 24 C 20 17.352 25.352 12 32 12 C 38.648 12 44 17.352 44 24 L 44 44 C 44 50.648 38.648 56 32 56 C 43.08 56 52 47.08 52 36 L 52 24 C 52 12.92 43.08 4 32 4 z "
-     style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <rect
-     ry="4"
-     y="28"
-     x="8"
-     height="32"
-     width="48"
-     id="rect903-6"
-     style="opacity:1;fill:#aa8800;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     id="rect903-2"
-     d="m 12,29 c -2.216,0 -4,1.784 -4,4 h 6 c 1.108,0 2,0.892 2,2 0,1.108 -0.892,2 -2,2 H 8 v 4 h 6 c 1.108,0 2,0.892 2,2 0,1.108 -0.892,2 -2,2 H 8 v 4 h 6 c 1.108,0 2,0.892 2,2 0,1.108 -0.892,2 -2,2 H 8 c 0,2.216 1.784,4 4,4 h 40 c 2.216,0 4,-1.784 4,-4 h -6 c -1.108,0 -2,-0.892 -2,-2 0,-1.108 0.892,-2 2,-2 h 6 v -4 h -6 c -1.108,0 -2,-0.892 -2,-2 0,-1.108 0.892,-2 2,-2 h 6 v -4 h -6 c -1.108,0 -2,-0.892 -2,-2 0,-1.108 0.892,-2 2,-2 h 6 c 0,-2.216 -1.784,-4 -4,-4 z"
-     style="opacity:1;fill:#d4aa00;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     id="rect903"
-     d="M 12 28 C 9.784 28 8 29.784 8 32 L 14 32 C 15.108 32 16 32.892 16 34 C 16 35.108 15.108 36 14 36 L 8 36 L 8 40 L 14 40 C 15.108 40 16 40.892 16 42 C 16 43.108 15.108 44 14 44 L 8 44 L 8 48 L 14 48 C 15.108 48 16 48.892 16 50 C 16 51.108 15.108 52 14 52 L 8 52 C 8 54.216 9.784 56 12 56 L 52 56 C 54.216 56 56 54.216 56 52 L 50 52 C 48.892 52 48 51.108 48 50 C 48 48.892 48.892 48 50 48 L 56 48 L 56 44 L 50 44 C 48.892 44 48 43.108 48 42 C 48 40.892 48.892 40 50 40 L 56 40 L 56 36 L 50 36 C 48.892 36 48 35.108 48 34 C 48 32.892 48.892 32 50 32 L 56 32 C 56 29.784 54.216 28 52 28 L 12 28 z "
-     style="opacity:1;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<defs>
+<radialGradient id="f" cx="16" cy="17" r="10" gradientTransform="translate(0,-5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#999" offset="0"/>
+<stop stop-color="#c0bfbc" offset=".6"/>
+<stop stop-color="#deddda" offset=".9"/>
+<stop stop-color="#c0bfbc" offset="1"/>
+</radialGradient>
+<linearGradient id="e" x1="6" x2="26" y1="15" y2="15" gradientUnits="userSpaceOnUse">
+<stop stop-color="#c0bfbc" offset="0"/>
+<stop stop-color="#deddda" offset=".05"/>
+<stop stop-color="#c0bfbc" offset=".2"/>
+<stop stop-color="#c0bfbc" offset=".8"/>
+<stop stop-color="#deddda" offset=".95"/>
+<stop stop-color="#c0bfbc" offset="1"/>
+</linearGradient>
+<linearGradient id="d" x1="26" x2="26" y1="28" y2="14" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e5a50a" offset="0"/>
+<stop stop-color="#e5a50a" stop-opacity="0" offset="1"/>
+</linearGradient>
+</defs>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:creator>
+<cc:Agent>
+<dc:title>Jakub Steiner</dc:title>
+</cc:Agent>
+</dc:creator>
+<dc:source>http://jimmac.musichall.cz</dc:source>
+<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/"/>
+<dc:title/>
+<dc:subject>
+<rdf:Bag>
+<rdf:li>apparmor</rdf:li>
+<rdf:li>novell</rdf:li>
+</rdf:Bag>
+</dc:subject>
+</cc:Work>
+<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
+<cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+<cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+<cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+<cc:requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+<cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+<cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+</cc:License>
+</rdf:RDF>
+</metadata>
+<path d="m6 12v2h4v-2h-4zm16 0v2h4v-2h-4z" fill="url(#e)"/>
+<rect x="4" y="14" width="24" height="16" ry="1" fill="#e5a50a"/>
+<path d="m16 2c-5.54 0-10 4.46-10 10h4c0-3.324 2.676-6 6-6s6 2.676 6 6h4c0-5.54-4.46-10-10-10z" fill="url(#f)"/>
+<rect x="4" y="14" width="24" height="14" ry="1" fill="#f6d32d"/>
+<path d="m4 16v2h4v-2h-4zm20 0v2h4v-2h-4zm-20 4v2h4v-2h-4zm20 0v2h4v-2h-4zm-20 4v2h4v-2h-4zm20 0v2h4v-2h-4z" fill="url(#d)"/>
 </svg>
