@@ -23,6 +23,7 @@ pattern-kde-addon
 pattern-kde-devel
 pattern-kde-pim
 pattern-kubic
+pattern-laptop
 pattern-lxde
 pattern-lxqt
 pattern-mate
