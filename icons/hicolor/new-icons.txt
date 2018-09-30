@@ -7,6 +7,7 @@ msg_error
 msg_info
 pattern-apparmor
 pattern-basis
+pattern-basis-addon
 pattern-basis-devel
 pattern-c-devel
 pattern-container
@@ -17,7 +18,9 @@ pattern-gnome
 pattern-gnome-devel
 pattern-gnome-wayland
 pattern-gnome-xorg
+pattern-hpc-devel
 pattern-java-devel
+pattern-kernel-devel
 pattern-kde
 pattern-kde-addon
 pattern-kde-devel
@@ -34,6 +37,7 @@ pattern-python-devel
 pattern-qt-devel
 pattern-rpm-devel
 pattern-ruby-devel
+pattern-tcltk-devel
 pattern-web-devel
 pattern-xfce
 pattern-yast-devel
