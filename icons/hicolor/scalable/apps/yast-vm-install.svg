@@ -1,97 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   id="svg11300"
-   height="64"
-   width="64">
-  <defs
-     id="defs3" />
-  <metadata
-     id="metadata4">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Jakub Steiner</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:source>http://jimmac.musichall.cz</dc:source>
-        <cc:license
-           rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/" />
-        <dc:title></dc:title>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>apparmor</rdf:li>
-            <rdf:li>novell</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-      </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
-        <cc:permits
-           rdf:resource="http://web.resource.org/cc/Reproduction" />
-        <cc:permits
-           rdf:resource="http://web.resource.org/cc/Distribution" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/Notice" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/Attribution" />
-        <cc:permits
-           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/ShareAlike" />
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="translate(0,16)"
-     id="layer1">
-    <path
-       id="rect1389-0"
-       transform="translate(0,-16)"
-       d="M 16 47 C 14.892 47 14 47.892 14 49 L 14 54 C 14 55.108 14.892 56 16 56 L 48 56 C 49.108 56 50 55.108 50 54 L 50 49 C 50 47.892 49.108 47 48 47 L 16 47 z "
-       style="opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="rect1389"
-       transform="translate(0,-16)"
-       d="M 16 46 C 14.892 46 14 46.892 14 48 L 14 53 C 14 54.108 14.892 55 16 55 L 48 55 C 49.108 55 50 54.108 50 53 L 50 48 C 50 46.892 49.108 46 48 46 L 16 46 z "
-       style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="rect1387-7"
-       transform="translate(0,-16)"
-       d="M 6 10 C 4.892 10 4 10.892 4 12 L 4 47 C 4 48.108 4.892 49 6 49 L 58 49 C 59.108 49 60 48.108 60 47 L 60 12 C 60 10.892 59.108 10 58 10 L 6 10 z "
-       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="rect1387"
-       transform="translate(0,-16)"
-       d="M 6 8 C 4.892 8 4 8.892 4 10 L 4 46 C 4 47.108 4.892 48 6 48 L 58 48 C 59.108 48 60 47.108 60 46 L 60 10 C 60 8.892 59.108 8 58 8 L 6 8 z "
-       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="rect1391-9"
-       transform="translate(0,-16)"
-       d="M 8 11 C 7.446 11 7 11.446 7 12 L 7 43 C 7 43.554 7.446 44 8 44 L 56 44 C 56.554 44 57 43.554 57 43 L 57 12 C 57 11.446 56.554 11 56 11 L 8 11 z "
-       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="rect1391"
-       transform="translate(0,-16)"
-       d="M 8 12 C 7.446 12 7 12.446 7 13 L 7 44 C 7 44.554 7.446 45 8 45 L 56 45 C 56.554 45 57 44.554 57 44 L 57 13 C 57 12.446 56.554 12 56 12 L 8 12 z "
-       style="opacity:1;fill:#a84abc;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  </g>
-  <path
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#73467f;fill-opacity:1;stroke:none;stroke-width:0.62735891"
-     d="m 12,18 v 1 l 7,19 h 4 l 7,-19 v -1 h -4 l -5,16 v 0 L 16,18 Z m 20,0 v 20 h 4 v -15 0 l 5,15 h 2 l 5,-14 v 0 14 h 4 V 18 h -5 l -5,12 v 0 L 37.031866,18 Z"
-     id="text879-3" />
-  <path
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.62735891"
-     d="m 12,19 7,20 h 4 l 7,-20 h -4 l -5,16 v 0 L 16,19 Z m 20,0 v 20 h 4 v -15 0 l 5,15 h 2 l 5,-14 v 0 14 h 4 V 19 h -5 l -5,12 v 0 L 37.031866,19 Z"
-     id="text879" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:creator>
+<cc:Agent>
+<dc:title>Jakub Steiner</dc:title>
+</cc:Agent>
+</dc:creator>
+<dc:source>http://jimmac.musichall.cz</dc:source>
+<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/"/>
+<dc:title/>
+<dc:subject>
+<rdf:Bag>
+<rdf:li>apparmor</rdf:li>
+<rdf:li>novell</rdf:li>
+</rdf:Bag>
+</dc:subject>
+</cc:Work>
+<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
+<cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+<cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+<cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+<cc:requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+<cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+<cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+</cc:License>
+</rdf:RDF>
+</metadata>
+<rect x="2" y="6" width="28" height="22" fill="#f6f5f4"/>
+<rect x="2" y="4" width="28" height="3" ry="1" fill="#c0bfbc"/>
+<rect x="2" y="6" width="28" height="1" fill="#c0bfbc"/>
+<rect x="2" y="7" width="1" height="21" fill="#9a9996"/>
+<rect x="2" y="27" width="28" height="1" fill="#9a9996"/>
+<rect x="29" y="7" width="1" height="21" fill="#9a9996"/>
+<rect x="2" y="7" width="28" height="1" fill="#9a9996"/>
+<rect x="28" y="5" width="1" height="1" ry=".5" fill="#3d3846"/>
+<rect x="26" y="5" width="1" height="1" ry=".5" fill="#3d3846"/>
+<rect x="24" y="5" width="1" height="1" ry=".5" fill="#3d3846"/>
+<rect x="3" y="24" width="26" height="3" fill="#241f31"/>
+<rect x="3" y="24" width="3" height="3" fill="#fff"/>
+<rect x="25" y="25" width="3" height="1" fill="#fff"/>
+<rect x="23" y="25" width="1" height="1" fill="#fff"/>
+<rect x="21" y="25" width="1" height="1" fill="#fff"/>
+<rect x="7" y="25" width="1" height="1" fill="#fff"/>
+<rect x="9" y="25" width="6" height="1" fill="#fff"/>
+<rect x="5" y="9" width="2" height="2" fill="#3d3846"/>
+<rect x="4" y="12" width="4" height="1" fill="#3d3846"/>
+<rect x="5" y="14" width="2" height="2" fill="#3d3846"/>
+<rect x="4" y="17" width="4" height="1" fill="#3d3846"/>
 </svg>

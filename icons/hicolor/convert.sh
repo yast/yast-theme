@@ -5,5 +5,6 @@ do
   for name in `grep -v '^#' new-icons.txt`
   do
     inkscape -z --export-png ${x}x${x}/apps/${name}.png scalable/apps/${name}.svg -w ${x} 1> /dev/null
+    optipng -o7 ${x}x${x}/apps/${name}.png 1> /dev/null
   done
 done

@@ -1,4 +1,15 @@
 -------------------------------------------------------------------
+Sun Sep 30 00:40:53 CEST 2018 - hellcp@opensuse.org
+
+- Changed icons to Gnome spec (boo#1110241)
+- Added hicolor/scalable/devices (boo#1109382)
+- New files in devices directory have been named according
+  to the suggested schema (boo#1110236)
+- Optipng'd all the pngs and scroted all new icons for
+  space saving
+- 4.1.4
+
+-------------------------------------------------------------------
 Tue Sep 18 09:59:20 CEST 2018 - hellcp@opensuse.org
 
 - Add KDE PIM icon (boo#1107103)
