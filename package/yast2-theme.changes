@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Tue Oct 16 16:06:51 CEST 2018 - schubi@suse.de
+
+- Added license file to spec.
+
+-------------------------------------------------------------------
 Sun Sep 30 00:40:53 CEST 2018 - hellcp@opensuse.org
 
 - Changed icons to Gnome spec (boo#1110241)
