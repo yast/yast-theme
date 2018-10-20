@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Oct 16 22:19:00 UTC 2018 - Stasiek Michalski <hellcp@opensuse.org>
+
+- Modify color scheme and shadows to better fit the guidelines (boo#1110241)
+- 4.1.5
+
+-------------------------------------------------------------------
 Sun Sep 30 00:40:53 CEST 2018 - hellcp@opensuse.org
 
 - Changed icons to Gnome spec (boo#1110241)
