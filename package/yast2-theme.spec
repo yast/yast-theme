@@ -292,7 +292,9 @@ rm -rf $RPM_BUILD_ROOT/usr/share/icons/{crystal,oxygen}
 # which is included in newer versions of yast2-branding-openSUSE. So we have to remove
 # this directory at first of all.
 %pre -n yast2-branding-openSUSE
+echo "xxxxxxxxx"
 if test -d %{yast_themedir}/current/icons ; then
+    echo "yyyyyyyyyyyyy"
   rm -rf %{yast_themedir}/current/icons
 fi
 
