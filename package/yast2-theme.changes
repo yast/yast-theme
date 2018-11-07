@@ -1,8 +1,9 @@
 -------------------------------------------------------------------
 Wed Nov  7 09:59:12 CET 2018 - schubi@suse.de
 
-- Update: removing {yast_themedir}/current/icons of older packages
-  at first of all (bsc12345)
+- Update: removing {yast_themedir}/current link of older packages
+  at first of all in order to install links via cpio of the new
+  package (bsc#1114620) 
 - 4.1.5
 
 -------------------------------------------------------------------
