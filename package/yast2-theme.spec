@@ -288,13 +288,11 @@ rm -rf $RPM_BUILD_ROOT/usr/share/icons/{crystal,oxygen}
 %fdupes $RPM_BUILD_ROOT/usr/share/icons
 
 # ../current/icons is a directory in older versions of yast2-branding-openSUSE.
-# While update via cpio this directory cannot be overwritten by a link with the same name
-# which is included in newer versions of yast2-branding-openSUSE. So we have to remove
-# the parent directory which is also a link at first of all.
+# While update via cpio this directory cannot be overwritten by a link with the same name.
+# This link is provided by the newer versions of yast2-branding-openSUSE. So we have to remove
+# the parent directory which is also a link before installing the new package.
 %pre -n yast2-branding-openSUSE
-    echo "xxxxx1"
 if test -L %{yast_themedir}/current ; then
-    echo "xxxxx2"
   rm %{yast_themedir}/current
 fi
 
