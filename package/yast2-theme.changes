@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Wed Nov  7 09:59:12 CET 2018 - schubi@suse.de
+
+- Update: removing {yast_themedir}/current link of older packages
+  at first of all in order to install links via cpio of the new
+  package (bsc#1114620) 
+- 4.1.5
+
+-------------------------------------------------------------------
 Tue Oct 16 16:06:51 CEST 2018 - schubi@suse.de
 
 - Added license file to spec.
