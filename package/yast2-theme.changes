@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Nov  7 09:59:12 CET 2018 - schubi@suse.de
+
+- Update: removing {yast_themedir}/current/icons of older packages
+  at first of all (bsc12345)
+- 4.1.5
+
+-------------------------------------------------------------------
 Tue Oct 16 16:06:51 CEST 2018 - schubi@suse.de
 
 - Added license file to spec.
