@@ -293,7 +293,7 @@ rm -rf $RPM_BUILD_ROOT/usr/share/icons/{crystal,oxygen}
 # this directory at first of all.
 %pre -n yast2-branding-openSUSE
 echo "xxxxxxxxx"
-if test -d %{yast_themedir}/current/icons ; then
+if ! test -L %{yast_themedir}/current/icons ; then
     echo "yyyyyyyyyyyyy"
   rm -rf %{yast_themedir}/current/icons
 fi
