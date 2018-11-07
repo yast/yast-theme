@@ -291,10 +291,10 @@ rm -rf $RPM_BUILD_ROOT/usr/share/icons/{crystal,oxygen}
 # While update via cpio this directory cannot be overwritten by a link with the same name
 # which is included in newer versions of yast2-branding-openSUSE. So we have to remove
 # this directory at first of all.
-%pre
-if test -d %{yast_themedir}/current/icons ; then
-  rm -rf %{yast_themedir}/current/icons
-fi
+#%pre
+#if test -d %{yast_themedir}/current/icons ; then
+#  rm -rf %{yast_themedir}/current/icons
+#fi
 
 %if 0%{?is_opensuse}
 
