@@ -5,9 +5,11 @@ Mon Nov 26 12:22:00 UTC 2018 - Stasiek Michalski <hellcp@mailbox.org>
 - 4.1.6
 
 -------------------------------------------------------------------
-Tue Oct 16 22:19:00 UTC 2018 - Stasiek Michalski <hellcp@opensuse.org>
+Wed Nov  7 09:59:12 CET 2018 - schubi@suse.de
 
-- Modify color scheme and shadows to better fit the guidelines (boo#1110241)
+- Update: removing {yast_themedir}/current link of older packages
+  at first of all in order to install links via cpio of the new
+  package (bsc#1114620) 
 - 4.1.5
 
 -------------------------------------------------------------------
