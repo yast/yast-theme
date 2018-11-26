@@ -51,7 +51,6 @@ Provides:       yast2_theme = %{version}
 Conflicts:      otherproviders(yast2-branding)
 Supplements:    packageand(yast2:branding-openSUSE)
 Conflicts:      yast2-theme-SLE
-PreReq:         /bin/ln
 Requires:       hicolor-icon-theme
 Obsoletes:      yast2-theme-openSUSE-Crystal < %{version}
 Obsoletes:      yast2-theme-openSUSE < %{version}
@@ -65,7 +64,6 @@ This package contains the openSUSE theme for YaST2.
 Summary:        YaST2 - switcher into Oxygen icon theme
 Group:          System/YaST
 Supplements:    packageand(yast2:plasma5-session)
-PreReq:         /bin/ln
 PreReq:         yast2-branding-openSUSE = %{version}
 Conflicts:      yast2-theme-SLE
 Provides:       yast2-theme-openSUSE-Oxygen = %{version}
@@ -89,7 +87,6 @@ Conflicts:      yast2-branding-openSUSE
 Conflicts:      yast2-branding-openSUSE-Oxygen
 Obsoletes:      yast2-branding-openSUSE
 Obsoletes:      yast2-branding-openSUSE-Oxygen
-PreReq:         /bin/ln
 
 %description SLE
 This package contains the YaST2 theme for the SUSE Linux Enterprise
@@ -108,9 +105,6 @@ Family.
 %if 0%{?is_opensuse}
 rm -rf $RPM_BUILD_ROOT/%{yast_themedir}/SLE
 mv $RPM_BUILD_ROOT%{yast_themedir}/openSUSE $RPM_BUILD_ROOT%{yast_themedir}/current
-
-# let's take hicolor icons for yast
-ln -s /usr/share/icons/hicolor $RPM_BUILD_ROOT%{yast_themedir}/current/icons
 
 # install opensuse icewm style
 mkdir -p $RPM_BUILD_ROOT/etc/icewm/
@@ -132,9 +126,6 @@ rm -rf "$RPM_BUILD_ROOT/%{_docdir}/yast2-theme"
 
 mv $RPM_BUILD_ROOT%{yast_themedir}/SLE $RPM_BUILD_ROOT%{yast_themedir}/current
 
-# let's take hicolor icons for yast
-ln -s /usr/share/icons/hicolor $RPM_BUILD_ROOT%{yast_themedir}/current/icons
-
 # remove KDE icons - they are incomplete and only interesting for openSUSE
 rm -rf $RPM_BUILD_ROOT/usr/share/icons/{crystal,oxygen}
 %endif
@@ -143,19 +134,6 @@ rm -rf $RPM_BUILD_ROOT/usr/share/icons/{crystal,oxygen}
 %fdupes $RPM_BUILD_ROOT/usr/share/icons
 
 %if 0%{?is_opensuse}
-
-%post -n yast2-branding-openSUSE-Oxygen
-if test -L %{yast_themedir}/current/icons ; then
-  rm %{yast_themedir}/current/icons
-fi
-ln -s /usr/share/icons/oxygen %{yast_themedir}/current/icons
-
-%postun -n yast2-branding-openSUSE-Oxygen
-# yast2-branding-openSUSE is still there, so we have to reset the link to higcolor
-if test -L %{yast_themedir}/current/icons ; then
-  rm %{yast_themedir}/current/icons
-fi
-ln -s /usr/share/icons/hicolor %{yast_themedir}/current/icons
 
 %files -n yast2-branding-openSUSE
 %defattr(-,root,root)
