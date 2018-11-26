@@ -164,6 +164,7 @@ ln -s /usr/share/icons/hicolor %{yast_themedir}/current/icons
 %config %{_sysconfdir}/icewm
 /usr/share/icons/*
 %doc %{yast_docdir}-openSUSE
+%license COPYING
 
 %files -n yast2-branding-openSUSE-Oxygen
 %dir /usr/share/doc/packages/yast2-theme/
