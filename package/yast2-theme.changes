@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Nov 26 12:22:00 UTC 2018 - Stasiek Michalski <hellcp@mailbox.org>
+
+- Provide icon with module (boo#1109310)
+- 4.1.6
+
+-------------------------------------------------------------------
 Tue Oct 16 22:19:00 UTC 2018 - Stasiek Michalski <hellcp@opensuse.org>
 
 - Modify color scheme and shadows to better fit the guidelines (boo#1110241)
