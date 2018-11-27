@@ -17,14 +17,18 @@ KeySysSwitchLast="Alt+Shift+Tab"
 Win95Keys=0
 
 # Colors
-ColorActiveTitleBar="rgb:4e/6f/9f"
-ColorNormalTitleBar="rgb:c3/c3/c3"
+ColorActiveTitleBar="rgb:ee/ee/ee"
+ColorNormalTitleBar="rgb:dd/dd/dd"
+ColorNormalBorder="rgb:bb/bb/bb"
+ColorActiveBorder="rgb:bb/bb/bb"
+ColorNormalTitleBarText="rgb:33/33/33"
+ColorActiveTitleBarText="rgb:33/33/33"
 
 # Borders
-BorderSizeX=3
-BorderSizeY=3
-DlgBorderSizeX=3
-DlgBorderSizeY=3
+BorderSizeX=1
+BorderSizeY=1
+DlgBorderSizeX=1
+DlgBorderSizeY=1
 
 # Disable most shortcuts
 # :r !grep -o '\<Key[^=]*' /etc/icewm/preferences | grep -v Switch | sed 's/$/=""/'
