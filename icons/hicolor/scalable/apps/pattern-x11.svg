@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<defs>
+<linearGradient id="a" x1="319.21" x2="657.65" y1="235.15" y2="269.49" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e54c18" offset="0"/>
+<stop stop-color="#fec350" offset="1"/>
+</linearGradient>
+</defs>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:creator>
+<cc:Agent>
+<dc:title>Jakub Steiner</dc:title>
+</cc:Agent>
+</dc:creator>
+<dc:source>http://jimmac.musichall.cz</dc:source>
+<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/"/>
+<dc:title/>
+<dc:subject>
+<rdf:Bag>
+<rdf:li>apparmor</rdf:li>
+<rdf:li>novell</rdf:li>
+</rdf:Bag>
+</dc:subject>
+</cc:Work>
+<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
+<cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+<cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+<cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+<cc:requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+<cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+<cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+</cc:License>
+</rdf:RDF>
+</metadata>
+<g transform="matrix(.5 0 0 .5 0 8)">
+<path d="m16 32c-1.108 0-2 0.99111-2 2.2222v5.5556c0 1.2311 0.892 2.2222 2 2.2222h32c1.108 0 2-0.99111 2-2.2222v-5.5556c0-1.2311-0.892-2.2222-2-2.2222z" fill="#5e5c64"/>
+<path d="m16 30c-1.108 0-2 0.99111-2 2.2222v5.5556c0 1.2311 0.892 2.2222 2 2.2222h32c1.108 0 2-0.99111 2-2.2222v-5.5556c0-1.2311-0.892-2.2222-2-2.2222z" fill="#9a9996"/>
+<path d="m6-6c-1.108 0-2 0.91487-2 2.0513v35.897c0 1.1364 0.892 2.0513 2 2.0513h52c1.108 0 2-0.91487 2-2.0513v-35.897c0-1.1364-0.892-2.0513-2-2.0513z" fill="#5e5c64"/>
+<path transform="translate(0,-16)" d="m6 8c-1.108 0-2 0.892-2 2v36c0 1.108 0.892 2 2 2h52c1.108 0 2-0.892 2-2v-36c0-1.108-0.892-2-2-2z" fill="#9a9996"/>
+<rect x="6" y="-6" width="52" height="36" ry="0" fill="#3d3846"/>
+<rect x="8" y="-4" width="48" height="32" ry="0" fill="#ff7800"/>
+<path d="m8-4h36l-8 32h-28z" fill="#fff" opacity=".2"/>
+<g transform="matrix(.078635 0 0 .078635 26.904 -3.4209)">
+<g transform="translate(-413.21 -40.704)">
+<path d="m342.07 390.7 111.1-145.26-114.38-159.71 73.514 0.06108 91.138 125.58-136.27 179.33zm217.45 0.10271-90.509-125.8 137.4-179.41h24.482l-111.55 145.94 113.69 159.27z" fill="#fff"/>
+</g>
+<rect x="322.36" y="180.85" width=".50508" height="0" fill="#000cff" opacity=".40741"/>
+</g>
+</g>
+<style type="text/css">#P1 {fill:url(#a)}
+rect {opacity:.40740739;fill:#000cff;width:.50507629;height:0}</style>
+</svg>

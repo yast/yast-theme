@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg35"
+   viewBox="0 0 32 32"
+   version="1.1">
+  <defs
+     id="defs13">
+    <linearGradient
+       id="linearGradient1396">
+      <stop
+         id="stop1392"
+         offset="0"
+         style="stop-color:#8ff0a4;stop-opacity:1" />
+      <stop
+         id="stop1394"
+         offset="1"
+         style="stop-color:#98c1f1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1315">
+      <stop
+         id="stop1311"
+         offset="0"
+         style="stop-color:#241f31;stop-opacity:1;" />
+      <stop
+         id="stop1313"
+         offset="1"
+         style="stop-color:#3d3846;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1288">
+      <stop
+         id="stop1284"
+         offset="0"
+         style="stop-color:#c0bfbc;stop-opacity:1;" />
+      <stop
+         id="stop1286"
+         offset="1"
+         style="stop-color:#f6f5f4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1270">
+      <stop
+         id="stop1266"
+         offset="0"
+         style="stop-color:#c0bfbc;stop-opacity:1" />
+      <stop
+         id="stop1268"
+         offset="1"
+         style="stop-color:#9a9996;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1262">
+      <stop
+         id="stop1258"
+         offset="0"
+         style="stop-color:#c0bfbc;stop-opacity:1;" />
+      <stop
+         id="stop1260"
+         offset="1"
+         style="stop-color:#f6f5f4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient957">
+      <stop
+         id="stop953"
+         offset="0"
+         style="stop-color:#deddda;stop-opacity:1" />
+      <stop
+         id="stop955"
+         offset="1"
+         style="stop-color:#f6f5f4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(-1)"
+       gradientUnits="userSpaceOnUse"
+       y2="17.5"
+       x2="20.001324"
+       y1="17.5"
+       x1="6.9986759"
+       id="linearGradient959"
+       xlink:href="#linearGradient957" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="21.5"
+       x2="30"
+       y1="21.5"
+       x1="2"
+       id="linearGradient1264"
+       xlink:href="#linearGradient1262" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="26"
+       x2="15"
+       y1="29"
+       x1="15"
+       id="linearGradient1272"
+       xlink:href="#linearGradient1270" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="14.5"
+       x2="28"
+       y1="14.5"
+       x1="26"
+       id="linearGradient1290"
+       xlink:href="#linearGradient1288" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="16.5"
+       x2="23"
+       y1="16.5"
+       x1="9"
+       id="linearGradient1317"
+       xlink:href="#linearGradient1315" />
+    <linearGradient
+       gradientTransform="translate(0,1)"
+       gradientUnits="userSpaceOnUse"
+       y2="14"
+       x2="16"
+       y1="4"
+       x1="12"
+       id="linearGradient1398"
+       xlink:href="#linearGradient1396" />
+  </defs>
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:source>http://jimmac.musichall.cz</dc:source>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/" />
+        <dc:title></dc:title>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>apparmor</rdf:li>
+            <rdf:li>novell</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Attribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="rect1554-1"
+     d="M 5,6 C 3.892,6 3,6.892 3,8 v 18 c 0,1.108 0.892,2 2,2 h 22 c 1.108,0 2,-0.892 2,-2 V 8 C 29,6.892 28.108,6 27,6 Z M 5,8 H 27 V 26 H 5 Z"
+     style="opacity:1;fill:#c0bfbc;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="rect1554"
+     d="M 5 5 C 3.892 5 3 5.892 3 7 L 3 25 C 3 26.108 3.892 27 5 27 L 27 27 C 28.108 27 29 26.108 29 25 L 29 7 C 29 5.892 28.108 5 27 5 L 5 5 z M 5 7 L 27 7 L 27 25 L 5 25 L 5 7 z "
+     style="opacity:1;fill:#deddda;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     y="8"
+     x="5"
+     height="17"
+     width="22"
+     id="rect1574"
+     style="opacity:1;fill:#241f31;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     id="text1580"
+     y="20.999666"
+     x="8"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:13.33333302px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Ultra-Bold';fill:#ffffff"
+       y="20.999666"
+       x="8"
+       id="tspan1578">~&gt;</tspan></text>
+</svg>
