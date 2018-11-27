@@ -85,7 +85,6 @@ Contains icons in KDE Crystal style (from KDE 3).
 %setup -n %{name}-%{version}
 
 %build
-%yast_build
 
 %install
 %yast_install
