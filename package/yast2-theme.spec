@@ -93,10 +93,10 @@ Contains icons in KDE Crystal style (from KDE 3).
 mkdir -p $RPM_BUILD_ROOT/etc/icewm/
 %if 0%{?is_opensuse}
 mv $RPM_BUILD_ROOT%{yast_themedir}/openSUSE $RPM_BUILD_ROOT%{yast_themedir}/current
-cp openSUSE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
+cp theme/openSUSE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
 %else
 mv $RPM_BUILD_ROOT%{yast_themedir}/SLE $RPM_BUILD_ROOT%{yast_themedir}/current
-cp SLE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
+cp theme/SLE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
 %endif
 
 # We only need current theme
