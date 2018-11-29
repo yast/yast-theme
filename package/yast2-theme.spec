@@ -126,9 +126,11 @@ fi
 %license COPYING
 
 %files oxygen
+%{yast_icondir}/oxygen
 %{yast_icondir}/oxygen/*
 
 %files crystal
+%dir %{yast_icondir}/crystal
 %{yast_icondir}/crystal/*
 
 %changelog
