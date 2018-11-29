@@ -76,7 +76,7 @@ Contains icons in KDE Oxygen style (from KDE Plasma 4).
 %build
 
 %install
-%yast_install
+rake install DESTDIR=%{buildroot}
 
 # Distro specific config (should be moved to distro specific branding packages!)
 mkdir -p $RPM_BUILD_ROOT/etc/icewm/
@@ -84,9 +84,10 @@ mkdir -p $RPM_BUILD_ROOT/etc/icewm/
 mv $RPM_BUILD_ROOT%{yast_themedir}/openSUSE $RPM_BUILD_ROOT%{yast_themedir}/current
 cp theme/openSUSE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
 %else
-rm -rf $RPM_BUILD_ROOT%{yast_icondir}/oxygen
 mv $RPM_BUILD_ROOT%{yast_themedir}/SLE $RPM_BUILD_ROOT%{yast_themedir}/current
 cp theme/SLE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
+# SLE doesn't have oxygen5-icon-theme
+rm -rf $RPM_BUILD_ROOT%{yast_icondir}/oxygen
 %endif
 
 # We only need current theme
@@ -94,7 +95,7 @@ rm -rf $RPM_BUILD_ROOT%{yast_themedir}/SLE $RPM_BUILD_ROOT%{yast_themedir}/openS
 
 # Clean out duplicates
 %fdupes $RPM_BUILD_ROOT%{yast_themedir}
-%fdupes $RPM_BUILD_ROOT/usr/share/icons
+%fdupes $RPM_BUILD_ROOT%{yast_icondir}
 
 %pre
 # CPIO can't remove links on its own
