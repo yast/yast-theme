@@ -62,7 +62,7 @@ Contains necessary theming resources to use YaST2.
 %package oxygen
 Summary:        YaST2 - Oxygen icon theme
 Group:          System/YaST
-Supplements:    packageand(yast2:oxygen5-icon-theme)
+Supplements:    (yast2 and oxygen5-icon-theme)
 PreReq:         yast2-branding = %{version}
 Requires:       oxygen5-icon-theme
 Provides:       yast2-theme-oxygen = %{version}
