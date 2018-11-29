@@ -7,13 +7,7 @@ Overview
     │   │   ├── 32x32/apps
     │   │   └── 48x48/apps
     │   ├── hicolor
-    │   │   ├── scalable/apps
-    │   │   ├── 16x16/apps
-    │   │   ├── 22x22/apps
-    │   │   ├── 32x32/apps
-    │   │   ├── 48x48/apps
-    │   │   ├── 64x64/apps
-    │   │   └── 256x256/apps
+    │   │   └── scalable/apps
     │   └── oxygen
     │       ├── 22x22/apps
     │       ├── 32x32/apps
@@ -23,7 +17,6 @@ Overview
     ├─────────────────────── openSUSE
     └── SLE                  │
         ├── animations       ├── animations
-        ├── testpage         ├── testpage
         ├── wizard           │   (see below)
         ├── wmconfig         ├── wmconfig
         └── worldmap         └── worldmap
@@ -31,12 +24,16 @@ Overview
 Icons
 -----
 
-Add new icons to `icons/hicolor`. Adding scalable sources is required, because icons are generated with convert.sh script.
+The only icons in hicolor here are pattern-* for yast-packager. Other icons are
+shipped with the module that uses them.
+
+Oxygen and Crystal themes are still shipped, but pretty much deprecated due to
+lack of maintenance.
 
 Wizard
 ------
 
-This is the fancy YaST dialog layout used in the installation workflow.
+This is the fancy YaST theme used in the Qt installation workflow.
 
 The `openSUSE/wizard` counterpart to `SLE/wizard` lives
 in the `yast` directory of the [openSUSE branding repository][branding].
@@ -47,21 +44,14 @@ Generated Packages
 ==================
 All icons will be stored in /usr/share/icons/.
 
-yast2-branding-openSUSE
------------------------
-- icons /usr/share/icons/oxygen
-- icons /usr/share/icons/hicolor
-- icons /usr/share/icons/crystal
-- /usr/share/YaST2/theme/current/icons is a link to /usr/share/icons/hicolor
-
-yast2-branding-openSUSE-Oxygen
-------------------------------
-- Has no icons but pre-requires yast2-branding-openSUSE
-- Moves link /usr/share/YaST2/theme/current/icons to /usr/share/icons/oxygen
-  while installation (post script) and reset it while uninstallation
-  (postun script)
-
-yast2-theme-SLE
+yast2-theme
 ---------------
 - icons /usr/share/icons/hicolor
-- /usr/share/YaST2/theme/current/icons is a link to /usr/share/icons/hicolor
+
+yast2-theme-oxygen
+-----------------------
+- icons /usr/share/icons/oxygen
+
+yast2-theme-crystal
+-----------------------
+- icons /usr/share/icons/crystal

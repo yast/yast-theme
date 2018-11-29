@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Nov 27 22:10:23 UTC 2018 - Stasiek Michalski <hellcp@mailbox.org>
+
+- Install via rake (boo#1108422)
+- 4.1.7
+
+-------------------------------------------------------------------
 Mon Nov 26 12:22:00 UTC 2018 - Stasiek Michalski <hellcp@mailbox.org>
 
 - Provide icon with module (boo#1109310)
