@@ -72,6 +72,9 @@ Obsoletes:      yast2-theme-openSUSE-Oxygen < %{version}
 Contains icons in KDE Oxygen style (from KDE Plasma 4).
 %endif
 
+%prep
+%setup -n %{name}-%{version}
+
 %build
 
 %install
