@@ -24,13 +24,13 @@ Source0:        %{name}-%{version}.tar.bz2
 
 BuildRequires:  fdupes
 BuildRequires:  hicolor-icon-theme
-BuildRequires:  oxygen5-icon-theme
 BuildRequires:  pkg-config
 BuildRequires:  update-desktop-files
 BuildRequires:  yast2-devtools
 BuildRequires:  rubygem(yast-rake)
 %if 0%{?is_opensuse}
 BuildRequires:  yast2-qt-branding-openSUSE
+BuildRequires:  oxygen5-icon-theme
 %endif
 
 Requires:       hicolor-icon-theme
@@ -58,12 +58,11 @@ Url:            http://github.com/yast/yast-theme
 %description
 Contains necessary theming resources to use YaST2.
 
+%if 0%{?is_opensuse}
 %package oxygen
 Summary:        YaST2 - Oxygen icon theme
 Group:          System/YaST
-%if 0%{?is_opensuse}
 Supplements:    packageand(yast2:oxygen5-icon-theme)
-%endif
 PreReq:         yast2-branding = %{version}
 Requires:       oxygen5-icon-theme
 Provides:       yast2-theme-oxygen = %{version}
@@ -72,6 +71,7 @@ Obsoletes:      yast2-theme-openSUSE-Oxygen < %{version}
 
 %description oxygen
 Contains icons in KDE Oxygen style (from KDE Plasma 4).
+%endif
 
 %build
 
@@ -84,6 +84,7 @@ mkdir -p $RPM_BUILD_ROOT/etc/icewm/
 mv $RPM_BUILD_ROOT%{yast_themedir}/openSUSE $RPM_BUILD_ROOT%{yast_themedir}/current
 cp theme/openSUSE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
 %else
+rm -rf $RPM_BUILD_ROOT%{yast_icondir}/oxygen
 mv $RPM_BUILD_ROOT%{yast_themedir}/SLE $RPM_BUILD_ROOT%{yast_themedir}/current
 cp theme/SLE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
 %endif
@@ -114,7 +115,9 @@ fi
 %doc %{yast_docdir}
 %license COPYING
 
+%if 0%{?is_opensuse}
 %files oxygen
 %{yast_icondir}/oxygen/*
+%endif
 
 %changelog
