@@ -19,7 +19,6 @@ Name:           yast2-theme
 Version:        4.1.7
 Release:        0
 
-BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source0:        %{name}-%{version}.tar.bz2
 
 BuildRequires:  fdupes
@@ -79,23 +78,23 @@ Contains icons in KDE Oxygen style (from KDE Plasma 4).
 rake install DESTDIR=%{buildroot}
 
 # Distro specific config (should be moved to distro specific branding packages!)
-mkdir -p $RPM_BUILD_ROOT/etc/icewm/
+mkdir -p %{buildroot}/etc/icewm/
 %if 0%{?is_opensuse}
-mv $RPM_BUILD_ROOT%{yast_themedir}/openSUSE $RPM_BUILD_ROOT%{yast_themedir}/current
-cp theme/openSUSE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
+mv %{buildroot}%{yast_themedir}/openSUSE %{buildroot}%{yast_themedir}/current
+cp theme/openSUSE/wmconfig/* %{buildroot}/etc/icewm/
 %else
-mv $RPM_BUILD_ROOT%{yast_themedir}/SLE $RPM_BUILD_ROOT%{yast_themedir}/current
-cp theme/SLE/wmconfig/* $RPM_BUILD_ROOT/etc/icewm/
+mv %{buildroot}%{yast_themedir}/SLE %{buildroot}%{yast_themedir}/current
+cp theme/SLE/wmconfig/* %{buildroot}/etc/icewm/
 # SLE doesn't have oxygen5-icon-theme
-rm -rf $RPM_BUILD_ROOT%{yast_icondir}/oxygen
+rm -rf %{buildroot}%{yast_icondir}/oxygen
 %endif
 
 # We only need current theme
-rm -rf $RPM_BUILD_ROOT%{yast_themedir}/SLE $RPM_BUILD_ROOT%{yast_themedir}/openSUSE
+rm -rf %{buildroot}%{yast_themedir}/SLE %{buildroot}%{yast_themedir}/openSUSE
 
 # Clean out duplicates
-%fdupes $RPM_BUILD_ROOT%{yast_themedir}
-%fdupes $RPM_BUILD_ROOT%{yast_icondir}
+%fdupes %{buildroot}%{yast_themedir}
+%fdupes %{buildroot}%{yast_icondir}
 
 %pre
 # CPIO can't remove links on its own
