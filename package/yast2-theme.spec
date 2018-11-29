@@ -24,6 +24,7 @@ Source0:        %{name}-%{version}.tar.bz2
 
 BuildRequires:  fdupes
 BuildRequires:  hicolor-icon-theme
+BuildRequires:  oxygen5-icon-theme
 BuildRequires:  pkg-config
 BuildRequires:  update-desktop-files
 BuildRequires:  yast2-devtools
@@ -46,6 +47,7 @@ Obsoletes:      yast2-theme-openSUSE
 Obsoletes:      yast2-theme-SLE
 Obsoletes:      yast2-theme < %{version}
 Obsoletes:      yast2-branding-openSUSE
+Obsoletes:      yast2-theme-openSUSE-Crystal < %{version}
 
 BuildArch:      noarch
 Summary:        YaST2 - Theme
@@ -63,26 +65,13 @@ Group:          System/YaST
 Supplements:    packageand(yast2:oxygen5-icon-theme)
 %endif
 PreReq:         yast2-branding = %{version}
+Requires:       oxygen5-icon-theme
 Provides:       yast2-theme-oxygen = %{version}
 Obsoletes:      yast2-theme-oxygen < %{version}
 Obsoletes:      yast2-theme-openSUSE-Oxygen < %{version}
 
 %description oxygen
 Contains icons in KDE Oxygen style (from KDE Plasma 4).
-
-%package crystal
-Summary:        YaST2 - Crystal icon theme
-Group:          System/YaST
-PreReq:         yast2-branding = %{version}
-Provides:       yast2-theme-crystal = %{version}
-Obsoletes:      yast2-theme-crystal < %{version}
-Obsoletes:      yast2-theme-openSUSE-Crystal < %{version}
-
-%description crystal
-Contains icons in KDE Crystal style (from KDE 3).
-
-%prep
-%setup -n %{name}-%{version}
 
 %build
 
@@ -126,11 +115,6 @@ fi
 %license COPYING
 
 %files oxygen
-%{yast_icondir}/oxygen
 %{yast_icondir}/oxygen/*
-
-%files crystal
-%dir %{yast_icondir}/crystal
-%{yast_icondir}/crystal/*
 
 %changelog
