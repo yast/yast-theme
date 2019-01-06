@@ -16,7 +16,7 @@
 #
 
 Name:           yast2-theme
-Version:        4.1.8
+Version:        4.1.9
 Release:        0
 
 Source0:        %{name}-%{version}.tar.bz2
@@ -30,6 +30,7 @@ BuildRequires:  rubygem(yast-rake)
 %if 0%{?is_opensuse}
 BuildRequires:  yast2-qt-branding-openSUSE
 BuildRequires:  oxygen5-icon-theme
+BuildRequires:  breeze5-icons
 %endif
 
 Requires:       hicolor-icon-theme
@@ -70,6 +71,18 @@ Obsoletes:      yast2-theme-openSUSE-Oxygen < %{version}
 
 %description oxygen
 Contains icons in KDE Oxygen style (from KDE Plasma 4).
+
+%package breeze
+Summary:        YaST2 - Breeze icon theme
+Group:          System/YaST
+Supplements:    (yast2-theme and breeze5-icons)
+PreReq:         yast2-branding = %{version}
+Requires:       breeze5-icons
+Provides:       yast2-theme-breeze = %{version}
+Obsoletes:      yast2-theme-breeze < %{version}
+
+%description breeze
+Contains icons in KDE Breeze style (from KDE Plasma 5).
 %endif
 
 %prep
@@ -89,7 +102,7 @@ cp theme/openSUSE/wmconfig/* %{buildroot}/etc/icewm/
 mv %{buildroot}%{yast_themedir}/SLE %{buildroot}%{yast_themedir}/current
 cp theme/SLE/wmconfig/* %{buildroot}/etc/icewm/
 # SLE doesn't have oxygen5-icon-theme
-rm -rf %{buildroot}%{yast_icondir}/oxygen
+rm -rf %{buildroot}%{yast_icondir}/oxygen %{buildroot}%{yast_icondir}/breeze
 %endif
 
 # We only need current theme
@@ -121,6 +134,9 @@ fi
 %if 0%{?is_opensuse}
 %files oxygen
 %{yast_icondir}/oxygen/*
+
+%files breeze
+%{yast_icondir}/breeze/*
 %endif
 
 %changelog
