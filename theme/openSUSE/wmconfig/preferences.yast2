@@ -1,0 +1,121 @@
+# IceWM configuration file for use during installation
+
+# Hide taskbar
+ShowTaskBar=0
+
+# Hide titlebar buttons and window menu
+TitleButtonsLeft=""
+TitleButtonsRight=""
+WinMenuItems=""
+
+# Enable Alt+Tab
+QuickSwitch=1
+KeySysSwitchNext="Alt+Tab"
+KeySysSwitchLast="Alt+Shift+Tab"
+
+# Disable Windows key
+Win95Keys=0
+
+# Colors
+ColorActiveTitleBar="rgb:ee/ee/ee"
+ColorNormalTitleBar="rgb:dd/dd/dd"
+ColorNormalBorder="rgb:bb/bb/bb"
+ColorActiveBorder="rgb:bb/bb/bb"
+ColorNormalTitleBarText="rgb:33/33/33"
+ColorActiveTitleBarText="rgb:33/33/33"
+
+# Borders
+BorderSizeX=1
+BorderSizeY=1
+DlgBorderSizeX=1
+DlgBorderSizeY=1
+
+# Disable most shortcuts
+# :r !grep -o '\<Key[^=]*' /etc/icewm/preferences | grep -v Switch | sed 's/$/=""/'
+KeyWinRaise=""
+KeyWinOccupyAll=""
+KeyWinLower=""
+KeyWinClose=""
+KeyWinRestore=""
+KeyWinPrev=""
+KeyWinNext=""
+KeyWinMove=""
+KeyWinSize=""
+KeyWinMinimize=""
+KeyWinMaximize=""
+KeyWinMaximizeVert=""
+KeyWinMaximizeHoriz=""
+KeyWinFullscreen=""
+KeyWinHide=""
+KeyWinRollup=""
+KeyWinMenu=""
+KeyWinArrangeN=""
+KeyWinArrangeNE=""
+KeyWinArrangeE=""
+KeyWinArrangeSE=""
+KeyWinArrangeS=""
+KeyWinArrangeSW=""
+KeyWinArrangeW=""
+KeyWinArrangeNW=""
+KeyWinArrangeC=""
+KeySysWinNext=""
+KeySysWinPrev=""
+KeySysWinMenu=""
+KeySysDialog=""
+KeySysMenu=""
+KeySysWindowList=""
+KeySysWinListMenu=""
+KeySysAddressBar=""
+KeySysWorkspacePrev=""
+KeySysWorkspaceNext=""
+KeySysWorkspaceLast=""
+KeySysWorkspacePrevTakeWin=""
+KeySysWorkspaceNextTakeWin=""
+KeySysWorkspaceLastTakeWin=""
+KeySysWorkspace1=""
+KeySysWorkspace2=""
+KeySysWorkspace3=""
+KeySysWorkspace4=""
+KeySysWorkspace5=""
+KeySysWorkspace6=""
+KeySysWorkspace7=""
+KeySysWorkspace8=""
+KeySysWorkspace9=""
+KeySysWorkspace10=""
+KeySysWorkspace11=""
+KeySysWorkspace12=""
+KeySysWorkspace1TakeWin=""
+KeySysWorkspace2TakeWin=""
+KeySysWorkspace3TakeWin=""
+KeySysWorkspace4TakeWin=""
+KeySysWorkspace5TakeWin=""
+KeySysWorkspace6TakeWin=""
+KeySysWorkspace7TakeWin=""
+KeySysWorkspace8TakeWin=""
+KeySysWorkspace9TakeWin=""
+KeySysWorkspace10TakeWin=""
+KeySysWorkspace11TakeWin=""
+KeySysWorkspace12TakeWin=""
+KeySysTileVertical=""
+KeySysTileHorizontal=""
+KeySysCascade=""
+KeySysArrange=""
+KeySysArrangeIcons=""
+KeySysMinimizeAll=""
+KeySysHideAll=""
+KeySysUndoArrange=""
+KeySysShowDesktop=""
+KeySysCollapseTaskBar=""
+
+# Disable root window menus
+# :r !grep -o '\<Desktop[^=]*Button=' /etc/icewm/preferences  | sed 's/$/0/'
+DesktopWinMenuButton=0
+DesktopWinListButton=0
+DesktopMenuButton=0
+
+# Disable maximize and rollup
+TitleBarMaximizeButton=0
+TitleBarRollupButton=0
+
+# Disable possibility to move the base window, BNC 466827
+ClientWindowMouseActions=0
