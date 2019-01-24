@@ -1,26 +1,6 @@
 Overview
 ========
 
-    ├── icons
-    │   ├── crystal
-    │   │   ├── 22x22/apps
-    │   │   ├── 32x32/apps
-    │   │   └── 48x48/apps
-    │   ├── hicolor
-    │   │   └── scalable/apps
-    │   └── oxygen
-    │       ├── 22x22/apps
-    │       ├── 32x32/apps
-    │       ├── 48x48/apps
-    │       └── 64x64/apps
-    ├── package
-    ├─────────────────────── openSUSE
-    └── SLE                  │
-        ├── animations       ├── animations
-        ├── wizard           │   (see below)
-        ├── wmconfig         ├── wmconfig
-        └── worldmap         └── worldmap
-
 Icons
 -----
 
@@ -46,12 +26,13 @@ All icons will be stored in /usr/share/icons/.
 
 yast2-theme
 ---------------
-- icons /usr/share/icons/hicolor
+- `/usr/share/icons/hicolor`
 
 yast2-theme-oxygen
 -----------------------
-- icons /usr/share/icons/oxygen
+- `/usr/share/icons/oxygen`
 
-yast2-theme-crystal
+yast2-theme-breeze
 -----------------------
-- icons /usr/share/icons/crystal
+- `/usr/share/icons/breeze`
+- `/usr/share/icons/breeze-dark`
