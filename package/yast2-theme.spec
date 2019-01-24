@@ -89,8 +89,10 @@ Contains icons in KDE Breeze style (from KDE Plasma 5).
 %setup -n %{name}-%{version}
 
 %build
-mkdir -p %{buildroot}%{_datadir}/icons/breeze
-mkdir -p %{buildroot}%{_datadir}/icons/breeze-dark
+mkdir -p %{buildroot}%{_datadir}/icons/breeze/apps/32
+mkdir -p %{buildroot}%{_datadir}/icons/breeze/apps/48
+mkdir -p %{buildroot}%{_datadir}/icons/breeze-dark/apps/32
+mkdir -p %{buildroot}%{_datadir}/icons/breeze-dark/apps/48
 cd icons/breeze/
 sh make-symlinks.sh %{buildroot}%{_datadir}/icons/breeze
 sh make-symlinks.sh %{buildroot}%{_datadir}/icons/breeze-dark
