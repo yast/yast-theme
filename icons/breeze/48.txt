@@ -1,2 +1,2 @@
-pattern-kde-pim.svg ../../apps/48/kontact.svg
-pattern-x11.svg xorg.svg
+../../apps/48/kontact.svg pattern-kde-pim.svg
+xorg.svg pattern-x11.svg
