@@ -144,6 +144,7 @@ fi
 
 %files breeze
 %{yast_icondir}/breeze/*
+%{yast_icondir}/breeze-dark/*
 %endif
 
 %changelog
