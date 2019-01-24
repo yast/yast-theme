@@ -90,8 +90,8 @@ Contains icons in KDE Breeze style (from KDE Plasma 5).
 
 %build
 cd icons/breeze/
-make-symlinks.sh %{buildroot}%{_datadir}/icons/breeze
-make-symlinks.sh %{buildroot}%{_datadir}/icons/breeze-dark
+sh make-symlinks.sh %{buildroot}%{_datadir}/icons/breeze
+sh make-symlinks.sh %{buildroot}%{_datadir}/icons/breeze-dark
 
 %install
 rake install DESTDIR=%{buildroot}
