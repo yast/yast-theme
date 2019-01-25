@@ -5,5 +5,5 @@ do
     while read -r line; do
         read -r -a file <<< "$line"
         ln -sf ${file[0]} "${basedir}/apps/$x/${file[1]}"
-    done <<< `grep -v '^#' ${x}.txt`
+    done <<< `grep -v '^#' ${x}.files`
 done
