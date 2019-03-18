@@ -16,7 +16,7 @@
 #
 
 Name:           yast2-theme
-Version:        4.1.10
+Version:        4.1.11
 Release:        0
 
 Source0:        %{name}-%{version}.tar.bz2
@@ -34,6 +34,11 @@ BuildRequires:  breeze5-icons
 %endif
 
 Requires:       hicolor-icon-theme
+
+%if 0%{?is_opensuse}
+# bsc#1105792: firstboot wizard missing branding
+Requires:       yast2-qt-branding-openSUSE
+%endif
 
 Provides:       yast2-branding = %{version}
 Provides:       yast2_theme = %{version}
