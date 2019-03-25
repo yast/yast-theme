@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Mar 25 13:49:42 UTC 2019 - lnussel@suse.de
+
+- use yast2-qt-branding as requirement to allow alternative branding
+  too (bsc#1105792)
+
+-------------------------------------------------------------------
 Mon Mar 18 15:10:21 UTC 2019 - Stefan Hundhammer <shundhammer@suse.com>
 
 - Require yast2-qt-branding-openSUSE for openSUSE distros

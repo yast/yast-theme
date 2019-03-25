@@ -37,7 +37,7 @@ Requires:       hicolor-icon-theme
 
 %if 0%{?is_opensuse}
 # bsc#1105792: firstboot wizard missing branding
-Requires:       yast2-qt-branding-openSUSE
+Requires:       yast2-qt-branding
 %endif
 
 Provides:       yast2-branding = %{version}
