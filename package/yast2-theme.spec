@@ -28,7 +28,7 @@ BuildRequires:  update-desktop-files
 BuildRequires:  yast2-devtools
 BuildRequires:  rubygem(yast-rake)
 %if 0%{?is_opensuse}
-BuildRequires:  yast2-qt-branding-openSUSE
+BuildRequires:  yast2-qt-branding
 BuildRequires:  oxygen5-icon-theme
 BuildRequires:  breeze5-icons
 %endif
