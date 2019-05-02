@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Thu May  2 13:46:02 UTC 2019 - lnussel@suse.de
+
+- on SLE the qt branding files are included in yast2-them so they
+  conflict with the separate package that exists on openSUSE
+  (boo#1133415)
+- 4.2.1
+
+-------------------------------------------------------------------
 Mon Mar 25 13:49:42 UTC 2019 - lnussel@suse.de
 
 - use yast2-qt-branding as requirement to allow alternative branding
