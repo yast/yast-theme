@@ -119,9 +119,10 @@ cp theme/openSUSE/wmconfig/* %{buildroot}/etc/icewm/
 %else
 mv %{buildroot}%{yast_themedir}/SLE %{buildroot}%{yast_themedir}/current
 cp theme/SLE/wmconfig/* %{buildroot}/etc/icewm/
-# SLE doesn't have oxygen5-icon-theme
-rm -rf %{buildroot}%{yast_icondir}/oxygen %{buildroot}%{yast_icondir}/breeze
-rm -rf %{buildroot}%{yast_icondir}/oxygen %{buildroot}%{yast_icondir}/breeze-dark
+# SLE doesn't have those icon themes:
+rm -rf %{buildroot}%{yast_icondir}/oxygen
+rm -rf %{buildroot}%{yast_icondir}/breeze
+rm -rf %{buildroot}%{yast_icondir}/breeze-dark
 %endif
 
 # We only need current theme
