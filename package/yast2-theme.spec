@@ -16,7 +16,7 @@
 #
 
 Name:           yast2-theme
-Version:        4.2.1
+Version:        4.2.2
 Release:        0
 
 Source0:        %{name}-%{version}.tar.bz2
@@ -46,6 +46,8 @@ Obsoletes:      yast2-qt-branding-openSUSE
 Conflicts:      yast2-qt-branding-openSUSE
 %endif
 
+# Since yast2-branding is provided by this package, OBS needs some help to bootstrap
+#!BuildIgnore:  yast2-branding
 Provides:       yast2-branding = %{version}
 Provides:       yast2_theme = %{version}
 Provides:       yast2-theme = %{version}
