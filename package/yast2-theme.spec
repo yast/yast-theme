@@ -16,7 +16,7 @@
 #
 
 Name:           yast2-theme
-Version:        4.2.3
+Version:        4.2.4
 Release:        0
 
 Source0:        %{name}-%{version}.tar.bz2
@@ -31,6 +31,7 @@ BuildRequires:  rubygem(yast-rake)
 BuildRequires:  yast2-qt-branding
 BuildRequires:  oxygen5-icon-theme
 BuildRequires:  breeze5-icons
+BuildRequires:  update-desktop-files
 %endif
 
 Requires:       hicolor-icon-theme
