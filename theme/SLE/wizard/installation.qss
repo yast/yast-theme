@@ -42,7 +42,7 @@ YQRichText > YQTextBrowser {
   border: 1px inset #566B79;
   background-color: #071B2A;
   selection-background-color: #071B2A;
-  selection-color: #0D2C40;
+  selection-color: #00C081;
 }
 
 QFrame { background-color: #0D2C40; color: #EDEFF0; }
@@ -51,7 +51,7 @@ QLabel, YQDialog {
   color: #EDEFF0;
   background-color: #0D2C40;
   selection-background-color: #071B2A;
-  selection-color: #0D2C40;
+  selection-color: #00C081;
 }
 
 QHeaderView::section {
@@ -70,7 +70,7 @@ QTreeView, QTreeWidget {
   color: #EDEFF0;
   background-color: #071B2A;
   border: 1px inset #566B79;
-  alternate-background-color: #0D2C40;
+  alternate-background-color: #00C081;
   selection-background-color: #03101C; 
   selection-color: #00C081;
   border-radius: 4px;

@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Dec  4 13:51:11 UTC 2019 - jsrain@suse.cz
+
+- fixed contrast of highlighted text (bsc#1158009)
+- 4.2.7
+
+-------------------------------------------------------------------
 Tue Nov 26 13:28:47 UTC 2019 - jsrain@suse.cz
 
 - updated the SLE installer theme (jsc#SLE-7684)
