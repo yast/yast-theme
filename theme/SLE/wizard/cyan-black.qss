@@ -15,6 +15,14 @@ YQWizard { background: black; }
   border-image: url(header-background.png);
   background-color: #000;
 }
+
+#DialogBanner {
+  background-color: #000;
+  font-family: Raleway, Sans-serif;
+  font: 24pt;
+  margin-right: 20px;
+}
+
 #DialogLogo {
   background-image: url(header-logo.png);
   min-width: 71px;
