@@ -78,7 +78,7 @@ QTreeView, QTreeWidget {
   background-color: #071B2A;
   border: 1px inset #566B79;
   alternate-background-color: #00C081;
-  selection-background-color: #03101C; 
+  selection-background-color: #03101C;
   selection-color: #00C081;
   border-radius: 4px;
 }
@@ -88,7 +88,7 @@ QTableView {
   color: #EDEFF0;
   background-color: #071B2A;
   border: 1px inset #566B79;
-  selection-background-color: #00C081; 
+  selection-background-color: #00C081;
   selection-color: #0D2C40;
   border-radius: 4px;
 }
