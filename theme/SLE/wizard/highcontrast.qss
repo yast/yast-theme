@@ -18,7 +18,7 @@ YQMainWinDock { background: black; }
 }
 
 #DialogBanner {
-  background-color: #000;
+  background-color: transparent;
   font-family: Raleway, Sans-serif;
   font: 24pt;
   margin-right: 20px;
