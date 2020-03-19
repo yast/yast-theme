@@ -17,7 +17,7 @@ YQWizard { background: black; }
 }
 
 #DialogBanner {
-  background-color: #000;
+  background-color: transparent;
   font-family: Raleway, Sans-serif;
   font: 24pt;
   margin-right: 20px;
@@ -104,7 +104,7 @@ YQPakageSelector {
   border: 1px inset white;
   selection-background-color: white;
   selection-color: black;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 
 YQGenericDetailsView,
@@ -510,7 +510,7 @@ QSplitter::handle {
 #RepoUpgradeLabel {
   color: black;
   background: #35b9ab;
-} 
+}
 
 YQPkgVersionsView QWidget { background: black; }
 
@@ -540,7 +540,7 @@ QComboBoxPrivateScroller
   color: white;
 }
 
-#steps 
+#steps
 {
   font-size: 90%;
   border: 1px solid;
@@ -569,7 +569,7 @@ QComboBoxPrivateScroller
 }
 
 .steps_heading {
-   font-weight: bold;  
+   font-weight: bold;
    color: white;
    margin-bottom: 7px;
 }
