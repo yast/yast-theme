@@ -16,7 +16,7 @@
 #
 
 Name:           yast2-theme
-Version:        4.2.9
+Version:        4.2.10
 Release:        0
 
 Source0:        %{name}-%{version}.tar.bz2
@@ -39,6 +39,7 @@ Requires:       hicolor-icon-theme
 %if 0%{?is_opensuse}
 # bsc#1105792: firstboot wizard missing branding
 Requires:       yast2-qt-branding
+Requires:       raleway-fonts
 %else
 # on SLE the qt branding files are included in yast2-them so they
 # conflict with the separate package that exists on openSUSE
