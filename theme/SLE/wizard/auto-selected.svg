@@ -13,9 +13,9 @@
    height="14"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
    sodipodi:docname="auto-selected.svg"
-   inkscape:export-filename="/home/jreidinger/prace/yast/theme/SLE/wizard/auto-selected.png"
+   inkscape:export-filename="/Users/kennethwimer/Repos/yast-theme/theme/SLE/wizard copy/auto-selected.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -31,7 +31,7 @@
      inkscape:cx="4.1122931"
      inkscape:cy="7.0432367"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4180"
      showgrid="false"
      borderlayer="true"
      inkscape:showpageshadow="false"
@@ -41,7 +41,8 @@
      inkscape:window-height="1025"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid3356"
@@ -68,7 +69,7 @@
      id="layer1"
      transform="translate(0,-1038.3622)">
     <rect
-       style="color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0cad7a;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#30ba78;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect15525"
        width="13"
        height="13"
@@ -77,7 +78,7 @@
        rx="1.3036165"
        ry="1.3036165" />
     <path
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#28ae73;stroke-width:2.30623245;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#30ba78;stroke-width:2.30623245;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
        d="m 4.2154808,1043.8834 1.9735311,1.7467 3.6576212,-4.1669"
        id="path3379"
        sodipodi:nodetypes="ccc"
@@ -90,19 +91,19 @@
          cy="1049.2511"
          cx="7.0965238"
          id="path4136"
-         style="fill:#28ae73;fill-opacity:1" />
+         style="fill:#30ba78;fill-opacity:1" />
       <circle
          r="0.91016549"
          cy="1049.2014"
          cx="10.488958"
          id="path4136-3"
-         style="fill:#28ae73;fill-opacity:1" />
+         style="fill:#30ba78;fill-opacity:1" />
       <circle
          r="0.91016549"
          cy="1049.2511"
          cx="3.7040892"
          id="path4136-3-6"
-         style="fill:#28ae73;fill-opacity:1" />
+         style="fill:#30ba78;fill-opacity:1" />
     </g>
   </g>
 </svg>

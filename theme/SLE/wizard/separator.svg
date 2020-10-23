@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,7 +13,7 @@
    height="30"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
    version="1.0"
    sodipodi:docname="separator.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
@@ -50,7 +51,8 @@
      inkscape:window-width="660"
      inkscape:window-height="628"
      inkscape:window-x="54"
-     inkscape:window-y="119">
+     inkscape:window-y="119"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid2383"
@@ -74,14 +76,16 @@
      id="layer1">
     <path
        sodipodi:type="arc"
-       style="opacity:0.25910931;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:1, 2;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.25910931;fill:#969494;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:1, 2;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path2385"
        sodipodi:cx="5"
        sodipodi:cy="5"
        sodipodi:rx="3"
        sodipodi:ry="3"
        d="M 8,5 A 3,3 0 1 1 2,5 A 3,3 0 1 1 8,5 z"
-       transform="matrix(0.6923076,0,0,0.6923076,1.5384615,4.6153845)" />
+       transform="matrix(0.6923076,0,0,0.6923076,1.5384615,4.6153845)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        d="M 8,5 A 3,3 0 1 1 2,5 A 3,3 0 1 1 8,5 z"
        sodipodi:ry="3"
@@ -89,18 +93,22 @@
        sodipodi:cy="5"
        sodipodi:cx="5"
        id="path2387"
-       style="opacity:0.25910931;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:1, 2;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.25910931;fill:#969494;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:1, 2;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        sodipodi:type="arc"
-       transform="matrix(0.6923076,0,0,0.6923076,1.5384615,11.538461)" />
+       transform="matrix(0.6923076,0,0,0.6923076,1.5384615,11.538461)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        transform="matrix(0.6923076,0,0,0.6923076,1.5384615,18.46154)"
        sodipodi:type="arc"
-       style="opacity:0.25910931;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:1, 2;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.25910931;fill:#969494;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:1, 2;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path2389"
        sodipodi:cx="5"
        sodipodi:cy="5"
        sodipodi:rx="3"
        sodipodi:ry="3"
-       d="M 8,5 A 3,3 0 1 1 2,5 A 3,3 0 1 1 8,5 z" />
+       d="M 8,5 A 3,3 0 1 1 2,5 A 3,3 0 1 1 8,5 z"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>

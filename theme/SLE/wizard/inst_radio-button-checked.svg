@@ -11,10 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3039"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
    width="13"
    height="13"
-   sodipodi:docname="radio-button-checked.svg"
+   sodipodi:docname="inst_radio-button-checked.svg"
    inkscape:export-filename="/Users/kwwii/Desktop/yast-SLE12/radio-button-checked.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,7 +53,8 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg3039"
-     inkscape:showpageshadow="false">
+     inkscape:showpageshadow="false"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid3049"
@@ -64,7 +65,7 @@
   </sodipodi:namedview>
   <path
      sodipodi:type="arc"
-     style="color:#000000;fill:#28ae73;stroke:#28ae73;stroke-width:1.73684203999999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:1"
+     style="color:#000000;fill:#30ba78;stroke:#30ba78;stroke-width:1.73684204;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:1"
      id="path3051"
      sodipodi:cx="6.5"
      sodipodi:cy="6.5"

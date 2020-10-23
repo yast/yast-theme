@@ -11,13 +11,13 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3039"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
    width="13"
    height="13"
-   sodipodi:docname="radio-button-checked.svg"
-   inkscape:export-filename="/Users/kwwii/Desktop/yast-SLE12/radio-button-unchecked.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   sodipodi:docname="inst_radio-button-unchecked.svg"
+   inkscape:export-filename="/Users/kennethwimer/Repos/yast-theme/theme/SLE/wizard copy/inst_radio-button-unchecked-disabled.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <metadata
      id="metadata3045">
     <rdf:RDF>
@@ -45,7 +45,7 @@
      inkscape:window-height="681"
      id="namedview3041"
      showgrid="false"
-     showborder="false"
+     showborder="true"
      inkscape:zoom="8.3181818"
      inkscape:cx="20.5"
      inkscape:cy="-4"
@@ -53,23 +53,22 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg3039"
-     inkscape:showpageshadow="false">
+     inkscape:showpageshadow="false"
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="true">
     <inkscape:grid
        type="xygrid"
        id="grid3049"
        empspacing="5"
        visible="true"
        enabled="true"
-       snapvisiblegridlinesonly="true" />
+       snapvisiblegridlinesonly="true"
+       dotted="true" />
   </sodipodi:namedview>
-  <path
-     sodipodi:type="arc"
-     style="color:#000000;fill:none;stroke:#28ae73;stroke-width:1.73684203999999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:1"
+  <circle
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
      id="path3051"
-     sodipodi:cx="6.5"
-     sodipodi:cy="6.5"
-     sodipodi:rx="5.5"
-     sodipodi:ry="5.5"
-     d="m 12,6.5 a 5.5,5.5 0 1 1 -11,0 5.5,5.5 0 1 1 11,0 z"
-     transform="matrix(0.86363637,0,0,0.86363637,0.886364,0.88636362)" />
+     cx="6.5000005"
+     cy="6.5"
+     r="4.75" />
 </svg>
