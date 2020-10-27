@@ -49,7 +49,7 @@ YQMainWinDock { background: #2B2E38; }
 }
 #DialogHeadingTop {
   font-family: Raleway, Sans-serif;
-  font: 24pt;
+  font: 20pt;
   color: #30BA78;
 }
 
@@ -380,9 +380,9 @@ QPushButton:focus {
   outline: none;
 }
 QPushButton:default:focus {
-  border: 1px solid #ffffff;
+  border: 1px solid #30BA78;
   background-color: #2B2E38;
-  color: #30BA78;
+  color: #ffffff;
   outline: none;
 }
 QPushButton:disabled,
