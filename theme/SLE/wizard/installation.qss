@@ -379,6 +379,12 @@ QPushButton:focus {
   color: #e0dfdf;
   outline: none;
 }
+QPushButton:default:focus {
+  border: 1px solid #30BA78;
+  background-color: #30BA78;
+  color: #ffffff;
+  outline: none;
+}
 QPushButton:disabled,
 QPushButton:default:disabled {
   color: rgba(255,255,255,60);
