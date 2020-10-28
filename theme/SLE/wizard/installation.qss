@@ -549,7 +549,8 @@ YQPkgVersionsView QWidget { background: #2B2E38; }
 
 QY2HelpDialog
 {
-   qproperty-searchResultBackground: #ff0000;
+   color: #fff;
+   qproperty-searchResultBackground: #008ACF;
    qproperty-searchResultForeground: #fff;
 }
 YQBarGraph {
