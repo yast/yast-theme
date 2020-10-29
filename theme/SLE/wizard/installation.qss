@@ -279,7 +279,7 @@ QComboBox {
   border-radius: 4px;
   color: #FFFFFF;
   min-height: 20px;
-  padding: 6px 2px;
+  padding: 5px 2px;
   background: #2b2e38;
   font-weight: bold;
   selection-background-color: #686565;
@@ -377,6 +377,12 @@ QPushButton:focus {
   border: 1px solid #e0dfdf;
   background-color: #2B2E38;
   color: #e0dfdf;
+  outline: none;
+}
+QPushButton:focus:default {
+  border: 1px solid #30BA78;
+  background-color: #2B2E38;
+  color: #ffffff;
   outline: none;
 }
 QPushButton:default:focus {
