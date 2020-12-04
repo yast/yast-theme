@@ -17,9 +17,8 @@ jobs:
 
     - name: Prepare System
       run: |
-        zypper --gpg-auto-import-keys --non-interactive in --no-recommends \
+        zypper --non-interactive in --no-recommends \
           breeze5-icons
 
     - name: Package Build
       run: yast-ci-ruby
-
