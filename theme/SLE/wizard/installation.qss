@@ -30,7 +30,7 @@ YQMainWinDock { background: #2B2E38; }
   margin-left: 4px;
   margin-right: 0px;
   margin-top: 6px;
-  margin-bottom: 0px;
+  margin-bottom: 2px;
   background-color: #1f222b;
 }
 
@@ -43,8 +43,8 @@ YQMainWinDock { background: #2B2E38; }
   font-family: Raleway, Sans-serif;
   font: 22pt;
   color: #30BA78;
-  margin-top: 118%;
-  margin-right: 12px;
+  margin-top: 14px;
+  margin-right: 42px;
   qproperty-alignment:AlignRight;
 }
 #DialogHeadingTop {
@@ -166,7 +166,7 @@ QLineEdit:focus {
 QLineEdit:disabled {
   border-bottom: 1px solid rgba(255,255,255,60);
 }
-QCheckBox, YQCheckBoxFrame::indicator { color: #FFFFFF; margin-top: 6px; }
+QCheckBox, YQCheckBoxFrame::indicator { color: #FFFFFF; margin-top: 6px; margin-left: 6px;}
 
 QCheckBox::disabled { color: rgba(255,255,255,60); }
 
@@ -279,8 +279,7 @@ QComboBox {
   border-radius: 2px;
   background-color: #2B2E38;
   color: #EFEFEF;
-  min-height: 20px;
-  padding: 5px 2px;
+  padding: 4px 4px;
   selection-background-color: #686565;
   selection-color: #FFFFFF;
 }
@@ -372,7 +371,7 @@ QPushButton:default {
   border: 1px solid #30BA78;
   background-color: #30BA78;
   color: #FFFFFF;
-}
+}			
 QPushButton:disabled,
 QPushButton:default:disabled {
   color: rgba(255,255,255,60);
@@ -391,7 +390,6 @@ QPushButton:default:hover {
   border: 1px solid #30BA78;
   color: #FFFFFF;
 }
-
 
 /* odd dropdown button widget */
 QPushButton::menu-indicator,
@@ -439,6 +437,7 @@ QToolButton::down-arrow {
 QProgressBar {
   border: 1px solid #000000;
   border-radius: 2px;
+  min-height: 24px;
   text-align: center;
   color: #FFFFFF;
   background-color: #1F222B;
