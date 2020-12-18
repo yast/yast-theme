@@ -15,6 +15,7 @@ YQMainWinDock { background: #2B2E38; }
 #LogoHBox {
   border-bottom: 1px solid #000000;
   background-color: #1f222b;
+  margin: 0px;
 }
 #DialogBanner {
   background-color: transparent;
@@ -27,10 +28,9 @@ YQMainWinDock { background: #2B2E38; }
   background-image: url(header-logo.png);
   min-width: 195px;
   min-height: 37px;
-  margin-left: 4px;
-  margin-right: 0px;
-  margin-top: 6px;
-  margin-bottom: 2px;
+  margin-left: 1em;
+  margin-top: 7px;
+  margin-bottom: 0px;
   background-color: #1f222b;
 }
 
@@ -170,7 +170,8 @@ QCheckBox, YQCheckBoxFrame::indicator { color: #FFFFFF; margin-top: 6px; margin-
 
 QCheckBox::disabled { color: rgba(255,255,255,60); }
 
-QCheckBox:focus, YQCheckBoxFrame::item:focus, QTreeView::item:focus, QTreeView:focus { color: #30BA78; border:none; outline: none;}
+QCheckBox:focus, YQCheckBoxFrame::item:focus, QTreeView::item:focus, QTreeView:focus { color: #30BA78; border:none; outline: none;
+}
 
 YQCheckBoxFrame::indicator:checked,
 QTreeView::indicator:checked,
@@ -192,6 +193,11 @@ QTreeView::indicator:unchecked:disabled,
 QCheckBox::indicator:unchecked {
   image: url(inst_checkbox-off-disabled.png);
 }
+YQCheckBoxFrame::indicator:unchecked:focus,
+QTreeView::indicator:unchecked:focus,
+QCheckBox::indicator:unchecked:focus {
+  image: url(inst_checkbox-focus.png);
+}
 
 QRadioButton {color: #FFFFFF; margin-top: 6px;}
 QRadioButton:focus {color: #30BA78; margin-top: 6px; border: none; outline: none;}
@@ -200,6 +206,11 @@ QRadioButton::disabled { color: gray; background-color: #2B2E38; }
 QRadioButton::indicator:unchecked {
    image: url(inst_radio-button-unchecked.png);
 }
+
+QRadioButton::indicator:unchecked:focus {
+   image: url(inst_radio-button-focus.png);
+}
+
 QRadioButton::indicator:checked {
    image: url(inst_radio-button-checked.png);
 }
@@ -363,7 +374,7 @@ QPushButton {
   border-radius: 2px;
   background-color: #2B2E38;
   padding: 8px 16px;
-  color: #EFEFEF;
+  color: #E0EFEF;
   font-weight: bold;
   outline: none;
 }
