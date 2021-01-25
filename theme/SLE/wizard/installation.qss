@@ -19,7 +19,7 @@ YQMainWinDock { background: #2B2E38; }
 }
 #DialogBanner {
   background-color: transparent;
-  font-family: Raleway, Sans-serif;
+  font-family: Poppins, Sans-serif;
   font: 24pt;
   margin-right: 20px;
 }
@@ -40,7 +40,7 @@ YQMainWinDock { background: #2B2E38; }
 }
 
 #DialogHeadingLeft {
-  font-family: Raleway, Sans-serif;
+  font-family: Poppins, Sans-serif;
   font: 22pt;
   color: #30BA78;
   margin-top: 14px;
@@ -48,7 +48,7 @@ YQMainWinDock { background: #2B2E38; }
   qproperty-alignment:AlignRight;
 }
 #DialogHeadingTop {
-  font-family: Raleway, Sans-serif;
+  font-family: Poppins, Sans-serif;
   font: 18pt;
   color: #30BA78;
 }
