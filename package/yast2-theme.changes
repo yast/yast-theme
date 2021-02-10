@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Sun Feb  7 09:11:52 UTC 2021 - shenlebantongying <shenlebantongying@gmail.com>
+
+- Add icon for cinnamon pattern
+- 4.3.2
+
+-------------------------------------------------------------------
 Fri Jul 10 15:31:08 UTC 2020 - José Iván López González <jlopez@suse.com>
 
 - Add raleway fonts dependency (related to bsc#1158298).
