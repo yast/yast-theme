@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Feb 10 14:46:35 UTC 2021 - José Iván López González <jlopez@suse.com>
+
+- Update branding (jsc#SLE-15714).
+- 4.3.2
+
+-------------------------------------------------------------------
 Fri Jul 10 15:31:08 UTC 2020 - José Iván López González <jlopez@suse.com>
 
 - Add raleway fonts dependency (related to bsc#1158298).
