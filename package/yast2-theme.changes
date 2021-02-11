@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Feb 11 10:31:02 UTC 2021 - José Iván López González <jlopez@suse.com>
+
+- Use Poppins fonts instead of Raleway in all style files.
+- Part of jsc#SLE-15714.
+- 4.3.4
+
+-------------------------------------------------------------------
 Wed Feb 10 15:33:06 UTC 2021 - José Iván López González <jlopez@suse.com>
 
 - Update branding (jsc#SLE-15714).
