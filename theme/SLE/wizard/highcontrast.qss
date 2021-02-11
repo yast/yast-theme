@@ -19,7 +19,7 @@ YQMainWinDock { background: black; }
 
 #DialogBanner {
   background-color: transparent;
-  font-family: Raleway, Sans-serif;
+  font-family: Poppins, Sans-serif;
   font: 24pt;
   margin-right: 20px;
 }
@@ -122,7 +122,7 @@ QListWidget {
 }
 
 #DialogHeadingLeft {
-  font-family: Raleway, Sans-serif;
+  font-family: Poppins, Sans-serif;
   font: 24pt;
   color: #ffff00;
   margin-top: 100%;
@@ -130,7 +130,7 @@ QListWidget {
   qproperty-alignment:AlignRight;
 }
 #DialogHeadingTop {
-  font-family: Raleway, Sans-serif;
+  font-family: Poppins, Sans-serif;
   font: 24pt;
   color: #ffff00;
 }
