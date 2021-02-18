@@ -16,7 +16,7 @@
 #
 
 Name:           yast2-theme
-Version:        4.3.4
+Version:        4.3.5
 Release:        0
 
 Source0:        %{name}-%{version}.tar.bz2
@@ -66,7 +66,8 @@ Obsoletes:      yast2-theme-openSUSE-Crystal < %{version}
 
 BuildArch:      noarch
 Summary:        YaST2 - Theme
-License:        GPL-2.0-only
+License:        GPL-2.0-only AND CC-BY-SA-4.0
+# pattern-budgie.svg is licensed under CC-BY-SA-4.0
 Group:          System/YaST
 Url:            http://github.com/yast/yast-theme
 
