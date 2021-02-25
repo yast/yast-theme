@@ -96,8 +96,12 @@ QTreeView, QTreeWidget {
   background-color: #1F222B;
   border: 1px solid #000000;
   alternate-background-color: #2B2E38;
+  selection-background-color: #686565;
   selection-color: #FFFFFF;
   border-radius: 2px;
+}
+
+QTreeView::item:focus, QTreeView:focus { color: #FFFFFF; border:none; outline: none;
 }
 
 QTableWidget,
@@ -169,7 +173,7 @@ QCheckBox, YQCheckBoxFrame::indicator { color: #FFFFFF; margin-top: 6px; margin-
 
 QCheckBox::disabled { color: rgba(255,255,255,60); }
 
-QCheckBox:focus, YQCheckBoxFrame::item:focus, QTreeView::item:focus, QTreeView:focus { color: #30BA78; border:none; outline: none;
+QCheckBox:focus, YQCheckBoxFrame::item:focus { color: #30BA78; border:none; outline: none;
 }
 
 YQCheckBoxFrame::indicator:checked,
