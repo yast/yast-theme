@@ -65,7 +65,7 @@ YQRichText > YQTextBrowser {
   selection-color: #FFFFFF;
 }
 
-QFrame { background-color: none; color: #FFFFFF;}
+QFrame { background-color: #2B2E38; color: #FFFFFF;}
 
 QLabel, YQDialog {
   color: #FFFFFF;
@@ -96,7 +96,6 @@ QTreeView, QTreeWidget {
   background-color: #1F222B;
   border: 1px solid #000000;
   alternate-background-color: #2B2E38;
-  selection-background-color: #686565;
   selection-color: #FFFFFF;
   border-radius: 2px;
 }
@@ -573,51 +572,3 @@ QComboBoxPrivateScroller
   background-color: #2B2E38;
   color: #FFFFFF;
 }
-
-#wizard {
-  background: #2B2E38;
-}
-
-#steps
-{
-  padding: 12px 1px 80px 12px;
-  background: url(logo.svg) no-repeat bottom, #1f222b;
-}
-
-.steps_heading {
-  font-size: 16pt;
-  font-family: Poppins, Sans-serif;
-  background-color: #1f222b;
-  color: #fff;
-  padding: 0px 0px 12px 15px
-}
-
-.todo-step-name {
-  background-color: #1f222b;
-  padding: 6px 12px;
-  color: #fff;
-  font-size: 14px;
-}
-.done-step-name {
-  background-color: #1f222b;
-  padding: 6px 12px;
-  color: #fff;
-  font-size: 14px;
-}
-.current-step-name {
-  background-color: #30BA78;
-  padding: 6px 12px;
-  color: #fff;
-  font-size: 14px;
-}
-
-.todo-step-status {
-  background-color: #1f222b;
-}
-.done-step-status {
-  background-color: #1f222b;
-}
-.current-step-status {
-  background-color: #1f222b;
-}
-
