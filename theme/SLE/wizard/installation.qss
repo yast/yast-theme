@@ -73,7 +73,7 @@ QLabel, YQDialog {
   selection-background-color: #686565;
   selection-color: #FFFFFF;
   margin-top: 2px;
-  margin-bottom: 2px;
+  margin-bottom: 6px;
 }
 QHeaderView::section {
   background-color: #1F222B;
@@ -89,7 +89,7 @@ QHeaderView::section {
 QHeaderView::down-arrow { image: url(inst_arr_down.png); padding-top: 2px; }
 QHeaderView::up-arrow { image: url(inst_arr_up.png); padding-top: 2px; }
 
-QAbstractScrollArea { background-color: #1F222B; border: none; }
+QAbstractScrollArea { background-color: #1F222B; border: 1px solid #000000; }
 
 QTreeView, QTreeWidget {
   color: #FFFFFF;
@@ -169,7 +169,7 @@ QLineEdit:focus {
 QLineEdit:disabled {
   border-bottom: 1px solid rgba(255,255,255,60);
 }
-QCheckBox, YQCheckBoxFrame::indicator { color: #FFFFFF; margin-top: 6px; margin-left: 6px;}
+QCheckBox, YQCheckBoxFrame::indicator { color: #FFFFFF; margin-top: 2px; margin-left: 6px;}
 
 QCheckBox::disabled { color: rgba(255,255,255,60); }
 
