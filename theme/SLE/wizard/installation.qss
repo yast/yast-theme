@@ -78,9 +78,7 @@ QLabel, YQDialog {
 QHeaderView::section {
   background-color: #1F222B;
   color: #b6b4b4;
-  border: 1px solid #1F222B;
-  border-right: 1px solid #000000;
-  border-bottom: 0px;
+  border: 1px solid #000000;
   padding-left: 4px;
   padding-top: 6px;
   padding-bottom: 6px;
