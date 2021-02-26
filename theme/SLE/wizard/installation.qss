@@ -259,6 +259,11 @@ QTabBar
      is calculated narrower and bold font display messed up. bnc#888589, QTBUG#8209 */
   font-weight: bold;
 }
+
+QTabWidget::pane {
+    background: #1F222B;
+}
+
 QTabBar::tab {
   color: #b6b4b4;
   background: #1F222B;
@@ -295,7 +300,6 @@ QTabBar::tear {
 QTabBar QToolButton { 
     border: 1px solid #000000;
 }
-
 
 QComboBox {
   border: 1px solid #969494;
