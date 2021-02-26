@@ -101,7 +101,7 @@ QTreeView, QTreeWidget {
   border-radius: 2px;
 }
 
-QTreeView::item:focus, QTreeView:focus { 
+QTreeView::item:focus { 
   color: #FFFFFF; 
   border:none; 
   outline: none;
