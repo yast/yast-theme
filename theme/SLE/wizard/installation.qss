@@ -292,6 +292,11 @@ QTabBar::tear {
   border-radius: 1px;
 }
 
+QTabBar QToolButton { 
+    border: 1px solid #000000;
+}
+
+
 QComboBox {
   border: 1px solid #969494;
   border-radius: 2px;
@@ -437,10 +442,10 @@ QToolButton:focus {
   outline: none;
   color: #30BA78;
 }
-QToolButton::left-arrow {
+QToolButton::left-arrow, QTabBar QToolButton::left-arrow {
   image: url(inst_arr_left.png);
 }
-QToolButton::right-arrow {
+QToolButton::right-arrow, QTabBar QToolButton::right-arrow {
   image: url(inst_arr_right.png);
 }
 QToolButton::up-arrow {
