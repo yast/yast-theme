@@ -89,7 +89,7 @@ QHeaderView::section {
 QHeaderView::down-arrow { image: url(inst_arr_down.png); padding-top: 2px; }
 QHeaderView::up-arrow { image: url(inst_arr_up.png); padding-top: 2px; }
 
-QAbstractScrollArea { background-color: #2B2E38; border: 1px solid #1F222B; }
+QAbstractScrollArea { background: none; border: 1px solid #1F222B; }
 
 QTreeView, QTreeWidget {
   color: #FFFFFF;
