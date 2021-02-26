@@ -89,7 +89,7 @@ QHeaderView::section {
 QHeaderView::down-arrow { image: url(inst_arr_down.png); padding-top: 2px; }
 QHeaderView::up-arrow { image: url(inst_arr_up.png); padding-top: 2px; }
 
-QAbstractScrollArea { background: none; border: 1px solid #1F222B; }
+QAbstractScrollArea { background-color: #1F222B; border: 1px inset #1F222B; }
 
 QTreeView, QTreeWidget {
   color: #FFFFFF;
@@ -258,10 +258,6 @@ QTabBar
   /* Duplicate QTabBar::tab property. Without this property the tab space
      is calculated narrower and bold font display messed up. bnc#888589, QTBUG#8209 */
   font-weight: bold;
-}
-
-QTabWidget::pane {
-    background: #1F222B;
 }
 
 QTabBar::tab {
