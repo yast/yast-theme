@@ -89,7 +89,7 @@ QHeaderView::section {
 QHeaderView::down-arrow { image: url(inst_arr_down.png); padding-top: 2px; }
 QHeaderView::up-arrow { image: url(inst_arr_up.png); padding-top: 2px; }
 
-QAbstractScrollArea { background-color: #1F222B; border: none; }
+QAbstractScrollArea { background-color: #1F222B; border: 1px solid #000000; }
 
 QTreeView, QTreeWidget {
   color: #FFFFFF;
@@ -202,8 +202,8 @@ QCheckBox::indicator:unchecked:focus {
   image: url(inst_checkbox-focus.png);
 }
 
-QRadioButton {color: #FFFFFF; margin-top: 6px;}
-QRadioButton:focus {color: #30BA78; margin-top: 6px; border: none; outline: none;}
+QRadioButton {color: #FFFFFF; margin-top: 4px;}
+QRadioButton:focus {color: #30BA78; margin-top: 4px; border: none; outline: none;}
 QRadioButton::disabled { color: gray; background-color: #2B2E38; }
 
 QRadioButton::indicator:unchecked {
