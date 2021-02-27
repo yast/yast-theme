@@ -181,17 +181,17 @@ QToolButton#qt_calendar_nextmonth {
   qproperty-icon: url(inst_arr_right.png);
 }
 
-QCalendarWidget QAbstractItemView::item:hover {  
- selection-background-color: #969494; 
- selection-color: #FFFFFF;
-}
-
-QCalendarWidget QAbstractItemView {  
+QCalendarWidget QAbstractItemView:enabled {  
  selection-background-color: #FFFFFF; 
  selection-color: #000000;
  font-weight: bold;
 }
 
+QCalendarWidget QAbstractItemView:enabled:hover {  
+ selection-background-color: #969494; 
+ selection-color: #000000;
+ font-weight: bold;
+}
 
 YQWidgetCaption  { color: #FFFFFF; background-color:#2B2E38; }
 YQWidgetCaption::disabled  {  color: rgba(255,255,255,60); background-color:#2B2E38; }
