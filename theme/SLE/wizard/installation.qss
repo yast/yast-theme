@@ -152,11 +152,12 @@ QDateEdit::disabled, QTimeEdit::disabled{ color: rgba(255,255,255,60); backgroun
 
 #qt_calendar_navigationbar {
   background-color: #1F222B;
-  color: #fff;
+  border: 1px solid #000000;
+  border-radius: 2px;
 }
 
-#qt_calendar_navigationbar QPushButton {
-  border: 1px solid #969494;
+#qt_calendar_navigationbar QToolButton {
+  border: 1px solid #1F222B;
   border-radius: 2px;
   background-color: #2B2E38;
   padding: 4px 8px;
@@ -169,6 +170,13 @@ QDateEdit::disabled, QTimeEdit::disabled{ color: rgba(255,255,255,60); backgroun
 #qt_calendar_calendarview {
   background-color: #2B2E38;
   color: #FFFFFF;
+}
+
+QToolButton#qt_calendar_prevmonth {
+    qproperty-icon: url(inst_arr_left.png);
+}
+QToolButton#qt_calendar_nextmonth {
+    qproperty-icon: url(inst_arr_right.png);
 }
 
 YQWidgetCaption  { color: #FFFFFF; background-color:#2B2E38; }
