@@ -187,8 +187,8 @@ QCalendarWidget QAbstractItemView::item:hover {
 }
 
 QCalendarWidget QAbstractItemView {  
- selection-background-color: #30BA78; 
- selection-color: #FFFFFF;
+ selection-background-color: #FFFFFF; 
+ selection-color: #000000;
  font-weight: bold;
 }
 
