@@ -150,6 +150,23 @@ QTimeEdit { color: #FFFFFF; background-color: #1F222B; padding: 6px 6px; selecti
 
 QDateEdit::disabled, QTimeEdit::disabled{ color: rgba(255,255,255,60); background-color: #2B2E38; }
 
+#qt_calendar_navigationbar {
+  background-color: #1F222B;
+  color: #fff;
+}
+
+#qt_calendar_calendarview {
+  background-color: #2B2E38;
+  color: #FFFFFF;
+}
+
+QCalendarWidget QHeaderView {
+    qproperty-minimumSectionSize:0;
+}
+QCalendarWidget QMenu{
+    background-color: #2B2E38;
+}
+
 YQWidgetCaption  { color: #FFFFFF; background-color:#2B2E38; }
 YQWidgetCaption::disabled  {  color: rgba(255,255,255,60); background-color:#2B2E38; }
 
@@ -566,16 +583,6 @@ QY2HelpDialog
 YQBarGraph {
    qproperty-BackgroundColors: "#008acf,#6F368C,#ff9302";
    qproperty-ForegroundColors: "#fff,#fff,#fff";
-}
-
-#qt_calendar_navigationbar {
-  background-color: #1F222B;
-  color: #fff;
-}
-
-#qt_calendar_calendarview {
-  background-color: #2B2E38;
-  color: #FFFFFF;
 }
 
 QComboBoxPrivateScroller
