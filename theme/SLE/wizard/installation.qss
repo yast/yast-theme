@@ -165,7 +165,13 @@ QCalendarWidget QHeaderView {
 }
 QCalendarWidget QMenu{
     background-color: #2B2E38;
+	padding: 2px;
 }
+
+QCalendarWidget QWidget 
+  {
+  	background-color: #1F222B;  
+  }
 
 YQWidgetCaption  { color: #FFFFFF; background-color:#2B2E38; }
 YQWidgetCaption::disabled  {  color: rgba(255,255,255,60); background-color:#2B2E38; }
