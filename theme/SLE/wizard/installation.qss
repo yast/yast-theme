@@ -169,20 +169,25 @@ QDateEdit::disabled, QTimeEdit::disabled{ color: rgba(255,255,255,60); backgroun
 
 #qt_calendar_calendarview {
   background-color: #2B2E38;
-  color: #FFFFFF;
+  color: #E0EFEF;
 }
 
-QCalendarWidget QMenu {
-  	background-color: #1F222B;
-}
-
-QCalendarWidget QWidget { alternate-background-color: #000000; }
+QCalendarWidget QWidget { alternate-background-color: #1F222B; }
 
 QToolButton#qt_calendar_prevmonth {
-    qproperty-icon: url(inst_arr_left.png);
+  qproperty-icon: url(inst_arr_left.png);
 }
 QToolButton#qt_calendar_nextmonth {
-    qproperty-icon: url(inst_arr_right.png);
+  qproperty-icon: url(inst_arr_right.png);
+}
+
+QCalendarWidget QAbstractItemView:enabled {  
+ selection-background-color: #969494; 
+ selection-color: #FFFFFF; 
+}
+
+QCalendarWidget QAbstractItemView:disabled { 
+  color: #969494; 
 }
 
 YQWidgetCaption  { color: #FFFFFF; background-color:#2B2E38; }
