@@ -170,7 +170,7 @@ QCalendarWidget QMenu{
 QCalendarWidget QWidget 
   {
   background-color: #1F222B;
-  padding: 2px; 
+  margin: 2px; 
   }
 
 YQWidgetCaption  { color: #FFFFFF; background-color:#2B2E38; }
