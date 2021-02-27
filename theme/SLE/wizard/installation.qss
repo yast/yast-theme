@@ -153,7 +153,6 @@ QDateEdit::disabled, QTimeEdit::disabled{ color: rgba(255,255,255,60); backgroun
 #qt_calendar_navigationbar {
   background-color: #1F222B;
   color: #fff;
-  padding: 2px;
 }
 
 #qt_calendar_calendarview {
@@ -163,10 +162,10 @@ QDateEdit::disabled, QTimeEdit::disabled{ color: rgba(255,255,255,60); backgroun
 
 QCalendarWidget QHeaderView {
   background-color: #1F222B;
-  padding: 2px;
 }
 QCalendarWidget QMenu{
     background-color: #2B2E38;
+	padding: 2px;
 }
 
 QCalendarWidget QWidget 
