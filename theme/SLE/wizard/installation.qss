@@ -187,11 +187,6 @@ QCalendarWidget QAbstractItemView:enabled {
  font-weight: bold;
 }
 
-QCalendarWidget QAbstractItemView:enabled:hover {  
- selection-background-color: #969494; 
- selection-color: #000000;
-}
-
 YQWidgetCaption  { color: #FFFFFF; background-color:#2B2E38; }
 YQWidgetCaption::disabled  {  color: rgba(255,255,255,60); background-color:#2B2E38; }
 
