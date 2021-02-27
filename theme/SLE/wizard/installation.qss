@@ -155,23 +155,21 @@ QDateEdit::disabled, QTimeEdit::disabled{ color: rgba(255,255,255,60); backgroun
   color: #fff;
 }
 
+#qt_calendar_navigationbar QPushButton {
+  border: 1px solid #969494;
+  border-radius: 2px;
+  background-color: #2B2E38;
+  padding: 4px 8px;
+  color: #E0EFEF;
+  font-weight: bold;
+  outline: none;
+  margin: 2px;
+}
+
 #qt_calendar_calendarview {
   background-color: #2B2E38;
   color: #FFFFFF;
 }
-
-QCalendarWidget QHeaderView {
-  background-color: #1F222B;
-}
-QCalendarWidget QMenu{
-  background-color: #2B2E38;
-}
-
-QCalendarWidget QWidget 
-  {
-  background-color: #1F222B;
-  margin: 2px; 
-  }
 
 YQWidgetCaption  { color: #FFFFFF; background-color:#2B2E38; }
 YQWidgetCaption::disabled  {  color: rgba(255,255,255,60); background-color:#2B2E38; }
