@@ -181,16 +181,15 @@ QToolButton#qt_calendar_nextmonth {
   qproperty-icon: url(inst_arr_right.png);
 }
 
-QCalendarWidget QAbstractItemView:hover {  
+QCalendarWidget QAbstractItemView:enabled:hover {  
  selection-background-color: #969494; 
  selection-color: #FFFFFF;
- font-wight: bold;
 }
 
 QCalendarWidget QAbstractItemView:enabled {  
  selection-background-color: #30BA78; 
  selection-color: #FFFFFF;
- font-wight: bold;
+ font-weight: bold;
 }
 
 
