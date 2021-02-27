@@ -172,6 +172,12 @@ QDateEdit::disabled, QTimeEdit::disabled{ color: rgba(255,255,255,60); backgroun
   color: #FFFFFF;
 }
 
+QCalendarWidget QMenu {
+  	background-color: #1F222B;
+}
+
+QCalendarWidget QWidget { alternate-background-color: #000000; }
+
 QToolButton#qt_calendar_prevmonth {
     qproperty-icon: url(inst_arr_left.png);
 }
