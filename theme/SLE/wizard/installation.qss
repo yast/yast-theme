@@ -152,7 +152,7 @@ QDateEdit::disabled, QTimeEdit::disabled{ color: rgba(255,255,255,60); backgroun
 
 #qt_calendar_navigationbar {
   background-color: #1F222B;
-  border: 1px solid #000000;
+  border: 1px outset #000000;
   border-radius: 2px;
 }
 
