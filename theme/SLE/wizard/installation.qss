@@ -376,7 +376,7 @@ QMenuBar {
   background-color: #2B2E38;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
-  alternate-background-color: #2B2E38;
+  alternate-background-color: #1F222B;
 }
 
 QMenuBar::item {
