@@ -403,6 +403,11 @@ QMenu {
   selection-background-color: #404147;
   selection-color: #FFFFFF;
 }
+QMenu::separator {
+  height: 1px;
+  background-color:  #1F222;
+  color: #404147;
+}
 
 QMenu::item:disabled { color: rgba(255,255,255,60); }
 
