@@ -382,7 +382,7 @@ QMenuBar::item {
   color: #FFFFFF;
   spacing: 3px; /* spacing between menu bar items */
   padding: 6px 4px ;
-  background: transparent;
+  background: #2B2E38;
   border-radius: 2px;
   margin: 0px;
 }
