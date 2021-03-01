@@ -92,8 +92,8 @@ QHeaderView::section {
   padding-bottom: 6px;
 }
 
-QHeaderView::down-arrow { image: url(inst_arr_down.png); padding-top: 2px; }
-QHeaderView::up-arrow { image: url(inst_arr_up.png); padding-top: 2px; }
+QHeaderView::down-arrow { image: url(inst_arr_down.png); height: 12xp; width: 12px; padding-top: 2px; }
+QHeaderView::up-arrow { image: url(inst_arr_up.png); height: 12xp; width: 12px; padding-top: 2px; }
 
 QAbstractScrollArea { background-color: #1F222B; border: 1px solid #000000; }
 
