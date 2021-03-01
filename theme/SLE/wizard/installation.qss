@@ -80,14 +80,12 @@ QHeaderView::section {
   background-color: #2B2E38;
   color: #b6b4b4;
   border-radius: 2px;
-  border: 2px solid #2B2E38;
-  padding-left: 6px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  border: 2px solid #1F222B;
+  padding: 6px;
 }
 
-QHeaderView::down-arrow { image: url(inst_arr_down.png); padding-top: 2px; color: #b6b4b4; }
-QHeaderView::up-arrow { image: url(inst_arr_up.png); padding-top: 2px; color: #b6b4b4; }
+QHeaderView::down-arrow { image: url(inst_arr_down.png); padding-top: 2px; }
+QHeaderView::up-arrow { image: url(inst_arr_up.png); padding-top: 2px; }
 
 QAbstractScrollArea { background-color: #1F222B; border: 1px solid #000000; }
 
