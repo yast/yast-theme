@@ -91,6 +91,8 @@ QHeaderView::up-arrow { image: url(inst_arr_up.png); padding-top: 2px; }
 
 QAbstractScrollArea { background-color: #1F222B; border: 1px solid #000000; }
 
+QHeaderView QAbstractScrollArea { background: none; border: none; }
+
 QTreeView, QTreeWidget {
   color: #FFFFFF;
   background-color: #1F222B;
