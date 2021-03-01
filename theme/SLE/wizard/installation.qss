@@ -384,7 +384,7 @@ QMenuBar::item {
   padding: 6px 4px ;
   background: transparent;
   border-radius: 2px;
-  margin: 6px 0px;
+  margin: 0px;
 }
 
 QMenuBar::item:selected { /* when selected using mouse or keyboard */
