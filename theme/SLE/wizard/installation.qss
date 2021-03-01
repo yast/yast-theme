@@ -129,6 +129,10 @@ YQTree, YQTable {
   selection-color: #FFFFFF;
 }
 
+YQTable::item {
+  padding: 6px;
+}
+
 YQPakageSelector {
   color: #FFFFFF;
   background-color: #1F222B;
