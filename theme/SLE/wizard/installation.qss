@@ -343,7 +343,6 @@ QComboBox {
   padding: 4px 4px;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
-  alternate-background-color: #2B2E38;
 }
 QComboBox::disabled {
   color: rgba(255,255,255,60);
@@ -377,6 +376,7 @@ QMenuBar {
   background-color: #2B2E38;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
+  alternate-background-color: #2B2E38;
 }
 
 QMenuBar::item {
