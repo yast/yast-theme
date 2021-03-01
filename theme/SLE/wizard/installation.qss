@@ -371,9 +371,6 @@ QComboBox::down-arrow:on { /* shift the arrow when popup is open */
   top: 0px;
   left: 0px;
 }
-QComboBox QAbstractScrollArea {
-  background-color: #2B2E38;
-}
 QComboBox QAbstractItemView,
 QMenuBar {
   background-color: #2B2E38;
@@ -381,7 +378,9 @@ QMenuBar {
   selection-color: #FFFFFF;
   alternate-background-color: #1F222B;
 }
-
+QComboBox QAbstractScrollArea QScrollBar {
+  background-color: #2B2E38;
+}
 QMenuBar::item {
   color: #FFFFFF;
   spacing: 3px; /* spacing between menu bar items */
