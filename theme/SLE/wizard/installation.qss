@@ -76,24 +76,18 @@ QLabel, YQDialog {
   margin-bottom: 6px;
 }
 
-QHeaderView {
-  background-color: transparent;
-  border: 0px transparent #1F222B;
-  padding: 0px;
-  margin: 0px;
-  border-radius: 2px;
-}
-
 QHeaderView::section {
+  background-color: #1F222B;
   color: #b6b4b4;
+  border: 0px;
   border-right: 1px solid #000000;
   padding-left: 6px;
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-QHeaderView::down-arrow { image: url(inst_arr_down.png); height: 8px; width: 8px; padding-top: 2px; }
-QHeaderView::up-arrow { image: url(inst_arr_up.png); height: 8px; width: 8px; padding-top: 2px; }
+QHeaderView::down-arrow { image: url(inst_arr_down.png); padding-top: 2px; }
+QHeaderView::up-arrow { image: url(inst_arr_up.png); padding-top: 2px; }
 
 QAbstractScrollArea { background-color: #1F222B; border: 1px solid #000000; }
 
