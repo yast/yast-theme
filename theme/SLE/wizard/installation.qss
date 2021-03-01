@@ -84,8 +84,8 @@ QHeaderView::section {
   padding: 4px 12px 4px 6px;
 }
 
-QHeaderView::down-arrow { image: url(inst_arr_down.png); padding-top: 2px; }
-QHeaderView::up-arrow { image: url(inst_arr_up.png); padding-top: 2px; }
+QHeaderView::down-arrow { image: url(inst_arr_down.svg); padding-top: 2px; }
+QHeaderView::up-arrow { image: url(inst_arr_up.svg); padding-top: 2px; }
 
 QAbstractScrollArea { background-color: #1F222B; border: 1px solid #000000; }
 
@@ -178,10 +178,10 @@ QDateEdit::disabled, QTimeEdit::disabled{ color: rgba(255,255,255,60); backgroun
 QCalendarWidget QWidget { alternate-background-color: #1F222B; }
 
 QToolButton#qt_calendar_prevmonth {
-  qproperty-icon: url(inst_arr_left.png);
+  qproperty-icon: url(inst_arr_left.svg);
 }
 QToolButton#qt_calendar_nextmonth {
-  qproperty-icon: url(inst_arr_right.png);
+  qproperty-icon: url(inst_arr_right.svg);
 }
 
 QCalendarWidget QAbstractItemView:enabled {  
@@ -364,10 +364,10 @@ QComboBox::drop-down { /* arrow part of the widget */
   border: none;
 }
 QComboBox::down-arrow {
-  image: url(inst_arr_down.png);
+  image: url(inst_arr_down.svg);
 }
 QComboBox::down-arrow:on { /* shift the arrow when popup is open */
-  image: url(inst_arr_up.png);
+  image: url(inst_arr_up.svg);
   top: 0px;
   left: 0px;
 }
@@ -458,7 +458,7 @@ QPushButton::menu-indicator:pressed,
 QPushButton::menu-indicator:open {
   subcontrol-origin: margin;
   subcontrol-position: right;
-  image: url(inst_arr_down.png);
+  image: url(inst_arr_down.svg);
   left: -8px;
 }
 QPushButton:open { /* when the button has its menu open */
@@ -481,16 +481,16 @@ QToolButton:focus {
   color: #30BA78;
 }
 QToolButton::left-arrow, QTabBar QToolButton::left-arrow {
-  image: url(inst_arr_left.png);
+  image: url(inst_arr_left.svg);
 }
 QToolButton::right-arrow, QTabBar QToolButton::right-arrow {
-  image: url(inst_arr_right.png);
+  image: url(inst_arr_right.svg);
 }
 QToolButton::up-arrow {
-  image: url(inst_arr_up.png);
+  image: url(inst_arr_up.svg);
 }
 QToolButton::down-arrow {
-  image: url(inst_arr_down.png);
+  image: url(inst_arr_down.svg);
 }
 
 /* Progress bars              */
