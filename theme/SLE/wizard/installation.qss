@@ -78,16 +78,10 @@ QLabel, YQDialog {
 
 QHeaderView::section {
   background-color: #2B2E38;
-  color: #b6b4b4;
+  color: #FFFFFF;
   border-radius: 2px;
   border: 2px solid #1F222B;
-  padding: 6px;
-  padding-right: 12px;
-}
-
-QHeaderView::section:checked {
-  color: #FFFFFF;
-  background-color: #000000;
+  padding: 4px 12px 4px 6px;
 }
 
 QHeaderView::down-arrow { image: url(inst_arr_down.png); padding-top: 2px; }
