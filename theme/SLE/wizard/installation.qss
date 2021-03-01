@@ -366,7 +366,7 @@ QComboBox::drop-down { /* arrow part of the widget */
 QComboBox::down-arrow {
   image: url(inst_arr_down.png);
 }
-QComboBox:disabled::down-arrow {
+QComboBox.disabled::down-arrow {
   image: url(inst_arr_down_disabled.png);
 }
 QComboBox::down-arrow:on { /* shift the arrow when popup is open */
