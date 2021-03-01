@@ -343,6 +343,7 @@ QComboBox {
   padding: 4px 4px;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
+  alternate-background-color: #2B2E38;
 }
 QComboBox::disabled {
   color: rgba(255,255,255,60);
@@ -356,14 +357,12 @@ QComboBox:focus {
 /* QComboBox gets the "on" state when the popup is open */
 QComboBox:!editable:on, QComboBox::drop-down:editable:on {
   color: #30BA78;
-  background-color: #2B2E38;
 }
 QComboBox::drop-down { /* arrow part of the widget */
   subcontrol-origin: padding;
   subcontrol-position: top left;
   width: 24px;
   border: none;
-  background-color: #2B2E38;
 }
 QComboBox::down-arrow {
   image: url(inst_arr_down.png);
