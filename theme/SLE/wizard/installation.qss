@@ -118,19 +118,11 @@ QTableView {
   border-radius: 2px;
 }
 
-QTableView::item {
-  padding: 6px;
-}
-
 YQTree, YQTable {
   color: #FFFFFF;
   background-color: #2B2E38;
   selection-background-color: #686565;
   selection-color: #FFFFFF;
-}
-
-YQTable::item {
-  padding: 6px;
 }
 
 YQPakageSelector {
