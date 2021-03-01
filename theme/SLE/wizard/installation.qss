@@ -356,12 +356,14 @@ QComboBox:focus {
 /* QComboBox gets the "on" state when the popup is open */
 QComboBox:!editable:on, QComboBox::drop-down:editable:on {
   color: #30BA78;
+  background-color: #2B2E38;
 }
 QComboBox::drop-down { /* arrow part of the widget */
   subcontrol-origin: padding;
   subcontrol-position: top left;
   width: 24px;
   border: none;
+  background-color: #2B2E38;
 }
 QComboBox::down-arrow {
   image: url(inst_arr_down.png);
@@ -402,11 +404,10 @@ QMenu {
   border: 1px outset #000000;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
-  alternate-background-color: #FF0000;
 }
 QMenu::separator {
   height: 1px;
-  background-color:  #1F222;
+  background-color:  #1F222B;
   color: #404147;
 }
 
