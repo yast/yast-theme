@@ -402,6 +402,7 @@ QMenu {
   border: 1px outset #000000;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
+  alternate-background-color: #FF0000;
 }
 QMenu::separator {
   height: 1px;
