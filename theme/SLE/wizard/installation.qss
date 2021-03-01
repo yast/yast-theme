@@ -81,14 +81,14 @@ QHeaderView {
   border: 0px transparent #1F222B;
   padding: 0px;
   margin: 0px;
-  border-radius: 0px;
+  border-radius: 2px;
 }
 
 QHeaderView::section {
   background-color: #1F222B;
   color: #b6b4b4;
-  border: 1px solid #000000;
-  padding-left: 4px;
+  border-right: 1px solid #000000;
+  padding-left: 6px;
   padding-top: 6px;
   padding-bottom: 6px;
 }
