@@ -398,14 +398,17 @@ QMenuBar::item:pressed {
 }
 QMenu {
   color: #FFFFFF;
-  background: #1F222B;
-  border: 1px outset #000000;
+  background: #2B2E38;
+  border-top: 1px solid #404147;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #404147;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
 }
 QMenu::separator {
   height: 1px;
-  background-color:  #1F222B;
+  background-color:  #2B2E38;
   color: #404147;
 }
 
