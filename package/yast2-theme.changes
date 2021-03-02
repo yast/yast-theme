@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Mar  2 13:21:43 UTC 2021 - Kenneth Wimer <wimer@suse.com>
+
+- Fixes for bug #1182497
+- 4.3.5
+
+-------------------------------------------------------------------
 Thu Feb 11 10:31:02 UTC 2021 - José Iván López González <jlopez@suse.com>
 
 - Use Poppins fonts instead of Raleway in all style files.
