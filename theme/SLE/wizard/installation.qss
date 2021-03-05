@@ -66,6 +66,7 @@ YQRichText > YQTextBrowser {
 }
 
 QFrame { background-color: #2B2E38; color: #FFFFFF;}
+#wizard { background: #2B2E38; }
 
 QLabel, YQDialog {
   color: #FFFFFF;
@@ -101,9 +102,9 @@ QTreeView, QTreeWidget {
   border-radius: 2px;
 }
 
-QTreeView::item:focus { 
-  color: #FFFFFF; 
-  border:none; 
+QTreeView::item:focus {
+  color: #FFFFFF;
+  border:none;
   outline: none;
   background-color: #404147;
 }
@@ -184,8 +185,8 @@ QToolButton#qt_calendar_nextmonth {
   qproperty-icon: url(inst_arr_right.png);
 }
 
-QCalendarWidget QAbstractItemView:enabled {  
- selection-background-color: #FFFFFF; 
+QCalendarWidget QAbstractItemView:enabled {
+ selection-background-color: #FFFFFF;
  selection-color: #000000;
  font-weight: bold;
 }
@@ -331,7 +332,7 @@ QTabBar::tear {
   border-radius: 1px;
 }
 
-QTabBar QToolButton { 
+QTabBar QToolButton {
     border: 1px solid #000000;
 }
 
@@ -440,7 +441,7 @@ QPushButton:default {
   border: 1px solid #30BA78;
   background-color: #30BA78;
   color: #FFFFFF;
-}			
+}
 QPushButton:disabled,
 QPushButton:default:disabled {
   color: rgba(255,255,255,60);
@@ -593,6 +594,11 @@ BusyBar {
 QToolTip {
   background-color: #ffECB5;
 }
+
+QSplitter {
+  background-color: #2B2E38;
+}
+
 QSplitter::handle {
   image: url(separator.png);
   height: 10px;
@@ -620,4 +626,51 @@ QComboBoxPrivateScroller
 {
   background-color: #2B2E38;
   color: #FFFFFF;
+}
+
+#steps
+{
+  padding: 12px 1px 80px 12px;
+  background: url(logo.svg) no-repeat bottom, #1f222b;
+}
+
+.steps_heading {
+  font-size: 16pt;
+  font-family: Poppins, Sans-serif;
+  background-color: #1f222b;
+  color: #fff;
+  padding: 0px 0px 12px 15px
+}
+
+.todo-step-name {
+  background-color: #1f222b;
+  padding: 6px 12px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.done-step-name {
+  background-color: #1f222b;
+  padding: 6px 12px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.current-step-name {
+  background-color: #30BA78;
+  padding: 6px 12px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.todo-step-status {
+  background-color: #1f222b;
+}
+
+.done-step-status {
+  background-color: #1f222b;
+}
+
+.current-step-status {
+  background-color: #1f222b;
 }
