@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri Mar  5 11:12:32 UTC 2021 - José Iván López González <jlopez@suse.com>
+
+- Fix styles in the running system (bsc#1183016).
+- Recover styles for the steps in firstboot.
+- 4.3.6
+
+-------------------------------------------------------------------
 Tue Mar  2 13:21:43 UTC 2021 - Kenneth Wimer <wimer@suse.com>
 
 - Fixes for bsc#1182497
