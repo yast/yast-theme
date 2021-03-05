@@ -1,6 +1,3 @@
-QFrame { background-color: none; color: #FFFFFF;}
-#wizard { background: #2B2E38; }
-
 #steps
 {
   padding: 12px 1px 80px 12px;
