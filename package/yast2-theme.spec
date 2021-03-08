@@ -16,7 +16,7 @@
 #
 
 Name:           yast2-theme
-Version:        4.3.6
+Version:        4.3.7
 Release:        0
 
 Source0:        %{name}-%{version}.tar.bz2
