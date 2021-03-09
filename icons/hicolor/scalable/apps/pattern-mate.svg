@@ -1,89 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   version="1"
-   viewBox="0 0 32 32"
-   id="svg31">
-  <metadata
-     id="metadata2">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs15">
-    <linearGradient
-       id="a"
-       x1="-50.45"
-       x2="-50.45"
-       y1="-.040987"
-       y2="-22.041"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         stop-color="#33d17a"
-         offset="0"
-         id="stop4" />
-      <stop
-         stop-color="#33d17a"
-         offset=".071429"
-         id="stop6" />
-      <stop
-         stop-color="#8ff0a4"
-         offset=".21429"
-         id="stop8" />
-      <stop
-         stop-color="#33d17a"
-         offset=".46429"
-         id="stop10" />
-      <stop
-         stop-color="#33d17a"
-         offset="1"
-         id="stop12" />
-    </linearGradient>
-  </defs>
-  <g
-     transform="matrix(1.2727 0 0 1.2727 1.9478 -33.208)"
-     id="g29">
-    <rect
-       transform="matrix(0,-1,-1,0,0,0)"
-       x="-50.45"
-       y="-22.041"
-       width="22"
-       height="22"
-       rx="11"
-       ry="11"
-       fill="url(#a)"
-       stroke-width=".55"
-       id="rect17" />
-    <rect
-       transform="matrix(0,-1,-1,0,0,0)"
-       x="-49.664"
-       y="-22.041"
-       width="22"
-       height="22"
-       rx="11"
-       ry="11"
-       fill="#57e389"
-       stroke-width=".55"
-       id="rect19"
-       style="fill:#2ec27e" />
-    <path
-       d="M 11.040271,38.664 3.9696708,33.1638 v 11 z"
-       id="path23"
-       style="fill:#ffffff" />
-    <path
-       d="m 11.827231,32.37768 a 6.28568,6.28568 0 0 0 -4.6467677,2.062489 l 0.6230444,0.483392 a 5.49997,5.49997 0 0 1 4.0236993,-1.760147 5.49997,5.49997 0 0 1 5.49997,5.49997 5.49997,5.49997 0 0 1 -5.49997,5.49997 5.49997,5.49997 0 0 1 -4.0251921,-1.758655 l -0.6199724,0.483392 a 6.28568,6.28568 0 0 0 4.6451965,2.060918 6.28568,6.28568 0 0 0 6.28568,-6.28568 6.28568,6.28568 0 0 0 -6.28568,-6.28568 z m 0,1.57142 a 4.71426,4.71426 0 0 0 -3.4052674,1.456313 l 0.6245766,0.486465 a 3.92855,3.92855 0 0 1 2.7807058,-1.157115 3.92855,3.92855 0 0 1 3.92855,3.92855 3.92855,3.92855 0 0 1 -3.92855,3.92855 3.92855,3.92855 0 0 1 -2.7791343,-1.155544 l -0.6215124,0.483393 a 4.71426,4.71426 0 0 0 3.4006317,1.457884 4.71426,4.71426 0 0 0 4.71426,-4.71426 4.71426,4.71426 0 0 0 -4.71426,-4.71426 z"
-       id="path27"
-       style="fill:#ffffff;stroke-width:0.78570998" />
-  </g>
+<svg version="1" viewBox="0 0 32 32" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" x1="-50.45" x2="-50.45" y1="-.040987" y2="-22.041" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#33d17a" offset="0"/>
+   <stop stop-color="#33d17a" offset=".071429"/>
+   <stop stop-color="#8ff0a4" offset=".21429"/>
+   <stop stop-color="#33d17a" offset=".46429"/>
+   <stop stop-color="#33d17a" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="matrix(1.2727 0 0 1.2727 1.9478 -33.208)">
+  <rect transform="matrix(0,-1,-1,0,0,0)" x="-50.45" y="-22.041" width="22" height="22" rx="11" ry="11" fill="url(#a)" stroke-width=".55"/>
+  <rect transform="matrix(0,-1,-1,0,0,0)" x="-49.664" y="-22.041" width="22" height="22" rx="11" ry="11" fill="#2ec27e" stroke-width=".55"/>
+  <path d="m11.04 38.664-7.0706-5.5002v11z" fill="#fff"/>
+  <path d="m11.827 32.378a6.2857 6.2857 0 0 0-4.6468 2.0625l0.62304 0.48339a5.5 5.5 0 0 1 4.0237-1.7601 5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5 5.5 5.5 0 0 1-4.0252-1.7587l-0.61997 0.48339a6.2857 6.2857 0 0 0 4.6452 2.0609 6.2857 6.2857 0 0 0 6.2857-6.2857 6.2857 6.2857 0 0 0-6.2857-6.2857zm0 1.5714a4.7143 4.7143 0 0 0-3.4053 1.4563l0.62458 0.48646a3.9286 3.9286 0 0 1 2.7807-1.1571 3.9286 3.9286 0 0 1 3.9286 3.9286 3.9286 3.9286 0 0 1-3.9286 3.9286 3.9286 3.9286 0 0 1-2.7791-1.1555l-0.62151 0.48339a4.7143 4.7143 0 0 0 3.4006 1.4579 4.7143 4.7143 0 0 0 4.7143-4.7143 4.7143 4.7143 0 0 0-4.7143-4.7143z" fill="#fff" stroke-width=".78571"/>
+ </g>
 </svg>
