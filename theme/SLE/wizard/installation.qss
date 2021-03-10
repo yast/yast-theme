@@ -421,7 +421,7 @@ QMenu::item:disabled { color: rgba(255,255,255,60); }
 
 QGroupBox {
   border: 0px;
-  margin-top: 10px;
+  margin-top: 2.5ex;
   margin-left: 0px;
 }
 QGroupBox::title {
