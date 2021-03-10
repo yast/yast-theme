@@ -427,7 +427,6 @@ QGroupBox {
 QGroupBox::title {
   subcontrol-origin: margin;
   subcontrol-position: left top;
-  font-weight: bold;
   color: #FFFFFF;
 }
 
