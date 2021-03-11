@@ -66,7 +66,6 @@ YQRichText > YQTextBrowser {
 }
 
 QFrame { color: #FFFFFF; }
-#wizard { background: #2B2E38; }
 
 QLabel, YQDialog {
   color: #FFFFFF;
@@ -628,6 +627,11 @@ QComboBoxPrivateScroller
 {
   background-color: #2B2E38;
   color: #FFFFFF;
+}
+
+#wizard,
+#steps > QFrame {
+  background-color: #1f222b;
 }
 
 #steps
