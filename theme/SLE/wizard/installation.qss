@@ -65,7 +65,7 @@ YQRichText > YQTextBrowser {
   selection-color: #FFFFFF;
 }
 
-QFrame { background-color: none; color: #FFFFFF; }
+QFrame { color: #FFFFFF; }
 YQPackageSelector { background-color: #2B2E38; }
 #wizard { background: #2B2E38; }
 
