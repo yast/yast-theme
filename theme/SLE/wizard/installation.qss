@@ -305,6 +305,7 @@ QTabBar::tab {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   font-weight: bold;
+  margin-top: 1px;
   padding: 4px 8px;
   min-width: 180px;
   min-height: 24px;
