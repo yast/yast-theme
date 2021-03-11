@@ -127,7 +127,7 @@ YQTree, YQTable {
 
 YQPackageSelector {
   color: #FFFFFF;
-  background-color: #1F222B;
+  background-color: #2B2E38;
   border: 1px solid #000000;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
