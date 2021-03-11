@@ -596,13 +596,10 @@ QToolTip {
   background-color: #ffECB5;
 }
 
-QSplitter {
-  background-color: #2B2E38;
-}
-
 QSplitter::handle {
-  image: url(separator.png);
   height: 10px;
+  image: url(separator.png);
+  background-color: #2B2E38;
 }
 
 #RepoUpgradeLabel {
