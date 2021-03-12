@@ -65,9 +65,7 @@ YQRichText > YQTextBrowser {
   selection-color: #FFFFFF;
 }
 
-QFrame { background-color: none; color: #FFFFFF; }
-YQPackageSelector { background-color: #2B2E38; }
-#wizard { background: #2B2E38; }
+QFrame { color: #FFFFFF; }
 
 QLabel, YQDialog {
   color: #FFFFFF;
@@ -127,9 +125,9 @@ YQTree, YQTable {
   selection-color: #FFFFFF;
 }
 
-YQPakageSelector {
+YQPackageSelector {
   color: #FFFFFF;
-  background-color: #1F222B;
+  background-color: #2B2E38;
   border: 1px solid #000000;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
@@ -307,6 +305,7 @@ QTabBar::tab {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   font-weight: bold;
+  margin-top: 1px;
   padding: 4px 8px;
   min-width: 180px;
   min-height: 24px;
@@ -368,6 +367,9 @@ QComboBox::drop-down { /* arrow part of the widget */
 QComboBox::down-arrow {
   image: url(inst_arr_down.png);
 }
+QComboBox::down-arrow::disabled {
+  image: url(inst_arr_down_disabled.png);
+}
 QComboBox::down-arrow:on { /* shift the arrow when popup is open */
   image: url(inst_arr_up.png);
   top: 0px;
@@ -418,13 +420,12 @@ QMenu::item:disabled { color: rgba(255,255,255,60); }
 
 QGroupBox {
   border: 0px;
-  margin-top: 10px;
+  margin-top: 2.5ex;
   margin-left: 0px;
 }
 QGroupBox::title {
   subcontrol-origin: margin;
   subcontrol-position: left top;
-  font-weight: bold;
   color: #FFFFFF;
 }
 
@@ -596,13 +597,10 @@ QToolTip {
   background-color: #ffECB5;
 }
 
-QSplitter {
-  background-color: #2B2E38;
-}
-
 QSplitter::handle {
-  image: url(separator.png);
   height: 10px;
+  image: url(separator.png);
+  background-color: #2B2E38;
 }
 
 #RepoUpgradeLabel {
@@ -629,13 +627,25 @@ QComboBoxPrivateScroller
   color: #FFFFFF;
 }
 
+#wizard,
+#steps > QFrame {
+  background-color: #1f222b;
+}
+
 #steps
 {
   padding: 12px 1px 80px 12px;
   background: url(logo.svg) no-repeat bottom, #1f222b;
 }
 
-.steps_heading {
+#steps QLabel {
+  background-color: #1f222b;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+#steps QLabel.steps_heading {
   font-size: 16pt;
   font-family: Poppins, Sans-serif;
   background-color: #1f222b;
@@ -643,35 +653,28 @@ QComboBoxPrivateScroller
   padding: 0px 0px 12px 15px
 }
 
+#steps QLabel.current-step-name {
+  background-color: #30BA78;
+}
+
+/**
+
+Other steps QLabel selectors, just for reference
+
 .todo-step-name {
-  background-color: #1f222b;
-  padding: 6px 12px;
-  color: #fff;
-  font-size: 14px;
 }
 
 .done-step-name {
-  background-color: #1f222b;
-  padding: 6px 12px;
-  color: #fff;
-  font-size: 14px;
 }
 
-.current-step-name {
-  background-color: #30BA78;
-  padding: 6px 12px;
-  color: #fff;
-  font-size: 14px;
-}
 
 .todo-step-status {
-  background-color: #1f222b;
 }
 
 .done-step-status {
-  background-color: #1f222b;
 }
 
 .current-step-status {
-  background-color: #1f222b;
 }
+
+**/
