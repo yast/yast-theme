@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed May  5 11:32:54 UTC 2021 - Hillwood Yang <hillwood@opensuse.org>
+
+- 4.4.1 (bsc#1185353)
+  * Add pattern-deepin.svg
+
+-------------------------------------------------------------------
 Tue Apr 20 13:51:55 UTC 2021 - Ladislav Slezák <lslezak@suse.cz>
 
 - 4.4.0
