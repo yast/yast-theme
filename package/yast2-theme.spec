@@ -16,7 +16,7 @@
 #
 
 Name:           yast2-theme
-Version:        4.4.0
+Version:        4.4.1
 Release:        0
 
 Source0:        %{name}-%{version}.tar.bz2
@@ -66,7 +66,10 @@ Obsoletes:      yast2-theme-openSUSE-Crystal < %{version}
 
 BuildArch:      noarch
 Summary:        YaST2 - Theme
-License:        GPL-2.0-only
+
+# icons/**/pattern-deepin.svg is GPL-3.0,
+# the rest is GPL-2.0
+License:        (GPL-2.0 AND GPL-3.0)
 Group:          System/YaST
 Url:            http://github.com/yast/yast-theme
 
@@ -153,7 +156,7 @@ fi
 %config %{_sysconfdir}/icewm
 %{yast_icondir}/hicolor/*
 %doc %{yast_docdir}
-%license COPYING
+%license COPYING*
 
 %if 0%{?is_opensuse}
 %files oxygen
