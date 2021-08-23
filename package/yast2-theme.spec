@@ -16,7 +16,7 @@
 #
 
 Name:           yast2-theme
-Version:        4.4.2
+Version:        4.4.3
 Release:        0
 
 Source0:        %{name}-%{version}.tar.bz2
@@ -68,8 +68,9 @@ BuildArch:      noarch
 Summary:        YaST2 - Theme
 
 # icons/**/pattern-deepin.svg is GPL-3.0,
+# pattern-budgie.svg is licensed under CC-BY-SA-4.0
 # the rest is GPL-2.0
-License:        (GPL-2.0 AND GPL-3.0)
+License:        GPL-2.0 AND GPL-3.0 AND CC-BY-SA-4.0
 Group:          System/YaST
 Url:            http://github.com/yast/yast-theme
 
