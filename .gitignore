@@ -29,3 +29,4 @@ Makefile.am.common
 .dep
 tmp.*
 *.log
+theme/assets/node_modules/

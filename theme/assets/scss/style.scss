@@ -1,4 +1,5 @@
-#steps {
+#steps
+{
   padding: 12px 1px 80px 12px;
   background: url(logo.svg) no-repeat bottom, #1f222b;
 }
@@ -8,7 +9,7 @@
   font-family: Poppins, Sans-serif;
   background-color: #1f222b;
   color: #fff;
-  padding: 0px 0px 12px 15px;
+  padding: 0px 0px 12px 15px
 }
 
 .todo-step-name {
@@ -17,14 +18,12 @@
   color: #fff;
   font-size: 14px;
 }
-
 .done-step-name {
   background-color: #1f222b;
   padding: 6px 12px;
   color: #fff;
   font-size: 14px;
 }
-
 .current-step-name {
   background-color: #30BA78;
   padding: 6px 12px;
@@ -35,16 +34,15 @@
 .todo-step-status {
   background-color: #1f222b;
 }
-
 .done-step-status {
   background-color: #1f222b;
 }
-
 .current-step-status {
   background-color: #1f222b;
 }
 
 /* #DialogIcon { max-width: 0px; margin: 0px; } */
+
 #DialogHeadingTop {
   font-size: 16pt;
   padding: 12pt;
@@ -56,7 +54,7 @@
   font: 16pt;
   margin-top: 100%;
   margin-right: 20px;
-  qproperty-alignment: AlignRight;
+  qproperty-alignment:AlignRight;
 }
 
 QGroupBox {
