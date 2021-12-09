@@ -1,0 +1,181 @@
+
+QMainWindow,
+QFileDialog {
+  background: #2B2E38;
+}
+
+QWidget {
+  background: #2B2E38;
+  color: #FFFFFF;
+}
+
+YQWizard {
+  background: #2B2E38;
+}
+
+YQMainWinDock {
+  background: #2B2E38;
+}
+
+#LogoHBox {
+  border-bottom: 1px solid #000000;
+  background-color: #1f222b;
+  margin: 0px;
+}
+
+YQLogView,
+QTextEdit,
+YQRichText > YQTextBrowser {
+  qproperty-frameShape: NoShape;
+  color: #FFFFFF;
+  border-radius: 2px;
+  border: 1px solid #000000;
+  background-color: #1F222B;
+  selection-background-color: #404147;
+  selection-color: #FFFFFF;
+}
+
+QFrame {
+  color: #FFFFFF;
+}
+
+QLabel,
+YQDialog {
+  color: #FFFFFF;
+  background-color: #2B2E38;
+  selection-background-color: #404147;
+  selection-color: #FFFFFF;
+  margin-top: 2px;
+  margin-bottom: 6px;
+}
+
+QHeaderView::section {
+  background-color: #2B2E38;
+  color: #FFFFFF;
+  border-radius: 2px;
+  border: 2px solid #1F222B;
+  padding: 4px 12px 4px 6px;
+}
+
+QHeaderView::down-arrow {
+  image: url(inst_arr_down.png);
+  padding-top: 2px;
+}
+
+QHeaderView::up-arrow {
+  image: url(inst_arr_up.png);
+  padding-top: 2px;
+}
+
+QAbstractScrollArea {
+  background-color: #1F222B;
+  border: 1px solid #000000;
+}
+
+QAbstractScrollArea QHeaderView {
+  background: transparent;
+  border: none;
+}
+
+QTreeView, QTreeWidget {
+  color: #FFFFFF;
+  background-color: #1F222B;
+  border: 1px solid #000000;
+  alternate-background-color: #2B2E38;
+  selection-background-color: #404147;
+  selection-color: #FFFFFF;
+  border-radius: 2px;
+}
+
+QTreeView::item:focus {
+  color: #FFFFFF;
+  border:none;
+  outline: none;
+  background-color: #404147;
+}
+
+QTableWidget,
+QTableView {
+  color: #FFFFFF;
+  background-color: #1F222B;
+  border: 1px solid #000000;
+  selection-background-color: #404147;
+  selection-color: #FFFFFF;
+  border-radius: 2px;
+}
+
+YQTree, YQTable {
+  color: #FFFFFF;
+  background-color: #2B2E38;
+  selection-background-color: #404147;
+  selection-color: #FFFFFF;
+}
+
+YQPackageSelector {
+  color: #FFFFFF;
+  background-color: #2B2E38;
+  border: 1px solid #000000;
+  selection-background-color: #404147;
+  selection-color: #FFFFFF;
+  border-radius: 2px;
+}
+
+YQGenericDetailsView,
+YQDescriptionDialog,
+YQPkgDescriptionView {
+  color: #FFFFFF;
+  background-color: #1F222B;
+}
+
+YQPkgPatternCategoryItem {
+  background-color: #2B2E38;
+  color: #FFFFFF;
+}
+
+QListWidget {
+  color: #FFFFFF;
+  background-color: #2B2E38;
+  selection-background-color: #404147;
+  selection-color: #FFFFFF;
+}
+
+YQWidgetCaption  {
+  color: #FFFFFF;
+  background-color:#2B2E38;
+}
+
+YQWidgetCaption::disabled  {
+  color: rgba(255,255,255,60);
+  background-color:#2B2E38;
+}
+
+.conflict QWidget { color: #fff; }
+
+YQMultiProgressMeter {
+  background-color: transparent;
+  border: 0px;
+  border-radius: 2px;
+}
+
+YQWidgetCaptionBar > YQWidgetCaption {
+  margin-top: 20px;
+}
+
+QComboBox QAbstractItemView,
+QMenuBar {
+  background-color: #2B2E38;
+  selection-background-color: #404147;
+  selection-color: #FFFFFF;
+  alternate-background-color: #1F222B;
+}
+
+QGroupBox {
+  border: 0px;
+  margin-top: 2.5ex;
+  margin-left: 0px;
+}
+QGroupBox::title {
+  subcontrol-origin: margin;
+  subcontrol-position: left top;
+  color: #FFFFFF;
+}
