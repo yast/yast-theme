@@ -1,0 +1,35 @@
+#DialogBanner {
+  background-color: transparent;
+  font-family: Poppins, Sans-serif;
+  font: 24pt;
+  margin-right: 20px;
+}
+
+#DialogLogo {
+  background-image: url(header-logo.png);
+  min-width: 195px;
+  min-height: 37px;
+  margin-left: 1em;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  background-color: #1f222b;
+}
+
+#work_area {
+  padding: 1em;
+  background-color: #2B2E38;
+}
+
+#DialogHeadingLeft {
+  font-family: Poppins, Sans-serif;
+  font: 22pt;
+  color: #30BA78;
+  margin-top: 14px;
+  margin-right: 42px;
+  qproperty-alignment:AlignRight;
+}
+#DialogHeadingTop {
+  font-family: Poppins, Sans-serif;
+  font: 18pt;
+  color: #30BA78;
+}

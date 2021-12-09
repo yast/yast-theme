@@ -1,0 +1,80 @@
+QLineEdit {
+  color: #FFFFFF;
+  background-color: #2B2E38;
+  border-bottom: 1px solid #969494;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  border-radius: 0px;
+  padding-bottom: 4px;
+  selection-background-color: #404147;
+  selection-color: #FFFFFF;
+}
+QLineEdit:focus {
+  border-bottom: 1px solid #30BA78;
+}
+QLineEdit:disabled {
+  border-bottom: 1px solid rgba(255,255,255,60);
+}
+QCheckBox, YQCheckBoxFrame::indicator { color: #FFFFFF; margin-bottom: 2px; margin-left: 6px;}
+
+QCheckBox::disabled { color: rgba(255,255,255,60); }
+
+QCheckBox:focus, YQCheckBoxFrame::item:focus { color: #30BA78; border:none; outline: none;
+}
+
+YQCheckBoxFrame::indicator:checked,
+QTreeView::indicator:checked,
+QCheckBox::indicator:checked:enabled {
+  image: url(inst_checkbox-on.png);
+}
+YQCheckBoxFrame::indicator:unchecked,
+QTreeView::indicator:unchecked,
+QCheckBox::indicator:unchecked:enabled {
+  image: url(inst_checkbox-off.png);
+}
+YQCheckBoxFrame::indicator:checked:disabled,
+QCheckBox::indicator:checked:disabled,
+QTreeView::indicator:checked:disabled {
+  image: url(inst_checkbox-on-disabled.png);
+}
+YQCheckBoxFrame::indicator:unchecked:disabled,
+QTreeView::indicator:unchecked:disabled,
+QCheckBox::indicator:unchecked {
+  image: url(inst_checkbox-off-disabled.png);
+}
+YQCheckBoxFrame::indicator:unchecked:focus,
+QTreeView::indicator:unchecked:focus,
+QCheckBox::indicator:unchecked:focus {
+  image: url(inst_checkbox-focus.png);
+}
+
+QRadioButton {color: #FFFFFF; margin-top: 4px;}
+QRadioButton:focus {color: #30BA78; margin-top: 4px; border: none; outline: none;}
+QRadioButton::disabled { color: gray; background-color: #2B2E38; }
+
+QRadioButton::indicator:unchecked {
+   image: url(inst_radio-button-unchecked.png);
+}
+
+QRadioButton::indicator:unchecked:focus {
+   image: url(inst_radio-button-focus.png);
+}
+
+QRadioButton::indicator:checked {
+   image: url(inst_radio-button-checked.png);
+}
+QRadioButton::indicator:unchecked:disabled {
+   image: url(inst_radio-button-unchecked-disabled.png);
+}
+QRadioButton::indicator:checked:disabled {
+   image: url(inst_radio-button-checked-disabled.png);
+}
+
+YQMultiSelectionBox QTreeView::item {
+  margin: 5px 0;
+}
+
+YQMultiLineEdit QTextEdit { color: #fff;}
+
+QMessageBox { background-color: #2B2E38; }

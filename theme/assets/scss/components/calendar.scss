@@ -1,0 +1,42 @@
+QSpinBox,
+QDateEdit,
+QTimeEdit { color: #FFFFFF; background-color: #1F222B; padding: 6px 6px; selection-background-color: #404147; selection-color: #FFFFFF; }
+
+QDateEdit::disabled, QTimeEdit::disabled{ color: rgba(255,255,255,60); background-color: #2B2E38; }
+
+#qt_calendar_navigationbar {
+  background-color: #1F222B;
+  border: 1px outset #000000;
+  border-radius: 2px;
+}
+
+#qt_calendar_navigationbar QToolButton {
+  border: 1px solid #1F222B;
+  border-radius: 2px;
+  background-color: #2B2E38;
+  padding: 4px 8px;
+  color: #E0EFEF;
+  font-weight: bold;
+  outline: none;
+  margin: 2px;
+}
+
+#qt_calendar_calendarview {
+  background-color: #2B2E38;
+  color: #E0EFEF;
+}
+
+QCalendarWidget QWidget { alternate-background-color: #1F222B; }
+
+QToolButton#qt_calendar_prevmonth {
+  qproperty-icon: url(inst_arr_left.png);
+}
+QToolButton#qt_calendar_nextmonth {
+  qproperty-icon: url(inst_arr_right.png);
+}
+
+QCalendarWidget QAbstractItemView:enabled {
+ selection-background-color: #FFFFFF;
+ selection-color: #000000;
+ font-weight: bold;
+}
