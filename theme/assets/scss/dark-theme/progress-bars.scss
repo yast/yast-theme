@@ -1,6 +1,5 @@
-
-/* Progress bars              */
-
+/* Progress bars
+  ========================================================================== */
 QProgressBar {
   border: 1px solid #000000;
   border-radius: 2px;
@@ -9,6 +8,7 @@ QProgressBar {
   color: #FFFFFF;
   background-color: #1F222B;
 }
+
 QProgressBar::chunk {
   background-color: #008ACF;
   border: 0px;
