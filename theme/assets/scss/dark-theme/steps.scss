@@ -1,10 +1,11 @@
+/* Steps
+  ========================================================================== */
 #wizard,
 #steps > QFrame {
   background-color: #1f222b;
 }
 
-#steps
-{
+#steps {
   padding: 12px 1px 80px 12px;
   background: url(logo.svg) no-repeat bottom, #1f222b;
 }
@@ -21,11 +22,11 @@
   font-family: Poppins, Sans-serif;
   background-color: #1f222b;
   color: #fff;
-  padding: 0px 0px 12px 15px
+  padding: 0px 0px 12px 15px;
 }
 
 #steps QLabel.current-step-name {
-  background-color: #30BA78;
+  background-color: #30ba78;
 }
 
 /**

@@ -1,35 +1,37 @@
-/*  Buttons  */
+/* Buttons
+  ========================================================================== */
 QPushButton {
   border: 1px solid #969494;
   border-radius: 2px;
-  background-color: #2B2E38;
+  background-color: #2b2e38;
   padding: 8px 16px;
-  color: #E0EFEF;
+  color: #e0efef;
   font-weight: bold;
   outline: none;
 }
 QPushButton:default {
-  border: 1px solid #30BA78;
-  background-color: #30BA78;
-  color: #FFFFFF;
+  border: 1px solid #30ba78;
+  background-color: #30ba78;
+  color: #ffffff;
 }
 QPushButton:disabled,
 QPushButton:default:disabled {
-  color: rgba(255,255,255,60);
-  border: 1px solid rgba(255,255,255,60);
+  color: rgba(255, 255, 255, 60);
+  border: 1px solid rgba(255, 255, 255, 60);
 }
-QPushButton:default:pressed, QPushButton:pressed {
+QPushButton:default:pressed,
+QPushButton:pressed {
   border: 1px solid #30ba78;
   background-color: #30ba78;
   outline: none;
 }
-QPushButton:hover  {
-  border: 1px solid #FFFFFF;
-  color: #FFFFFF;
+QPushButton:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
 QPushButton:default:hover {
-  border: 1px solid #30BA78;
-  color: #FFFFFF;
+  border: 1px solid #30ba78;
+  color: #ffffff;
 }
 
 /* odd dropdown button widget */
@@ -41,10 +43,11 @@ QPushButton::menu-indicator:open {
   image: url(inst_arr_down.png);
   left: -8px;
 }
-QPushButton:open { /* when the button has its menu open */
-  color: #FFFFFF;
-  background: #2B2E38;
-  border: 1px solid #30BA78;
+QPushButton:open {
+  /* when the button has its menu open */
+  color: #ffffff;
+  background: #2b2e38;
+  border: 1px solid #30ba78;
 }
 
 /* Tool Buttons              */
@@ -52,18 +55,20 @@ QPushButton:open { /* when the button has its menu open */
 QToolButton {
   border: 1px solid #969494;
   border-radius: 2px;
-  background-color: #2B2E38;
+  background-color: #2b2e38;
   padding: 8px 16px;
-  color: #EFEFEF;
+  color: #efefef;
 }
 QToolButton:focus {
   outline: none;
-  color: #30BA78;
+  color: #30ba78;
 }
-QToolButton::left-arrow, QTabBar QToolButton::left-arrow {
+QToolButton::left-arrow,
+QTabBar QToolButton::left-arrow {
   image: url(inst_arr_left.png);
 }
-QToolButton::right-arrow, QTabBar QToolButton::right-arrow {
+QToolButton::right-arrow,
+QTabBar QToolButton::right-arrow {
   image: url(inst_arr_right.png);
 }
 QToolButton::up-arrow {

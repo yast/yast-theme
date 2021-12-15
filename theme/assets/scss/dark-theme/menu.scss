@@ -1,0 +1,40 @@
+/* Menu
+  ========================================================================== */
+QMenuBar::item {
+  color: #ffffff;
+  spacing: 3px; /* spacing between menu bar items */
+  padding: 6px 4px;
+  background: #2b2e38;
+  border-radius: 2px;
+  margin: 0px;
+}
+
+QMenuBar::item:selected {
+  /* when selected using mouse or keyboard */
+  color: #fff;
+  background: #30ba78;
+}
+
+QMenuBar::item:pressed {
+  color: #30ba78;
+  background: #2b2e38;
+}
+QMenu {
+  color: #ffffff;
+  background: #2b2e38;
+  border-top: 1px solid #404147;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #404147;
+  selection-background-color: #404147;
+  selection-color: #ffffff;
+}
+QMenu::separator {
+  height: 1px;
+  background-color: #2b2e38;
+  color: #404147;
+}
+
+QMenu::item:disabled {
+  color: rgba(255, 255, 255, 60);
+}

@@ -1,20 +1,21 @@
-
+/* Shared styles
+  ========================================================================== */
 QMainWindow,
 QFileDialog {
-  background: red;
+  background: #2b2e38;
 }
 
 QWidget {
-  background: red;
-  color: #FFFFFF;
+  background: #2b2e38;
+  color: #ffffff;
 }
 
 YQWizard {
-  background: red;
+  background: #2b2e38;
 }
 
 YQMainWinDock {
-  background: red;
+  background: #2b2e38;
 }
 
 #LogoHBox {
@@ -26,34 +27,34 @@ YQMainWinDock {
 YQLogView,
 QTextEdit,
 YQRichText > YQTextBrowser {
-  qproperty-frameShape: NoShape;
-  color: #FFFFFF;
+  qproperty-frameshape: NoShape;
+  color: #ffffff;
   border-radius: 2px;
   border: 1px solid #000000;
-  background-color: #1F222B;
+  background-color: #1f222b;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #ffffff;
 }
 
 QFrame {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 QLabel,
 YQDialog {
-  color: #FFFFFF;
-  background-color: #2B2E38;
+  color: #ffffff;
+  background-color: #2b2e38;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #ffffff;
   margin-top: 2px;
   margin-bottom: 6px;
 }
 
 QHeaderView::section {
-  background-color: #2B2E38;
-  color: #FFFFFF;
+  background-color: #2b2e38;
+  color: #ffffff;
   border-radius: 2px;
-  border: 2px solid #1F222B;
+  border: 2px solid #1f222b;
   padding: 4px 12px 4px 6px;
 }
 
@@ -68,7 +69,7 @@ QHeaderView::up-arrow {
 }
 
 QAbstractScrollArea {
-  background-color: #1F222B;
+  background-color: #1f222b;
   border: 1px solid #000000;
 }
 
@@ -77,79 +78,83 @@ QAbstractScrollArea QHeaderView {
   border: none;
 }
 
-QTreeView, QTreeWidget {
-  color: #FFFFFF;
-  background-color: #1F222B;
+QTreeView,
+QTreeWidget {
+  color: #ffffff;
+  background-color: #1f222b;
   border: 1px solid #000000;
-  alternate-background-color: #2B2E38;
+  alternate-background-color: #2b2e38;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #ffffff;
   border-radius: 2px;
 }
 
 QTreeView::item:focus {
-  color: #FFFFFF;
-  border:none;
+  color: #ffffff;
+  border: none;
   outline: none;
   background-color: #404147;
 }
 
 QTableWidget,
 QTableView {
-  color: #FFFFFF;
-  background-color: #1F222B;
+  color: #ffffff;
+  background-color: #1f222b;
   border: 1px solid #000000;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #ffffff;
   border-radius: 2px;
 }
 
-YQTree, YQTable {
-  color: #FFFFFF;
-  background-color: #2B2E38;
+YQTree,
+YQTable {
+  color: #ffffff;
+  background-color: #2b2e38;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #ffffff;
 }
 
 YQPackageSelector {
-  color: #FFFFFF;
-  background-color: #2B2E38;
+  color: #ffffff;
+  background-color: #2b2e38;
   border: 1px solid #000000;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #ffffff;
   border-radius: 2px;
 }
 
 YQGenericDetailsView,
 YQDescriptionDialog,
 YQPkgDescriptionView {
-  color: #FFFFFF;
-  background-color: #1F222B;
+  color: #ffffff;
+  background-color: #1f222b;
 }
 
 YQPkgPatternCategoryItem {
-  background-color: #2B2E38;
-  color: #FFFFFF;
+  background-color: #2b2e38;
+  color: #ffffff;
 }
 
 QListWidget {
-  color: #FFFFFF;
-  background-color: #2B2E38;
+  color: #ffffff;
+  background-color: #2b2e38;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #ffffff;
 }
 
-YQWidgetCaption  {
-  color: #FFFFFF;
-  background-color:#2B2E38;
+YQWidgetCaption {
+  color: #ffffff;
+  background-color: #2b2e38;
 }
 
-YQWidgetCaption::disabled  {
-  color: rgba(255,255,255,60);
-  background-color:#2B2E38;
+YQWidgetCaption::disabled {
+  color: rgba(255, 255, 255, 60);
+  background-color: #2b2e38;
 }
 
-.conflict QWidget { color: #fff; }
+.conflict QWidget {
+  color: #fff;
+}
 
 YQMultiProgressMeter {
   background-color: transparent;
@@ -163,10 +168,10 @@ YQWidgetCaptionBar > YQWidgetCaption {
 
 QComboBox QAbstractItemView,
 QMenuBar {
-  background-color: #2B2E38;
+  background-color: #2b2e38;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
-  alternate-background-color: #1F222B;
+  selection-color: #ffffff;
+  alternate-background-color: #1f222b;
 }
 
 QGroupBox {
@@ -177,5 +182,5 @@ QGroupBox {
 QGroupBox::title {
   subcontrol-origin: margin;
   subcontrol-position: left top;
-  color: #FFFFFF;
+  color: #ffffff;
 }

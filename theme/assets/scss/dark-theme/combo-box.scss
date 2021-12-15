@@ -1,24 +1,26 @@
-
+/* Combobox
+  ========================================================================== */
 QComboBox {
   border: 1px solid #969494;
   border-radius: 2px;
-  background-color: #2B2E38;
-  color: #EFEFEF;
+  background-color: #2b2e38;
+  color: #efefef;
   padding: 4px 4px;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #ffffff;
 }
 QComboBox::disabled {
-  color: rgba(255,255,255,60);
-  border-color: rgba(255,255,255,60);
-  background-color: #2B2E38;
+  color: rgba(255, 255, 255, 60);
+  border-color: rgba(255, 255, 255, 60);
+  background-color: #2b2e38;
 }
 QComboBox:focus {
-  border: 1px solid #30BA78;
-  color: #FFFFFF;
+  border: 1px solid #30ba78;
+  color: #ffffff;
 }
 
-QComboBox::drop-down { /* arrow part of the widget */
+QComboBox::drop-down {
+  /* arrow part of the widget */
   subcontrol-origin: padding;
   subcontrol-position: top left;
   width: 24px;
@@ -30,7 +32,8 @@ QComboBox::down-arrow {
 QComboBox::down-arrow::disabled {
   image: url(inst_arr_down_disabled.png);
 }
-QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+QComboBox::down-arrow:on {
+  /* shift the arrow when popup is open */
   image: url(inst_arr_up.png);
   top: 0px;
   left: 0px;
