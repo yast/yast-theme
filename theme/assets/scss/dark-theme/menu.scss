@@ -12,11 +12,11 @@ QMenuBar::item {
 QMenuBar::item:selected {
   /* when selected using mouse or keyboard */
   color: #fff;
-  background: #30ba78;
+  background: $yast-green-500;
 }
 
 QMenuBar::item:pressed {
-  color: #30ba78;
+  color: $yast-green-500;
   background: #2b2e38;
 }
 QMenu {

@@ -4,96 +4,6 @@
 /* Do not touch this comment! It is parsed by libyui-qt when loading the style! */
 /* See https://github.com/libyui/libyui-qt/blob/master/src/QY2Styler.cc#L125 */
 /* Richtext: installation_richtext.css */
-/* Buttons
-  ========================================================================== */
-QPushButton {
-  border: 1px solid #969494;
-  border-radius: 2px;
-  background-color: #2b2e38;
-  padding: 8px 16px;
-  color: #e0efef;
-  font-weight: bold;
-  outline: none;
-}
-
-QPushButton:default {
-  border: 1px solid #30ba78;
-  background-color: #30ba78;
-  color: #ffffff;
-}
-
-QPushButton:disabled,
-QPushButton:default:disabled {
-  color: white;
-  border: 1px solid white;
-}
-
-QPushButton:default:pressed,
-QPushButton:pressed {
-  border: 1px solid #30ba78;
-  background-color: #30ba78;
-  outline: none;
-}
-
-QPushButton:hover {
-  border: 1px solid #ffffff;
-  color: #ffffff;
-}
-
-QPushButton:default:hover {
-  border: 1px solid #30ba78;
-  color: #ffffff;
-}
-
-/* odd dropdown button widget */
-QPushButton::menu-indicator,
-QPushButton::menu-indicator:pressed,
-QPushButton::menu-indicator:open {
-  subcontrol-origin: margin;
-  subcontrol-position: right;
-  image: url(inst_arr_down.png);
-  left: -8px;
-}
-
-QPushButton:open {
-  /* when the button has its menu open */
-  color: #ffffff;
-  background: #2b2e38;
-  border: 1px solid #30ba78;
-}
-
-/* Tool Buttons              */
-QToolButton {
-  border: 1px solid #969494;
-  border-radius: 2px;
-  background-color: #2b2e38;
-  padding: 8px 16px;
-  color: #efefef;
-}
-
-QToolButton:focus {
-  outline: none;
-  color: #30ba78;
-}
-
-QToolButton::left-arrow,
-QTabBar QToolButton::left-arrow {
-  image: url(inst_arr_left.png);
-}
-
-QToolButton::right-arrow,
-QTabBar QToolButton::right-arrow {
-  image: url(inst_arr_right.png);
-}
-
-QToolButton::up-arrow {
-  image: url(inst_arr_up.png);
-}
-
-QToolButton::down-arrow {
-  image: url(inst_arr_down.png);
-}
-
 /* Tab bar
    ========================================================================== */
 QTabWidget::pane {
@@ -244,7 +154,7 @@ QScrollBar::left-arrow:horizontal {
 BusyBar {
   qproperty-frameshape: NoShape;
   border-width: 3px;
-  border: 1px solid #30ba78;
+  border: 1px solid #30BA78;
   border-radius: 2px;
 }
 
@@ -260,7 +170,7 @@ QSplitter::handle {
 
 #RepoUpgradeLabel {
   color: #fff;
-  background: #30ba78;
+  background: #30BA78;
 }
 
 YQPkgVersionsView QWidget {
@@ -311,7 +221,7 @@ QComboBoxPrivateScroller {
 }
 
 #steps QLabel.current-step-name {
-  background-color: #30ba78;
+  background-color: #30BA78;
 }
 
 /**
@@ -354,7 +264,7 @@ QComboBox::disabled {
 }
 
 QComboBox:focus {
-  border: 1px solid #30ba78;
+  border: 1px solid #30BA78;
   color: #ffffff;
 }
 
@@ -396,11 +306,11 @@ QMenuBar::item {
 QMenuBar::item:selected {
   /* when selected using mouse or keyboard */
   color: #fff;
-  background: #30ba78;
+  background: #30BA78;
 }
 
 QMenuBar::item:pressed {
-  color: #30ba78;
+  color: #30BA78;
   background: #2b2e38;
 }
 
@@ -499,7 +409,7 @@ QLineEdit {
 }
 
 QLineEdit:focus {
-  border-bottom: 1px solid #30ba78;
+  border-bottom: 1px solid #30BA78;
 }
 
 QLineEdit:disabled {
@@ -519,7 +429,7 @@ QCheckBox::disabled {
 
 QCheckBox:focus,
 YQCheckBoxFrame::item:focus {
-  color: #30ba78;
+  color: #30BA78;
   border: none;
   outline: none;
 }
@@ -560,7 +470,7 @@ QRadioButton {
 }
 
 QRadioButton:focus {
-  color: #30ba78;
+  color: #30BA78;
   margin-top: 4px;
   border: none;
   outline: none;
@@ -630,7 +540,7 @@ QMessageBox {
 #DialogHeadingLeft {
   font-family: Poppins, Sans-serif;
   font: 22pt;
-  color: #30ba78;
+  color: #30BA78;
   margin-top: 14px;
   margin-right: 42px;
   qproperty-alignment: AlignRight;
@@ -639,7 +549,7 @@ QMessageBox {
 #DialogHeadingTop {
   font-family: Poppins, Sans-serif;
   font: 18pt;
-  color: #30ba78;
+  color: #30BA78;
 }
 
 /* Shared styles

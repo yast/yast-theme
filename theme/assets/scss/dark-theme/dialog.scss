@@ -25,7 +25,7 @@
 #DialogHeadingLeft {
   font-family: Poppins, Sans-serif;
   font: 22pt;
-  color: #30ba78;
+  color: $yast-green-500;
   margin-top: 14px;
   margin-right: 42px;
   qproperty-alignment: AlignRight;
@@ -33,5 +33,5 @@
 #DialogHeadingTop {
   font-family: Poppins, Sans-serif;
   font: 18pt;
-  color: #30ba78;
+  color: $yast-green-500;
 }

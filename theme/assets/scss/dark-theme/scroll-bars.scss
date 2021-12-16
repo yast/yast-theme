@@ -78,7 +78,7 @@ QScrollBar::left-arrow:horizontal {
 BusyBar {
   qproperty-frameshape: NoShape;
   border-width: 3px;
-  border: 1px solid #30ba78;
+  border: 1px solid $yast-green-500;
   border-radius: 2px;
 }
 QToolTip {
@@ -93,7 +93,7 @@ QSplitter::handle {
 
 #RepoUpgradeLabel {
   color: #fff;
-  background: #30ba78;
+  background: $yast-green-500;
 }
 
 YQPkgVersionsView QWidget {
