@@ -4,11 +4,11 @@ const gulp = require('gulp'),
 
 // Folders to take the assets from & place the generated files
 const destination = '../SLE/'
-const origin = 'scss/*scss'
+const origin = 'scss/installation.scss'
 
 
 let path = {
-  src_sass:'scss/*scss',
+  src_sass:'scss/installation.scss',
   src_destination:'../SLE/wizard/',
 }
 

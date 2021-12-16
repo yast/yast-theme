@@ -10,8 +10,8 @@ QPushButton {
   outline: none;
 }
 QPushButton:default {
-  border: 1px solid #30ba78;
-  background-color: #30ba78;
+  border: 1px solid $yast-green-500;
+  background-color: $yast-green-500;
   color: #ffffff;
 }
 QPushButton:disabled,
@@ -21,8 +21,8 @@ QPushButton:default:disabled {
 }
 QPushButton:default:pressed,
 QPushButton:pressed {
-  border: 1px solid #30ba78;
-  background-color: #30ba78;
+  border: 1px solid $yast-green-500;
+  background-color: $yast-green-500;
   outline: none;
 }
 QPushButton:hover {
@@ -30,7 +30,7 @@ QPushButton:hover {
   color: #ffffff;
 }
 QPushButton:default:hover {
-  border: 1px solid #30ba78;
+  border: 1px solid $yast-green-500;
   color: #ffffff;
 }
 
@@ -47,7 +47,7 @@ QPushButton:open {
   /* when the button has its menu open */
   color: #ffffff;
   background: #2b2e38;
-  border: 1px solid #30ba78;
+  border: 1px solid $yast-green-500;
 }
 
 /* Tool Buttons              */
@@ -61,7 +61,7 @@ QToolButton {
 }
 QToolButton:focus {
   outline: none;
-  color: #30ba78;
+  color: $yast-green-500;
 }
 QToolButton::left-arrow,
 QTabBar QToolButton::left-arrow {
