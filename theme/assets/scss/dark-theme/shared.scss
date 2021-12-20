@@ -2,25 +2,25 @@
   ========================================================================== */
 QMainWindow,
 QFileDialog {
-  background: #2b2e38;
+  background: $yast-dark-grey-500;
 }
 
 QWidget {
-  background: #2b2e38;
-  color: #ffffff;
+  background: $yast-dark-grey-500;
+  color: $yast-white;
 }
 
 YQWizard {
-  background: #2b2e38;
+  background: $yast-dark-grey-500;
 }
 
 YQMainWinDock {
-  background: #2b2e38;
+  background: $yast-dark-grey-500;
 }
 
 #LogoHBox {
-  border-bottom: 1px solid #000000;
-  background-color: #1f222b;
+  border-bottom: 1px solid $yast-black;
+  background-color: $yast-dark-grey-900;
   margin: 0px;
 }
 
@@ -28,33 +28,33 @@ YQLogView,
 QTextEdit,
 YQRichText > YQTextBrowser {
   qproperty-frameshape: NoShape;
-  color: #ffffff;
+  color: $yast-white;
   border-radius: 2px;
-  border: 1px solid #000000;
-  background-color: #1f222b;
-  selection-background-color: #404147;
-  selection-color: #ffffff;
+  border: 1px solid $yast-black;
+  background-color: $yast-dark-grey-900;
+  selection-background-color: $yast-light-grey-100;
+  selection-color: $yast-white;
 }
 
 QFrame {
-  color: #ffffff;
+  color: $yast-white;
 }
 
 QLabel,
 YQDialog {
-  color: #ffffff;
-  background-color: #2b2e38;
-  selection-background-color: #404147;
-  selection-color: #ffffff;
+  color: $yast-white;
+  background-color: $yast-dark-grey-500;
+  selection-background-color: $yast-light-grey-100;
+  selection-color: $yast-white;
   margin-top: 2px;
   margin-bottom: 6px;
 }
 
 QHeaderView::section {
-  background-color: #2b2e38;
-  color: #ffffff;
+  background-color: $yast-dark-grey-500;
+  color: $yast-white;
   border-radius: 2px;
-  border: 2px solid #1f222b;
+  border: 2px solid $yast-dark-grey-900;
   padding: 4px 12px 4px 6px;
 }
 
@@ -69,8 +69,8 @@ QHeaderView::up-arrow {
 }
 
 QAbstractScrollArea {
-  background-color: #1f222b;
-  border: 1px solid #000000;
+  background-color: $yast-dark-grey-900;
+  border: 1px solid $yast-black;
 }
 
 QAbstractScrollArea QHeaderView {
@@ -80,80 +80,80 @@ QAbstractScrollArea QHeaderView {
 
 QTreeView,
 QTreeWidget {
-  color: #ffffff;
-  background-color: #1f222b;
-  border: 1px solid #000000;
-  alternate-background-color: #2b2e38;
-  selection-background-color: #404147;
-  selection-color: #ffffff;
+  color: $yast-white;
+  background-color: $yast-dark-grey-900;
+  border: 1px solid $yast-black;
+  alternate-background-color: $yast-dark-grey-500;
+  selection-background-color: $yast-light-grey-100;
+  selection-color: $yast-white;
   border-radius: 2px;
 }
 
 QTreeView::item:focus {
-  color: #ffffff;
+  color: $yast-white;
   border: none;
   outline: none;
-  background-color: #404147;
+  background-color: $yast-light-grey-100;
 }
 
 QTableWidget,
 QTableView {
-  color: #ffffff;
-  background-color: #1f222b;
-  border: 1px solid #000000;
-  selection-background-color: #404147;
-  selection-color: #ffffff;
+  color: $yast-white;
+  background-color: $yast-dark-grey-900;
+  border: 1px solid $yast-black;
+  selection-background-color: $yast-light-grey-100;
+  selection-color: $yast-white;
   border-radius: 2px;
 }
 
 YQTree,
 YQTable {
-  color: #ffffff;
-  background-color: #2b2e38;
-  selection-background-color: #404147;
-  selection-color: #ffffff;
+  color: $yast-white;
+  background-color: $yast-dark-grey-500;
+  selection-background-color: $yast-light-grey-100;
+  selection-color: $yast-white;
 }
 
 YQPackageSelector {
-  color: #ffffff;
-  background-color: #2b2e38;
-  border: 1px solid #000000;
-  selection-background-color: #404147;
-  selection-color: #ffffff;
+  color: $yast-white;
+  background-color: $yast-dark-grey-500;
+  border: 1px solid $yast-black;
+  selection-background-color: $yast-light-grey-100;
+  selection-color: $yast-white;
   border-radius: 2px;
 }
 
 YQGenericDetailsView,
 YQDescriptionDialog,
 YQPkgDescriptionView {
-  color: #ffffff;
-  background-color: #1f222b;
+  color: $yast-white;
+  background-color: $yast-dark-grey-900;
 }
 
 YQPkgPatternCategoryItem {
-  background-color: #2b2e38;
-  color: #ffffff;
+  background-color: $yast-dark-grey-500;
+  color: $yast-white;
 }
 
 QListWidget {
-  color: #ffffff;
-  background-color: #2b2e38;
-  selection-background-color: #404147;
-  selection-color: #ffffff;
+  color: $yast-white;
+  background-color: $yast-dark-grey-500;
+  selection-background-color: $yast-light-grey-100;
+  selection-color: $yast-white;
 }
 
 YQWidgetCaption {
-  color: #ffffff;
-  background-color: #2b2e38;
+  color: $yast-white;
+  background-color: $yast-dark-grey-500;
 }
 
 YQWidgetCaption::disabled {
-  color: rgba(255, 255, 255, 60);
-  background-color: #2b2e38;
+  color: $yast-disabled;
+  background-color: $yast-dark-grey-500;
 }
 
 .conflict QWidget {
-  color: #fff;
+  color: $yast-white;
 }
 
 YQMultiProgressMeter {
@@ -168,10 +168,10 @@ YQWidgetCaptionBar > YQWidgetCaption {
 
 QComboBox QAbstractItemView,
 QMenuBar {
-  background-color: #2b2e38;
-  selection-background-color: #404147;
-  selection-color: #ffffff;
-  alternate-background-color: #1f222b;
+  background-color: $yast-dark-grey-500;
+  selection-background-color: $yast-light-grey-100;
+  selection-color: $yast-white;
+  alternate-background-color: $yast-dark-grey-900;
 }
 
 QGroupBox {
@@ -182,5 +182,5 @@ QGroupBox {
 QGroupBox::title {
   subcontrol-origin: margin;
   subcontrol-position: left top;
-  color: #ffffff;
+  color: $yast-white;
 }

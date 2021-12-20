@@ -1,22 +1,22 @@
 /* Combobox
   ========================================================================== */
 QComboBox {
-  border: 1px solid #969494;
+  border: 1px solid $yast-light-grey-500;
   border-radius: 2px;
-  background-color: #2b2e38;
+  background-color: $yast-dark-grey-500;
   color: #efefef;
   padding: 4px 4px;
-  selection-background-color: #404147;
-  selection-color: #ffffff;
+  selection-background-color: $yast-light-grey-100;
+  selection-color: $yast-white;
 }
 QComboBox::disabled {
-  color: rgba(255, 255, 255, 60);
-  border-color: rgba(255, 255, 255, 60);
-  background-color: #2b2e38;
+  color: $yast-disabled;
+  border-color: $yast-disabled;
+  background-color: $yast-dark-grey-500;
 }
 QComboBox:focus {
   border: 1px solid $yast-green-500;
-  color: #ffffff;
+  color: $yast-white;
 }
 
 QComboBox::drop-down {

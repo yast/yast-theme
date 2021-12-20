@@ -3,12 +3,12 @@
 QScrollBar:vertical {
   width: 16px;
   margin: 0px;
-  background-color: #1f222b;
-  border-left: 1px solid #000000;
+  background-color: $yast-dark-grey-900;
+  border-left: 1px solid $yast-black;
 }
 QScrollBar::handle:vertical {
   min-height: 16px;
-  background-color: #404147;
+  background-color: $yast-light-grey-100;
   border-radius: 2px;
 }
 QScrollBar::add-line:vertical {
@@ -42,12 +42,12 @@ QScrollBar::down-arrow:vertical {
 QScrollBar:horizontal {
   height: 16px;
   margin: 0px;
-  background-color: #1f222b;
-  border-top: 1px solid #000000;
+  background-color: $yast-dark-grey-900;
+  border-top: 1px solid $yast-black;
 }
 QScrollBar::handle:horizontal {
   min-height: 16px;
-  background-color: #2b2e38;
+  background-color: $yast-dark-grey-500;
   border-radius: 2px;
 }
 QScrollBar::add-line:horizontal {
@@ -88,29 +88,29 @@ QToolTip {
 QSplitter::handle {
   height: 10px;
   image: url(separator.png);
-  background-color: #2b2e38;
+  background-color: $yast-dark-grey-500;
 }
 
 #RepoUpgradeLabel {
-  color: #fff;
+  color: $yast-white;
   background: $yast-green-500;
 }
 
 YQPkgVersionsView QWidget {
-  background: #2b2e38;
+  background: $yast-dark-grey-500;
 }
 
 QY2HelpDialog {
-  color: #fff;
-  qproperty-searchresultbackground: #008acf;
-  qproperty-searchresultforeground: #fff;
+  color: $yast-white;
+  qproperty-searchresultbackground: $yast-blue;
+  qproperty-searchresultforeground: $yast-white;
 }
 YQBarGraph {
-  qproperty-backgroundcolors: "#008acf,#6F368C,#ff9302";
-  qproperty-foregroundcolors: "#fff,#fff,#fff";
+  qproperty-backgroundcolors: "$yast-blue,#6F368C,#ff9302";
+  qproperty-foregroundcolors: "$yast-white,$yast-white,$yast-white";
 }
 
 QComboBoxPrivateScroller {
-  background-color: #2b2e38;
-  color: #ffffff;
+  background-color: $yast-dark-grey-500;
+  color: $yast-white;
 }

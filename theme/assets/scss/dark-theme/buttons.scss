@@ -1,23 +1,23 @@
 /* Buttons
   ========================================================================== */
 QPushButton {
-  border: 1px solid #969494;
+  border: 1px solid $yast-light-grey-500;
   border-radius: 2px;
-  background-color: #2b2e38;
+  background-color: $yast-dark-grey-500;
   padding: 8px 16px;
-  color: #e0efef;
+  color: $yast-light-grey-100;
   font-weight: bold;
   outline: none;
 }
 QPushButton:default {
   border: 1px solid $yast-green-500;
   background-color: $yast-green-500;
-  color: #ffffff;
+  color: $yast-white;
 }
 QPushButton:disabled,
 QPushButton:default:disabled {
-  color: rgba(255, 255, 255, 60);
-  border: 1px solid rgba(255, 255, 255, 60);
+  color: $yast-disabled;
+  border: 1px solid $yast-disabled;
 }
 QPushButton:default:pressed,
 QPushButton:pressed {
@@ -26,12 +26,12 @@ QPushButton:pressed {
   outline: none;
 }
 QPushButton:hover {
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid $yast-white;
+  color: $yast-white;
 }
 QPushButton:default:hover {
   border: 1px solid $yast-green-500;
-  color: #ffffff;
+  color: $yast-white;
 }
 
 
@@ -46,17 +46,17 @@ QPushButton::menu-indicator:open {
 }
 QPushButton:open {
   /* when the button has its menu open */
-  color: #ffffff;
-  background: #2b2e38;
+  color: $yast-white;
+  background: $yast-dark-grey-500;
   border: 1px solid $yast-green-500;
 }
 
 /* Tool Buttons              */
 
 QToolButton {
-  border: 1px solid #969494;
+  border: 1px solid $yast-light-grey-500;
   border-radius: 2px;
-  background-color: #2b2e38;
+  background-color: $yast-dark-grey-500;
   padding: 8px 16px;
   color: #efefef;
 }
