@@ -2,17 +2,17 @@
   ========================================================================== */
 #wizard,
 #steps > QFrame {
-  background-color: #1f222b;
+  background-color: $yast-dark-grey-900;
 }
 
 #steps {
   padding: 12px 1px 80px 12px;
-  background: url(logo.svg) no-repeat bottom, #1f222b;
+  background: url(logo.svg) no-repeat bottom, $yast-dark-grey-900;
 }
 
 #steps QLabel {
-  background-color: #1f222b;
-  color: #fff;
+  background-color: $yast-dark-grey-900;
+  color: $yast-white;
   font-size: 14px;
   padding: 6px 12px;
 }
@@ -20,8 +20,8 @@
 #steps QLabel.steps_heading {
   font-size: 16pt;
   font-family: Poppins, Sans-serif;
-  background-color: #1f222b;
-  color: #fff;
+  background-color: $yast-dark-grey-900;
+  color: $yast-white;
   padding: 0px 0px 12px 15px;
 }
 

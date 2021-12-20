@@ -3,43 +3,43 @@
 QSpinBox,
 QDateEdit,
 QTimeEdit {
-  color: #ffffff;
-  background-color: #1f222b;
+  color: $yast-white;
+  background-color: $yast-dark-grey-900;
   padding: 6px 6px;
-  selection-background-color: #404147;
-  selection-color: #ffffff;
+  selection-background-color: $yast-light-grey-100;
+  selection-color: $yast-white;
 }
 
 QDateEdit::disabled,
 QTimeEdit::disabled {
-  color: rgba(255, 255, 255, 60);
-  background-color: #2b2e38;
+  color: $yast-disabled;
+  background-color: $yast-dark-grey-500;
 }
 
 #qt_calendar_navigationbar {
-  background-color: #1f222b;
-  border: 1px outset #000000;
+  background-color: $yast-dark-grey-900;
+  border: 1px outset $yast-black;
   border-radius: 2px;
 }
 
 #qt_calendar_navigationbar QToolButton {
-  border: 1px solid #1f222b;
+  border: 1px solid $yast-dark-grey-900;
   border-radius: 2px;
-  background-color: #2b2e38;
+  background-color: $yast-dark-grey-500;
   padding: 4px 8px;
-  color: #e0efef;
+  color: $yast-light-grey-100;
   font-weight: bold;
   outline: none;
   margin: 2px;
 }
 
 #qt_calendar_calendarview {
-  background-color: #2b2e38;
-  color: #e0efef;
+  background-color: $yast-dark-grey-500;
+  color: $yast-light-grey-100;
 }
 
 QCalendarWidget QWidget {
-  alternate-background-color: #1f222b;
+  alternate-background-color: $yast-dark-grey-900;
 }
 
 QToolButton#qt_calendar_prevmonth {
@@ -50,7 +50,7 @@ QToolButton#qt_calendar_nextmonth {
 }
 
 QCalendarWidget QAbstractItemView:enabled {
-  selection-background-color: #ffffff;
-  selection-color: #000000;
+  selection-background-color: $yast-white;
+  selection-color: $yast-black;
   font-weight: bold;
 }

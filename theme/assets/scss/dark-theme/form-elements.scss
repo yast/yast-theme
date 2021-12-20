@@ -1,32 +1,32 @@
 /* Form elements
   ========================================================================== */
 QLineEdit {
-  color: #ffffff;
-  background-color: #2b2e38;
-  border-bottom: 1px solid #969494;
+  color: $yast-white;
+  background-color: $yast-dark-grey-500;
+  border-bottom: 1px solid $yast-light-grey-500;
   border-right: 0px;
   border-left: 0px;
   border-top: 0px;
   border-radius: 0px;
   padding-bottom: 4px;
-  selection-background-color: #404147;
-  selection-color: #ffffff;
+  selection-background-color: $yast-light-grey-100;
+  selection-color: $yast-white;
 }
 QLineEdit:focus {
   border-bottom: 1px solid $yast-green-500;
 }
 QLineEdit:disabled {
-  border-bottom: 1px solid rgba(255, 255, 255, 60);
+  border-bottom: 1px solid $yast-disabled;
 }
 QCheckBox,
 YQCheckBoxFrame::indicator {
-  color: #ffffff;
+  color: $yast-white;
   margin-bottom: 2px;
   margin-left: 6px;
 }
 
 QCheckBox::disabled {
-  color: rgba(255, 255, 255, 60);
+  color: $yast-disabled;
 }
 
 QCheckBox:focus,
@@ -63,7 +63,7 @@ QCheckBox::indicator:unchecked:focus {
 }
 
 QRadioButton {
-  color: #ffffff;
+  color: $yast-white;
   margin-top: 4px;
 }
 QRadioButton:focus {
@@ -73,8 +73,8 @@ QRadioButton:focus {
   outline: none;
 }
 QRadioButton::disabled {
-  color: gray;
-  background-color: #2b2e38;
+  color: $yast-disabled;
+  background-color: $yast-dark-grey-500;
 }
 
 QRadioButton::indicator:unchecked {
@@ -100,9 +100,9 @@ YQMultiSelectionBox QTreeView::item {
 }
 
 YQMultiLineEdit QTextEdit {
-  color: #fff;
+  color: $yast-white;
 }
 
 QMessageBox {
-  background-color: #2b2e38;
+  background-color: $yast-dark-grey-500;
 }

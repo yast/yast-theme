@@ -1,16 +1,16 @@
 /* Progress bars
   ========================================================================== */
 QProgressBar {
-  border: 1px solid #000000;
+  border: 1px solid $yast-black;
   border-radius: 2px;
   min-height: 24px;
   text-align: center;
-  color: #FFFFFF;
-  background-color: #1F222B;
+  color: $yast-white;
+  background-color: $yast-dark-grey-900;
 }
 
 QProgressBar::chunk {
-  background-color: #008ACF;
+  background-color: $yast-blue;
   border: 0px;
   border-radius: 2px;
 }
