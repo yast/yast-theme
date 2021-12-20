@@ -154,7 +154,7 @@ QScrollBar::left-arrow:horizontal {
 BusyBar {
   qproperty-frameshape: NoShape;
   border-width: 3px;
-  border: 1px solid #ba3930;
+  border: 1px solid #30BA78;
   border-radius: 2px;
 }
 
@@ -170,7 +170,7 @@ QSplitter::handle {
 
 #RepoUpgradeLabel {
   color: #fff;
-  background: #ba3930;
+  background: #30BA78;
 }
 
 YQPkgVersionsView QWidget {
@@ -221,7 +221,7 @@ QComboBoxPrivateScroller {
 }
 
 #steps QLabel.current-step-name {
-  background-color: #ba3930;
+  background-color: #30BA78;
 }
 
 /**
@@ -264,7 +264,7 @@ QComboBox::disabled {
 }
 
 QComboBox:focus {
-  border: 1px solid #ba3930;
+  border: 1px solid #30BA78;
   color: #ffffff;
 }
 
@@ -306,11 +306,11 @@ QMenuBar::item {
 QMenuBar::item:selected {
   /* when selected using mouse or keyboard */
   color: #fff;
-  background: #ba3930;
+  background: #30BA78;
 }
 
 QMenuBar::item:pressed {
-  color: #ba3930;
+  color: #30BA78;
   background: #2b2e38;
 }
 
@@ -409,7 +409,7 @@ QLineEdit {
 }
 
 QLineEdit:focus {
-  border-bottom: 1px solid #ba3930;
+  border-bottom: 1px solid #30BA78;
 }
 
 QLineEdit:disabled {
@@ -429,7 +429,7 @@ QCheckBox::disabled {
 
 QCheckBox:focus,
 YQCheckBoxFrame::item:focus {
-  color: #ba3930;
+  color: #30BA78;
   border: none;
   outline: none;
 }
@@ -470,7 +470,7 @@ QRadioButton {
 }
 
 QRadioButton:focus {
-  color: #ba3930;
+  color: #30BA78;
   margin-top: 4px;
   border: none;
   outline: none;
@@ -540,7 +540,7 @@ QMessageBox {
 #DialogHeadingLeft {
   font-family: Poppins, Sans-serif;
   font: 22pt;
-  color: #ba3930;
+  color: #30BA78;
   margin-top: 14px;
   margin-right: 42px;
   qproperty-alignment: AlignRight;
@@ -549,7 +549,7 @@ QMessageBox {
 #DialogHeadingTop {
   font-family: Poppins, Sans-serif;
   font: 18pt;
-  color: #ba3930;
+  color: #30BA78;
 }
 
 /* Shared styles
