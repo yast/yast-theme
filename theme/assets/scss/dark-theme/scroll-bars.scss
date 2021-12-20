@@ -8,7 +8,7 @@ QScrollBar:vertical {
 }
 QScrollBar::handle:vertical {
   min-height: 16px;
-  background-color: $yast-light-grey-100;
+  background-color: $yast-dark-grey-100;
   border-radius: 2px;
 }
 QScrollBar::add-line:vertical {
@@ -106,8 +106,8 @@ QY2HelpDialog {
   qproperty-searchresultforeground: $yast-white;
 }
 YQBarGraph {
-  qproperty-backgroundcolors: "$yast-blue,#6F368C,#ff9302";
-  qproperty-foregroundcolors: "$yast-white,$yast-white,$yast-white";
+  qproperty-backgroundcolors: "#008acf,#6F368C,#ff9302";
+  qproperty-foregroundcolors: "#fff,#fff,#fff";
 }
 
 QComboBoxPrivateScroller {

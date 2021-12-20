@@ -22,17 +22,17 @@ QMenuBar::item:pressed {
 QMenu {
   color: $yast-white;
   background: $yast-dark-grey-500;
-  border-top: 1px solid $yast-light-grey-100;
+  border-top: 1px solid $yast-dark-grey-100;
   border-right: 1px solid $yast-black;
   border-bottom: 1px solid $yast-black;
-  border-left: 1px solid $yast-light-grey-100;
-  selection-background-color: $yast-light-grey-100;
+  border-left: 1px solid $yast-dark-grey-100;
+  selection-background-color: $yast-dark-grey-100;
   selection-color: $yast-white;
 }
 QMenu::separator {
   height: 1px;
   background-color: $yast-dark-grey-500;
-  color: $yast-light-grey-100;
+  color: $yast-dark-grey-100;
 }
 
 QMenu::item:disabled {

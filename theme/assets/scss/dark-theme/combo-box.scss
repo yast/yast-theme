@@ -6,7 +6,7 @@ QComboBox {
   background-color: $yast-dark-grey-500;
   color: #efefef;
   padding: 4px 4px;
-  selection-background-color: $yast-light-grey-100;
+  selection-background-color: $yast-dark-grey-100;
   selection-color: $yast-white;
 }
 QComboBox::disabled {
