@@ -1,37 +1,37 @@
 /* Buttons
   ========================================================================== */
+/*  Buttons  */
 QPushButton {
   border: 1px solid #969494;
   border-radius: 2px;
-  background-color: #2b2e38;
+  background-color: #2B2E38;
   padding: 8px 16px;
-  color: #e0efef;
+  color: #E0EFEF;
   font-weight: bold;
   outline: none;
 }
 QPushButton:default {
-  border: 1px solid $yast-green-500;
-  background-color: $yast-green-500;
-  color: #ffffff;
+  border: 1px solid #30BA78;
+  background-color: #30BA78;
+  color: #FFFFFF;
 }
 QPushButton:disabled,
 QPushButton:default:disabled {
-  color: rgba(255, 255, 255, 60);
-  border: 1px solid rgba(255, 255, 255, 60);
+  color: rgba(255,255,255,60);
+  border: 1px solid rgba(255,255,255,60);
 }
-QPushButton:default:pressed,
-QPushButton:pressed {
-  border: 1px solid $yast-green-500;
-  background-color: $yast-green-500;
+QPushButton:default:pressed, QPushButton:pressed {
+  border: 1px solid #30ba78;
+  background-color: #30ba78;
   outline: none;
 }
-QPushButton:hover {
-  border: 1px solid #ffffff;
-  color: #ffffff;
+QPushButton:hover  {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
 }
 QPushButton:default:hover {
-  border: 1px solid $yast-green-500;
-  color: #ffffff;
+  border: 1px solid #30BA78;
+  color: #FFFFFF;
 }
 
 /* odd dropdown button widget */
@@ -43,11 +43,10 @@ QPushButton::menu-indicator:open {
   image: url(inst_arr_down.png);
   left: -8px;
 }
-QPushButton:open {
-  /* when the button has its menu open */
-  color: #ffffff;
-  background: #2b2e38;
-  border: 1px solid $yast-green-500;
+QPushButton:open { /* when the button has its menu open */
+  color: #FFFFFF;
+  background: #2B2E38;
+  border: 1px solid #30BA78;
 }
 
 /* Tool Buttons              */
