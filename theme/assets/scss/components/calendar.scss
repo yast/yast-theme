@@ -4,7 +4,7 @@ QSpinBox,
 QDateEdit,
 QTimeEdit {
   color: $yast-white;
-  background-color: $yast-dark-grey-900;
+  background-color: $yast-bg-900;
   padding: 6px 6px;
   selection-background-color: $yast-dark-grey-100;
   selection-color: $yast-white;
@@ -17,13 +17,13 @@ QTimeEdit::disabled {
 }
 
 #qt_calendar_navigationbar {
-  background-color: $yast-dark-grey-900;
+  background-color: $yast-bg-900;
   border: 1px outset $yast-black;
   border-radius: 2px;
 }
 
 #qt_calendar_navigationbar QToolButton {
-  border: 1px solid $yast-dark-grey-900;
+  border: 1px solid $yast-bg-900;
   border-radius: 2px;
   background-color: $yast-dark-grey-500;
   padding: 4px 8px;
@@ -39,7 +39,7 @@ QTimeEdit::disabled {
 }
 
 QCalendarWidget QWidget {
-  alternate-background-color: $yast-dark-grey-900;
+  alternate-background-color: $yast-bg-900;
 }
 
 QToolButton#qt_calendar_prevmonth {

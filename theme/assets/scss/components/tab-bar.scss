@@ -13,7 +13,7 @@ QTabBar {
 
   &::tab {
     color: #b6b4b4;
-    background: $yast-dark-grey-900;
+    background: $yast-bg-900;
     border: 1px solid $yast-black;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -33,7 +33,7 @@ QTabBar {
     outline: none;
   }
   &::tear {
-    background: $yast-dark-grey-900;
+    background: $yast-bg-900;
     border: 1px solid $yast-black;
     border-radius: 1px;
   }

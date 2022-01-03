@@ -3,7 +3,7 @@
 QScrollBar:vertical {
   width: 16px;
   margin: 0px;
-  background-color: $yast-dark-grey-900;
+  background-color: $yast-bg-900;
   border-left: 1px solid $yast-black;
 }
 QScrollBar::handle:vertical {
@@ -42,7 +42,7 @@ QScrollBar::down-arrow:vertical {
 QScrollBar:horizontal {
   height: 16px;
   margin: 0px;
-  background-color: $yast-dark-grey-900;
+  background-color: $yast-bg-900;
   border-top: 1px solid $yast-black;
 }
 QScrollBar::handle:horizontal {
