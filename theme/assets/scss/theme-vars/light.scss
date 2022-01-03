@@ -1,5 +1,5 @@
 $yast-white: #FFFFFF;
-$yast-black: #000000;
+$yast-black: #141823;
 $yast-green-500: #30BA78;
 $yast-blue: #008ACF;
 
@@ -7,10 +7,14 @@ $yast-blue: #008ACF;
 $yast-light-grey-100: #e0efef;
 $yast-light-grey-500: #969494;
 
-// Dark grey shades
+// Backgrounds
 $yast-dark-grey-100: #404147;
 $yast-dark-grey-500: #2b2e38;
 $yast-bg-900: #0e7e3c;
 
 // rgba
 $yast-disabled: rgba(255, 255, 255, 60);
+
+// specific components
+$yast-dialog-bg: $yast-white;
+$yast-dialog-text: $yast-black;

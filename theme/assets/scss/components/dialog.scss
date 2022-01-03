@@ -19,13 +19,13 @@
 
 #work_area {
   padding: 1em;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
 }
 
 #DialogHeadingLeft {
   font-family: Poppins, Sans-serif;
   font: 22pt;
-  color: $yast-green-500;
+  color: $yast-dialog-text;
   margin-top: 14px;
   margin-right: 42px;
   qproperty-alignment: AlignRight;
@@ -33,5 +33,5 @@
 #DialogHeadingTop {
   font-family: Poppins, Sans-serif;
   font: 18pt;
-  color: $yast-green-500;
+  color: $yast-dialog-text;
 }
