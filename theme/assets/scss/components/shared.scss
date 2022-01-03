@@ -20,7 +20,7 @@ YQMainWinDock {
 
 #LogoHBox {
   border-bottom: 1px solid $yast-black;
-  background-color: $yast-dark-grey-900;
+  background-color: $yast-bg-900;
   margin: 0px;
 }
 
@@ -31,7 +31,7 @@ YQRichText > YQTextBrowser {
   color: $yast-white;
   border-radius: 2px;
   border: 1px solid $yast-black;
-  background-color: $yast-dark-grey-900;
+  background-color: $yast-bg-900;
   selection-background-color: $yast-dark-grey-100;
   selection-color: $yast-white;
 }
@@ -54,7 +54,7 @@ QHeaderView::section {
   background-color: $yast-dark-grey-500;
   color: $yast-white;
   border-radius: 2px;
-  border: 2px solid $yast-dark-grey-900;
+  border: 2px solid $yast-bg-900;
   padding: 4px 12px 4px 6px;
 }
 
@@ -69,7 +69,7 @@ QHeaderView::up-arrow {
 }
 
 QAbstractScrollArea {
-  background-color: $yast-dark-grey-900;
+  background-color: $yast-bg-900;
   border: 1px solid $yast-black;
 }
 
@@ -81,7 +81,7 @@ QAbstractScrollArea QHeaderView {
 QTreeView,
 QTreeWidget {
   color: $yast-white;
-  background-color: $yast-dark-grey-900;
+  background-color: $yast-bg-900;
   border: 1px solid $yast-black;
   alternate-background-color: $yast-dark-grey-500;
   selection-background-color: $yast-dark-grey-100;
@@ -99,7 +99,7 @@ QTreeView::item:focus {
 QTableWidget,
 QTableView {
   color: $yast-white;
-  background-color: $yast-dark-grey-900;
+  background-color: $yast-bg-900;
   border: 1px solid $yast-black;
   selection-background-color: $yast-dark-grey-100;
   selection-color: $yast-white;
@@ -127,7 +127,7 @@ YQGenericDetailsView,
 YQDescriptionDialog,
 YQPkgDescriptionView {
   color: $yast-white;
-  background-color: $yast-dark-grey-900;
+  background-color: $yast-bg-900;
 }
 
 YQPkgPatternCategoryItem {
@@ -171,7 +171,7 @@ QMenuBar {
   background-color: $yast-dark-grey-500;
   selection-background-color: $yast-dark-grey-100;
   selection-color: $yast-white;
-  alternate-background-color: $yast-dark-grey-900;
+  alternate-background-color: $yast-bg-900;
 }
 
 QGroupBox {

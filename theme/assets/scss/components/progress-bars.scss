@@ -6,7 +6,7 @@ QProgressBar {
   min-height: 24px;
   text-align: center;
   color: $yast-white;
-  background-color: $yast-dark-grey-900;
+  background-color: $yast-bg-900;
 }
 
 QProgressBar::chunk {
