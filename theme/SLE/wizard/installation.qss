@@ -646,20 +646,20 @@ QMessageBox {
   ========================================================================== */
 QMainWindow,
 QFileDialog {
-  background: #2b2e38;
+  background: #FFFFFF;
 }
 
 QWidget {
-  background: #2b2e38;
+  background: #FFFFFF;
   color: #FFFFFF;
 }
 
 YQWizard {
-  background: #2b2e38;
+  background: #FFFFFF;
 }
 
 YQMainWinDock {
-  background: #2b2e38;
+  background: #FFFFFF;
 }
 
 #LogoHBox {

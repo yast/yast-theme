@@ -2,20 +2,20 @@
   ========================================================================== */
 QMainWindow,
 QFileDialog {
-  background: $yast-dark-grey-500;
+  background: $yast-dialog-bg;
 }
 
 QWidget {
-  background: $yast-dark-grey-500;
+  background: $yast-dialog-bg;
   color: $yast-white;
 }
 
 YQWizard {
-  background: $yast-dark-grey-500;
+  background: $yast-dialog-bg;
 }
 
 YQMainWinDock {
-  background: $yast-dark-grey-500;
+  background: $yast-dialog-bg;
 }
 
 #LogoHBox {
