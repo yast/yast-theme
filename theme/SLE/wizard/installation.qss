@@ -487,7 +487,7 @@ QCalendarWidget QAbstractItemView:enabled {
   ========================================================================== */
 QLineEdit {
   color: #141823;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   border-bottom: 1px solid #969494;
   border-right: 0px;
   border-left: 0px;
@@ -495,7 +495,7 @@ QLineEdit {
   border-radius: 0px;
   padding-bottom: 4px;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #141823;
 }
 
 QLineEdit:focus {
@@ -568,7 +568,7 @@ QRadioButton:focus {
 
 QRadioButton::disabled {
   color: white;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
 }
 
 QRadioButton::indicator:unchecked {
@@ -600,7 +600,7 @@ YQMultiLineEdit QTextEdit {
 }
 
 QMessageBox {
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
 }
 
 /* Dialog
