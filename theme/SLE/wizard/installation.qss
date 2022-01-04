@@ -673,7 +673,7 @@ YQLogView,
 QTextEdit,
 YQRichText > YQTextBrowser {
   qproperty-frameshape: NoShape;
-  color: #FFFFFF;
+  color: #141823;
   border-radius: 2px;
   border: 1px solid #141823;
   background-color: #0e7e3c;
@@ -687,17 +687,17 @@ QFrame {
 
 QLabel,
 YQDialog {
-  color: #FFFFFF;
-  background-color: #2b2e38;
+  color: #141823;
+  background-color: #FFFFFF;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #141823;
   margin-top: 2px;
   margin-bottom: 6px;
 }
 
 QHeaderView::section {
   background-color: #2b2e38;
-  color: #FFFFFF;
+  color: #141823;
   border-radius: 2px;
   border: 2px solid #0e7e3c;
   padding: 4px 12px 4px 6px;
