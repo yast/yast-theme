@@ -596,7 +596,7 @@ YQMultiSelectionBox QTreeView::item {
 }
 
 YQMultiLineEdit QTextEdit {
-  color: #FFFFFF;
+  color: #141823;
 }
 
 QMessageBox {
