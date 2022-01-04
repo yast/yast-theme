@@ -486,7 +486,7 @@ QCalendarWidget QAbstractItemView:enabled {
 /* Form elements
   ========================================================================== */
 QLineEdit {
-  color: #FFFFFF;
+  color: #141823;
   background-color: #2b2e38;
   border-bottom: 1px solid #969494;
   border-right: 0px;
@@ -508,7 +508,7 @@ QLineEdit:disabled {
 
 QCheckBox,
 YQCheckBoxFrame::indicator {
-  color: #FFFFFF;
+  color: #141823;
   margin-bottom: 2px;
   margin-left: 6px;
 }

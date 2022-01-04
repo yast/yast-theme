@@ -1,7 +1,7 @@
 /* Form elements
   ========================================================================== */
 QLineEdit {
-  color: $yast-white;
+  color: $yast-text;
   background-color: $yast-dark-grey-500;
   border-bottom: 1px solid $yast-light-grey-500;
   border-right: 0px;
@@ -20,7 +20,7 @@ QLineEdit:disabled {
 }
 QCheckBox,
 YQCheckBoxFrame::indicator {
-  color: $yast-white;
+  color: $yast-text;
   margin-bottom: 2px;
   margin-left: 6px;
 }
