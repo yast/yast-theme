@@ -628,6 +628,7 @@ QMessageBox {
 }
 
 #DialogHeadingLeft {
+  background-color: #FFFFFF;
   font-family: Poppins, Sans-serif;
   font: 22pt;
   color: #141823;
