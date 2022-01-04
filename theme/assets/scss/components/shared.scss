@@ -51,7 +51,7 @@ YQDialog {
 }
 
 QHeaderView::section {
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
   color: $yast-text;
   border-radius: 2px;
   border: 2px solid $yast-bg-900;
@@ -83,7 +83,7 @@ QTreeWidget {
   color: $yast-white;
   background-color: $yast-bg-900;
   border: 1px solid $yast-black;
-  alternate-background-color: $yast-dark-grey-500;
+  alternate-background-color: $yast-dialog-bg;
   selection-background-color: $yast-dark-grey-100;
   selection-color: $yast-white;
   border-radius: 2px;
@@ -109,14 +109,14 @@ QTableView {
 YQTree,
 YQTable {
   color: $yast-white;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
   selection-background-color: $yast-dark-grey-100;
   selection-color: $yast-white;
 }
 
 YQPackageSelector {
   color: $yast-white;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
   border: 1px solid $yast-black;
   selection-background-color: $yast-dark-grey-100;
   selection-color: $yast-white;
@@ -131,25 +131,25 @@ YQPkgDescriptionView {
 }
 
 YQPkgPatternCategoryItem {
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
   color: $yast-white;
 }
 
 QListWidget {
   color: $yast-white;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
   selection-background-color: $yast-dark-grey-100;
   selection-color: $yast-white;
 }
 
 YQWidgetCaption {
   color: $yast-white;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
 }
 
 YQWidgetCaption::disabled {
   color: $yast-disabled;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
 }
 
 .conflict QWidget {
@@ -168,7 +168,7 @@ YQWidgetCaptionBar > YQWidgetCaption {
 
 QComboBox QAbstractItemView,
 QMenuBar {
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
   selection-background-color: $yast-dark-grey-100;
   selection-color: $yast-white;
   alternate-background-color: $yast-bg-900;

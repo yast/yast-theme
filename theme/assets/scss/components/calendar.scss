@@ -13,7 +13,7 @@ QTimeEdit {
 QDateEdit::disabled,
 QTimeEdit::disabled {
   color: $yast-disabled;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
 }
 
 #qt_calendar_navigationbar {
@@ -25,7 +25,7 @@ QTimeEdit::disabled {
 #qt_calendar_navigationbar QToolButton {
   border: 1px solid $yast-bg-900;
   border-radius: 2px;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
   padding: 4px 8px;
   color: $yast-light-grey-100;
   font-weight: bold;
@@ -34,7 +34,7 @@ QTimeEdit::disabled {
 }
 
 #qt_calendar_calendarview {
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
   color: $yast-light-grey-100;
 }
 
