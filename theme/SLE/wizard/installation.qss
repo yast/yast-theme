@@ -143,7 +143,7 @@ QProgressBar {
   border-radius: 2px;
   min-height: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #141823;
   background-color: #0e7e3c;
 }
 
@@ -259,7 +259,7 @@ QSplitter::handle {
 }
 
 #RepoUpgradeLabel {
-  color: #FFFFFF;
+  color: #141823;
   background: #30BA78;
 }
 
@@ -350,12 +350,12 @@ QComboBox {
 QComboBox::disabled {
   color: white;
   border-color: white;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
 }
 
 QComboBox:focus {
   border: 1px solid #30BA78;
-  color: #FFFFFF;
+  color: #141823;
 }
 
 QComboBox::drop-down {
@@ -384,7 +384,7 @@ QComboBox::down-arrow:on {
 /* Menu
   ========================================================================== */
 QMenuBar::item {
-  color: #FFFFFF;
+  color: #141823;
   spacing: 3px;
   /* spacing between menu bar items */
   padding: 6px 4px;
@@ -395,7 +395,7 @@ QMenuBar::item {
 
 QMenuBar::item:selected {
   /* when selected using mouse or keyboard */
-  color: #FFFFFF;
+  color: #141823;
   background: #30BA78;
 }
 
@@ -405,14 +405,14 @@ QMenuBar::item:pressed {
 }
 
 QMenu {
-  color: #FFFFFF;
+  color: #141823;
   background: #FFFFFF;
   border-top: 1px solid #404147;
   border-right: 1px solid #141823;
   border-bottom: 1px solid #141823;
   border-left: 1px solid #404147;
-  selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-background-color: #FFFFFF;
+  selection-color: #141823;
 }
 
 QMenu::separator {
@@ -555,7 +555,7 @@ QCheckBox::indicator:unchecked:focus {
 }
 
 QRadioButton {
-  color: #FFFFFF;
+  color: #141823;
   margin-top: 4px;
 }
 

@@ -1,7 +1,7 @@
 /* Menu
   ========================================================================== */
 QMenuBar::item {
-  color: $yast-white;
+  color: $yast-text;
   spacing: 3px; /* spacing between menu bar items */
   padding: 6px 4px;
   background: $yast-dialog-bg;
@@ -11,7 +11,7 @@ QMenuBar::item {
 
 QMenuBar::item:selected {
   /* when selected using mouse or keyboard */
-  color: $yast-white;
+  color: $yast-text;
   background: $yast-green-500;
 }
 
@@ -20,14 +20,14 @@ QMenuBar::item:pressed {
   background: $yast-dialog-bg;
 }
 QMenu {
-  color: $yast-white;
+  color: $yast-text;
   background: $yast-dialog-bg;
   border-top: 1px solid $yast-dark-grey-100;
   border-right: 1px solid $yast-black;
   border-bottom: 1px solid $yast-black;
   border-left: 1px solid $yast-dark-grey-100;
-  selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-background-color: $yast-dialog-bg;
+  selection-color: $yast-text;
 }
 QMenu::separator {
   height: 1px;

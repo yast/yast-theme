@@ -12,11 +12,11 @@ QComboBox {
 QComboBox::disabled {
   color: $yast-disabled;
   border-color: $yast-disabled;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
 }
 QComboBox:focus {
   border: 1px solid $yast-green-500;
-  color: $yast-white;
+  color: $yast-text;
 }
 
 QComboBox::drop-down {
