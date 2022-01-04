@@ -28,7 +28,7 @@ YQLogView,
 QTextEdit,
 YQRichText > YQTextBrowser {
   qproperty-frameshape: NoShape;
-  color: $yast-white;
+  color: $yast-text;
   border-radius: 2px;
   border: 1px solid $yast-black;
   background-color: $yast-bg-900;
@@ -42,17 +42,17 @@ QFrame {
 
 QLabel,
 YQDialog {
-  color: $yast-white;
-  background-color: $yast-dark-grey-500;
+  color: $yast-text;
+  background-color: $yast-dialog-bg;
   selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-color: $yast-text;
   margin-top: 2px;
   margin-bottom: 6px;
 }
 
 QHeaderView::section {
   background-color: $yast-dark-grey-500;
-  color: $yast-white;
+  color: $yast-text;
   border-radius: 2px;
   border: 2px solid $yast-bg-900;
   padding: 4px 12px 4px 6px;
