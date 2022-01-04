@@ -47,7 +47,7 @@ QScrollBar:horizontal {
 }
 QScrollBar::handle:horizontal {
   min-height: 16px;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
   border-radius: 2px;
 }
 QScrollBar::add-line:horizontal {
@@ -88,7 +88,7 @@ QToolTip {
 QSplitter::handle {
   height: 10px;
   image: url(separator.png);
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
 }
 
 #RepoUpgradeLabel {
@@ -97,7 +97,7 @@ QSplitter::handle {
 }
 
 YQPkgVersionsView QWidget {
-  background: $yast-dark-grey-500;
+  background: $yast-dialog-bg;
 }
 
 QY2HelpDialog {
@@ -111,6 +111,6 @@ YQBarGraph {
 }
 
 QComboBoxPrivateScroller {
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
   color: $yast-white;
 }

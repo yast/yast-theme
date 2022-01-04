@@ -9,7 +9,7 @@
 QPushButton {
   border: 1px solid #969494;
   border-radius: 2px;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   padding: 8px 16px;
   color: #e0efef;
   font-weight: bold;
@@ -58,7 +58,7 @@ QPushButton::menu-indicator:open {
 QPushButton:open {
   /* when the button has its menu open */
   color: #FFFFFF;
-  background: #2b2e38;
+  background: #FFFFFF;
   border: 1px solid #30BA78;
 }
 
@@ -66,7 +66,7 @@ QPushButton:open {
 QToolButton {
   border: 1px solid #969494;
   border-radius: 2px;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   padding: 8px 16px;
   color: #efefef;
 }
@@ -120,7 +120,7 @@ QTabBar::tab {
 }
 QTabBar::tab:selected {
   color: #FFFFFF;
-  background: #2b2e38;
+  background: #FFFFFF;
   border: 1px solid #141823;
   border-bottom: none;
 }
@@ -208,7 +208,7 @@ QScrollBar:horizontal {
 
 QScrollBar::handle:horizontal {
   min-height: 16px;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   border-radius: 2px;
 }
 
@@ -255,7 +255,7 @@ QToolTip {
 QSplitter::handle {
   height: 10px;
   image: url(separator.png);
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
 }
 
 #RepoUpgradeLabel {
@@ -264,7 +264,7 @@ QSplitter::handle {
 }
 
 YQPkgVersionsView QWidget {
-  background: #2b2e38;
+  background: #FFFFFF;
 }
 
 QY2HelpDialog {
@@ -279,7 +279,7 @@ YQBarGraph {
 }
 
 QComboBoxPrivateScroller {
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   color: #FFFFFF;
 }
 
@@ -388,7 +388,7 @@ QMenuBar::item {
   spacing: 3px;
   /* spacing between menu bar items */
   padding: 6px 4px;
-  background: #2b2e38;
+  background: #FFFFFF;
   border-radius: 2px;
   margin: 0px;
 }
@@ -401,12 +401,12 @@ QMenuBar::item:selected {
 
 QMenuBar::item:pressed {
   color: #30BA78;
-  background: #2b2e38;
+  background: #FFFFFF;
 }
 
 QMenu {
   color: #FFFFFF;
-  background: #2b2e38;
+  background: #FFFFFF;
   border-top: 1px solid #404147;
   border-right: 1px solid #141823;
   border-bottom: 1px solid #141823;
@@ -417,7 +417,7 @@ QMenu {
 
 QMenu::separator {
   height: 1px;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   color: #404147;
 }
 
@@ -440,7 +440,7 @@ QTimeEdit {
 QDateEdit::disabled,
 QTimeEdit::disabled {
   color: white;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
 }
 
 #qt_calendar_navigationbar {
@@ -452,7 +452,7 @@ QTimeEdit::disabled {
 #qt_calendar_navigationbar QToolButton {
   border: 1px solid #0e7e3c;
   border-radius: 2px;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   padding: 4px 8px;
   color: #e0efef;
   font-weight: bold;
@@ -461,7 +461,7 @@ QTimeEdit::disabled {
 }
 
 #qt_calendar_calendarview {
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   color: #e0efef;
 }
 
@@ -696,7 +696,7 @@ YQDialog {
 }
 
 QHeaderView::section {
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   color: #141823;
   border-radius: 2px;
   border: 2px solid #0e7e3c;
@@ -728,7 +728,7 @@ QTreeWidget {
   color: #FFFFFF;
   background-color: #0e7e3c;
   border: 1px solid #141823;
-  alternate-background-color: #2b2e38;
+  alternate-background-color: #FFFFFF;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
   border-radius: 2px;
@@ -754,14 +754,14 @@ QTableView {
 YQTree,
 YQTable {
   color: #FFFFFF;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
 }
 
 YQPackageSelector {
   color: #FFFFFF;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   border: 1px solid #141823;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
@@ -776,25 +776,25 @@ YQPkgDescriptionView {
 }
 
 YQPkgPatternCategoryItem {
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   color: #FFFFFF;
 }
 
 QListWidget {
   color: #FFFFFF;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
 }
 
 YQWidgetCaption {
   color: #FFFFFF;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
 }
 
 YQWidgetCaption::disabled {
   color: white;
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
 }
 
 .conflict QWidget {
@@ -813,7 +813,7 @@ YQWidgetCaptionBar > YQWidgetCaption {
 
 QComboBox QAbstractItemView,
 QMenuBar {
-  background-color: #2b2e38;
+  background-color: #FFFFFF;
   selection-background-color: #404147;
   selection-color: #FFFFFF;
   alternate-background-color: #0e7e3c;

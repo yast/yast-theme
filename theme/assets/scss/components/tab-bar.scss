@@ -24,7 +24,7 @@ QTabBar {
     min-height: 24px;
     &:selected {
       color: $yast-white;
-      background: $yast-dark-grey-500;
+      background: $yast-dialog-bg;
       border: 1px solid $yast-black;
       border-bottom: none;
     }
