@@ -3,11 +3,11 @@
 QComboBox {
   border: 1px solid $yast-light-grey-500;
   border-radius: 2px;
-  background-color: $yast-dark-grey-500;
-  color: #efefef;
+  background-color: $yast-dialog-bg;
+  color: $yast-text;
   padding: 4px 4px;
-  selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-background-color: $yast-dialog-bg;
+  selection-color: $yast-text;
 }
 QComboBox::disabled {
   color: $yast-disabled;
