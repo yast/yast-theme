@@ -340,11 +340,11 @@ Other steps QLabel selectors, just for reference
 QComboBox {
   border: 1px solid #969494;
   border-radius: 2px;
-  background-color: #2b2e38;
-  color: #efefef;
+  background-color: #FFFFFF;
+  color: #141823;
   padding: 4px 4px;
-  selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-background-color: #FFFFFF;
+  selection-color: #141823;
 }
 
 QComboBox::disabled {
