@@ -12,7 +12,7 @@ QPushButton {
 QPushButton:default {
   border: 1px solid $yast-green-500;
   background-color: $yast-green-500;
-  color: $yast-white;
+  color: $yast-text;
 }
 QPushButton:disabled,
 QPushButton:default:disabled {
@@ -27,11 +27,11 @@ QPushButton:pressed {
 }
 QPushButton:hover {
   border: 1px solid $yast-white;
-  color: $yast-white;
+  color: $yast-text;
 }
 QPushButton:default:hover {
   border: 1px solid $yast-green-500;
-  color: $yast-white;
+  color: $yast-text;
 }
 
 
@@ -46,7 +46,7 @@ QPushButton::menu-indicator:open {
 }
 QPushButton:open {
   /* when the button has its menu open */
-  color: $yast-white;
+  color: $yast-text;
   background: $yast-dialog-bg;
   border: 1px solid $yast-green-500;
 }
