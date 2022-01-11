@@ -682,7 +682,7 @@ YQRichText > YQTextBrowser {
 }
 
 QFrame {
-  color: #FFFFFF;
+  color: #141823;
 }
 
 QLabel,
@@ -725,17 +725,17 @@ QAbstractScrollArea QHeaderView {
 
 QTreeView,
 QTreeWidget {
-  color: #FFFFFF;
+  color: #141823;
   background-color: #0e7e3c;
   border: 1px solid #141823;
   alternate-background-color: #FFFFFF;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #141823;
   border-radius: 2px;
 }
 
 QTreeView::item:focus {
-  color: #FFFFFF;
+  color: #141823;
   border: none;
   outline: none;
   background-color: #404147;
@@ -743,7 +743,7 @@ QTreeView::item:focus {
 
 QTableWidget,
 QTableView {
-  color: #FFFFFF;
+  color: #141823;
   background-color: #0e7e3c;
   border: 1px solid #141823;
   selection-background-color: #404147;

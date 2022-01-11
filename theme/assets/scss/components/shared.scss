@@ -37,7 +37,7 @@ YQRichText > YQTextBrowser {
 }
 
 QFrame {
-  color: $yast-white;
+  color: $yast-text;
 }
 
 QLabel,
@@ -80,17 +80,17 @@ QAbstractScrollArea QHeaderView {
 
 QTreeView,
 QTreeWidget {
-  color: $yast-white;
+  color: $yast-text;
   background-color: $yast-bg-900;
   border: 1px solid $yast-black;
   alternate-background-color: $yast-dialog-bg;
   selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-color: $yast-text;
   border-radius: 2px;
 }
 
 QTreeView::item:focus {
-  color: $yast-white;
+  color: $yast-text;
   border: none;
   outline: none;
   background-color: $yast-dark-grey-100;
@@ -98,7 +98,7 @@ QTreeView::item:focus {
 
 QTableWidget,
 QTableView {
-  color: $yast-white;
+  color: $yast-text;
   background-color: $yast-bg-900;
   border: 1px solid $yast-black;
   selection-background-color: $yast-dark-grey-100;
