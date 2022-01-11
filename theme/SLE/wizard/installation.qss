@@ -652,7 +652,7 @@ QFileDialog {
 
 QWidget {
   background: #FFFFFF;
-  color: #FFFFFF;
+  color: #141823;
 }
 
 YQWizard {
@@ -678,7 +678,7 @@ YQRichText > YQTextBrowser {
   border: 1px solid #141823;
   background-color: #0e7e3c;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #141823;
 }
 
 QFrame {
@@ -747,48 +747,48 @@ QTableView {
   background-color: #0e7e3c;
   border: 1px solid #141823;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #141823;
   border-radius: 2px;
 }
 
 YQTree,
 YQTable {
-  color: #FFFFFF;
+  color: #141823;
   background-color: #FFFFFF;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #141823;
 }
 
 YQPackageSelector {
-  color: #FFFFFF;
+  color: #141823;
   background-color: #FFFFFF;
   border: 1px solid #141823;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #141823;
   border-radius: 2px;
 }
 
 YQGenericDetailsView,
 YQDescriptionDialog,
 YQPkgDescriptionView {
-  color: #FFFFFF;
+  color: #141823;
   background-color: #0e7e3c;
 }
 
 YQPkgPatternCategoryItem {
   background-color: #FFFFFF;
-  color: #FFFFFF;
+  color: #141823;
 }
 
 QListWidget {
-  color: #FFFFFF;
+  color: #141823;
   background-color: #FFFFFF;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #141823;
 }
 
 YQWidgetCaption {
-  color: #FFFFFF;
+  color: #141823;
   background-color: #FFFFFF;
 }
 
@@ -798,7 +798,7 @@ YQWidgetCaption::disabled {
 }
 
 .conflict QWidget {
-  color: #FFFFFF;
+  color: #141823;
 }
 
 YQMultiProgressMeter {
@@ -815,7 +815,7 @@ QComboBox QAbstractItemView,
 QMenuBar {
   background-color: #FFFFFF;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #141823;
   alternate-background-color: #0e7e3c;
 }
 
@@ -828,5 +828,5 @@ QGroupBox {
 QGroupBox::title {
   subcontrol-origin: margin;
   subcontrol-position: left top;
-  color: #FFFFFF;
+  color: #141823;
 }

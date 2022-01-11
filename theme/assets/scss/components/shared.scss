@@ -7,7 +7,7 @@ QFileDialog {
 
 QWidget {
   background: $yast-dialog-bg;
-  color: $yast-white;
+  color: $yast-text;
 }
 
 YQWizard {
@@ -33,7 +33,7 @@ YQRichText > YQTextBrowser {
   border: 1px solid $yast-black;
   background-color: $yast-bg-900;
   selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-color: $yast-text;
 }
 
 QFrame {
@@ -102,48 +102,48 @@ QTableView {
   background-color: $yast-bg-900;
   border: 1px solid $yast-black;
   selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-color: $yast-text;
   border-radius: 2px;
 }
 
 YQTree,
 YQTable {
-  color: $yast-white;
+  color: $yast-text;
   background-color: $yast-dialog-bg;
   selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-color: $yast-text;
 }
 
 YQPackageSelector {
-  color: $yast-white;
+  color: $yast-text;
   background-color: $yast-dialog-bg;
   border: 1px solid $yast-black;
   selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-color: $yast-text;
   border-radius: 2px;
 }
 
 YQGenericDetailsView,
 YQDescriptionDialog,
 YQPkgDescriptionView {
-  color: $yast-white;
+  color: $yast-text;
   background-color: $yast-bg-900;
 }
 
 YQPkgPatternCategoryItem {
   background-color: $yast-dialog-bg;
-  color: $yast-white;
+  color: $yast-text;
 }
 
 QListWidget {
-  color: $yast-white;
+  color: $yast-text;
   background-color: $yast-dialog-bg;
   selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-color: $yast-text;
 }
 
 YQWidgetCaption {
-  color: $yast-white;
+  color: $yast-text;
   background-color: $yast-dialog-bg;
 }
 
@@ -153,7 +153,7 @@ YQWidgetCaption::disabled {
 }
 
 .conflict QWidget {
-  color: $yast-white;
+  color: $yast-text;
 }
 
 YQMultiProgressMeter {
@@ -170,7 +170,7 @@ QComboBox QAbstractItemView,
 QMenuBar {
   background-color: $yast-dialog-bg;
   selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-color: $yast-text;
   alternate-background-color: $yast-bg-900;
 }
 
@@ -182,5 +182,5 @@ QGroupBox {
 QGroupBox::title {
   subcontrol-origin: margin;
   subcontrol-position: left top;
-  color: $yast-white;
+  color: $yast-text;
 }
