@@ -10,7 +10,7 @@ QLineEdit {
   border-radius: 0px;
   padding-bottom: 4px;
   selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-color: $yast-text;
 }
 QLineEdit:focus {
   border-bottom: 1px solid $yast-green-500;

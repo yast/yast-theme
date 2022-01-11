@@ -3,11 +3,11 @@
 QSpinBox,
 QDateEdit,
 QTimeEdit {
-  color: $yast-white;
+  color: $yast-text;
   background-color: $yast-bg-900;
   padding: 6px 6px;
   selection-background-color: $yast-dark-grey-100;
-  selection-color: $yast-white;
+  selection-color: $yast-text;
 }
 
 QDateEdit::disabled,
@@ -50,7 +50,7 @@ QToolButton#qt_calendar_nextmonth {
 }
 
 QCalendarWidget QAbstractItemView:enabled {
-  selection-background-color: $yast-white;
+  selection-background-color: $yast-text;
   selection-color: $yast-black;
   font-weight: bold;
 }

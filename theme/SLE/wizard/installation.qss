@@ -19,7 +19,7 @@ QPushButton {
 QPushButton:default {
   border: 1px solid #30BA78;
   background-color: #30BA78;
-  color: #FFFFFF;
+  color: #141823;
 }
 
 QPushButton:disabled,
@@ -37,12 +37,12 @@ QPushButton:pressed {
 
 QPushButton:hover {
   border: 1px solid #FFFFFF;
-  color: #FFFFFF;
+  color: #141823;
 }
 
 QPushButton:default:hover {
   border: 1px solid #30BA78;
-  color: #FFFFFF;
+  color: #141823;
 }
 
 /* odd dropdown button widget */
@@ -57,7 +57,7 @@ QPushButton::menu-indicator:open {
 
 QPushButton:open {
   /* when the button has its menu open */
-  color: #FFFFFF;
+  color: #141823;
   background: #FFFFFF;
   border: 1px solid #30BA78;
 }
@@ -268,7 +268,7 @@ YQPkgVersionsView QWidget {
 }
 
 QY2HelpDialog {
-  color: #FFFFFF;
+  color: #141823;
   qproperty-searchresultbackground: #008ACF;
   qproperty-searchresultforeground: #FFFFFF;
 }
@@ -280,7 +280,7 @@ YQBarGraph {
 
 QComboBoxPrivateScroller {
   background-color: #FFFFFF;
-  color: #FFFFFF;
+  color: #141823;
 }
 
 /* Steps
@@ -430,11 +430,11 @@ QMenu::item:disabled {
 QSpinBox,
 QDateEdit,
 QTimeEdit {
-  color: #FFFFFF;
+  color: #141823;
   background-color: #0e7e3c;
   padding: 6px 6px;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #141823;
 }
 
 QDateEdit::disabled,
@@ -478,7 +478,7 @@ QToolButton#qt_calendar_nextmonth {
 }
 
 QCalendarWidget QAbstractItemView:enabled {
-  selection-background-color: #FFFFFF;
+  selection-background-color: #141823;
   selection-color: #141823;
   font-weight: bold;
 }
@@ -495,7 +495,7 @@ QLineEdit {
   border-radius: 0px;
   padding-bottom: 4px;
   selection-background-color: #404147;
-  selection-color: #FFFFFF;
+  selection-color: #141823;
 }
 
 QLineEdit:focus {

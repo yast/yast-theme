@@ -1,7 +1,9 @@
+// General variables
 $yast-white: #FFFFFF;
 $yast-black: #141823;
 $yast-green-500: #30BA78;
 $yast-blue: #008ACF;
+$yast-text: $yast-black;
 
 // Light grey shades
 $yast-light-grey-100: #e0efef;
@@ -18,4 +20,4 @@ $yast-disabled: rgba(255, 255, 255, 60);
 // specific components
 $yast-dialog-bg: $yast-white;
 $yast-dialog-text: $yast-black;
-$yast-text: $yast-black;
+

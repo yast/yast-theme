@@ -101,7 +101,7 @@ YQPkgVersionsView QWidget {
 }
 
 QY2HelpDialog {
-  color: $yast-white;
+  color: $yast-text;
   qproperty-searchresultbackground: $yast-blue;
   qproperty-searchresultforeground: $yast-white;
 }
@@ -112,5 +112,5 @@ YQBarGraph {
 
 QComboBoxPrivateScroller {
   background-color: $yast-dialog-bg;
-  color: $yast-white;
+  color: $yast-text;
 }
