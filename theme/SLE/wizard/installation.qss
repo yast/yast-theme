@@ -665,7 +665,7 @@ YQMainWinDock {
 
 #LogoHBox {
   border-bottom: 1px solid #141823;
-  background-color: #0e7e3c;
+  background-color: #0C322C;
   margin: 0px;
 }
 
