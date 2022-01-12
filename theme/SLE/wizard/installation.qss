@@ -619,7 +619,7 @@ QMessageBox {
   margin-left: 1em;
   margin-top: 7px;
   margin-bottom: 0px;
-  background-color: #0e7e3c;
+  background-color: #0C322C;
 }
 
 #work_area {
