@@ -108,7 +108,7 @@ QTabBar {
 }
 QTabBar::tab {
   color: #b6b4b4;
-  background: #0e7e3c;
+  background: #FFFFFF;
   border: 1px solid #141823;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -128,7 +128,7 @@ QTabBar:focus::tab {
   outline: none;
 }
 QTabBar::tear {
-  background: #0e7e3c;
+  background: #FFFFFF;
   border: 1px solid #141823;
   border-radius: 1px;
 }
@@ -144,7 +144,7 @@ QProgressBar {
   min-height: 24px;
   text-align: center;
   color: #141823;
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
 }
 
 QProgressBar::chunk {
@@ -431,7 +431,7 @@ QSpinBox,
 QDateEdit,
 QTimeEdit {
   color: #141823;
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
   padding: 6px 6px;
   selection-background-color: #404147;
   selection-color: #141823;
@@ -444,13 +444,13 @@ QTimeEdit::disabled {
 }
 
 #qt_calendar_navigationbar {
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
   border: 1px outset #141823;
   border-radius: 2px;
 }
 
 #qt_calendar_navigationbar QToolButton {
-  border: 1px solid #0e7e3c;
+  border: 1px solid #FFFFFF;
   border-radius: 2px;
   background-color: #FFFFFF;
   padding: 4px 8px;
@@ -466,7 +466,7 @@ QTimeEdit::disabled {
 }
 
 QCalendarWidget QWidget {
-  alternate-background-color: #0e7e3c;
+  alternate-background-color: #FFFFFF;
 }
 
 QToolButton#qt_calendar_prevmonth {
