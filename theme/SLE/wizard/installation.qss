@@ -287,16 +287,16 @@ QComboBoxPrivateScroller {
   ========================================================================== */
 #wizard,
 #steps > QFrame {
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
 }
 
 #steps {
   padding: 12px 1px 80px 12px;
-  background: url(logo.svg) no-repeat bottom, #0e7e3c;
+  background: url(logo.svg) no-repeat bottom, #FFFFFF;
 }
 
 #steps QLabel {
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
   color: #141823;
   font-size: 14px;
   padding: 6px 12px;
@@ -305,7 +305,7 @@ QComboBoxPrivateScroller {
 #steps QLabel.steps_heading {
   font-size: 16pt;
   font-family: Poppins, Sans-serif;
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
   color: #141823;
   padding: 0px 0px 12px 15px;
 }
@@ -676,7 +676,7 @@ YQRichText > YQTextBrowser {
   color: #141823;
   border-radius: 2px;
   border: 1px solid #141823;
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
   selection-background-color: #404147;
   selection-color: #141823;
 }

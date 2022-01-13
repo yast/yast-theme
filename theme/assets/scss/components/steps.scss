@@ -2,16 +2,16 @@
   ========================================================================== */
 #wizard,
 #steps > QFrame {
-  background-color: $yast-bg-900;
+  background-color: $yast-textbox-bg;
 }
 
 #steps {
   padding: 12px 1px 80px 12px;
-  background: url(logo.svg) no-repeat bottom, $yast-bg-900;
+  background: url(logo.svg) no-repeat bottom, $yast-textbox-bg;
 }
 
 #steps QLabel {
-  background-color: $yast-bg-900;
+  background-color: $yast-textbox-bg;
   color: $yast-text;
   font-size: 14px;
   padding: 6px 12px;
@@ -20,7 +20,7 @@
 #steps QLabel.steps_heading {
   font-size: 16pt;
   font-family: Poppins, Sans-serif;
-  background-color: $yast-bg-900;
+  background-color: $yast-textbox-bg;
   color: $yast-text;
   padding: 0px 0px 12px 15px;
 }
