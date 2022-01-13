@@ -158,7 +158,7 @@ QProgressBar::chunk {
 QScrollBar:vertical {
   width: 16px;
   margin: 0px;
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
   border-left: 1px solid #141823;
 }
 
@@ -202,7 +202,7 @@ QScrollBar::down-arrow:vertical {
 QScrollBar:horizontal {
   height: 16px;
   margin: 0px;
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
   border-top: 1px solid #141823;
 }
 
@@ -699,7 +699,7 @@ QHeaderView::section {
   background-color: #FFFFFF;
   color: #141823;
   border-radius: 2px;
-  border: 2px solid #0e7e3c;
+  border: 2px solid #FFFFFF;
   padding: 4px 12px 4px 6px;
 }
 
@@ -714,7 +714,7 @@ QHeaderView::up-arrow {
 }
 
 QAbstractScrollArea {
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
   border: 1px solid #141823;
 }
 
@@ -726,7 +726,7 @@ QAbstractScrollArea QHeaderView {
 QTreeView,
 QTreeWidget {
   color: #141823;
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
   border: 1px solid #141823;
   alternate-background-color: #FFFFFF;
   selection-background-color: #404147;
@@ -744,7 +744,7 @@ QTreeView::item:focus {
 QTableWidget,
 QTableView {
   color: #141823;
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
   border: 1px solid #141823;
   selection-background-color: #404147;
   selection-color: #141823;
@@ -772,7 +772,7 @@ YQGenericDetailsView,
 YQDescriptionDialog,
 YQPkgDescriptionView {
   color: #141823;
-  background-color: #0e7e3c;
+  background-color: #FFFFFF;
 }
 
 YQPkgPatternCategoryItem {
@@ -816,7 +816,7 @@ QMenuBar {
   background-color: #FFFFFF;
   selection-background-color: #404147;
   selection-color: #141823;
-  alternate-background-color: #0e7e3c;
+  alternate-background-color: #FFFFFF;
 }
 
 QGroupBox {
