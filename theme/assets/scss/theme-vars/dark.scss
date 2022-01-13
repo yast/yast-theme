@@ -18,7 +18,15 @@ $yast-bg-900: #1f222b;
 $yast-disabled: rgba(255, 255, 255, 60);
 
 // specific components
+// dialog (main wrapper)
 $yast-dialog-bg: $yast-dark-grey-500;
 $yast-dialog-text: $yast-green-500;
+
+// header-specific
 $yast-header-bg: $yast-bg-900;
+
+// text box
+$yast-textbox-bg: $yast-white;
+
+
 
