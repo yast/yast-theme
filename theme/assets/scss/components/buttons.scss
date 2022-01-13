@@ -1,7 +1,7 @@
 /* Buttons
   ========================================================================== */
 QPushButton {
-  border: 1px solid $yast-light-grey-500;
+  border: 1px solid $yast-push-button-default;
   border-radius: 2px;
   background-color: $yast-dialog-bg;
   padding: 8px 16px;
@@ -26,11 +26,12 @@ QPushButton:pressed {
   outline: none;
 }
 QPushButton:hover {
-  border: 1px solid $yast-white;
+  border: 1px solid $yast-push-button-hover;
   color: $yast-text;
 }
 QPushButton:default:hover {
   border: 1px solid $yast-push-button-default;
+  background-color: $yast-push-button-default;
   color: $yast-text;
 }
 

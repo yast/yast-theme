@@ -7,7 +7,7 @@
 /* Buttons
   ========================================================================== */
 QPushButton {
-  border: 1px solid #969494;
+  border: 1px solid #fe7c3f;
   border-radius: 2px;
   background-color: #FFFFFF;
   padding: 8px 16px;
@@ -36,12 +36,13 @@ QPushButton:pressed {
 }
 
 QPushButton:hover {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #141823;
   color: #141823;
 }
 
 QPushButton:default:hover {
   border: 1px solid #fe7c3f;
+  background-color: #fe7c3f;
   color: #141823;
 }
 
