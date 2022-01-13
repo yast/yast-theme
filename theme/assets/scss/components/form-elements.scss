@@ -2,14 +2,14 @@
   ========================================================================== */
 QLineEdit {
   color: $yast-text;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
   border-bottom: 1px solid $yast-light-grey-500;
   border-right: 0px;
   border-left: 0px;
   border-top: 0px;
   border-radius: 0px;
   padding-bottom: 4px;
-  selection-background-color: $yast-dark-grey-100;
+  selection-background-color: $yast-dialog-bg;
   selection-color: $yast-text;
 }
 QLineEdit:focus {
@@ -74,7 +74,7 @@ QRadioButton:focus {
 }
 QRadioButton::disabled {
   color: $yast-disabled;
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
 }
 
 QRadioButton::indicator:unchecked {
@@ -104,5 +104,5 @@ YQMultiLineEdit QTextEdit {
 }
 
 QMessageBox {
-  background-color: $yast-dark-grey-500;
+  background-color: $yast-dialog-bg;
 }
