@@ -42,7 +42,7 @@ QPushButton::menu-indicator:pressed,
 QPushButton::menu-indicator:open {
   subcontrol-origin: margin;
   subcontrol-position: right;
-  image: url(inst_arr_down.png);
+  image: $yast-btn-menu-indicator;
   left: -8px;
 }
 QPushButton:open {
@@ -74,8 +74,8 @@ QTabBar QToolButton::right-arrow {
   image: url(inst_arr_right.png);
 }
 QToolButton::up-arrow {
-  image: url(inst_arr_up.png);
+  image: $yast-btn-arrow-up;
 }
 QToolButton::down-arrow {
-  image: url(inst_arr_down.png);
+  image: $yast-btn-arrow-down;
 }
