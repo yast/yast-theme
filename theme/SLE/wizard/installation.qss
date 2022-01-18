@@ -79,12 +79,12 @@ QToolButton:focus {
 
 QToolButton::left-arrow,
 QTabBar QToolButton::left-arrow {
-  image: url(inst_arr_left.png);
+  image: url(arr_left.png);
 }
 
 QToolButton::right-arrow,
 QTabBar QToolButton::right-arrow {
-  image: url(inst_arr_right.png);
+  image: url(arr_right.png);
 }
 
 QToolButton::up-arrow {
@@ -528,13 +528,13 @@ YQCheckBoxFrame::item:focus {
 YQCheckBoxFrame::indicator:checked,
 QTreeView::indicator:checked,
 QCheckBox::indicator:checked:enabled {
-  image: url(inst_checkbox-on.png);
+  image: url(checkbox-on.png);
 }
 
 YQCheckBoxFrame::indicator:unchecked,
 QTreeView::indicator:unchecked,
 QCheckBox::indicator:unchecked:enabled {
-  image: url(inst_checkbox-off.png);
+  image: url(checkbox-off.png);
 }
 
 YQCheckBoxFrame::indicator:checked:disabled,
