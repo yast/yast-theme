@@ -368,7 +368,7 @@ QComboBox::drop-down {
 }
 
 QComboBox::down-arrow {
-  image: url(inst_arr_down.png);
+  image: url(arr_down.png);
 }
 
 QComboBox::down-arrow::disabled {
@@ -377,7 +377,7 @@ QComboBox::down-arrow::disabled {
 
 QComboBox::down-arrow:on {
   /* shift the arrow when popup is open */
-  image: url(inst_arr_up.png);
+  image: url(arr_up.png);
   top: 0px;
   left: 0px;
 }
@@ -573,7 +573,7 @@ QRadioButton::disabled {
 }
 
 QRadioButton::indicator:unchecked {
-  image: url(inst_radio-button-unchecked.png);
+  image: url(radio-button-unchecked.png);
 }
 
 QRadioButton::indicator:unchecked:focus {
