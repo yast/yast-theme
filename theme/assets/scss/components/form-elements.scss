@@ -39,27 +39,27 @@ YQCheckBoxFrame::item:focus {
 YQCheckBoxFrame::indicator:checked,
 QTreeView::indicator:checked,
 QCheckBox::indicator:checked:enabled {
-  image: url(inst_checkbox-on.png);
+  image: $yast-checkbox-on;
 }
 YQCheckBoxFrame::indicator:unchecked,
 QTreeView::indicator:unchecked,
 QCheckBox::indicator:unchecked:enabled {
-  image: url(inst_checkbox-off.png);
+  image: $yast-checkbox-off;
 }
 YQCheckBoxFrame::indicator:checked:disabled,
 QCheckBox::indicator:checked:disabled,
 QTreeView::indicator:checked:disabled {
-  image: url(inst_checkbox-on-disabled.png);
+  image: $yast-checkbox-on-disabled;
 }
 YQCheckBoxFrame::indicator:unchecked:disabled,
 QTreeView::indicator:unchecked:disabled,
 QCheckBox::indicator:unchecked {
-  image: url(inst_checkbox-off-disabled.png);
+  image: $yast-checkbox-off-disabled;
 }
 YQCheckBoxFrame::indicator:unchecked:focus,
 QTreeView::indicator:unchecked:focus,
 QCheckBox::indicator:unchecked:focus {
-  image: url(inst_checkbox-focus.png);
+  image: $yast-checkbox-focus;
 }
 
 QRadioButton {

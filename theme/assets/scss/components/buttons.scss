@@ -67,11 +67,11 @@ QToolButton:focus {
 }
 QToolButton::left-arrow,
 QTabBar QToolButton::left-arrow {
-  image: url(inst_arr_left.png);
+  image: $yast-btn-arrow-left;
 }
 QToolButton::right-arrow,
 QTabBar QToolButton::right-arrow {
-  image: url(inst_arr_right.png);
+  image: $yast-btn-arrow-right;
 }
 QToolButton::up-arrow {
   image: $yast-btn-arrow-up;
