@@ -27,14 +27,14 @@ QComboBox::drop-down {
   border: none;
 }
 QComboBox::down-arrow {
-  image: url(inst_arr_down.png);
+  image: $yast-btn-arrow-down;
 }
 QComboBox::down-arrow::disabled {
-  image: url(inst_arr_down_disabled.png);
+  image: $yast-down-arrow-disabled;
 }
 QComboBox::down-arrow:on {
   /* shift the arrow when popup is open */
-  image: url(inst_arr_up.png);
+  image: $yast-btn-arrow-up;
   top: 0px;
   left: 0px;
 }
