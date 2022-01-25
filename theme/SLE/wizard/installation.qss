@@ -110,7 +110,7 @@ QTabBar {
 QTabBar::tab {
   color: #b6b4b4;
   background: #FFFFFF;
-  border: 1px solid #141823;
+  border: 1px solid #969494;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   font-weight: bold;
@@ -122,7 +122,7 @@ QTabBar::tab {
 QTabBar::tab:selected {
   color: #141823;
   background: #FFFFFF;
-  border: 1px solid #141823;
+  border: 1px solid #969494;
   border-bottom: none;
 }
 QTabBar:focus::tab {
@@ -130,17 +130,17 @@ QTabBar:focus::tab {
 }
 QTabBar::tear {
   background: #FFFFFF;
-  border: 1px solid #141823;
+  border: 1px solid #969494;
   border-radius: 1px;
 }
 QTabBar QToolButton {
-  border: 1px solid #141823;
+  border: 1px solid #969494;
 }
 
 /* Progress bars
   ========================================================================== */
 QProgressBar {
-  border: 1px solid #141823;
+  border: 1px solid #969494;
   border-radius: 2px;
   min-height: 24px;
   text-align: center;
@@ -676,7 +676,7 @@ YQRichText > YQTextBrowser {
   qproperty-frameshape: NoShape;
   color: #141823;
   border-radius: 2px;
-  border: 1px solid #141823;
+  border: 1px solid #969494;
   background-color: #FFFFFF;
   selection-background-color: #e0efef;
   selection-color: #141823;
@@ -716,7 +716,7 @@ QHeaderView::up-arrow {
 
 QAbstractScrollArea {
   background-color: #FFFFFF;
-  border: 1px solid #141823;
+  border: 1px solid #969494;
 }
 
 QAbstractScrollArea QHeaderView {
@@ -728,7 +728,7 @@ QTreeView,
 QTreeWidget {
   color: #141823;
   background-color: #FFFFFF;
-  border: 1px solid #141823;
+  border: 1px solid #969494;
   alternate-background-color: #FFFFFF;
   selection-background-color: #e0efef;
   selection-color: #141823;
@@ -746,7 +746,7 @@ QTableWidget,
 QTableView {
   color: #141823;
   background-color: #FFFFFF;
-  border: 1px solid #141823;
+  border: 1px solid #969494;
   selection-background-color: #e0efef;
   selection-color: #141823;
   border-radius: 2px;
@@ -763,7 +763,7 @@ YQTable {
 YQPackageSelector {
   color: #141823;
   background-color: #FFFFFF;
-  border: 1px solid #141823;
+  border: 1px solid #969494;
   selection-background-color: #e0efef;
   selection-color: #141823;
   border-radius: 2px;
