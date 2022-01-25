@@ -18,7 +18,7 @@ QTimeEdit::disabled {
 
 #qt_calendar_navigationbar {
   background-color: $yast-textbox-bg;
-  border: 1px outset $yast-black;
+  border: 1px outset $yast-border;
   border-radius: 2px;
 }
 
@@ -51,6 +51,6 @@ QToolButton#qt_calendar_nextmonth {
 
 QCalendarWidget QAbstractItemView:enabled {
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-black;
+  selection-color: $yast-border;
   font-weight: bold;
 }
