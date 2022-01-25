@@ -48,15 +48,15 @@ $yast-btn-arrow-right: url(arr_right.png);
 $yast-down-arrow-disabled: url(inst_arr_down_disabled.png);
 
 // checkboxes
-$yast-checkbox-on: url(checkbox-on.png);
-$yast-checkbox-off: url(checkbox-off.png);
-$yast-checkbox-on-disabled: url(inst_checkbox-on-disabled.png);
-$yast-checkbox-off-disabled: url(inst_checkbox-off-disabled.png);
-$yast-checkbox-focus: url(inst_checkbox-focus.png);
+$yast-checkbox-on: url(inst_checkbox-on-light.png);
+$yast-checkbox-off: url(inst_checkbox-off-light.png);
+$yast-checkbox-on-disabled: url(inst_checkbox-on-disabled-light.png);
+$yast-checkbox-off-disabled: url(inst_checkbox-off-disabled-light.png);
+$yast-checkbox-focus: url(inst_checkbox-focus-light.png);
 
 // radio buttons
 $yast-radio-unchecked: url(inst_radio-button-unchecked-light.png);
-$yast-radio-focus: url(inst_radio-button-focus.png);
+$yast-radio-focus: url(inst_radio-button-focus-light.png);
 $yast-radio-checked: url(inst_radio-button-checked-light.png);
-$yast-radio-unchecked-disabled: url(inst_radio-button-unchecked-disabled.png);
-$yast-radio-checked-disabled: url(inst_radio-button-checked-disabled.png);
+$yast-radio-unchecked-disabled: url(inst_radio-button-unchecked-disabled-light.png);
+$yast-radio-checked-disabled: url(inst_radio-button-checked-disabled-light.png);

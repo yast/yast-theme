@@ -528,31 +528,31 @@ YQCheckBoxFrame::item:focus {
 YQCheckBoxFrame::indicator:checked,
 QTreeView::indicator:checked,
 QCheckBox::indicator:checked:enabled {
-  image: url(checkbox-on.png);
+  image: url(inst_checkbox-on-light.png);
 }
 
 YQCheckBoxFrame::indicator:unchecked,
 QTreeView::indicator:unchecked,
 QCheckBox::indicator:unchecked:enabled {
-  image: url(checkbox-off.png);
+  image: url(inst_checkbox-off-light.png);
 }
 
 YQCheckBoxFrame::indicator:checked:disabled,
 QCheckBox::indicator:checked:disabled,
 QTreeView::indicator:checked:disabled {
-  image: url(inst_checkbox-on-disabled.png);
+  image: url(inst_checkbox-on-disabled-light.png);
 }
 
 YQCheckBoxFrame::indicator:unchecked:disabled,
 QTreeView::indicator:unchecked:disabled,
 QCheckBox::indicator:unchecked {
-  image: url(inst_checkbox-off-disabled.png);
+  image: url(inst_checkbox-off-disabled-light.png);
 }
 
 YQCheckBoxFrame::indicator:unchecked:focus,
 QTreeView::indicator:unchecked:focus,
 QCheckBox::indicator:unchecked:focus {
-  image: url(inst_checkbox-focus.png);
+  image: url(inst_checkbox-focus-light.png);
 }
 
 QRadioButton {
@@ -577,7 +577,7 @@ QRadioButton::indicator:unchecked {
 }
 
 QRadioButton::indicator:unchecked:focus {
-  image: url(inst_radio-button-focus.png);
+  image: url(inst_radio-button-focus-light.png);
 }
 
 QRadioButton::indicator:checked {
@@ -585,11 +585,11 @@ QRadioButton::indicator:checked {
 }
 
 QRadioButton::indicator:unchecked:disabled {
-  image: url(inst_radio-button-unchecked-disabled.png);
+  image: url(inst_radio-button-unchecked-disabled-light.png);
 }
 
 QRadioButton::indicator:checked:disabled {
-  image: url(inst_radio-button-checked-disabled.png);
+  image: url(inst_radio-button-checked-disabled-light.png);
 }
 
 YQMultiSelectionBox QTreeView::item {
