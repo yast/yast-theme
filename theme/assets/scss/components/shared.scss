@@ -30,7 +30,7 @@ YQRichText > YQTextBrowser {
   qproperty-frameshape: NoShape;
   color: $yast-text;
   border-radius: 2px;
-  border: 1px solid $yast-black;
+  border: 1px solid $yast-border;
   background-color: $yast-textbox-bg;
   selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
@@ -71,7 +71,7 @@ QHeaderView::up-arrow {
 
 QAbstractScrollArea {
   background-color: $yast-textbox-bg;
-  border: 1px solid $yast-black;
+  border: 1px solid $yast-border;
 }
 
 QAbstractScrollArea QHeaderView {
@@ -83,7 +83,7 @@ QTreeView,
 QTreeWidget {
   color: $yast-text;
   background-color: $yast-textbox-bg;
-  border: 1px solid $yast-black;
+  border: 1px solid $yast-border;
   alternate-background-color: $yast-dialog-bg;
   selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
@@ -101,7 +101,7 @@ QTableWidget,
 QTableView {
   color: $yast-text;
   background-color: $yast-textbox-bg;
-  border: 1px solid $yast-black;
+  border: 1px solid $yast-border;
   selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
   border-radius: 2px;
@@ -118,7 +118,7 @@ YQTable {
 YQPackageSelector {
   color: $yast-text;
   background-color: $yast-dialog-bg;
-  border: 1px solid $yast-black;
+  border: 1px solid $yast-border;
   selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
   border-radius: 2px;

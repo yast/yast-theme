@@ -14,7 +14,7 @@ QTabBar {
   &::tab {
     color: #b6b4b4;
     background: $yast-textbox-bg;
-    border: 1px solid $yast-black;
+    border: 1px solid $yast-border;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     font-weight: bold;
@@ -25,7 +25,7 @@ QTabBar {
     &:selected {
       color: $yast-text;
       background: $yast-dialog-bg;
-      border: 1px solid $yast-black;
+      border: 1px solid $yast-border;
       border-bottom: none;
     }
   }
@@ -34,10 +34,10 @@ QTabBar {
   }
   &::tear {
     background: $yast-textbox-bg;
-    border: 1px solid $yast-black;
+    border: 1px solid $yast-border;
     border-radius: 1px;
   }
   QToolButton {
-    border: 1px solid $yast-black;
+    border: 1px solid $yast-border;
   }
 }
