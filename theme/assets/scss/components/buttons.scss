@@ -59,7 +59,7 @@ QToolButton {
   border-radius: 2px;
   background-color: $yast-dialog-bg;
   padding: 8px 16px;
-  color: #efefef;
+  color: $yast-light-grey-100;
 }
 QToolButton:focus {
   outline: none;

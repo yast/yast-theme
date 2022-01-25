@@ -69,7 +69,7 @@ QToolButton {
   border-radius: 2px;
   background-color: #FFFFFF;
   padding: 8px 16px;
-  color: #efefef;
+  color: #e0efef;
 }
 
 QToolButton:focus {
@@ -573,7 +573,7 @@ QRadioButton::disabled {
 }
 
 QRadioButton::indicator:unchecked {
-  image: url(radio-button-unchecked.png);
+  image: url(inst_radio-button-unchecked-light.png);
 }
 
 QRadioButton::indicator:unchecked:focus {
@@ -581,7 +581,7 @@ QRadioButton::indicator:unchecked:focus {
 }
 
 QRadioButton::indicator:checked {
-  image: url(inst_radio-button-checked.png);
+  image: url(inst_radio-button-checked-light.png);
 }
 
 QRadioButton::indicator:unchecked:disabled {
