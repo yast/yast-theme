@@ -409,8 +409,8 @@ QMenu {
   color: #141823;
   background: #FFFFFF;
   border-top: 1px solid #404147;
-  border-right: 1px solid #141823;
-  border-bottom: 1px solid #141823;
+  border-right: 1px solid #969494;
+  border-bottom: 1px solid #969494;
   border-left: 1px solid #404147;
   selection-background-color: #e0efef;
   selection-color: #141823;
@@ -446,7 +446,7 @@ QTimeEdit::disabled {
 
 #qt_calendar_navigationbar {
   background-color: #FFFFFF;
-  border: 1px outset #141823;
+  border: 1px outset #969494;
   border-radius: 2px;
 }
 
@@ -480,7 +480,7 @@ QToolButton#qt_calendar_nextmonth {
 
 QCalendarWidget QAbstractItemView:enabled {
   selection-background-color: #e0efef;
-  selection-color: #141823;
+  selection-color: #969494;
   font-weight: bold;
 }
 
@@ -665,7 +665,7 @@ YQMainWinDock {
 }
 
 #LogoHBox {
-  border-bottom: 1px solid #141823;
+  border-bottom: 1px solid #969494;
   background-color: #0C322C;
   margin: 0px;
 }
