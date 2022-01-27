@@ -1,18 +1,14 @@
-const gulp = require('gulp'),
-  sass = require('gulp-sass')(require('sass')),
-  rename = require('gulp-rename');
-
-// Folders to take the assets from & place the generated files
-const destination = '../SLE/'
-const origin = 'scss/installation.scss'
-
+const gulp = require('gulp');
+const sass = require('gulp-sass')(require('sass'));
+const rename = require('gulp-rename');
 
 let path = {
-  src_sass:'scss/installation.scss',
-  src_destination:'../SLE/wizard/',
+  src_sass: 'scss/installation.scss',
+  src_sass_light: 'scss/installation-light.scss',
+  src_destination: '../SLE/wizard/',
 }
 
-gulp.task("sassTask", function() {
+gulp.task("theme-dark", function() {
   return gulp
     .src(path.src_sass)
     .pipe(sass().on('error', sass.logError))
@@ -20,7 +16,12 @@ gulp.task("sassTask", function() {
     .pipe(gulp.dest(path.src_destination))
 });
 
+gulp.task("theme-light", function() {
+  return gulp
+    .src(path.src_sass_light)
+    .pipe(sass().on('error', sass.logError))
+    .pipe(rename({ extname: '.qss' }))
+    .pipe(gulp.dest(path.src_destination))
+});
 
-// gulp default (sass, minify-css, browser-sync) methodqt for
-// gulp.task('default', 'sassTask')
-gulp.task('default', gulp.series('sassTask'));
+gulp.task('default', gulp.series('theme-dark', 'theme-light'));
