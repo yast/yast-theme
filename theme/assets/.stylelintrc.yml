@@ -1,6 +1,6 @@
 
 # enable default checks from https://github.com/stylelint/stylelint-config-recommended
-extends: stylelint-config-recommended
+extends: stylelint-config-recommended-scss
 
 rules:
   selector-type-no-unknown: 

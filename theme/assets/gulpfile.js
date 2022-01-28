@@ -45,6 +45,19 @@ gulp.task('lint-light-css', function () {
     }));
 });
 
+gulp.task('lint-scss', function () {
+  return gulp
+    .src('**/*.scss')
+    .pipe(gulpStylelint({
+      reporters: [
+        {formatter: 'string', console: true}
+      ]
+    }));
+});
+
+
 gulp.task('lint-css', gulp.series('lint-dark-css', 'lint-light-css'));
+
+gulp.task('lint', gulp.series('lint-scss', 'lint-css'));
 
 gulp.task('default', gulp.series('theme-dark', 'theme-light'));
