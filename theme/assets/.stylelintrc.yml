@@ -1,0 +1,123 @@
+
+# enable default checks from https://github.com/stylelint/stylelint-config-recommended
+extends: stylelint-config-recommended
+
+rules:
+  selector-type-no-unknown: 
+    - true
+    # avoid unknown type selector "QPushButton" error
+    - ignoreTypes:
+      - BusyBar
+      - QAbstractItemView
+      - QAbstractScrollArea
+      - QCalendarWidget
+      - QComboBox
+      - QComboBoxPrivateScroller
+      - QDateEdit
+      - QFileDialog
+      - QFrame
+      - QGroupBox
+      - QHeaderView
+      - QCheckBox
+      - QLabel
+      - QLineEdit
+      - QListWidget
+      - QMainWindow
+      - QMenu
+      - QMenuBar
+      - QMessageBox
+      - QProgressBar
+      - QPushButton
+      - QRadioButton
+      - QScrollBar
+      - QSpinBox
+      - QSplitter
+      - QTabBar
+      - QTableView
+      - QTableWidget
+      - QTabWidget
+      - QTextEdit
+      - QTimeEdit
+      - QToolButton
+      - QToolTip
+      - QTreeView
+      - QTreeWidget
+      - QWidget
+      - QY2HelpDialog
+      - YQBarGraph
+      - YQDescriptionDialog
+      - YQDialog
+      - YQGenericDetailsView
+      - YQCheckBoxFrame
+      - YQLogView
+      - YQMainWinDock
+      - YQMultiLineEdit
+      - YQMultiProgressMeter
+      - YQMultiSelectionBox
+      - YQPackageSelector
+      - YQPkgDescriptionView
+      - YQPkgPatternCategoryItem
+      - YQPkgVersionsView
+      - YQRichText
+      - YQTable
+      - YQTextBrowser
+      - YQTree
+      - YQWidgetCaption
+      - YQWidgetCaptionBar
+      - YQWizard
+
+  property-no-unknown:
+    - true
+    # avoid unknown property "image" error
+    - ignoreProperties:
+      - alternate-background-color
+      - image
+      - qproperty-alignment
+      - qproperty-backgroundcolors
+      - qproperty-drawbase
+      - qproperty-foregroundcolors
+      - qproperty-frameshape
+      - qproperty-icon
+      - qproperty-searchresultbackground
+      - qproperty-searchresultforeground
+      - selection-background-color
+      - selection-color
+      - spacing
+      - subcontrol-origin
+      - subcontrol-position
+
+  selector-pseudo-element-no-unknown:
+    - true
+    # avoid unknown pseudo-element selector "::disabled" error
+    - ignorePseudoElements:
+      - add-line
+      - disabled
+      - down-arrow
+      - drop-down
+      - handle
+      - chunk
+      - indicator
+      - item
+      - left-arrow
+      - menu-indicator
+      - pane
+      - right-arrow
+      - section
+      - separator
+      - sub-line
+      - tab
+      - tear
+      - title
+      - up-arrow
+
+  selector-pseudo-class-no-unknown:
+    - true
+    # avoid unknown pseudo-class selector ":selected" error
+    - ignorePseudoClasses:
+      - horizontal
+      - "on"
+      - open
+      - pressed
+      - selected
+      - unchecked
+      - vertical
