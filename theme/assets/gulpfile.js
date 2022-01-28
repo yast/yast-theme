@@ -25,19 +25,9 @@ gulp.task('theme-light', function() {
     .pipe(gulp.dest(path.src_destination))
 });
 
-gulp.task('lint-dark-css', function () {
+gulp.task('lint-css', function () {
   return gulp
-    .src('../SLE/wizard/installation.qss')
-    .pipe(gulpStylelint({
-      reporters: [
-        {formatter: 'string', console: true}
-      ]
-    }));
-});
-
-gulp.task('lint-light-css', function () {
-  return gulp
-    .src('../SLE/wizard/installation-light.qss')
+    .src('../SLE/wizard/installation*.qss')
     .pipe(gulpStylelint({
       reporters: [
         {formatter: 'string', console: true}
@@ -54,9 +44,6 @@ gulp.task('lint-scss', function () {
       ]
     }));
 });
-
-
-gulp.task('lint-css', gulp.series('lint-dark-css', 'lint-light-css'));
 
 gulp.task('lint', gulp.series('lint-scss', 'lint-css'));
 
