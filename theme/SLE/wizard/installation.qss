@@ -108,7 +108,7 @@ QTabBar {
   font-weight: bold;
 }
 QTabBar::tab {
-  color: #b6b4b4;
+  color: #141823;
   background: #FFFFFF;
   border: 1px solid #969494;
   border-top-left-radius: 3px;
