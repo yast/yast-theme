@@ -11,7 +11,7 @@ QPushButton {
   border-radius: 2px;
   background-color: #FFFFFF;
   padding: 8px 16px;
-  color: red;
+  color: #e0efef;
   font-weight: bold;
   outline: none;
 }
@@ -108,7 +108,7 @@ QTabBar {
   font-weight: bold;
 }
 QTabBar::tab {
-  color: #141823;
+  color: #969494;
   background: #FFFFFF;
   border: 1px solid #969494;
   border-top-left-radius: 3px;
