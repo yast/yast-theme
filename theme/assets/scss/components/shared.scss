@@ -81,8 +81,7 @@ QAbstractScrollArea QHeaderView {
 
 
 QTreeView,
-QTreeWidget,
-YRichText {
+QTreeWidget{
   color: $yast-text;
   background-color: $yast-textbox-bg;
   border: 1px solid $yast-border;
@@ -99,12 +98,19 @@ QTreeView::item:focus {
   background-color: $yast-selected-bg;
 }
 
+YRichText::item {
+  color: $yast-text;
+  alternate-background-color: $yast-selected-bg;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-text;
+}
+
 QTableWidget,
 QTableView {
   color: $yast-text;
   background-color: $yast-textbox-bg;
   border: 1px solid $yast-border;
-  selection-background-color: red;
+  selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
   border-radius: 2px;
 }
@@ -113,7 +119,7 @@ YQTree,
 YQTable {
   color: $yast-text;
   background-color: $yast-dialog-bg;
-  selection-background-color: red;
+  selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
 }
 
@@ -121,7 +127,7 @@ YQPackageSelector {
   color: $yast-text;
   background-color: $yast-dialog-bg;
   border: 1px solid $yast-border;
-  selection-background-color: red;
+  selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
   border-radius: 2px;
 }
@@ -141,7 +147,7 @@ YQPkgPatternCategoryItem {
 QListWidget {
   color: $yast-text;
   background-color: $yast-dialog-bg;
-  selection-background-color: red;
+  selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
 }
 
@@ -172,7 +178,7 @@ YQWidgetCaptionBar > YQWidgetCaption {
 QComboBox QAbstractItemView,
 QMenuBar {
   background-color: $yast-dialog-bg;
-  selection-background-color: red;
+  selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
   alternate-background-color: $yast-textbox-bg;
 }
