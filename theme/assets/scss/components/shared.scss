@@ -32,7 +32,7 @@ YQRichText > YQTextBrowser {
   border-radius: 2px;
   border: 1px solid $yast-border;
   background-color: $yast-textbox-bg;
-  selection-background-color: red;
+  selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
 }
 
@@ -44,7 +44,7 @@ QLabel,
 YQDialog {
   color: $yast-text;
   background-color: $yast-dialog-bg;
-  selection-background-color: red;
+  selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
   margin-top: 2px;
   margin-bottom: 6px;

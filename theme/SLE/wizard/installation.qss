@@ -678,7 +678,7 @@ YQRichText > YQTextBrowser {
   border-radius: 2px;
   border: 1px solid #969494;
   background-color: #FFFFFF;
-  selection-background-color: red;
+  selection-background-color: #e0efef;
   selection-color: #141823;
 }
 
@@ -690,7 +690,7 @@ QLabel,
 YQDialog {
   color: #141823;
   background-color: #FFFFFF;
-  selection-background-color: red;
+  selection-background-color: #e0efef;
   selection-color: #141823;
   margin-top: 2px;
   margin-bottom: 6px;
