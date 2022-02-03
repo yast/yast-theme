@@ -32,8 +32,8 @@ YQRichText > YQTextBrowser {
   border-radius: 2px;
   border: 1px solid $yast-border;
   background-color: $yast-textbox-bg;
-  selection-background-color: $yast-selected-bg;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: $yast-text;
 }
 
 QFrame {
@@ -44,8 +44,8 @@ QLabel,
 YQDialog {
   color: $yast-text;
   background-color: $yast-dialog-bg;
-  selection-background-color: $yast-selected-bg;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: $yast-text;
   margin-top: 2px;
   margin-bottom: 6px;
 }
@@ -85,8 +85,8 @@ QTreeWidget {
   background-color: $yast-textbox-bg;
   border: 1px solid $yast-border;
   alternate-background-color: $yast-dialog-bg;
-  selection-background-color: $yast-selected-bg;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: $yast-text;
   border-radius: 2px;
 }
 
@@ -102,8 +102,8 @@ QTableView {
   color: $yast-text;
   background-color: $yast-textbox-bg;
   border: 1px solid $yast-border;
-  selection-background-color: $yast-selected-bg;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: $yast-text;
   border-radius: 2px;
 }
 
@@ -111,16 +111,16 @@ YQTree,
 YQTable {
   color: $yast-text;
   background-color: $yast-dialog-bg;
-  selection-background-color: $yast-selected-bg;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: $yast-text;
 }
 
 YQPackageSelector {
   color: $yast-text;
   background-color: $yast-dialog-bg;
   border: 1px solid $yast-border;
-  selection-background-color: $yast-selected-bg;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: $yast-text;
   border-radius: 2px;
 }
 
@@ -139,8 +139,8 @@ YQPkgPatternCategoryItem {
 QListWidget {
   color: $yast-text;
   background-color: $yast-dialog-bg;
-  selection-background-color: $yast-selected-bg;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: $yast-text;
 }
 
 YQWidgetCaption {
@@ -170,8 +170,8 @@ YQWidgetCaptionBar > YQWidgetCaption {
 QComboBox QAbstractItemView,
 QMenuBar {
   background-color: $yast-dialog-bg;
-  selection-background-color: $yast-selected-bg;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: $yast-text;
   alternate-background-color: $yast-textbox-bg;
 }
 

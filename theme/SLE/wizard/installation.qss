@@ -678,8 +678,8 @@ YQRichText > YQTextBrowser {
   border-radius: 2px;
   border: 1px solid #969494;
   background-color: #FFFFFF;
-  selection-background-color: #e0efef;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: #141823;
 }
 
 QFrame {
@@ -690,8 +690,8 @@ QLabel,
 YQDialog {
   color: #141823;
   background-color: #FFFFFF;
-  selection-background-color: #e0efef;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: #141823;
   margin-top: 2px;
   margin-bottom: 6px;
 }
@@ -730,8 +730,8 @@ QTreeWidget {
   background-color: #FFFFFF;
   border: 1px solid #969494;
   alternate-background-color: #FFFFFF;
-  selection-background-color: #e0efef;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: #141823;
   border-radius: 2px;
 }
 
@@ -747,8 +747,8 @@ QTableView {
   color: #141823;
   background-color: #FFFFFF;
   border: 1px solid #969494;
-  selection-background-color: #e0efef;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: #141823;
   border-radius: 2px;
 }
 
@@ -756,16 +756,16 @@ YQTree,
 YQTable {
   color: #141823;
   background-color: #FFFFFF;
-  selection-background-color: #e0efef;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: #141823;
 }
 
 YQPackageSelector {
   color: #141823;
   background-color: #FFFFFF;
   border: 1px solid #969494;
-  selection-background-color: #e0efef;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: #141823;
   border-radius: 2px;
 }
 
@@ -784,8 +784,8 @@ YQPkgPatternCategoryItem {
 QListWidget {
   color: #141823;
   background-color: #FFFFFF;
-  selection-background-color: #e0efef;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: #141823;
 }
 
 YQWidgetCaption {
@@ -815,8 +815,8 @@ YQWidgetCaptionBar > YQWidgetCaption {
 QComboBox QAbstractItemView,
 QMenuBar {
   background-color: #FFFFFF;
-  selection-background-color: #e0efef;
-  selection-color: red;
+  selection-background-color: red;
+  selection-color: #141823;
   alternate-background-color: #FFFFFF;
 }
 
