@@ -508,8 +508,9 @@ QLineEdit:disabled {
 }
 
 QCheckBox,
-YQCheckBoxFrame::indicator {
-  color: #141823;
+YQCheckBoxFrame::indicator,
+YQRichText::indicator {
+  color: red;
   margin-bottom: 2px;
   margin-left: 6px;
 }
@@ -674,16 +675,12 @@ YQLogView,
 QTextEdit,
 YQRichText > YQTextBrowser {
   qproperty-frameshape: NoShape;
-  color: #DC3545;
+  color: #141823;
   border-radius: 2px;
   border: 1px solid #969494;
   background-color: #FFFFFF;
   selection-background-color: #e0efef;
   selection-color: #141823;
-}
-
-YQRichText {
-  color: #DC3545;
 }
 
 QFrame {

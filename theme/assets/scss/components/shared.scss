@@ -28,16 +28,12 @@ YQLogView,
 QTextEdit,
 YQRichText > YQTextBrowser {
   qproperty-frameshape: NoShape;
-  color: #DC3545;
+  color: $yast-text;
   border-radius: 2px;
   border: 1px solid $yast-border;
   background-color: $yast-textbox-bg;
   selection-background-color: $yast-selected-bg;
   selection-color: $yast-text;
-}
-
-YQRichText {
-  color: #DC3545;
 }
 
 QFrame {
