@@ -98,12 +98,6 @@ QTreeView::item:focus {
   background-color: $yast-selected-bg;
 }
 
-YRichText::item {
-  color: $yast-text;
-  alternate-background-color: $yast-selected-bg;
-  selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
-}
 
 QTableWidget,
 QTableView {
