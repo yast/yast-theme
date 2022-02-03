@@ -33,7 +33,7 @@ YQRichText > YQTextBrowser {
   border: 1px solid $yast-border;
   background-color: $yast-textbox-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: red;
 }
 
 QFrame {
@@ -45,7 +45,7 @@ YQDialog {
   color: $yast-text;
   background-color: $yast-dialog-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: red;
   margin-top: 2px;
   margin-bottom: 6px;
 }
@@ -86,7 +86,7 @@ QTreeWidget {
   border: 1px solid $yast-border;
   alternate-background-color: $yast-dialog-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: red;
   border-radius: 2px;
 }
 
@@ -103,7 +103,7 @@ QTableView {
   background-color: $yast-textbox-bg;
   border: 1px solid $yast-border;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: red;
   border-radius: 2px;
 }
 
@@ -112,7 +112,7 @@ YQTable {
   color: $yast-text;
   background-color: $yast-dialog-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: red;
 }
 
 YQPackageSelector {
@@ -120,7 +120,7 @@ YQPackageSelector {
   background-color: $yast-dialog-bg;
   border: 1px solid $yast-border;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: red;
   border-radius: 2px;
 }
 
@@ -140,7 +140,7 @@ QListWidget {
   color: $yast-text;
   background-color: $yast-dialog-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: red;
 }
 
 YQWidgetCaption {
@@ -171,7 +171,7 @@ QComboBox QAbstractItemView,
 QMenuBar {
   background-color: $yast-dialog-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: red;
   alternate-background-color: $yast-textbox-bg;
 }
 

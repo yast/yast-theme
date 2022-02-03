@@ -679,7 +679,7 @@ YQRichText > YQTextBrowser {
   border: 1px solid #969494;
   background-color: #FFFFFF;
   selection-background-color: #e0efef;
-  selection-color: #141823;
+  selection-color: red;
 }
 
 QFrame {
@@ -691,7 +691,7 @@ YQDialog {
   color: #141823;
   background-color: #FFFFFF;
   selection-background-color: #e0efef;
-  selection-color: #141823;
+  selection-color: red;
   margin-top: 2px;
   margin-bottom: 6px;
 }
@@ -731,7 +731,7 @@ QTreeWidget {
   border: 1px solid #969494;
   alternate-background-color: #FFFFFF;
   selection-background-color: #e0efef;
-  selection-color: #141823;
+  selection-color: red;
   border-radius: 2px;
 }
 
@@ -748,7 +748,7 @@ QTableView {
   background-color: #FFFFFF;
   border: 1px solid #969494;
   selection-background-color: #e0efef;
-  selection-color: #141823;
+  selection-color: red;
   border-radius: 2px;
 }
 
@@ -757,7 +757,7 @@ YQTable {
   color: #141823;
   background-color: #FFFFFF;
   selection-background-color: #e0efef;
-  selection-color: #141823;
+  selection-color: red;
 }
 
 YQPackageSelector {
@@ -765,7 +765,7 @@ YQPackageSelector {
   background-color: #FFFFFF;
   border: 1px solid #969494;
   selection-background-color: #e0efef;
-  selection-color: #141823;
+  selection-color: red;
   border-radius: 2px;
 }
 
@@ -785,7 +785,7 @@ QListWidget {
   color: #141823;
   background-color: #FFFFFF;
   selection-background-color: #e0efef;
-  selection-color: #141823;
+  selection-color: red;
 }
 
 YQWidgetCaption {
@@ -816,7 +816,7 @@ QComboBox QAbstractItemView,
 QMenuBar {
   background-color: #FFFFFF;
   selection-background-color: #e0efef;
-  selection-color: #141823;
+  selection-color: red;
   alternate-background-color: #FFFFFF;
 }
 
