@@ -28,7 +28,7 @@ YQLogView,
 QTextEdit,
 YQRichText > YQTextBrowser {
   qproperty-frameshape: NoShape;
-  color: $yast-text;
+  color: #DC3545;
   border-radius: 2px;
   border: 1px solid $yast-border;
   background-color: $yast-textbox-bg;
@@ -37,7 +37,7 @@ YQRichText > YQTextBrowser {
 }
 
 YQRichText {
-  color: red;
+  color: #DC3545;
 }
 
 QFrame {

@@ -18,6 +18,7 @@ QLineEdit:focus {
 QLineEdit:disabled {
   border-bottom: 1px solid $yast-disabled;
 }
+
 QCheckBox,
 YQCheckBoxFrame::indicator {
   color: $yast-text;
