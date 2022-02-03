@@ -729,8 +729,8 @@ QTreeWidget {
   color: #141823;
   background-color: #FFFFFF;
   border: 1px solid #969494;
-  alternate-background-color: #FFFFFF;
-  selection-background-color: red;
+  alternate-background-color: #e0efef;
+  selection-background-color: #e0efef;
   selection-color: #141823;
   border-radius: 2px;
 }
