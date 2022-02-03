@@ -79,8 +79,10 @@ QAbstractScrollArea QHeaderView {
   border: none;
 }
 
+
 QTreeView,
-QTreeWidget {
+QTreeWidget,
+YRichText {
   color: $yast-text;
   background-color: $yast-textbox-bg;
   border: 1px solid $yast-border;
