@@ -8,26 +8,26 @@
   font-size: 16pt;
   font-family: Poppins, Sans-serif;
   background-color: #1f222b;
-  color: red;
+  color: #fff;
   padding: 0px 0px 12px 15px
 }
 
 .todo-step-name {
   background-color: #1f222b;
   padding: 6px 12px;
-  color: red;
+  color: #fff;
   font-size: 14px;
 }
 .done-step-name {
   background-color: #1f222b;
   padding: 6px 12px;
-  color: red;
+  color: #fff;
   font-size: 14px;
 }
 .current-step-name {
   background-color: #30BA78;
   padding: 6px 12px;
-  color: red;
+  color: #fff;
   font-size: 14px;
 }
 
