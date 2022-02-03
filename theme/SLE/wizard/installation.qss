@@ -682,6 +682,10 @@ YQRichText > YQTextBrowser {
   selection-color: #141823;
 }
 
+YQRichText {
+  color: red;
+}
+
 QFrame {
   color: #141823;
 }

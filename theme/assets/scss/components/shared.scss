@@ -36,6 +36,10 @@ YQRichText > YQTextBrowser {
   selection-color: $yast-text;
 }
 
+YQRichText {
+  color: red;
+}
+
 QFrame {
   color: $yast-text;
 }
