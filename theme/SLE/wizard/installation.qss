@@ -480,7 +480,7 @@ QToolButton#qt_calendar_nextmonth {
 
 QCalendarWidget QAbstractItemView:enabled {
   selection-background-color: #e0efef;
-  selection-color: #969494;
+  selection-color: #141823;
   font-weight: bold;
 }
 
