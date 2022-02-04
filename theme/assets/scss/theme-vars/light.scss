@@ -9,6 +9,8 @@ $yast-text: $yast-black;
 // Light grey shades
 $yast-light-grey-100: #e0efef;
 $yast-light-grey-500: #969494;
+
+
 $yast-green-100: #E4F6EE;
 
 $yast-persimmon-500: #fe7c3f;
@@ -21,7 +23,7 @@ $yast-dark-grey-700: #757575;
 $yast-bg-900: #0e7e3c;
 
 // rgba
-$yast-disabled: rgba(0, 0, 0, 50);
+$yast-disabled: #B6B4B4;
 
 // borders
 $yast-border: $yast-light-grey-500;
@@ -67,5 +69,10 @@ $yast-radio-checked: url(inst_radio-button-checked-light.png);
 $yast-radio-unchecked-disabled: url(inst_radio-button-unchecked-disabled-light.png);
 $yast-radio-checked-disabled: url(inst_radio-button-checked-disabled-light.png);
 
-
 // calendar
+$yast-calendar-color: $yast-dark-grey-500;
+$yast-calendar-selected-bg: $yast-selected-bg;
+$yast-calendar-selected-color: $yast-dark-grey-100;
+
+// scrollbar
+$yast-scrollbar-handle-bg: $yast-light-grey-500;

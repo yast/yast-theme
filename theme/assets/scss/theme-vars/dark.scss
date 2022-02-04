@@ -62,3 +62,11 @@ $yast-radio-focus: url(inst_radio-button-focus.png);
 $yast-radio-checked: url(inst_radio-button-checked.png);
 $yast-radio-unchecked-disabled: url(inst_radio-button-unchecked-disabled.png);
 $yast-radio-checked-disabled: url(inst_radio-button-checked-disabled.png);
+
+// calendar
+$yast-calendar-color: $yast-dark-grey-500;
+$yast-calendar-selected-bg: $yast-selected-bg;
+$yast-calendar-selected-color: $yast-border;
+
+// scrollbar
+$yast-scrollbar-handle-bg: $yast-dark-grey-100;

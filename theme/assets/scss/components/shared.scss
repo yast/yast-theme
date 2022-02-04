@@ -79,9 +79,8 @@ QAbstractScrollArea QHeaderView {
   border: none;
 }
 
-
 QTreeView,
-QTreeWidget{
+QTreeWidget {
   color: $yast-text;
   background-color: $yast-textbox-bg;
   border: 1px solid $yast-border;
@@ -97,7 +96,6 @@ QTreeView::item:focus {
   outline: none;
   background-color: $yast-selected-bg;
 }
-
 
 QTableWidget,
 QTableView {

@@ -20,8 +20,7 @@ QLineEdit:disabled {
 }
 
 QCheckBox,
-YQCheckBoxFrame::indicator,
-YRichText::indicator {
+YQCheckBoxFrame::indicator {
   color: $yast-text;
   margin-bottom: 2px;
   margin-left: 6px;
