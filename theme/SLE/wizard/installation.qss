@@ -455,7 +455,7 @@ QTimeEdit::disabled {
   border-radius: 2px;
   background-color: #FFFFFF;
   padding: 4px 8px;
-  color: #e0efef;
+  color: #2b2e38;
   font-weight: bold;
   outline: none;
   margin: 2px;
@@ -463,7 +463,7 @@ QTimeEdit::disabled {
 
 #qt_calendar_calendarview {
   background-color: #FFFFFF;
-  color: #141823;
+  color: #2b2e38;
 }
 
 QCalendarWidget QWidget {
@@ -471,15 +471,15 @@ QCalendarWidget QWidget {
 }
 
 QToolButton#qt_calendar_prevmonth {
-  qproperty-icon: url(inst_arr_left.png);
+  qproperty-icon: url(arr_left.png);
 }
 
 QToolButton#qt_calendar_nextmonth {
-  qproperty-icon: url(inst_arr_right.png);
+  qproperty-icon: url(arr_right.png);
 }
 
 QCalendarWidget QAbstractItemView:enabled {
-  selection-background-color: #e0efef;
+  selection-background-color: red;
   selection-color: #969494;
   font-weight: bold;
 }
