@@ -24,8 +24,8 @@ QPushButton:default {
 
 QPushButton:disabled,
 QPushButton:default:disabled {
-  color: black;
-  border: 1px solid black;
+  color: #e0efef;
+  border: 1px solid #e0efef;
 }
 
 QPushButton:default:pressed,
@@ -349,8 +349,8 @@ QComboBox {
 }
 
 QComboBox::disabled {
-  color: black;
-  border-color: black;
+  color: #e0efef;
+  border-color: #e0efef;
   background-color: #FFFFFF;
 }
 
@@ -423,7 +423,7 @@ QMenu::separator {
 }
 
 QMenu::item:disabled {
-  color: black;
+  color: #e0efef;
 }
 
 /* Calendar
@@ -440,7 +440,7 @@ QTimeEdit {
 
 QDateEdit::disabled,
 QTimeEdit::disabled {
-  color: black;
+  color: #e0efef;
   background-color: #FFFFFF;
 }
 
@@ -504,7 +504,7 @@ QLineEdit:focus {
 }
 
 QLineEdit:disabled {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #e0efef;
 }
 
 QCheckBox,
@@ -515,7 +515,7 @@ YQCheckBoxFrame::indicator {
 }
 
 QCheckBox::disabled {
-  color: black;
+  color: #e0efef;
 }
 
 QCheckBox:focus,
@@ -568,7 +568,7 @@ QRadioButton:focus {
 }
 
 QRadioButton::disabled {
-  color: black;
+  color: #e0efef;
   background-color: #FFFFFF;
 }
 
@@ -794,7 +794,7 @@ YQWidgetCaption {
 }
 
 YQWidgetCaption::disabled {
-  color: black;
+  color: #e0efef;
   background-color: #FFFFFF;
 }
 
