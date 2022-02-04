@@ -752,6 +752,11 @@ QTableView {
   border-radius: 2px;
 }
 
+YQRichText > YQTextBrowser {
+  color: #141823;
+  background-color: #FFFFFF;
+}
+
 YQTree,
 YQTable {
   color: #141823;
