@@ -25,8 +25,8 @@ QPushButton:default {
 
 QPushButton:disabled,
 QPushButton:default:disabled {
-  color: black;
-  border: 1px solid black;
+  color: #B6B4B4;
+  border: 1px solid #B6B4B4;
 }
 
 QPushButton:default:pressed,
@@ -109,7 +109,7 @@ QTabBar {
   font-weight: bold;
 }
 QTabBar::tab {
-  color: #b6b4b4;
+  color: #757575;
   background: #FFFFFF;
   border: 1px solid #969494;
   border-top-left-radius: 3px;
@@ -161,12 +161,12 @@ QScrollBar:vertical {
   width: 16px;
   margin: 0px;
   background-color: #FFFFFF;
-  border-left: 1px solid #141823;
+  border-left: 1px solid #969494;
 }
 
 QScrollBar::handle:vertical {
   min-height: 16px;
-  background-color: #404147;
+  background-color: #969494;
   border-radius: 2px;
 }
 
@@ -205,7 +205,7 @@ QScrollBar:horizontal {
   height: 16px;
   margin: 0px;
   background-color: #FFFFFF;
-  border-top: 1px solid #141823;
+  border-top: 1px solid #969494;
 }
 
 QScrollBar::handle:horizontal {
@@ -350,8 +350,8 @@ QComboBox {
 }
 
 QComboBox::disabled {
-  color: black;
-  border-color: black;
+  color: #B6B4B4;
+  border-color: #B6B4B4;
   background-color: #FFFFFF;
 }
 
@@ -424,7 +424,7 @@ QMenu::separator {
 }
 
 QMenu::item:disabled {
-  color: black;
+  color: #B6B4B4;
 }
 
 /* Calendar
@@ -441,7 +441,7 @@ QTimeEdit {
 
 QDateEdit::disabled,
 QTimeEdit::disabled {
-  color: black;
+  color: #B6B4B4;
   background-color: #FFFFFF;
 }
 
@@ -456,7 +456,7 @@ QTimeEdit::disabled {
   border-radius: 2px;
   background-color: #FFFFFF;
   padding: 4px 8px;
-  color: #e0efef;
+  color: #2b2e38;
   font-weight: bold;
   outline: none;
   margin: 2px;
@@ -464,7 +464,7 @@ QTimeEdit::disabled {
 
 #qt_calendar_calendarview {
   background-color: #FFFFFF;
-  color: #e0efef;
+  color: #2b2e38;
 }
 
 QCalendarWidget QWidget {
@@ -472,16 +472,16 @@ QCalendarWidget QWidget {
 }
 
 QToolButton#qt_calendar_prevmonth {
-  qproperty-icon: url(inst_arr_left.png);
+  qproperty-icon: url(arr_left.png);
 }
 
 QToolButton#qt_calendar_nextmonth {
-  qproperty-icon: url(inst_arr_right.png);
+  qproperty-icon: url(arr_right.png);
 }
 
 QCalendarWidget QAbstractItemView:enabled {
   selection-background-color: #e0efef;
-  selection-color: #969494;
+  selection-color: #404147;
   font-weight: bold;
 }
 
@@ -505,7 +505,7 @@ QLineEdit:focus {
 }
 
 QLineEdit:disabled {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #B6B4B4;
 }
 
 QCheckBox,
@@ -516,7 +516,7 @@ YQCheckBoxFrame::indicator {
 }
 
 QCheckBox::disabled {
-  color: black;
+  color: #B6B4B4;
 }
 
 QCheckBox:focus,
@@ -569,7 +569,7 @@ QRadioButton:focus {
 }
 
 QRadioButton::disabled {
-  color: black;
+  color: #B6B4B4;
   background-color: #FFFFFF;
 }
 
@@ -730,7 +730,7 @@ QTreeWidget {
   color: #141823;
   background-color: #FFFFFF;
   border: 1px solid #969494;
-  alternate-background-color: #FFFFFF;
+  alternate-background-color: #e0efef;
   selection-background-color: #e0efef;
   selection-color: #141823;
   border-radius: 2px;
@@ -795,7 +795,7 @@ YQWidgetCaption {
 }
 
 YQWidgetCaption::disabled {
-  color: black;
+  color: #B6B4B4;
   background-color: #FFFFFF;
 }
 
