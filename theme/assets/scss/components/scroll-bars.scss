@@ -4,11 +4,11 @@ QScrollBar:vertical {
   width: 16px;
   margin: 0px;
   background-color: $yast-textbox-bg;
-  border-left: 1px solid $yast-black;
+  border-left: 1px solid $yast-border;
 }
 QScrollBar::handle:vertical {
   min-height: 16px;
-  background-color: $yast-dark-grey-100;
+  background-color: $yast-scrollbar-handle-bg;
   border-radius: 2px;
 }
 QScrollBar::add-line:vertical {
@@ -43,7 +43,7 @@ QScrollBar:horizontal {
   height: 16px;
   margin: 0px;
   background-color: $yast-textbox-bg;
-  border-top: 1px solid $yast-black;
+  border-top: 1px solid $yast-border;
 }
 QScrollBar::handle:horizontal {
   min-height: 16px;

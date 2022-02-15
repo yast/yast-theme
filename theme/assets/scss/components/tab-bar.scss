@@ -12,7 +12,7 @@ QTabBar {
   font-weight: bold;
 
   &::tab {
-    color: #b6b4b4;
+    color: $yast-dark-grey-700;
     background: $yast-textbox-bg;
     border: 1px solid $yast-border;
     border-top-left-radius: 3px;
