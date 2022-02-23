@@ -17,6 +17,17 @@
   background-color: $yast-header-bg;
 }
 
+#LogoHBox {
+  border-bottom: 1px solid $yast-border;
+  background-color: $yast-header-bg;
+  margin: 0px;
+}
+
+/* theme switcher button */
+#styleButton {
+  background-color: transparent;
+}
+
 #work_area {
   padding: 1em;
   background-color: $yast-dialog-bg;

@@ -625,6 +625,17 @@ QMessageBox {
   background-color: #1f222b;
 }
 
+#LogoHBox {
+  border-bottom: 1px solid #141823;
+  background-color: #1f222b;
+  margin: 0px;
+}
+
+/* theme switcher button */
+#styleButton {
+  background-color: transparent;
+}
+
 #work_area {
   padding: 1em;
   background-color: #2b2e38;
@@ -664,12 +675,6 @@ YQWizard {
 
 YQMainWinDock {
   background: #2b2e38;
-}
-
-#LogoHBox {
-  border-bottom: 1px solid #141823;
-  background-color: #1f222b;
-  margin: 0px;
 }
 
 YQLogView,
