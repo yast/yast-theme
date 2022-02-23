@@ -1,4 +1,14 @@
 -------------------------------------------------------------------
+Wed Feb 23 15:11:37 UTC 2022 - David Diaz <dgonzalez@suse.com>
+
+- Add CSS rules for making visible the addons selector items
+  in current themes (related to bsc#1196362 and
+  gh#yast/yast-registration#566).
+- Changes the border color for the unselected checkbox.
+- Add support for styling the RichText in a running system too.
+- 4.4.5
+
+-------------------------------------------------------------------
 Tue Oct 19 15:06:33 UTC 2021 - Knut Anderssen <kanderssen@suse.com>
 
 - Remove unnecesary rej file (bsc#1191830)
