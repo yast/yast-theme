@@ -3,3 +3,15 @@ a.dontlooklikealink { color: white; text-decoration: none; }
 .red { color: #ff0000; }
 .blue { color: white; }
 .green { color: white; }
+
+/* Styles for emulated checkbox labels in the addons selector screen  */
+/* See https://github.com/yast/yast-registration/pull/566 */
+.enabled-item {
+  color: white;
+  text-decoration: none;
+}
+
+.disabled-item {
+  color: gray;
+}
+/* end of styles for the addons selector */
