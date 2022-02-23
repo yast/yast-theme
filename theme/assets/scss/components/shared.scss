@@ -33,7 +33,7 @@ YQRichText > YQTextBrowser {
   border: 1px solid $yast-border;
   background-color: $yast-textbox-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: $yast-selected-text;
 }
 
 QFrame {
@@ -45,7 +45,7 @@ YQDialog {
   color: $yast-text;
   background-color: $yast-dialog-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: $yast-selected-text;
   margin-top: 2px;
   margin-bottom: 6px;
 }
@@ -86,12 +86,12 @@ QTreeWidget {
   border: 1px solid $yast-border;
   alternate-background-color: $yast-selected-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: $yast-selected-text;
   border-radius: 2px;
 }
 
 QTreeView::item:focus {
-  color: $yast-text;
+  color: $yast-selected-text;
   border: none;
   outline: none;
   background-color: $yast-selected-bg;
@@ -103,7 +103,7 @@ QTableView {
   background-color: $yast-textbox-bg;
   border: 1px solid $yast-border;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: $yast-selected-text;
   border-radius: 2px;
 }
 
@@ -112,7 +112,7 @@ YQTable {
   color: $yast-text;
   background-color: $yast-dialog-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: $yast-selected-text;
 }
 
 YQPackageSelector {
@@ -120,7 +120,7 @@ YQPackageSelector {
   background-color: $yast-dialog-bg;
   border: 1px solid $yast-border;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: $yast-selected-text;
   border-radius: 2px;
 }
 
@@ -140,7 +140,7 @@ QListWidget {
   color: $yast-text;
   background-color: $yast-dialog-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: $yast-selected-text;
 }
 
 YQWidgetCaption {
@@ -171,7 +171,7 @@ QComboBox QAbstractItemView,
 QMenuBar {
   background-color: $yast-dialog-bg;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: $yast-selected-text;
   alternate-background-color: $yast-textbox-bg;
 }
 

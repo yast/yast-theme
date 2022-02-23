@@ -3,16 +3,16 @@
 QPushButton {
   border: 1px solid $yast-push-button-default;
   border-radius: 2px;
-  background-color: $yast-dialog-bg;
+  background-color: $yast-push-button-bg;
   padding: 8px 16px;
-  color: $yast-light-grey-100;
+  color: $yast-push-button-text;
   font-weight: bold;
   outline: none;
 }
 QPushButton:default {
   border: 1px solid $yast-push-button-default;
-  background-color: $yast-push-button-default;
-  color: $yast-text;
+  background-color: $yast-push-button-default-bg;
+  color: $yast-push-button-default-text;
 }
 QPushButton:disabled,
 QPushButton:default:disabled {
@@ -27,12 +27,13 @@ QPushButton:pressed {
 }
 QPushButton:hover {
   border: 1px solid $yast-push-button-hover;
-  color: $yast-text;
+  color: $yast-push-button-hover-text;
+  background-color: $yast-push-button-hover-bg;
 }
 QPushButton:default:hover {
-  border: 1px solid $yast-push-button-default;
-  background-color: $yast-push-button-default;
-  color: $yast-text;
+  border: 1px solid $yast-push-button-default-hover;
+  background-color: $yast-push-button-default-hover-bg;
+  color: $yast-push-button-default-hover-text;
 }
 
 

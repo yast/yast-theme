@@ -7,7 +7,7 @@ QComboBox {
   color: $yast-text;
   padding: 4px 4px;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: $yast-selected-text;
 }
 QComboBox::disabled {
   color: $yast-disabled;

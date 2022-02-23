@@ -39,6 +39,7 @@ QPushButton:pressed {
 QPushButton:hover {
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
+  background-color: #2b2e38;
 }
 
 QPushButton:default:hover {

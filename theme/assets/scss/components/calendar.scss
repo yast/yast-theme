@@ -7,7 +7,7 @@ QTimeEdit {
   background-color: $yast-textbox-bg;
   padding: 6px 6px;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: $yast-selected-text;
 }
 
 QDateEdit::disabled,

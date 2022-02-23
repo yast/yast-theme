@@ -40,12 +40,15 @@ $yast-header-bg: #0C322C;
 $yast-textbox-bg: $yast-white;
 
 // selected labels
+$yast-selected-text: $yast-text;
 $yast-selected-bg: $yast-light-grey-100;
 
 // buttons
 $yast-push-button-default: $yast-persimmon-500;
 $yast-push-button-hover: $yast-black;
 $yast-push-button-focus: $yast-blue-500;
+
+@import 'button_defaults';
 
 // button graphics
 $yast-btn-menu-indicator: url(arr_down.png);

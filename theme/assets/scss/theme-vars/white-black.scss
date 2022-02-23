@@ -33,12 +33,15 @@ $yast-header-bg: $yast-black;
 $yast-textbox-bg: $yast-bg-900;
 
 // selected labels
+$yast-selected-text: $yast-text;
 $yast-selected-bg: $yast-dark-grey-100;
 
 // buttons
 $yast-push-button-default: $yast-dark-grey-100;
 $yast-push-button-hover: $yast-dark-grey-700;
 $yast-push-button-focus: $yast-white;
+
+@import 'button_defaults';
 
 // button graphics
 // arrows

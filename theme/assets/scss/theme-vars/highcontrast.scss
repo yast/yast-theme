@@ -36,12 +36,23 @@ $yast-header-bg: $yast-black;
 $yast-textbox-bg: $yast-bg-900;
 
 // selected labels
+$yast-selected-text: $yast-black;
 $yast-selected-bg: $yast-yellow;
 
 // buttons
-$yast-push-button-default: $yast-black;
+$yast-push-button-default: $yast-green;
 $yast-push-button-hover: $yast-yellow;
 $yast-push-button-focus: $yast-green;
+
+$yast-push-button-text: $yast-green;
+$yast-push-button-bg: $yast-dialog-bg;
+$yast-push-button-hover-text: $yast-black;
+$yast-push-button-hover-bg: $yast-yellow;
+$yast-push-button-default-text: $yast-black;
+$yast-push-button-default-bg: $yast-green;
+$yast-push-button-default-hover: $yast-yellow;
+$yast-push-button-default-hover-bg: $yast-yellow;
+$yast-push-button-default-hover-text: $yast-black;
 
 // button graphics
 // arrows
@@ -72,4 +83,4 @@ $yast-calendar-selected-bg: $yast-selected-bg;
 $yast-calendar-selected-color: $yast-border;
 
 // scrollbar
-$yast-scrollbar-handle-bg: $yast-dark-grey-100;
+$yast-scrollbar-handle-bg: $yast-dark-grey-700;

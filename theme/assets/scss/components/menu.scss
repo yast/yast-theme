@@ -27,7 +27,7 @@ QMenu {
   border-bottom: 1px solid $yast-border;
   border-left: 1px solid $yast-dark-grey-100;
   selection-background-color: $yast-selected-bg;
-  selection-color: $yast-text;
+  selection-color: $yast-selected-text;
 }
 QMenu::separator {
   height: 1px;
