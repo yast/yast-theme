@@ -74,6 +74,10 @@ QToolButton {
   color: #e0efef;
 }
 
+QFileDialog QToolButton {
+  padding: 0;
+}
+
 QToolButton:focus {
   outline: none;
   color: #FFFFFF;
@@ -837,4 +841,9 @@ QGroupBox::title {
   subcontrol-origin: margin;
   subcontrol-position: left top;
   color: #FFFFFF;
+}
+
+/* make the grip in the bottom right corner in QFileSelection visible */
+QSizeGrip {
+  background-color: none;
 }

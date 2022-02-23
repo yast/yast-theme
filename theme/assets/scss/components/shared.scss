@@ -179,3 +179,8 @@ QGroupBox::title {
   subcontrol-position: left top;
   color: $yast-text;
 }
+
+/* make the grip in the bottom right corner in popups visible */
+QSizeGrip {
+  background-color: none;
+}

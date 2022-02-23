@@ -62,6 +62,11 @@ QToolButton {
   padding: 8px 16px;
   color: $yast-light-grey-100;
 }
+
+QFileDialog QToolButton {
+  padding: 0;
+}
+
 QToolButton:focus {
   outline: none;
   color: $yast-push-button-focus;
