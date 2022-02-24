@@ -32,7 +32,7 @@ task :generate do
       "\"zypper install npm-default\""
   end
 
-  Dir.chdir("theme/assets/") do
+  Dir.chdir("src") do
     system("npm install") unless File.exist?("node_modules")
     system("npx gulp")
   end

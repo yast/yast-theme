@@ -6,7 +6,7 @@ const header = require('gulp-header');
 
 let path = {
   src_source: 'scss',
-  src_destination: '../SLE/wizard/',
+  src_destination: '../theme/SLE/wizard/',
 }
 
 const themes = [
@@ -56,7 +56,7 @@ const buildThemes = (done) => {
 
 gulp.task('lint-css', function () {
   return gulp
-    .src('../SLE/wizard/installation*.qss')
+    .src('../theme/SLE/wizard/installation*.qss')
     .pipe(gulpStylelint({
       reporters: [
         {formatter: 'string', console: true}
