@@ -23,7 +23,12 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Prepare System
-      run: zypper --non-interactive in --no-recommends breeze5-icons
+      run: zypper --non-interactive in --no-recommends breeze5-icons npm-default
+
+    # if the included files are not up to date and there is change then
+    # the package build in the next step fails
+    - name: Build QSS and CSS files
+      run: rake generate
 
     - name: Package Build
       run: yast-ci-ruby
