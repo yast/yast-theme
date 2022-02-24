@@ -1,12 +1,4 @@
-/* See the Qt style sheet reference documentation at */
-/* http://doc.qt.io/qt-5/stylesheet-reference.html for the list of supported */
-/* properties and allowed values. */
-
-/* Do not touch this comment! It is parsed by libyui-qt when loading the style! */
-/* See https://github.com/libyui/libyui-qt/blob/master/src/QY2Styler.cc#L125 */
-/* Richtext: cyan-black_richtext.css */
-
-/* This is the cyan-black theme. */
-
+$yast-theme-name: cyan-black;
+$yast-theme-description: 'This is the alternative cyan-black installation theme.';
 @import 'theme-vars/cyan-black';
 @import 'components/index';
