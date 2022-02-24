@@ -17,6 +17,11 @@ YQMainWinDock { background: #2B2E38; }
   background-color: #1f222b;
   margin: 0px;
 }
+
+#LogoHBox QToolButton {
+  background: transparent;
+}
+
 #DialogBanner {
   background-color: transparent;
   font-family: Poppins, Sans-serif;
