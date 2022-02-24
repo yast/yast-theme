@@ -3,7 +3,7 @@
 /* properties and allowed values. */
 /* Do not touch this comment! It is parsed by libyui-qt when loading the style! */
 /* See https://github.com/libyui/libyui-qt/blob/master/src/QY2Styler.cc#L125 */
-/* Richtext: installation_richtext.css */
+/* Richtext: highcontrast_richtext.css */
 /* This is the high contrast theme. */
 /* Buttons
   ========================================================================== */
@@ -843,7 +843,7 @@ QGroupBox::title {
   color: #00FFFF;
 }
 
-/* make the grip in the bottom right corner in QFileSelection visible */
+/* make the grip in the bottom right corner in popups visible */
 QSizeGrip {
   background-color: none;
 }

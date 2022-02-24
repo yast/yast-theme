@@ -843,7 +843,7 @@ QGroupBox::title {
   color: #141823;
 }
 
-/* make the grip in the bottom right corner in QFileSelection visible */
+/* make the grip in the bottom right corner in popups visible */
 QSizeGrip {
   background-color: none;
 }
