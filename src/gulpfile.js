@@ -42,8 +42,8 @@ const buildThemes = (done) => {
         .pipe(gulp.dest(path.src_destination))
     }
 
-    buildQSS.displayName = `buildQSS for '${theme}' theme`
-    buildRichtextCSS.displayName = `buildRichtextCSS for '${theme}' theme`
+    buildQSS.displayName = `build QSS for '${theme}' theme`
+    buildRichtextCSS.displayName = `build RichText CSS for '${theme}' theme`
 
     return [buildQSS, buildRichtextCSS];
   });
