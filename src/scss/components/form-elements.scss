@@ -12,12 +12,15 @@ QLineEdit {
   selection-background-color: $yast-selected-bg;
   selection-color: $yast-selected-text;
 }
+
 QLineEdit:focus {
   border-bottom: 1px solid $yast-green-500;
 }
+
 QLineEdit:disabled {
   border-bottom: 1px solid $yast-disabled;
 }
+
 QCheckBox,
 YQCheckBoxFrame::indicator {
   color: $yast-text;
@@ -41,21 +44,25 @@ QTreeView::indicator:checked,
 QCheckBox::indicator:checked:enabled {
   image: $yast-checkbox-on;
 }
+
 YQCheckBoxFrame::indicator:unchecked,
 QTreeView::indicator:unchecked,
 QCheckBox::indicator:unchecked:enabled {
   image: $yast-checkbox-off;
 }
+
 YQCheckBoxFrame::indicator:checked:disabled,
 QCheckBox::indicator:checked:disabled,
 QTreeView::indicator:checked:disabled {
   image: $yast-checkbox-on-disabled;
 }
+
 YQCheckBoxFrame::indicator:unchecked:disabled,
 QTreeView::indicator:unchecked:disabled,
 QCheckBox::indicator:unchecked {
   image: $yast-checkbox-off-disabled;
 }
+
 YQCheckBoxFrame::indicator:unchecked:focus,
 QTreeView::indicator:unchecked:focus,
 QCheckBox::indicator:unchecked:focus {
@@ -66,12 +73,14 @@ QRadioButton {
   color: $yast-text;
   margin-top: 4px;
 }
+
 QRadioButton:focus {
   color: $yast-green-500;
   margin-top: 4px;
   border: none;
   outline: none;
 }
+
 QRadioButton::disabled {
   color: $yast-disabled;
   background-color: $yast-dialog-bg;
@@ -88,9 +97,11 @@ QRadioButton::indicator:unchecked:focus {
 QRadioButton::indicator:checked {
   image: $yast-radio-checked;
 }
+
 QRadioButton::indicator:unchecked:disabled {
   image: $yast-radio-unchecked-disabled;
 }
+
 QRadioButton::indicator:checked:disabled {
   image: $yast-radio-checked-disabled;
 }

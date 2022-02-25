@@ -1,4 +1,5 @@
 $yast-theme-name: installation;
-$yast-theme-description: 'This is the default dark installation theme.';
-@import 'theme-vars/installation';
-@import 'components/index';
+$yast-theme-description: "This is the default dark installation theme.";
+
+@import "theme-vars/installation";
+@import "components/index";

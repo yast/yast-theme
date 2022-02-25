@@ -1,8 +1,8 @@
 // General variables
-$yast-white: #FFFFFF;
+$yast-white: #ffffff;
 $yast-black: #141823;
-$yast-green-500: #30BA78;
-$yast-blue: #008ACF;
+$yast-green-500: #30ba78;
+$yast-blue: #008acf;
 $yast-text: $yast-white;
 
 // Light grey shades
@@ -49,5 +49,5 @@ $yast-calendar-selected-color: $yast-border;
 // scrollbar
 $yast-scrollbar-handle-bg: $yast-dark-grey-100;
 
-@import 'button-defaults';
-@import 'icons-default';
+@import "button-defaults";
+@import "icons-default";

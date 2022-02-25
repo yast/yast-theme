@@ -1,6 +1,6 @@
 
 # enable default checks from https://github.com/stylelint/stylelint-config-recommended
-extends: stylelint-config-recommended-scss
+extends: stylelint-config-standard-scss
 
 rules:
   selector-type-no-unknown: 
@@ -123,5 +123,26 @@ rules:
       - unchecked
       - vertical
 
- # avoid Expected selector "QPushButton:pressed" to come before selector "QPushButton:default:disabled"
+  # avoid Expected selector "QPushButton:pressed" to come before selector "QPushButton:default:disabled"
   no-descending-specificity: null
+
+  # avoid Expected "QWidget" to be "qwidget" error
+  selector-type-case: null
+
+  # avoid Expected "NoShape" to be "noshape" error
+  value-keyword-case: null
+
+  # avoid Expected class selector to be kebab-case error
+  selector-class-pattern: null
+
+  # avoid Expected id selector to be kebab-case error
+  selector-id-pattern: null
+
+  # Qt does not support quotes in url() attributes
+  function-url-quotes: "never"
+
+  # Qt requires units even for zero lenght
+  length-zero-no-unit: null
+
+  # Qt expects #rrbbgg color codes
+  color-hex-length: "long"

@@ -22,6 +22,7 @@ QTabBar {
     padding: 4px 8px;
     min-width: 180px;
     min-height: 24px;
+
     &:selected {
       color: $yast-text;
       background: $yast-dialog-bg;
@@ -29,14 +30,17 @@ QTabBar {
       border-bottom: none;
     }
   }
+
   &:focus::tab {
     outline: none;
   }
+
   &::tear {
     background: $yast-textbox-bg;
     border: 1px solid $yast-border;
     border-radius: 1px;
   }
+
   QToolButton {
     border: 1px solid $yast-border;
   }

@@ -1,4 +1,5 @@
 $yast-theme-name: white-black;
-$yast-theme-description: 'This is an alternative white-black installation theme.';
-@import 'theme-vars/white-black';
-@import 'components/index';
+$yast-theme-description: "This is an alternative white-black installation theme.";
+
+@import "theme-vars/white-black";
+@import "components/index";

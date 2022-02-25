@@ -19,6 +19,7 @@ QMenuBar::item:pressed {
   color: $yast-green-500;
   background: $yast-dialog-bg;
 }
+
 QMenu {
   color: $yast-text;
   background: $yast-dialog-bg;
@@ -29,6 +30,7 @@ QMenu {
   selection-background-color: $yast-selected-bg;
   selection-color: $yast-selected-text;
 }
+
 QMenu::separator {
   height: 1px;
   background-color: $yast-dialog-bg;

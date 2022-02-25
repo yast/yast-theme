@@ -5,7 +5,7 @@ QDateEdit,
 QTimeEdit {
   color: $yast-text;
   background-color: $yast-textbox-bg;
-  padding: 6px 6px;
+  padding: 6px;
   selection-background-color: $yast-selected-bg;
   selection-color: $yast-selected-text;
 }
@@ -45,6 +45,7 @@ QCalendarWidget QWidget {
 QToolButton#qt_calendar_prevmonth {
   qproperty-icon: $yast-btn-arrow-left;
 }
+
 QToolButton#qt_calendar_nextmonth {
   qproperty-icon: $yast-btn-arrow-right;
 }

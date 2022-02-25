@@ -5,15 +5,17 @@ QComboBox {
   border-radius: 2px;
   background-color: $yast-dialog-bg;
   color: $yast-text;
-  padding: 4px 4px;
+  padding: 4px;
   selection-background-color: $yast-selected-bg;
   selection-color: $yast-selected-text;
 }
+
 QComboBox::disabled {
   color: $yast-disabled;
   border-color: $yast-disabled;
   background-color: $yast-dialog-bg;
 }
+
 QComboBox:focus {
   border: 1px solid $yast-green-500;
   color: $yast-text;
@@ -26,12 +28,15 @@ QComboBox::drop-down {
   width: 24px;
   border: none;
 }
+
 QComboBox::down-arrow {
   image: $yast-btn-arrow-down;
 }
+
 QComboBox::down-arrow::disabled {
   image: $yast-down-arrow-disabled;
 }
+
 QComboBox::down-arrow:on {
   /* shift the arrow when popup is open */
   image: $yast-btn-arrow-up;

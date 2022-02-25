@@ -9,33 +9,37 @@ QPushButton {
   font-weight: bold;
   outline: none;
 }
+
 QPushButton:default {
   border: 1px solid $yast-push-button-default;
   background-color: $yast-push-button-default-bg;
   color: $yast-push-button-default-text;
 }
+
 QPushButton:disabled,
 QPushButton:default:disabled {
   color: $yast-disabled;
   border: 1px solid $yast-disabled;
 }
+
 QPushButton:default:pressed,
 QPushButton:pressed {
   border: 1px solid $yast-push-button-default;
   background-color: $yast-push-button-default;
   outline: none;
 }
+
 QPushButton:hover {
   border: 1px solid $yast-push-button-hover;
   color: $yast-push-button-hover-text;
   background-color: $yast-push-button-hover-bg;
 }
+
 QPushButton:default:hover {
   border: 1px solid $yast-push-button-default-hover;
   background-color: $yast-push-button-default-hover-bg;
   color: $yast-push-button-default-hover-text;
 }
-
 
 /* odd dropdown button widget */
 QPushButton::menu-indicator,
@@ -46,6 +50,7 @@ QPushButton::menu-indicator:open {
   image: $yast-btn-menu-indicator;
   left: -8px;
 }
+
 QPushButton:open {
   /* when the button has its menu open */
   color: $yast-text;
@@ -71,17 +76,21 @@ QToolButton:focus {
   outline: none;
   color: $yast-push-button-focus;
 }
+
 QToolButton::left-arrow,
 QTabBar QToolButton::left-arrow {
   image: $yast-btn-arrow-left;
 }
+
 QToolButton::right-arrow,
 QTabBar QToolButton::right-arrow {
   image: $yast-btn-arrow-right;
 }
+
 QToolButton::up-arrow {
   image: $yast-btn-arrow-up;
 }
+
 QToolButton::down-arrow {
   image: $yast-btn-arrow-down;
 }

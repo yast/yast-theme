@@ -1,28 +1,28 @@
 a.dontlooklikealink {
-  color: #00FFFF;
+  color: #00ffff;
   text-decoration: none;
 }
 
 a {
-  color: #00B2E2;
+  color: #00b2e2;
 }
 
 .red {
-  color: #DC3545;
+  color: #dc3545;
 }
 
 .blue {
-  color: #B3E8F6;
+  color: #b3e8f6;
 }
 
 .green {
-  color: #30BA78;
+  color: #30ba78;
 }
 
 /* Styles for emulated checkbox labels in the addons selector screen  */
 /* See https://github.com/yast/yast-registration/pull/566 */
 .enabled-item {
-  color: #00FFFF;
+  color: #00ffff;
   text-decoration: none;
 }
 

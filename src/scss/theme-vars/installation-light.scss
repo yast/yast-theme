@@ -1,18 +1,14 @@
 // General variables
-$yast-white: #FFFFFF;
+$yast-white: #ffffff;
 $yast-black: #141823;
-$yast-green-500: #30BA78;
-$yast-blue: #008ACF;
+$yast-green-500: #30ba78;
+$yast-blue: #008acf;
 $yast-text: $yast-black;
-
 
 // Light grey shades
 $yast-light-grey-100: #e0efef;
 $yast-light-grey-500: #969494;
-
-
-$yast-green-100: #E4F6EE;
-
+$yast-green-100: #e4f6ee;
 $yast-persimmon-500: #fe7c3f;
 $yast-blue-500: #2453ff;
 
@@ -21,8 +17,7 @@ $yast-dark-grey-100: #404147;
 $yast-dark-grey-500: #2b2e38;
 $yast-dark-grey-700: #757575;
 $yast-bg-900: #0e7e3c;
-
-$yast-disabled: #B6B4B4;
+$yast-disabled: #b6b4b4;
 
 // borders
 $yast-border: $yast-light-grey-500;
@@ -33,7 +28,7 @@ $yast-dialog-bg: $yast-white;
 $yast-dialog-text: $yast-black;
 
 // header-specific
-$yast-header-bg: #0C322C;
+$yast-header-bg: #0c322c;
 
 // text box
 $yast-textbox-bg: $yast-white;
@@ -55,5 +50,5 @@ $yast-calendar-selected-color: $yast-dark-grey-100;
 // scrollbar
 $yast-scrollbar-handle-bg: $yast-light-grey-500;
 
-@import 'button-defaults';
-@import 'icons-light';
+@import "button-defaults";
+@import "icons-light";
