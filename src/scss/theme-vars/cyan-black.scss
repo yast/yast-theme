@@ -17,7 +17,7 @@ $yast-dark-grey-700: #757575;
 $yast-bg-900: #1f222b;
 
 // rgba (as an interpolated string for not processing it with Sass and letting Qt makes the work)
-$yast-disabled: #{"rgba(255, 255, 255, 60%)"};
+$yast-disabled: #{"rgba(255, 255, 255, 25%)"};
 
 // borders
 $yast-border: $yast-black;

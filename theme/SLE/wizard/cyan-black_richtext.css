@@ -27,7 +27,7 @@ a {
 }
 
 .disabled-item {
-  color: rgba(255, 255, 255, 60%);
+  color: rgba(255, 255, 255, 25%);
 }
 
 /* end of styles for the addons selector */
