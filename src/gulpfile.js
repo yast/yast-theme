@@ -51,7 +51,7 @@ const buildThemes = (done) => {
 
 gulp.task('lint-css', function () {
   return gulp
-    .src('../theme/SLE/wizard/installation*.qss')
+    .src('../theme/SLE/wizard/*.qss')
     .pipe(gulpStylelint({
       reporters: [
         {formatter: 'string', console: true}

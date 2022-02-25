@@ -30,6 +30,7 @@ rules:
       - QPushButton
       - QRadioButton
       - QScrollBar
+      - QSizeGrip
       - QSpinBox
       - QSplitter
       - QTabBar
@@ -121,3 +122,6 @@ rules:
       - selected
       - unchecked
       - vertical
+
+ # avoid Expected selector "QPushButton:pressed" to come before selector "QPushButton:default:disabled"
+  no-descending-specificity: null

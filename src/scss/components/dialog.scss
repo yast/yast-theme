@@ -3,7 +3,7 @@
 #DialogBanner {
   background-color: transparent;
   font-family: Poppins, Sans-serif;
-  font: 24pt;
+  font-size: 24pt;
   margin-right: 20px;
 }
 
@@ -36,7 +36,7 @@
 #DialogHeadingLeft {
   background-color: $yast-dialog-bg;
   font-family: Poppins, Sans-serif;
-  font: 22pt;
+  font-size: 22pt;
   color: $yast-dialog-text;
   margin-top: 14px;
   margin-right: 42px;
@@ -44,6 +44,6 @@
 }
 #DialogHeadingTop {
   font-family: Poppins, Sans-serif;
-  font: 18pt;
+  font-size: 18pt;
   color: $yast-dialog-text;
 }

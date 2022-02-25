@@ -1,15 +1,18 @@
-/* DO NOT EDIT! This *.qss file is generated, edit the source *.scss files! */
-/* */
-/* See the Qt style sheet reference documentation at */
-/* http://doc.qt.io/qt-5/stylesheet-reference.html for the list of supported */
-/* properties and allowed values. */
-/* The SCSS language is documented at https://sass-lang.com/documentation */
-/* */
-/* Do not touch this comment! It is parsed by libyui-qt when loading the style! */
-/* See https://github.com/libyui/libyui-qt/blob/master/src/QY2Styler.cc#L125 */
+/*
+This is an alternative white-black installation theme.
+
+DO NOT EDIT! This *.qss file is generated, edit the source *.scss files!
+
+See the Qt style sheet reference documentation at
+http://doc.qt.io/qt-5/stylesheet-reference.html for the list of supported
+properties and allowed values.
+
+The SCSS language is documented at https://sass-lang.com/documentation
+
+Do not touch the "Richtext" comment below! It is parsed by libyui-qt when loading the style!
+See https://github.com/libyui/libyui-qt/blob/master/src/QY2Styler.cc#L125
+*/
 /* Richtext: white-black_richtext.css */
-/* */
-/* This is the alternative white-black installation theme. */
 /* Buttons
   ========================================================================== */
 QPushButton {
@@ -620,7 +623,7 @@ QMessageBox {
 #DialogBanner {
   background-color: transparent;
   font-family: Poppins, Sans-serif;
-  font: 24pt;
+  font-size: 24pt;
   margin-right: 20px;
 }
 
@@ -653,7 +656,7 @@ QMessageBox {
 #DialogHeadingLeft {
   background-color: #000000;
   font-family: Poppins, Sans-serif;
-  font: 22pt;
+  font-size: 22pt;
   color: #FFFFFF;
   margin-top: 14px;
   margin-right: 42px;
@@ -662,7 +665,7 @@ QMessageBox {
 
 #DialogHeadingTop {
   font-family: Poppins, Sans-serif;
-  font: 18pt;
+  font-size: 18pt;
   color: #FFFFFF;
 }
 
