@@ -28,15 +28,10 @@ const buildThemes = (done) => {
     }
 
     function buildRichtextCSS() {
-      let yastTheme = theme;
-
-      if(theme === 'installation') yastTheme = 'dark';
-      if(theme === 'installation-light') yastTheme = 'light';
-
       return gulp
         .src(`${path.src_source}/richtext.scss`)
         // Sass imports can't use interpolation, see https://sass-lang.com/documentation/at-rules/import#interpolation
-        .pipe(header(`@import 'theme-vars/${yastTheme}';\n`))
+        .pipe(header(`@import 'theme-vars/${theme}';\n`))
         .pipe(sass().on('error', sass.logError))
         .pipe(rename({ basename: `${theme}_richtext`, extname: '.css' }))
         .pipe(gulp.dest(path.src_destination))
