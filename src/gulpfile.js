@@ -49,17 +49,7 @@ const buildThemes = (done) => {
   })();
 };
 
-gulp.task('lint-css', function () {
-  return gulp
-    .src('../theme/SLE/wizard/*.qss')
-    .pipe(gulpStylelint({
-      reporters: [
-        {formatter: 'string', console: true}
-      ]
-    }));
-});
-
-gulp.task('lint-scss', function () {
+gulp.task('lint', function () {
   return gulp
     .src('**/*.scss')
     .pipe(gulpStylelint({
@@ -68,7 +58,5 @@ gulp.task('lint-scss', function () {
       ]
     }));
 });
-
-gulp.task('lint', gulp.series('lint-scss', 'lint-css'));
 
 gulp.task('default', gulp.series(buildThemes));
