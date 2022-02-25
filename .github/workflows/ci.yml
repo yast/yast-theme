@@ -25,10 +25,11 @@ jobs:
     - name: Prepare System
       run: zypper --non-interactive in --no-recommends breeze5-icons npm-default
 
-    # if the included files are not up to date and there is change then
-    # the package build in the next step fails
+    # if the included files are not up to date and there is a change in the
+    # generated file thenthe package build in the next step fails
     - name: Build QSS and CSS files
-      run: rake generate
+      # reset possible package-lock changes
+      run: rake generate; git checkout src/package-lock.json
 
     - name: Package Build
       run: yast-ci-ruby
