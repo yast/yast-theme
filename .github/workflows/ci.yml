@@ -31,5 +31,8 @@ jobs:
       # reset possible package-lock changes
       run: rake generate; git checkout src/package-lock.json
 
+    - name: Stylelint
+      run: cd src && npx gulp lint
+
     - name: Package Build
       run: yast-ci-ruby
