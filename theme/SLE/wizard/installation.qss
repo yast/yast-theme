@@ -643,8 +643,8 @@ QMessageBox {
 }
 
 /* theme switcher button */
-#styleButton {
-  background-color: transparent;
+#LogoHBox QToolButton {
+  background: transparent;
 }
 
 #work_area {
