@@ -1,5 +1,7 @@
+# this is the configuration for the stylelint tool https://github.com/stylelint/stylelint
+# see the description of the rules at https://stylelint.io/user-guide/rules/list
 
-# enable default checks from https://github.com/stylelint/stylelint-config-recommended
+# enable default checks from https://github.com/stylelint-scss/stylelint-config-standard-scss
 extends: stylelint-config-standard-scss
 
 rules:
