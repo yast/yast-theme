@@ -21,8 +21,7 @@ QLineEdit:disabled {
   border-bottom: 1px solid $yast-disabled;
 }
 
-QCheckBox,
-YQCheckBoxFrame::indicator {
+QCheckBox {
   color: $yast-text;
   margin-bottom: 2px;
   margin-left: 6px;

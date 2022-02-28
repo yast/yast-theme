@@ -520,8 +520,7 @@ QLineEdit:disabled {
   border-bottom: 1px solid #b6b4b4;
 }
 
-QCheckBox,
-YQCheckBoxFrame::indicator {
+QCheckBox {
   color: #141823;
   margin-bottom: 2px;
   margin-left: 6px;
