@@ -61,6 +61,15 @@ and testing the changes in a real installation.
 - This generates all `theme/SLE/wizard/*.qss` and `theme/SLE/wizard/*.css`
   files.
 
+
+### Sources
+
+- `src/scss/components/*.scss` - style definition split into logical groups
+- `src/scss/theme-vars/*.scss` - color definitions for each theme, some
+  shared settings
+- `src/scss/*.scss` - the main files, these are rendered to the final QSS files
+
+
 ### Linting
 
 This package uses the [Stylelint](https://github.com/stylelint/stylelint) tool
