@@ -19,8 +19,10 @@ a {
   color: #30ba78;
 }
 
-/* Styles for emulated checkbox labels in the addons selector screen  */
-/* See https://github.com/yast/yast-registration/pull/566 */
+/*
+  Styles for emulated checkbox labels in the addons selector screen
+  See https://github.com/yast/yast-registration/pull/566
+*/
 .enabled-item {
   color: #141823;
   text-decoration: none;
@@ -30,4 +32,4 @@ a {
   color: #b6b4b4;
 }
 
-/* end of styles for the addons selector */
+/* End of styles for the addons selector */

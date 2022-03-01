@@ -63,16 +63,18 @@ and testing the changes in a real installation.
 
 ### Linting
 
-This package uses the [stylelint](https://github.com/stylelint/stylelint) tool
+This package uses the [Stylelint](https://github.com/stylelint/stylelint) tool
 for linting with the [stylelint-config-standard-scss](
 https://github.com/stylelint-scss/stylelint-config-standard-scss)
 default configuration.
 
 Because the Qt style sheet supports only a subset of the CSS features and some
 values or settings are a bit different than in full CSS some checks were disabled
-or the settings were adjusted. See the `src/.stylelintrc.yml` configuration file.
+or the settings were adjusted. See the [`src/.stylelintrc.yml`](
+https://github.com/yast/yast-theme/blob/master/src/.stylelintrc.yml) configuration
+file.
 
-You can find the descriptions of the rules in the
+You can find the descriptions of the Stylelint rules in the
 [documentation](https://stylelint.io/user-guide/rules/list).
 
 - Run `npx gulp lint` to start the linter.
@@ -82,6 +84,8 @@ You can find the descriptions of the rules in the
 
 The `Rakefile` has been adapted to support the `yupdate` tool, that allows
 patching the installer directly from GitHub or from a local Git checkout (see
-the[documentation](https://github.com/yast/yast-installation/blob/master/doc/yupdate.md)).
+the [documentation](
+https://github.com/yast/yast-installation/blob/master/doc/yupdate.md)).
 
-*Do not forget to regenerate the theme files if you touch any `*.scss` source file!*
+*Do not forget to regenerate the theme files if you touch any `*.scss`
+source file!*

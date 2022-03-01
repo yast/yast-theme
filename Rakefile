@@ -5,10 +5,10 @@ Yast::Tasks.configuration do |conf|
   conf.skip_license_check << /.*/
 end
 
-desc "Generate the *.qss and *.css files"
+desc "Generate the QSS and CSS files"
 task :generate do
   unless system("which npm >/dev/null 2>&1")
-    abort "Error: npm package is not installed, install it with command " \
+    abort "Error: The npm package is not installed, install it with command " \
       "\"zypper install npm-default\""
   end
 

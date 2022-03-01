@@ -26,7 +26,7 @@ jobs:
       run: zypper --non-interactive in --no-recommends breeze5-icons npm-default
 
     # if the included files are not up to date and there is a change in the
-    # generated file thenthe package build in the next step fails
+    # generated file then the package build later fails
     - name: Build QSS and CSS files
       # reset possible package-lock changes
       run: rake generate; git checkout src/package-lock.json

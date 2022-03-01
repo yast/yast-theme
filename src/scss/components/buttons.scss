@@ -41,7 +41,7 @@ QPushButton:default:hover {
   color: $yast-push-button-default-hover-text;
 }
 
-/* odd dropdown button widget */
+/* dropdown button widget */
 QPushButton::menu-indicator,
 QPushButton::menu-indicator:pressed,
 QPushButton::menu-indicator:open {
@@ -58,7 +58,7 @@ QPushButton:open {
   border: 1px solid $yast-push-button-default;
 }
 
-/* Tool Buttons              */
+/* Tool Buttons */
 
 QToolButton {
   border: 1px solid $yast-light-grey-500;

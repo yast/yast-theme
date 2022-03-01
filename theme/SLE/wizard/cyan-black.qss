@@ -1,7 +1,7 @@
 /*
 This is an alternative cyan-black installation theme.
 
-DO NOT EDIT! This *.qss file is generated, edit the source *.scss files!
+DO NOT EDIT! This QSS file is generated, edit the source SCSS files!
 
 See the Qt style sheet reference documentation at
 http://doc.qt.io/qt-5/stylesheet-reference.html for the list of supported
@@ -56,7 +56,7 @@ QPushButton:default:hover {
   color: #00ffff;
 }
 
-/* odd dropdown button widget */
+/* dropdown button widget */
 QPushButton::menu-indicator,
 QPushButton::menu-indicator:pressed,
 QPushButton::menu-indicator:open {
@@ -73,7 +73,7 @@ QPushButton:open {
   border: 1px solid #404147;
 }
 
-/* Tool Buttons              */
+/* Tool Buttons */
 QToolButton {
   border: 1px solid #969494;
   border-radius: 2px;
@@ -117,8 +117,6 @@ QTabWidget::pane {
 
 QTabBar {
   qproperty-drawbase: 0;
-  /* Duplicate QTabBar::tab property. Without this property the tab space
-      is calculated narrower and bold font display messed up. bnc#888589, QTBUG#8209 */
   font-weight: bold;
 }
 QTabBar::tab {
@@ -290,8 +288,8 @@ QY2HelpDialog {
 }
 
 YQBarGraph {
-  qproperty-backgroundcolors: "#008acf,#6F368C,#ff9302";
-  qproperty-foregroundcolors: "#fff,#fff,#fff";
+  qproperty-backgroundcolors: "#008acf,#6f368c,#ff9302";
+  qproperty-foregroundcolors: "#ffffff,#ffffff,#ffffff";
 }
 
 QComboBoxPrivateScroller {
@@ -330,26 +328,6 @@ QComboBoxPrivateScroller {
   background-color: #30ba78;
 }
 
-/**
-
-Other steps QLabel selectors, just for reference
-
-.todo-step-name {
-}
-
-.done-step-name {
-}
-
-.todo-step-status {
-}
-
-.done-step-status {
-}
-
-.current-step-status {
-}
-
-**/
 /* Combobox
   ========================================================================== */
 QComboBox {

@@ -7,8 +7,8 @@ QTabWidget::pane {
 QTabBar {
   qproperty-drawbase: 0;
 
-  /* Duplicate QTabBar::tab property. Without this property the tab space
-      is calculated narrower and bold font display messed up. bnc#888589, QTBUG#8209 */
+  // Duplicate QTabBar::tab property. Without this property the tab space
+  // is calculated narrower and bold font display messed up. bnc#888589, QTBUG#8209
   font-weight: bold;
 
   &::tab {

@@ -1,13 +1,13 @@
-# this is the configuration for the stylelint tool https://github.com/stylelint/stylelint
-# see the description of the rules at https://stylelint.io/user-guide/rules/list
+# This is the configuration for the Stylelint tool https://github.com/stylelint/stylelint
+# See the description of the rules at https://stylelint.io/user-guide/rules/list
 
-# enable default checks from https://github.com/stylelint-scss/stylelint-config-standard-scss
+# Enable default checks from https://github.com/stylelint-scss/stylelint-config-standard-scss
 extends: stylelint-config-standard-scss
 
 rules:
   selector-type-no-unknown: 
     - true
-    # avoid unknown type selector "QPushButton" error
+    # Avoid unknown type selector "QPushButton" error
     - ignoreTypes:
       - BusyBar
       - QAbstractItemView
@@ -71,7 +71,7 @@ rules:
 
   property-no-unknown:
     - true
-    # avoid unknown property "image" error
+    # Avoid unknown property "image" error
     - ignoreProperties:
       - alternate-background-color
       - image
@@ -91,7 +91,7 @@ rules:
 
   selector-pseudo-element-no-unknown:
     - true
-    # avoid unknown pseudo-element selector "::disabled" error
+    # Avoid unknown pseudo-element selector "::disabled" error
     - ignorePseudoElements:
       - add-line
       - disabled
@@ -115,7 +115,7 @@ rules:
 
   selector-pseudo-class-no-unknown:
     - true
-    # avoid unknown pseudo-class selector ":selected" error
+    # Avoid unknown pseudo-class selector ":selected" error
     - ignorePseudoClasses:
       - horizontal
       - "on"
@@ -125,19 +125,19 @@ rules:
       - unchecked
       - vertical
 
-  # avoid Expected selector "QPushButton:pressed" to come before selector "QPushButton:default:disabled"
+  # Avoid Expected selector "QPushButton:pressed" to come before selector "QPushButton:default:disabled"
   no-descending-specificity: null
 
-  # avoid Expected "QWidget" to be "qwidget" error
+  # Avoid Expected "QWidget" to be "qwidget" error
   selector-type-case: null
 
-  # avoid Expected "NoShape" to be "noshape" error
+  # Avoid Expected "NoShape" to be "noshape" error
   value-keyword-case: null
 
-  # avoid Expected class selector to be kebab-case error
+  # Avoid Expected class selector to be kebab-case error
   selector-class-pattern: null
 
-  # avoid Expected id selector to be kebab-case error
+  # Avoid Expected id selector to be kebab-case error
   selector-id-pattern: null
 
   # Qt does not support quotes in url() attributes

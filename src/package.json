@@ -1,13 +1,5 @@
 {
-  "name": "scss-compiler-yast",
-  "version": "1.0.0",
-  "description": "SCSS Preprocessor & compiler task for Yast theming",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Jesus Herman-Marina jherman@suse.com",
-  "license": "GNU",
+  "license": "GNU GPL v2.0",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-header": "^2.0.9",
