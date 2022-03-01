@@ -149,6 +149,7 @@ QTabBar::tear {
 }
 QTabBar QToolButton {
   border: 1px solid #141823;
+  padding: 0px;
 }
 
 /* Progress bars
