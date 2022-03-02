@@ -56,8 +56,7 @@ and testing the changes in a real installation.
 
 ### Building the QSS and CSS Files
 
-- Go to the `src/` subdirectory.
-- Run `npx gulp`
+- Run `rake generate`
 - This generates all `theme/SLE/wizard/*.qss` and `theme/SLE/wizard/*.css`
   files.
 
