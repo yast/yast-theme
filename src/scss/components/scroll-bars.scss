@@ -1,0 +1,130 @@
+/* Scroll bars
+  ========================================================================== */
+QScrollBar:vertical {
+  width: 16px;
+  margin: 0px;
+  background-color: $yast-textbox-bg;
+  border-left: 1px solid $yast-border;
+}
+
+QScrollBar::handle:vertical {
+  min-height: 16px;
+  background-color: $yast-scrollbar-handle-bg;
+  border-radius: 2px;
+}
+
+QScrollBar::add-line:vertical {
+  subcontrol-position: bottom;
+  subcontrol-origin: margin;
+  border: none;
+  height: 0px;
+  width: 0px;
+}
+
+QScrollBar::sub-line:vertical {
+  subcontrol-position: top;
+  subcontrol-origin: margin;
+  border: none;
+  height: 0px;
+  width: 0px;
+}
+
+QScrollBar::up-arrow:vertical,
+QScrollBar::down-arrow:vertical {
+  width: 0px;
+  height: 0px;
+}
+
+QScrollBar::up-arrow:vertical {
+  background-image: none;
+}
+
+QScrollBar::down-arrow:vertical {
+  background-image: none;
+}
+
+/* Horizontal Scrollbars      */
+
+QScrollBar:horizontal {
+  height: 16px;
+  margin: 0px;
+  background-color: $yast-textbox-bg;
+  border-top: 1px solid $yast-border;
+}
+
+QScrollBar::handle:horizontal {
+  min-height: 16px;
+  background-color: $yast-dialog-bg;
+  border-radius: 2px;
+}
+
+QScrollBar::add-line:horizontal {
+  subcontrol-position: right;
+  subcontrol-origin: margin;
+  border: none;
+  height: 0px;
+  width: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+  subcontrol-position: left;
+  subcontrol-origin: margin;
+  border: none;
+  height: 0px;
+  width: 0px;
+}
+
+QScrollBar::left-arrow:horizontal,
+QScrollBar::right-arrow:horizontal {
+  width: 0px;
+}
+
+QScrollBar::right-arrow:horizontal {
+  background-image: none;
+}
+
+QScrollBar::left-arrow:horizontal {
+  background-image: none;
+}
+
+BusyBar {
+  qproperty-frameshape: NoShape;
+  border-width: 3px;
+  border: 1px solid $yast-green-500;
+  border-radius: 2px;
+}
+
+QToolTip {
+  background-color: #ffecb5;
+}
+
+QSplitter::handle {
+  height: 10px;
+  image: url(separator.png);
+  background-color: $yast-dialog-bg;
+}
+
+#RepoUpgradeLabel {
+  color: $yast-text;
+  background: $yast-green-500;
+}
+
+YQPkgVersionsView QWidget {
+  background: $yast-dialog-bg;
+}
+
+QY2HelpDialog {
+  color: $yast-text;
+  qproperty-searchresultbackground: $yast-blue;
+  qproperty-searchresultforeground: $yast-white;
+}
+
+YQBarGraph {
+  qproperty-backgroundcolors: "#008acf,#6f368c,#ff9302";
+  qproperty-foregroundcolors: "#ffffff,#ffffff,#ffffff";
+}
+
+QComboBoxPrivateScroller {
+  background-color: $yast-dialog-bg;
+  color: $yast-text;
+}

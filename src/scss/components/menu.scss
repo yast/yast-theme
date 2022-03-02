@@ -1,0 +1,42 @@
+/* Menu
+  ========================================================================== */
+QMenuBar::item {
+  color: $yast-text;
+  spacing: 3px; /* spacing between menu bar items */
+  padding: 6px 4px;
+  background: $yast-dialog-bg;
+  border-radius: 2px;
+  margin: 0px;
+}
+
+QMenuBar::item:selected {
+  /* when selected using mouse or keyboard */
+  color: $yast-text;
+  background: $yast-green-500;
+}
+
+QMenuBar::item:pressed {
+  color: $yast-green-500;
+  background: $yast-dialog-bg;
+}
+
+QMenu {
+  color: $yast-text;
+  background: $yast-dialog-bg;
+  border-top: 1px solid $yast-dark-grey-100;
+  border-right: 1px solid $yast-border;
+  border-bottom: 1px solid $yast-border;
+  border-left: 1px solid $yast-dark-grey-100;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-selected-text;
+}
+
+QMenu::separator {
+  height: 1px;
+  background-color: $yast-dialog-bg;
+  color: $yast-dark-grey-100;
+}
+
+QMenu::item:disabled {
+  color: $yast-disabled;
+}

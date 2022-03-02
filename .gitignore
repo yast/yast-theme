@@ -29,3 +29,5 @@ Makefile.am.common
 .dep
 tmp.*
 *.log
+node_modules/
+.DS_Store

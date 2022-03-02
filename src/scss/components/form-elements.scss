@@ -1,0 +1,118 @@
+/* Form elements
+  ========================================================================== */
+QLineEdit {
+  color: $yast-text;
+  background-color: $yast-dialog-bg;
+  border-bottom: 1px solid $yast-light-grey-500;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  border-radius: 0px;
+  padding-bottom: 4px;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-selected-text;
+}
+
+QLineEdit:focus {
+  border-bottom: 1px solid $yast-green-500;
+}
+
+QLineEdit:disabled {
+  border-bottom: 1px solid $yast-disabled;
+}
+
+QCheckBox {
+  color: $yast-text;
+  margin-bottom: 2px;
+  margin-left: 6px;
+}
+
+QCheckBox::disabled {
+  color: $yast-disabled;
+}
+
+QCheckBox:focus,
+YQCheckBoxFrame::item:focus {
+  color: $yast-green-500;
+  border: none;
+  outline: none;
+}
+
+YQCheckBoxFrame::indicator:checked,
+QTreeView::indicator:checked,
+QCheckBox::indicator:checked:enabled {
+  image: $yast-checkbox-on;
+}
+
+YQCheckBoxFrame::indicator:unchecked,
+QTreeView::indicator:unchecked,
+QCheckBox::indicator:unchecked:enabled {
+  image: $yast-checkbox-off;
+}
+
+YQCheckBoxFrame::indicator:checked:disabled,
+QCheckBox::indicator:checked:disabled,
+QTreeView::indicator:checked:disabled {
+  image: $yast-checkbox-on-disabled;
+}
+
+YQCheckBoxFrame::indicator:unchecked:disabled,
+QTreeView::indicator:unchecked:disabled,
+QCheckBox::indicator:unchecked {
+  image: $yast-checkbox-off-disabled;
+}
+
+YQCheckBoxFrame::indicator:unchecked:focus,
+QTreeView::indicator:unchecked:focus,
+QCheckBox::indicator:unchecked:focus {
+  image: $yast-checkbox-focus;
+}
+
+QRadioButton {
+  color: $yast-text;
+  margin-top: 4px;
+}
+
+QRadioButton:focus {
+  color: $yast-green-500;
+  margin-top: 4px;
+  border: none;
+  outline: none;
+}
+
+QRadioButton::disabled {
+  color: $yast-disabled;
+  background-color: $yast-dialog-bg;
+}
+
+QRadioButton::indicator:unchecked {
+  image: $yast-radio-unchecked;
+}
+
+QRadioButton::indicator:unchecked:focus {
+  image: $yast-radio-focus;
+}
+
+QRadioButton::indicator:checked {
+  image: $yast-radio-checked;
+}
+
+QRadioButton::indicator:unchecked:disabled {
+  image: $yast-radio-unchecked-disabled;
+}
+
+QRadioButton::indicator:checked:disabled {
+  image: $yast-radio-checked-disabled;
+}
+
+YQMultiSelectionBox QTreeView::item {
+  margin: 5px 0;
+}
+
+YQMultiLineEdit QTextEdit {
+  color: $yast-text;
+}
+
+QMessageBox {
+  background-color: $yast-dialog-bg;
+}

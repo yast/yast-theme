@@ -1,0 +1,16 @@
+/* Progress bars
+  ========================================================================== */
+QProgressBar {
+  border: 1px solid $yast-border;
+  border-radius: 2px;
+  min-height: 24px;
+  text-align: center;
+  color: $yast-text;
+  background-color: $yast-textbox-bg;
+}
+
+QProgressBar::chunk {
+  background-color: $yast-blue;
+  border: 0px;
+  border-radius: 2px;
+}

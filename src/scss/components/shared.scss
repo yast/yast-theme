@@ -1,0 +1,187 @@
+/* Shared styles
+  ========================================================================== */
+QMainWindow,
+QFileDialog {
+  background: $yast-dialog-bg;
+}
+
+QWidget {
+  background: $yast-dialog-bg;
+  color: $yast-text;
+}
+
+YQWizard {
+  background: $yast-dialog-bg;
+}
+
+YQMainWinDock {
+  background: $yast-dialog-bg;
+}
+
+YQLogView,
+QTextEdit,
+YQRichText > YQTextBrowser {
+  qproperty-frameshape: NoShape;
+  color: $yast-text;
+  border-radius: 2px;
+  border: 1px solid $yast-border;
+  background-color: $yast-textbox-bg;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-selected-text;
+}
+
+QFrame {
+  color: $yast-text;
+}
+
+QLabel,
+YQDialog {
+  color: $yast-text;
+  background-color: $yast-dialog-bg;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-selected-text;
+  margin-top: 2px;
+  margin-bottom: 6px;
+}
+
+// Dropdowns
+QHeaderView::section {
+  background-color: $yast-dialog-bg;
+  color: $yast-text;
+  border-radius: 2px;
+  border: 2px solid $yast-textbox-bg;
+  padding: 4px 12px 4px 6px;
+}
+
+QHeaderView::down-arrow {
+  image: url(inst_arr_down.png);
+  padding-top: 2px;
+}
+
+QHeaderView::up-arrow {
+  image: url(inst_arr_up.png);
+  padding-top: 2px;
+}
+
+QAbstractScrollArea {
+  background-color: $yast-textbox-bg;
+  border: 1px solid $yast-border;
+}
+
+QAbstractScrollArea QHeaderView {
+  background: transparent;
+  border: none;
+}
+
+QTreeView,
+QTreeWidget {
+  color: $yast-text;
+  background-color: $yast-textbox-bg;
+  border: 1px solid $yast-border;
+  alternate-background-color: $yast-selected-bg;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-selected-text;
+  border-radius: 2px;
+}
+
+QTreeView::item:focus {
+  color: $yast-selected-text;
+  border: none;
+  outline: none;
+  background-color: $yast-selected-bg;
+}
+
+QTableWidget,
+QTableView {
+  color: $yast-text;
+  background-color: $yast-textbox-bg;
+  border: 1px solid $yast-border;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-selected-text;
+  border-radius: 2px;
+}
+
+YQTree,
+YQTable {
+  color: $yast-text;
+  background-color: $yast-dialog-bg;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-selected-text;
+}
+
+YQPackageSelector {
+  color: $yast-text;
+  background-color: $yast-dialog-bg;
+  border: 1px solid $yast-border;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-selected-text;
+  border-radius: 2px;
+}
+
+YQGenericDetailsView,
+YQDescriptionDialog,
+YQPkgDescriptionView {
+  color: $yast-text;
+  background-color: $yast-textbox-bg;
+}
+
+YQPkgPatternCategoryItem {
+  background-color: $yast-dialog-bg;
+  color: $yast-text;
+}
+
+QListWidget {
+  color: $yast-text;
+  background-color: $yast-dialog-bg;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-selected-text;
+}
+
+YQWidgetCaption {
+  color: $yast-text;
+  background-color: $yast-dialog-bg;
+}
+
+YQWidgetCaption::disabled {
+  color: $yast-disabled;
+  background-color: $yast-dialog-bg;
+}
+
+.conflict QWidget {
+  color: $yast-text;
+}
+
+YQMultiProgressMeter {
+  background-color: transparent;
+  border: 0px;
+  border-radius: 2px;
+}
+
+YQWidgetCaptionBar > YQWidgetCaption {
+  margin-top: 20px;
+}
+
+QComboBox QAbstractItemView,
+QMenuBar {
+  background-color: $yast-dialog-bg;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-selected-text;
+  alternate-background-color: $yast-textbox-bg;
+}
+
+QGroupBox {
+  border: 0px;
+  margin-top: 2.5ex;
+  margin-left: 0px;
+}
+
+QGroupBox::title {
+  subcontrol-origin: margin;
+  subcontrol-position: left top;
+  color: $yast-text;
+}
+
+/* make the grip in the bottom right corner in popups visible */
+QSizeGrip {
+  background-color: none;
+}

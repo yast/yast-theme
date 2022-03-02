@@ -1,0 +1,48 @@
+/* Tab bar
+   ========================================================================== */
+QTabWidget::pane {
+  border: none;
+}
+
+QTabBar {
+  qproperty-drawbase: 0;
+
+  // Duplicate QTabBar::tab property. Without this property the tab space
+  // is calculated narrower and bold font display messed up. bnc#888589, QTBUG#8209
+  font-weight: bold;
+
+  &::tab {
+    color: $yast-dark-grey-700;
+    background: $yast-textbox-bg;
+    border: 1px solid $yast-border;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-weight: bold;
+    margin-top: 1px;
+    padding: 4px 8px;
+    min-width: 180px;
+    min-height: 24px;
+
+    &:selected {
+      color: $yast-text;
+      background: $yast-dialog-bg;
+      border: 1px solid $yast-border;
+      border-bottom: none;
+    }
+  }
+
+  &:focus::tab {
+    outline: none;
+  }
+
+  &::tear {
+    background: $yast-textbox-bg;
+    border: 1px solid $yast-border;
+    border-radius: 1px;
+  }
+
+  QToolButton {
+    border: 1px solid $yast-border;
+    padding: 0px;
+  }
+}

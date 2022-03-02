@@ -1,0 +1,50 @@
+/* Dialog
+  ========================================================================== */
+#DialogBanner {
+  background-color: transparent;
+  font-family: Poppins, Sans-serif;
+  font-size: 24pt;
+  margin-right: 20px;
+}
+
+#DialogLogo {
+  background-image: url(header-logo.png);
+  min-width: 195px;
+  min-height: 37px;
+  margin-left: 1em;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  background-color: $yast-header-bg;
+}
+
+#LogoHBox {
+  border-bottom: 1px solid $yast-border;
+  background-color: $yast-header-bg;
+  margin: 0px;
+}
+
+/* theme switcher button */
+#LogoHBox QToolButton {
+  background: transparent;
+}
+
+#work_area {
+  padding: 1em;
+  background-color: $yast-dialog-bg;
+}
+
+#DialogHeadingLeft {
+  background-color: $yast-dialog-bg;
+  font-family: Poppins, Sans-serif;
+  font-size: 22pt;
+  color: $yast-dialog-text;
+  margin-top: 14px;
+  margin-right: 42px;
+  qproperty-alignment: AlignRight;
+}
+
+#DialogHeadingTop {
+  font-family: Poppins, Sans-serif;
+  font-size: 18pt;
+  color: $yast-dialog-text;
+}

@@ -1,5 +1,5 @@
 a.dontlooklikealink {
-  color: #ffffff;
+  color: #141823;
   text-decoration: none;
 }
 
@@ -24,12 +24,12 @@ a {
   See https://github.com/yast/yast-registration/pull/566
 */
 .enabled-item {
-  color: #ffffff;
+  color: #141823;
   text-decoration: none;
 }
 
 .disabled-item {
-  color: rgba(255, 255, 255, 25%);
+  color: #b6b4b4;
 }
 
 /* End of styles for the addons selector */

@@ -1,35 +1,28 @@
 a.dontlooklikealink {
-  color: #ffffff;
+  color: $yast-text;
   text-decoration: none;
 }
 
-a {
-  color: #00b2e2;
-}
+a { color: #00b2e2; }
 
-.red {
-  color: #dc3545;
-}
+.red { color: #dc3545; }
 
-.blue {
-  color: #b3e8f6;
-}
+.blue { color: #b3e8f6; }
 
-.green {
-  color: #30ba78;
-}
+.green { color: #30ba78; }
 
 /*
   Styles for emulated checkbox labels in the addons selector screen
   See https://github.com/yast/yast-registration/pull/566
 */
+
 .enabled-item {
-  color: #ffffff;
+  color: $yast-text;
   text-decoration: none;
 }
 
 .disabled-item {
-  color: rgba(255, 255, 255, 25%);
+  color: $yast-disabled;
 }
 
 /* End of styles for the addons selector */

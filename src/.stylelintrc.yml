@@ -1,0 +1,150 @@
+# This is the configuration for the Stylelint tool https://github.com/stylelint/stylelint
+# See the description of the rules at https://stylelint.io/user-guide/rules/list
+
+# Enable default checks from https://github.com/stylelint-scss/stylelint-config-standard-scss
+extends: stylelint-config-standard-scss
+
+rules:
+  selector-type-no-unknown: 
+    - true
+    # Avoid unknown type selector "QPushButton" error
+    - ignoreTypes:
+      - BusyBar
+      - QAbstractItemView
+      - QAbstractScrollArea
+      - QCalendarWidget
+      - QComboBox
+      - QComboBoxPrivateScroller
+      - QDateEdit
+      - QFileDialog
+      - QFrame
+      - QGroupBox
+      - QHeaderView
+      - QCheckBox
+      - QLabel
+      - QLineEdit
+      - QListWidget
+      - QMainWindow
+      - QMenu
+      - QMenuBar
+      - QMessageBox
+      - QProgressBar
+      - QPushButton
+      - QRadioButton
+      - QScrollBar
+      - QSizeGrip
+      - QSpinBox
+      - QSplitter
+      - QTabBar
+      - QTableView
+      - QTableWidget
+      - QTabWidget
+      - QTextEdit
+      - QTimeEdit
+      - QToolButton
+      - QToolTip
+      - QTreeView
+      - QTreeWidget
+      - QWidget
+      - QY2HelpDialog
+      - YQBarGraph
+      - YQDescriptionDialog
+      - YQDialog
+      - YQGenericDetailsView
+      - YQCheckBoxFrame
+      - YQLogView
+      - YQMainWinDock
+      - YQMultiLineEdit
+      - YQMultiProgressMeter
+      - YQMultiSelectionBox
+      - YQPackageSelector
+      - YQPkgDescriptionView
+      - YQPkgPatternCategoryItem
+      - YQPkgVersionsView
+      - YQRichText
+      - YQTable
+      - YQTextBrowser
+      - YQTree
+      - YQWidgetCaption
+      - YQWidgetCaptionBar
+      - YQWizard
+
+  property-no-unknown:
+    - true
+    # Avoid unknown property "image" error
+    - ignoreProperties:
+      - alternate-background-color
+      - image
+      - qproperty-alignment
+      - qproperty-backgroundcolors
+      - qproperty-drawbase
+      - qproperty-foregroundcolors
+      - qproperty-frameshape
+      - qproperty-icon
+      - qproperty-searchresultbackground
+      - qproperty-searchresultforeground
+      - selection-background-color
+      - selection-color
+      - spacing
+      - subcontrol-origin
+      - subcontrol-position
+
+  selector-pseudo-element-no-unknown:
+    - true
+    # Avoid unknown pseudo-element selector "::disabled" error
+    - ignorePseudoElements:
+      - add-line
+      - disabled
+      - down-arrow
+      - drop-down
+      - handle
+      - chunk
+      - indicator
+      - item
+      - left-arrow
+      - menu-indicator
+      - pane
+      - right-arrow
+      - section
+      - separator
+      - sub-line
+      - tab
+      - tear
+      - title
+      - up-arrow
+
+  selector-pseudo-class-no-unknown:
+    - true
+    # Avoid unknown pseudo-class selector ":selected" error
+    - ignorePseudoClasses:
+      - horizontal
+      - "on"
+      - open
+      - pressed
+      - selected
+      - unchecked
+      - vertical
+
+  # Avoid Expected selector "QPushButton:pressed" to come before selector "QPushButton:default:disabled"
+  no-descending-specificity: null
+
+  # Avoid Expected "QWidget" to be "qwidget" error
+  selector-type-case: null
+
+  # Avoid Expected "NoShape" to be "noshape" error
+  value-keyword-case: null
+
+  # Avoid Expected class selector to be kebab-case error
+  selector-class-pattern: null
+
+  # Avoid Expected id selector to be kebab-case error
+  selector-id-pattern: null
+
+  # Qt does not support quotes in url() attributes
+  function-url-quotes: "never"
+
+  # Qt requires units even for zero lenght
+  length-zero-no-unit: null
+
+  # Qt expects #rrbbgg color codes
+  color-hex-length: "long"

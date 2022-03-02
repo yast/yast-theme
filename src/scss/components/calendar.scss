@@ -1,0 +1,57 @@
+/* Calendar
+  ========================================================================== */
+QSpinBox,
+QDateEdit,
+QTimeEdit {
+  color: $yast-text;
+  background-color: $yast-textbox-bg;
+  padding: 6px;
+  selection-background-color: $yast-selected-bg;
+  selection-color: $yast-selected-text;
+}
+
+QDateEdit::disabled,
+QTimeEdit::disabled {
+  color: $yast-disabled;
+  background-color: $yast-dialog-bg;
+}
+
+#qt_calendar_navigationbar {
+  background-color: $yast-textbox-bg;
+  border: 1px outset $yast-border;
+  border-radius: 2px;
+}
+
+#qt_calendar_navigationbar QToolButton {
+  border: 1px solid $yast-textbox-bg;
+  border-radius: 2px;
+  background-color: $yast-dialog-bg;
+  padding: 4px 8px;
+  color: $yast-calendar-color;
+  font-weight: bold;
+  outline: none;
+  margin: 2px;
+}
+
+#qt_calendar_calendarview {
+  background-color: $yast-dialog-bg;
+  color: $yast-calendar-color;
+}
+
+QCalendarWidget QWidget {
+  alternate-background-color: $yast-textbox-bg;
+}
+
+QToolButton#qt_calendar_prevmonth {
+  qproperty-icon: $yast-btn-arrow-left;
+}
+
+QToolButton#qt_calendar_nextmonth {
+  qproperty-icon: $yast-btn-arrow-right;
+}
+
+QCalendarWidget QAbstractItemView:enabled {
+  selection-background-color: $yast-calendar-selected-bg;
+  selection-color: $yast-calendar-selected-color;
+  font-weight: bold;
+}

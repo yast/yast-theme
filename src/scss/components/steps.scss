@@ -1,0 +1,42 @@
+/* Steps
+  ========================================================================== */
+#wizard,
+#steps > QFrame {
+  background-color: $yast-textbox-bg;
+}
+
+#steps {
+  padding: 12px 1px 80px 12px;
+  background: url(logo.svg) no-repeat bottom, $yast-textbox-bg;
+}
+
+#steps QLabel {
+  background-color: $yast-textbox-bg;
+  color: $yast-text;
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+#steps QLabel.steps_heading {
+  font-size: 16pt;
+  font-family: Poppins, Sans-serif;
+  background-color: $yast-textbox-bg;
+  color: $yast-text;
+  padding: 0px 0px 12px 15px;
+}
+
+#steps QLabel.current-step-name {
+  background-color: $yast-green-500;
+}
+
+// /* Other steps QLabel selectors, just for reference */
+// .todo-step-name {
+// }
+// .done-step-name {
+// }
+// .todo-step-status {
+// }
+// .done-step-status {
+// }
+// .current-step-status {
+// }

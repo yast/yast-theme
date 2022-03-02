@@ -1,0 +1,54 @@
+// General variables
+$yast-white: #ffffff;
+$yast-cyan: #00ffff;
+$yast-black: #000000;
+$yast-green-500: #30ba78;
+$yast-blue: #008acf;
+$yast-text: $yast-cyan;
+
+// Light grey shades
+$yast-light-grey-100: #e0efef;
+$yast-light-grey-500: #969494;
+
+// Dark grey shades
+$yast-dark-grey-100: #404147;
+$yast-dark-grey-500: #2b2e38;
+$yast-dark-grey-700: #757575;
+$yast-bg-900: #1f222b;
+
+// rgba (as an interpolated string for not processing it with SASS and letting Qt makes the work)
+$yast-disabled: #{"rgba(255, 255, 255, 25%)"};
+
+// borders
+$yast-border: $yast-black;
+
+// specific components
+// dialog (main wrapper)
+$yast-dialog-bg: $yast-black;
+$yast-dialog-text: $yast-cyan;
+
+// header-specific
+$yast-header-bg: $yast-black;
+
+// text box
+$yast-textbox-bg: $yast-bg-900;
+
+// selected labels
+$yast-selected-text: $yast-text;
+$yast-selected-bg: $yast-dark-grey-100;
+
+// buttons
+$yast-push-button-default: $yast-dark-grey-100;
+$yast-push-button-hover: $yast-dark-grey-700;
+$yast-push-button-focus: $yast-cyan;
+
+// calendar
+$yast-calendar-color: $yast-dark-grey-500;
+$yast-calendar-selected-bg: $yast-selected-bg;
+$yast-calendar-selected-color: $yast-border;
+
+// scrollbar
+$yast-scrollbar-handle-bg: $yast-dark-grey-100;
+
+@import "button-defaults";
+@import "icons-default";
