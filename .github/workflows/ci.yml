@@ -22,6 +22,10 @@ jobs:
     - name: Git Checkout
       uses: actions/checkout@v2
 
+    - name: Git Fix
+      # fix the ownership to pass a git security check
+      run: chown "$UID" .
+
     - name: Prepare System
       run: zypper --non-interactive in --no-recommends breeze5-icons npm-default
 
