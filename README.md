@@ -51,7 +51,7 @@ and testing the changes in a real installation.
 
 - Install npm: `sudo zypper install npm-default`
 - Go to the `src/` subdirectory.
-- Install the SASS processor and the tools: `npm install`
+- Install the SASS processor and the tools: `npm ci`
   - The NPM packages are installed into the `node_modules` subdirectory
 
 ### Building the QSS and CSS Files
@@ -60,6 +60,20 @@ and testing the changes in a real installation.
 - This generates all `theme/SLE/wizard/*.qss` and `theme/SLE/wizard/*.css`
   files.
 
+## Updating the NPM Packages
+
+The `npm ci` command installs the NPM packages exactly in the versions specified
+in the `package-lock.json` file.
+
+If you want to update the packages to the latest semver compatible version then
+run command `npm install`.
+
+If you want to update the packages to a newer, possibly incompatible version,
+then edit the `package.json` file and run `npm install`. Carefully check the
+built result.
+
+In all cases do not forget to commit the changes in both `package.json` and
+`package-lock.json` files to git.
 
 ### Sources
 

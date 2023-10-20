@@ -13,7 +13,7 @@ task :generate do
   end
 
   Dir.chdir("src") do
-    system("npm install") unless File.exist?("node_modules")
+    system("npm ci") unless File.exist?("node_modules")
     system("npx gulp")
   end
 end

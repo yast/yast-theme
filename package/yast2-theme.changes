@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Fri Oct 20 07:53:13 UTC 2023 - Ladislav Slezák <lslezak@suse.com>
+
+- Updated internal build dependencies reported by dependabot:
+  - Bump stylelint from 15.6.0 to 15.10.1
+  - Bump postcss from 8.4.25 to 8.4.31
+- Updated README.md
+- 5.0.1
+
+-------------------------------------------------------------------
 Wed Aug 30 20:16:10 UTC 2023 - Josef Reidinger <jreidinger@suse.cz>
 
 - 5.0.0 (bsc#1185510)
