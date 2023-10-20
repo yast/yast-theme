@@ -1,8 +1,8 @@
 const gulp = require('gulp');
-const gulpStylelint = require('gulp-stylelint');
 const sass = require('gulp-sass')(require('sass'));
 const rename = require('gulp-rename');
 const header = require('gulp-header');
+const spawn = require('child_process').spawn;
 
 let path = {
   src_source: 'scss',
@@ -49,14 +49,11 @@ const buildThemes = (done) => {
   })();
 };
 
-gulp.task('lint', function () {
-  return gulp
-    .src('**/*.scss')
-    .pipe(gulpStylelint({
-      reporters: [
-        {formatter: 'string', console: true}
-      ]
-    }));
+gulp.task('lint', function (cb) {
+  const cmd = spawn('npx', ['stylelint', '**/*.scss'], {stdio: 'inherit'});
+  cmd.on('close', function (code) {
+    cb(code);
+  });
 });
 
 gulp.task('default', gulp.series(buildThemes));

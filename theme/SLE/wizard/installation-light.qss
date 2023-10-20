@@ -378,8 +378,7 @@ QComboBox::down-arrow:on {
   ========================================================================== */
 QMenuBar::item {
   color: #141823;
-  spacing: 3px;
-  /* spacing between menu bar items */
+  spacing: 3px; /* spacing between menu bar items */
   padding: 6px 4px;
   background: #ffffff;
   border-radius: 2px;

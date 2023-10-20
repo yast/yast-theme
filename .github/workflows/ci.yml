@@ -20,11 +20,7 @@ jobs:
     steps:
 
     - name: Git Checkout
-      uses: actions/checkout@v2
-
-    - name: Git Fix
-      # fix the ownership to pass a git security check
-      run: chown "$UID" .
+      uses: actions/checkout@v3
 
     - name: Prepare System
       run: zypper --non-interactive in --no-recommends breeze5-icons npm-default
@@ -32,8 +28,7 @@ jobs:
     # if the included files are not up to date and there is a change in the
     # generated file then the package build later fails
     - name: Build QSS and CSS files
-      # reset possible package-lock changes
-      run: rake generate && git checkout src/package-lock.json
+      run: rake generate
 
     - name: Stylelint
       run: cd src && npx gulp lint
