@@ -1,9 +1,8 @@
-
 # See https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
 
 name: CI
 
-on: [push, pull_request]
+on: [ push, pull_request ]
 
 jobs:
   Package:
@@ -12,26 +11,25 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        distro:  [ "tumbleweed", "leap_latest" ]
+        distro: [ "tumbleweed" ]
 
     container:
       image: registry.opensuse.org/yast/head/containers_${{matrix.distro}}/yast-ruby
 
     steps:
+      - name: Git Checkout
+        uses: actions/checkout@v3
 
-    - name: Git Checkout
-      uses: actions/checkout@v3
+      - name: Prepare System
+        run: zypper --non-interactive in --no-recommends breeze5-icons npm-default
 
-    - name: Prepare System
-      run: zypper --non-interactive in --no-recommends breeze5-icons npm-default
+      # if the included files are not up to date and there is a change in the
+      # generated file then the package build later fails
+      - name: Build QSS and CSS files
+        run: rake generate
 
-    # if the included files are not up to date and there is a change in the
-    # generated file then the package build later fails
-    - name: Build QSS and CSS files
-      run: rake generate
+      - name: Stylelint
+        run: cd src && npx gulp lint
 
-    - name: Stylelint
-      run: cd src && npx gulp lint
-
-    - name: Package Build
-      run: yast-ci-ruby
+      - name: Package Build
+        run: yast-ci-ruby
