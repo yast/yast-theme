@@ -1,7 +1,7 @@
 #
 # spec file for package yast2-theme
 #
-# Copyright (c) 2017 SUSE LINUX GmbH, Nuernberg, Germany.
+# Copyright (c) 2023 SUSE LLC
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -12,8 +12,9 @@
 # license that conforms to the Open Source Definition (Version 1.9)
 # published by the Open Source Initiative.
 
-# Please submit bugfixes or comments via http://bugs.opensuse.org/
+# Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
+
 
 Name:           yast2-theme
 Version:        4.6.0
@@ -28,10 +29,10 @@ BuildRequires:  update-desktop-files
 BuildRequires:  yast2-devtools
 BuildRequires:  rubygem(%{rb_default_ruby_abi}:yast-rake)
 %if 0%{?is_opensuse}
-BuildRequires:  yast2-qt-branding
-BuildRequires:  oxygen5-icon-theme
 BuildRequires:  breeze5-icons
+BuildRequires:  oxygen5-icon-theme
 BuildRequires:  update-desktop-files
+BuildRequires:  yast2-qt-branding
 %endif
 
 Requires:       hicolor-icon-theme
@@ -51,17 +52,17 @@ Conflicts:      yast2-qt-branding-openSUSE
 # Since yast2-branding is provided by this package, OBS needs some help to bootstrap
 #!BuildIgnore:  yast2-branding
 Provides:       yast2-branding = %{version}
-Provides:       yast2_theme = %{version}
 Provides:       yast2-theme = %{version}
+Provides:       yast2_theme = %{version}
 
 Conflicts:      otherproviders(yast2-branding)
 Conflicts:      otherproviders(yast2-theme)
 Conflicts:      otherproviders(yast2_theme)
 
-Obsoletes:      yast2-theme-openSUSE
-Obsoletes:      yast2-theme-SLE
-Obsoletes:      yast2-theme < %{version}
 Obsoletes:      yast2-branding-openSUSE
+Obsoletes:      yast2-theme < %{version}
+Obsoletes:      yast2-theme-SLE
+Obsoletes:      yast2-theme-openSUSE
 Obsoletes:      yast2-theme-openSUSE-Crystal < %{version}
 
 BuildArch:      noarch
@@ -70,9 +71,9 @@ Summary:        YaST2 - Theme
 # icons/**/pattern-deepin.svg is GPL-3.0,
 # pattern-budgie.svg is licensed under CC-BY-SA-4.0
 # the rest is GPL-2.0
-License:        GPL-2.0 AND GPL-3.0 AND CC-BY-SA-4.0
+License:        CC-BY-SA-4.0 AND GPL-2.0-only AND GPL-3.0-only
 Group:          System/YaST
-Url:            http://github.com/yast/yast-theme
+URL:            http://github.com/yast/yast-theme
 
 %description
 Contains necessary theming resources to use YaST2.
@@ -85,8 +86,8 @@ Supplements:    (yast2-theme and oxygen5-icon-theme)
 PreReq:         yast2-branding = %{version}
 Requires:       oxygen5-icon-theme
 Provides:       yast2-theme-oxygen = %{version}
-Obsoletes:      yast2-theme-oxygen < %{version}
 Obsoletes:      yast2-theme-openSUSE-Oxygen < %{version}
+Obsoletes:      yast2-theme-oxygen < %{version}
 
 %description oxygen
 Contains icons in KDE Oxygen style (from KDE Plasma 4).
