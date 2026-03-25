@@ -16,7 +16,7 @@
 #
 
 Name:           yast2-theme
-Version:        5.0.1
+Version:        5.0.2
 Release:        0
 
 Source0:        %{name}-%{version}.tar.bz2
@@ -24,14 +24,12 @@ Source0:        %{name}-%{version}.tar.bz2
 BuildRequires:  fdupes
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  pkg-config
-BuildRequires:  update-desktop-files
 BuildRequires:  yast2-devtools
 BuildRequires:  rubygem(%{rb_default_ruby_abi}:yast-rake)
 %if 0%{?is_opensuse}
 BuildRequires:  yast2-qt-branding
 BuildRequires:  oxygen5-icon-theme
 BuildRequires:  breeze5-icons
-BuildRequires:  update-desktop-files
 %endif
 
 Requires:       hicolor-icon-theme
